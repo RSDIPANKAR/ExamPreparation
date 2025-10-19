@@ -244,32 +244,27 @@
     // Normalize newlines and strip BOM
     const text = content.replace(/^\uFEFF/, '').replace(/\r\n?/g, '\n').trim();
 
-    // Split on lines like "1. " or "1) "
+    // Split blocks on lines like "1. " or "1) "
     const blocks = text.split(/(?=^\s*\d+[\.KATEX_INLINE_CLOSE]\s+)/m);
     questions = [];
 
     for (const rawBlock of blocks) {
-        const block = rawBlock.trim();
-        if (!block) continue;
-
-        const lines = block.split('\n').map(l => l.trim()).filter(Boolean);
+        const lines = rawBlock.trim().split('\n').map(l => l.trim()).filter(Boolean);
         if (!lines.length) continue;
 
-        // Question text: remove leading "1. " or "1) "
+        // Remove leading number "1. " or "1) "
         const questionText = lines[0].replace(/^\s*\d+[\.KATEX_INLINE_CLOSE]\s*/, '').trim();
 
-        // Collect options (supports A) A. A: A- (A))
+        // Collect exactly 4 options (supports a) A) A. A: A- and (A))
         const options = [];
         let i = 1;
         while (i < lines.length && options.length < 4) {
-            const line = lines[i];
-            // IMPORTANT: no KATEX_INLINE_CLOSE here
-            const match = line.match(/^\s*KATEX_INLINE_OPEN?([A-Da-d])[KATEX_INLINE_CLOSE\.\-:]\s*(.+)$/);
-            if (match) options.push(match[2].trim());
+            const m = lines[i].match(/^\s*KATEX_INLINE_OPEN?([A-Da-d])[KATEX_INLINE_CLOSE\.\-:]\s*(.+)$/);
+            if (m) options.push(m[2].trim());
             i++;
         }
 
-        // Find answer + explanation
+        // Find answer (letter) and optional explanation
         let correctLetter = null;
         let explanation = 'No explanation provided.';
         for (; i < lines.length; i++) {
@@ -292,12 +287,7 @@
         }
 
         if (questionText && options.length === 4 && correctLetter) {
-            questions.push({
-                text: questionText,
-                options,
-                correct: correctLetter,
-                explanation
-            });
+            questions.push({ text: questionText, options, correct: correctLetter, explanation });
         }
     }
 }
@@ -476,6 +466,7 @@
 </script>
 </body>
 </html>
+
 
 
 
