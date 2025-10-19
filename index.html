@@ -240,7 +240,7 @@
     // Answer: A
     // Explanation: Why A is correct...
     function parseQuestions(content) {
-    // Normalize newlines and strip BOM if present
+    // Normalize newlines and strip BOM
     const text = content.replace(/^\uFEFF/, '').replace(/\r\n?/g, '\n').trim();
 
     // Split on lines like "1. " or "1) "
@@ -254,10 +254,10 @@
         const lines = block.split('\n').map(l => l.trim()).filter(Boolean);
         if (!lines.length) continue;
 
-        // Question line (remove leading "1. " or "1) ")
-        let questionText = lines[0].replace(/^\s*\d+[\.KATEX_INLINE_CLOSE]\s*/, '').trim();
+        // Question text: remove leading "1. " or "1) "
+        const questionText = lines[0].replace(/^\s*\d+[\.KATEX_INLINE_CLOSE]\s*/, '').trim();
 
-        // Collect options (A) A. A: A- or (A) all supported)
+        // Collect options (supports A) A. A: A- (A))
         const options = [];
         let i = 1;
         while (i < lines.length && options.length < 4) {
@@ -268,20 +268,13 @@
             i++;
         }
 
-        // Optional fallback: if options didn't match labels, try next 4 non-empty lines as options
-        if (options.length === 0) {
-            const nextFour = lines.slice(1).filter(Boolean).slice(0, 4);
-            if (nextFour.length === 4) {
-                nextFour.forEach(opt => options.push(opt.replace(/^[\-\*\u2022]\s*/, '').trim()));
-            }
-        }
-
-        // Find answer and explanation
+        // Find answer + explanation
         let correctLetter = null;
         let explanation = 'No explanation provided.';
         for (; i < lines.length; i++) {
             const line = lines[i];
 
+            // Accept "Answer: B" or "Answer: b) 1921"
             const ansMatch = line.match(/^(?:Answer|Ans|Correct(?:\s*Answer)?)\s*[:\-]\s*([A-Da-d])/i);
             if (ansMatch && !correctLetter) {
                 correctLetter = ansMatch[1].toUpperCase();
@@ -307,7 +300,6 @@
         }
     }
 }
-
     // ==========================
     // Exam Flow
     // ==========================
@@ -483,6 +475,7 @@
 </script>
 </body>
 </html>
+
 
 
 
