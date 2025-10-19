@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive PGT Geography Exam</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .question-card { transition: all 0.3s ease; }
+        .question-card:hover { transform: translateY(-2px); }
+        .option-btn { transition: all 0.2s ease; }
+        .option-btn:hover { background-color: #e5e7eb; }
+        .correct { background-color: #10b981 !important; color: white; }
+        .incorrect { background-color: #ef4444 !important; color: white; }
+        .explanation { display: none; margin-top: 10px; padding: 10px; background-color: #f3f4f6; border-radius: 5px; }
+        #progressBar { width: 0%; transition: width 0.3s ease; }
+        #loadingMessage { display: block; }
+        #examContent { display: none; }
+    </style>
+</head>
+<body class="bg-gray-100 min-h-screen p-4">
+    <div class="max-w-4xl mx-auto">
+        <!-- Loading Message -->
+        <div id="loadingMessage" class="bg-white rounded-lg shadow-lg p-6 text-center">
+            <h1 class="text-3xl font-bold text-gray-800 mb-4">PGT Geography Interactive Exam</h1>
+            <p class="text-lg text-gray-600">Loading questions...</p>
+        </div>
+
+        <!-- Main Exam Content -->
+        <div id="examContent">
+            <!-- Header -->
+            <div class="bg-white rounded-lg shadow-lg p-6 mb-6">
+                <h1 class="text-3xl font-bold text-center text-gray-800 mb-4">PGT Geography Interactive Exam</h1>
+                
+                <!-- Progress Bar -->
+                <div class="w-full bg-gray-200 rounded-full h-2 mb-4">
+                    <div id="progressBar" class="bg-blue-600 h-2 rounded-full"></div>
+                </div>
+                
+                <!-- Score Display -->
+                <div class="text-center">
+                    <span id="scoreDisplay" class="text-lg font-semibold">Score: 0/0</span>
+                    <span id="questionCounter" class="text-gray-600 ml-4">Question: 0/0</span>
+                </div>
+            </div>
+
+            <!-- Question Display Area -->
+            <div id="questionContainer" class="bg-white rounded-lg shadow-lg p-6 mb-6">
+                <div class="question-card">
+                    <h2 id="questionText" class="text-xl font-semibold mb-4"></h2>
+                    <div id="optionsContainer" class="space-y-3"></div>
+                    <div id="explanationContainer" class="explanation"></div>
+                    <div class="flex justify-between mt-6">
+                        <button id="prevBtn" onclick="previousQuestion()" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600" disabled>Previous</button>
+                        <button id="nextBtn" onclick="nextQuestion()" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700" disabled>Next</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Results Section -->
+            <div id="resultsContainer" class="bg-white rounded-lg shadow-lg p-6" style="display: none;">
+                <h2 class="text-2xl font-bold text-center mb-4">Exam Results</h2>
+                <div id="finalScore" class="text-center text-3xl font-bold mb-4"></div>
+                <div id="detailedResults" class="space-y-2"></div>
+                <div class="text-center mt-6">
+                    <button onclick="restartExam()" class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">Restart Exam</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Error Message -->
+        <div id="errorMessage" class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mt-4" style="display: none;">
+            <strong>Error:</strong> Could not load questions.txt file. Make sure the file exists in the same folder.
+        </div>
+    </div>
+
+    <script>
+        let questions = [];
+        let currentQuestionIndex = 0;
+        let score = 0;
+        let userAnswers = [];
+        let answered = false;
+
+        // Load questions automatically when page loads
+        window.onload = function() {
+            loadQuestionsFromFile();
+        };
+
+        // Load questions from questions.txt file
+        async function loadQuestionsFromFile() {
+            try {
+                const response = await fetch('questions.txt');
+                if (!response.ok) {
+                    throw new Error('File not found');
+                }
+                const content = await response.text();
+                parseQuestions(content);
+            } catch (error) {
+                console.error('Error loading questions:', error);
+                document.getElementById('loadingMessage').style.display = 'none';
+                document.getElementById('errorMessage').style.display = 'block';
+            }
+        }
+
+        // Parse questions from text content
+        function parseQuestions(content) {
+            const questionBlocks = content.trim().split('\n\n');
+            questions = [];
+
+            questionBlocks.forEach(block => {
+                const lines = block.trim().split('\n');
+                if (lines.length >= 6) {
+                    const question = {
+                        text: lines[0].replace('Q: ', ''),
+                        options: [
+                            lines[1].replace('A: ', ''),
+                            lines[2].replace('B: ', ''),
+                            lines[3].replace('C: ', ''),
+                            lines[4].replace('D: ', '')
+                        ],
+                        correct: lines[5].replace('ANSWER: ', '').trim(),
+                        explanation: lines[6] ? lines[6].replace('EXPLANATION: ', '') : 'No explanation provided.'
+                    };
+                    questions.push(question);
+                }
+            });
+
+            if (questions.length > 0) {
+                document.getElementById('loadingMessage').style.display = 'none';
+                document.getElementById('examContent').style.display = 'block';
+                initializeExam();
+            } else {
+                document.getElementById('loadingMessage').style.display = 'none';
+                document.getElementById('errorMessage').textContent = 'No valid questions found in questions.txt file.';
+                document.getElementById('errorMessage').style.display = 'block';
+            }
+        }
+
+        // Initialize exam
+        function initializeExam() {
+            currentQuestionIndex = 0;
+            score = 0;
+            userAnswers = new Array(questions.length).fill(null);
+            answered = false;
+
+            document.getElementById('questionContainer').style.display = 'block';
+            document.getElementById('resultsContainer').style.display = 'none';
+            
+            updateDisplay();
+            displayQuestion();
+        }
+
+        // Display current question
+        function displayQuestion() {
+            const question = questions[currentQuestionIndex];
+            document.getElementById('questionText').textContent = `${currentQuestionIndex + 1}. ${question.text}`;
+            
+            const optionsContainer = document.getElementById('optionsContainer');
+            optionsContainer.innerHTML = '';
+
+            question.options.forEach((option, index) => {
+                const optionLetter = String.fromCharCode(65 + index); // A, B, C, D
+                const button = document.createElement('button');
+                button.className = 'option-btn w-full text-left p-3 border rounded-lg hover:bg-gray-100';
+                button.textContent = `${optionLetter}. ${option}`;
+                button.onclick = () => selectAnswer(optionLetter, button);
+                optionsContainer.appendChild(button);
+            });
+
+            // Hide explanation initially
+            document.getElementById('explanationContainer').style.display = 'none';
+            answered = false;
+            updateButtons();
+        }
+
+        // Handle answer selection
+        function selectAnswer(selectedOption, buttonElement) {
+            if (answered) return;
+
+            const question = questions[currentQuestionIndex];
+            userAnswers[currentQuestionIndex] = selectedOption;
+            answered = true;
+
+            // Show correct/incorrect styling
+            const buttons = document.querySelectorAll('.option-btn');
+            buttons.forEach((btn, index) => {
+                const optionLetter = String.fromCharCode(65 + index);
+                if (optionLetter === question.correct) {
+                    btn.classList.add('correct');
+                } else if (optionLetter === selectedOption && selectedOption !== question.correct) {
+                    btn.classList.add('incorrect');
+                }
+                btn.disabled = true;
+            });
+
+            // Update score
+            if (selectedOption === question.correct) {
+                score++;
+            }
+
+            // Show explanation
+            const explanationContainer = document.getElementById('explanationContainer');
+            explanationContainer.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+            explanationContainer.style.display = 'block';
+
+            updateDisplay();
+            updateButtons();
+        }
+
+        // Navigation functions
+        function nextQuestion() {
+            if (currentQuestionIndex < questions.length - 1) {
+                currentQuestionIndex++;
+                displayQuestion();
+            } else {
+                showResults();
+            }
+        }
+
+        function previousQuestion() {
+            if (currentQuestionIndex > 0) {
+                currentQuestionIndex--;
+                displayQuestion();
+            }
+        }
+
+        // Update display elements
+        function updateDisplay() {
+            document.getElementById('scoreDisplay').textContent = `Score: ${score}/${questions.length}`;
+            document.getElementById('questionCounter').textContent = `Question: ${currentQuestionIndex + 1}/${questions.length}`;
+            
+            const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
+            document.getElementById('progressBar').style.width = `${progress}%`;
+        }
+
+        // Update button states
+        function updateButtons() {
+            document.getElementById('prevBtn').disabled = currentQuestionIndex === 0;
+            document.getElementById('nextBtn').disabled = !answered && currentQuestionIndex === questions.length - 1;
+            
+            if (currentQuestionIndex === questions.length - 1 && answered) {
+                document.getElementById('nextBtn').textContent = 'Show Results';
+            } else {
+                document.getElementById('nextBtn').textContent = 'Next';
+            }
+        }
+
+        // Show final results
+        function showResults() {
+            document.getElementById('questionContainer').style.display = 'none';
+            document.getElementById('resultsContainer').style.display = 'block';
+
+            const percentage = Math.round((score / questions.length) * 100);
+            document.getElementById('finalScore').textContent = `${score}/${questions.length} (${percentage}%)`;
+
+            const detailedResults = document.getElementById('detailedResults');
+            detailedResults.innerHTML = '';
+
+            questions.forEach((question, index) => {
+                const userAnswer = userAnswers[index];
+                const isCorrect = userAnswer === question.correct;
+                
+                const resultDiv = document.createElement('div');
+                resultDiv.className = `p-3 rounded ${isCorrect ? 'bg-green-100' : 'bg-red-100'}`;
+                resultDiv.innerHTML = `
+                    <strong>Q${index + 1}:</strong> ${question.text}<br>
+                    <strong>Your Answer:</strong> ${userAnswer || 'Not answered'}<br>
+                    <strong>Correct Answer:</strong> ${question.correct}<br>
+                    <span class="${isCorrect ? 'text-green-600' : 'text-red-600'}">${isCorrect ? '✓ Correct' : '✗ Incorrect'}</span>
+                `;
+                detailedResults.appendChild(resultDiv);
+            });
+        }
+
+        // Restart exam
+        function restartExam() {
+            if (questions.length > 0) {
+                initializeExam();
+            }
+        }
+    </script>
+</body>
+</html>
