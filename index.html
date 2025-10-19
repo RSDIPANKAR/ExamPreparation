@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive PGT Geography Exam</title>
+    <title>Interactive History Exam</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .question-card { transition: all 0.3s ease; }
@@ -14,29 +14,29 @@
         .incorrect { background-color: #ef4444 !important; color: white; }
         .explanation { display: none; margin-top: 10px; padding: 10px; background-color: #f3f4f6; border-radius: 5px; }
         #progressBar { width: 0%; transition: width 0.3s ease; }
-        #loadingMessage { display: block; }
+        #loading { display: block; }
         #examContent { display: none; }
     </style>
 </head>
 <body class="bg-gray-100 min-h-screen p-4">
     <div class="max-w-4xl mx-auto">
-        <!-- Loading Message -->
-        <div id="loadingMessage" class="bg-white rounded-lg shadow-lg p-6 text-center">
-            <h1 class="text-3xl font-bold text-gray-800 mb-4">PGT Geography Interactive Exam</h1>
-            <p class="text-lg text-gray-600">Loading questions...</p>
+        <!-- Loading Screen -->
+        <div id="loading" class="bg-white rounded-lg shadow-lg p-6 text-center">
+            <h1 class="text-3xl font-bold text-gray-800 mb-4">Loading Exam Questions...</h1>
+            <p class="text-gray-600">Please wait while we load your questions from the text file.</p>
         </div>
 
         <!-- Main Exam Content -->
         <div id="examContent">
             <!-- Header -->
             <div class="bg-white rounded-lg shadow-lg p-6 mb-6">
-                <h1 class="text-3xl font-bold text-center text-gray-800 mb-4">PGT Geography Interactive Exam</h1>
-                
+                <h1 class="text-3xl font-bold text-center text-gray-800 mb-4">Interactive History Exam</h1>
+
                 <!-- Progress Bar -->
                 <div class="w-full bg-gray-200 rounded-full h-2 mb-4">
                     <div id="progressBar" class="bg-blue-600 h-2 rounded-full"></div>
                 </div>
-                
+
                 <!-- Score Display -->
                 <div class="text-center">
                     <span id="scoreDisplay" class="text-lg font-semibold">Score: 0/0</span>
@@ -81,56 +81,73 @@
         let userAnswers = [];
         let answered = false;
 
-        // Load questions automatically when page loads
-        window.onload = function() {
-            loadQuestionsFromFile();
-        };
-
         // Load questions from questions.txt file
-        async function loadQuestionsFromFile() {
+        async function loadQuestions() {
             try {
+                // Try to fetch the questions.txt file
                 const response = await fetch('questions.txt');
+
                 if (!response.ok) {
                     throw new Error('File not found');
                 }
+
                 const content = await response.text();
                 parseQuestions(content);
             } catch (error) {
                 console.error('Error loading questions:', error);
-                document.getElementById('loadingMessage').style.display = 'none';
+                document.getElementById('loading').style.display = 'none';
                 document.getElementById('errorMessage').style.display = 'block';
             }
         }
 
-        // Parse questions from text content
+        // Parse questions from your specific format
         function parseQuestions(content) {
-            const questionBlocks = content.trim().split('\n\n');
+            // Split questions by the pattern "number." at start of line
+            const questionBlocks = content.trim().split(/(?=^\d+\.)/m);
+
             questions = [];
 
             questionBlocks.forEach(block => {
-                const lines = block.trim().split('\n');
-                if (lines.length >= 6) {
-                    const question = {
-                        text: lines[0].replace('Q: ', ''),
-                        options: [
-                            lines[1].replace('A: ', ''),
-                            lines[2].replace('B: ', ''),
-                            lines[3].replace('C: ', ''),
-                            lines[4].replace('D: ', '')
-                        ],
-                        correct: lines[5].replace('ANSWER: ', '').trim(),
-                        explanation: lines[6] ? lines[6].replace('EXPLANATION: ', '') : 'No explanation provided.'
-                    };
-                    questions.push(question);
+                if (block.trim()) {
+                    const lines = block.trim().split('\n').filter(line => line.trim());
+
+                    if (lines.length >= 7) {
+                        // Extract question (remove number)
+                        const questionText = lines[0].replace(/^\d+\.\s*/, '');
+
+                        // Extract options
+                        const options = [
+                            lines[1].replace(/^[a-d]KATEX_INLINE_CLOSE\s*/, ''),
+                            lines[2].replace(/^[a-d]KATEX_INLINE_CLOSE\s*/, ''),
+                            lines[3].replace(/^[a-d]KATEX_INLINE_CLOSE\s*/, ''),
+                            lines[4].replace(/^[a-d]KATEX_INLINE_CLOSE\s*/, '')
+                        ];
+
+                        // Extract answer (get the letter)
+                        const answerLine = lines[5].replace('Answer: ', '');
+                        const correctLetter = answerLine.charAt(0).toUpperCase();
+
+                        // Extract explanation
+                        const explanation = lines[6].replace('Explanation: ', '');
+
+                        const question = {
+                            text: questionText,
+                            options: options,
+                            correct: correctLetter,
+                            explanation: explanation
+                        };
+
+                        questions.push(question);
+                    }
                 }
             });
 
             if (questions.length > 0) {
-                document.getElementById('loadingMessage').style.display = 'none';
+                document.getElementById('loading').style.display = 'none';
                 document.getElementById('examContent').style.display = 'block';
                 initializeExam();
             } else {
-                document.getElementById('loadingMessage').style.display = 'none';
+                document.getElementById('loading').style.display = 'none';
                 document.getElementById('errorMessage').textContent = 'No valid questions found in questions.txt file.';
                 document.getElementById('errorMessage').style.display = 'block';
             }
@@ -145,7 +162,7 @@
 
             document.getElementById('questionContainer').style.display = 'block';
             document.getElementById('resultsContainer').style.display = 'none';
-            
+
             updateDisplay();
             displayQuestion();
         }
@@ -154,7 +171,7 @@
         function displayQuestion() {
             const question = questions[currentQuestionIndex];
             document.getElementById('questionText').textContent = `${currentQuestionIndex + 1}. ${question.text}`;
-            
+
             const optionsContainer = document.getElementById('optionsContainer');
             optionsContainer.innerHTML = '';
 
@@ -228,7 +245,7 @@
         function updateDisplay() {
             document.getElementById('scoreDisplay').textContent = `Score: ${score}/${questions.length}`;
             document.getElementById('questionCounter').textContent = `Question: ${currentQuestionIndex + 1}/${questions.length}`;
-            
+
             const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
             document.getElementById('progressBar').style.width = `${progress}%`;
         }
@@ -237,7 +254,7 @@
         function updateButtons() {
             document.getElementById('prevBtn').disabled = currentQuestionIndex === 0;
             document.getElementById('nextBtn').disabled = !answered && currentQuestionIndex === questions.length - 1;
-            
+
             if (currentQuestionIndex === questions.length - 1 && answered) {
                 document.getElementById('nextBtn').textContent = 'Show Results';
             } else {
@@ -259,7 +276,7 @@
             questions.forEach((question, index) => {
                 const userAnswer = userAnswers[index];
                 const isCorrect = userAnswer === question.correct;
-                
+
                 const resultDiv = document.createElement('div');
                 resultDiv.className = `p-3 rounded ${isCorrect ? 'bg-green-100' : 'bg-red-100'}`;
                 resultDiv.innerHTML = `
@@ -278,6 +295,11 @@
                 initializeExam();
             }
         }
+
+        // Load questions when page loads
+        window.onload = function() {
+            loadQuestions();
+        };
     </script>
 </body>
 </html>
