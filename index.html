@@ -247,7 +247,7 @@
             let explanation = 'No explanation provided.';
             for (; i < lines.length; i++) {
                 const line = lines[i];
-                
+
                 // Look for "Answer:" followed by a letter
                 const ansMatch = line.match(/^(?:Answer|Ans):\s*([a-zA-Z])/i);
                 if (ansMatch && !correctLetter) {
