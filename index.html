@@ -210,25 +210,26 @@
     // Loading + Parsing Questions
     // ==========================
     async function loadQuestionsFromFile(filePath) {
-        try {
-            const response = await fetch(filePath);
-            if (!response.ok) throw new Error(`Cannot fetch "${filePath}". Make sure the file exists.`);
-            const content = await response.text();
-            parseQuestions(content);
+    try {
+        // Prevent GitHub Pages/browser from serving a cached .txt
+        const response = await fetch(filePath + '?v=' + Date.now(), { cache: 'no-store' });
+        if (!response.ok) throw new Error(`Cannot fetch "${filePath}". Make sure the file exists.`);
+        const content = await response.text();
+        parseQuestions(content);
 
-            if (questions.length > 0) {
-                initializeExam();
-                showLoading(false);
-            } else {
-                showLoading(false);
-                setError(`No valid questions found in "${filePath}". Check the file format.`);
-            }
-        } catch (err) {
-            console.error('Error loading file:', err);
+        if (questions.length > 0) {
+            initializeExam();
             showLoading(false);
-            setError(err.message || 'Could not load questions file.');
+        } else {
+            showLoading(false);
+            setError(`No valid questions found in "${filePath}". Check the file format.`);
         }
+    } catch (err) {
+        console.error('Error loading file:', err);
+        showLoading(false);
+        setError(err.message || 'Could not load questions file.');
     }
+}
 
     // Robust parser:
     // Expected format per question block:
@@ -475,6 +476,7 @@
 </script>
 </body>
 </html>
+
 
 
 
