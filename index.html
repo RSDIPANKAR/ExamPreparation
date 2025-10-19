@@ -90,28 +90,13 @@
     // ==========================
     // Configuration: Nested Tabs
     // ==========================
-    // Replace file names with your actual .txt files (place them in the same folder as this HTML)
     const EXAM_CONFIG = [
         {
             label: 'Ancient History',
             sets: [
                 { label: 'Set 1', file: 'questions.txt' }
-                //{ label: 'Set 2', file: 'ancient_set2.txt' }
             ]
         }
-        //{
-            //label: 'Medieval History',
-            //sets: [
-                //{ label: 'Set 1', file: 'medieval_set1.txt' },
-                //{ label: 'Set 2', file: 'medieval_set2.txt' }
-            //]
-        //},
-        //{
-            //label: 'Modern History',
-            //sets: [
-                //{ label: 'Set 1', file: 'modern_set1.txt' }
-            //]
-        //}
     ];
 
     // ==========================
@@ -210,87 +195,87 @@
     // Loading + Parsing Questions
     // ==========================
     async function loadQuestionsFromFile(filePath) {
-    try {
-        // Prevent GitHub Pages/browser from serving a cached .txt
-        const response = await fetch(filePath + '?v=' + Date.now(), { cache: 'no-store' });
-        if (!response.ok) throw new Error(`Cannot fetch "${filePath}". Make sure the file exists.`);
-        const content = await response.text();
-        parseQuestions(content);
+        try {
+            const response = await fetch(filePath + '?v=' + Date.now(), { cache: 'no-store' });
+            if (!response.ok) throw new Error(`Cannot fetch "${filePath}". Make sure the file exists.`);
+            const content = await response.text();
+            parseQuestions(content);
 
-        if (questions.length > 0) {
-            initializeExam();
+            if (questions.length > 0) {
+                initializeExam();
+                showLoading(false);
+            } else {
+                showLoading(false);
+                setError(`No valid questions found in "${filePath}". Check the file format.`);
+            }
+        } catch (err) {
+            console.error('Error loading file:', err);
             showLoading(false);
-        } else {
-            showLoading(false);
-            setError(`No valid questions found in "${filePath}". Check the file format.`);
+            setError(err.message || 'Could not load questions file.');
         }
-    } catch (err) {
-        console.error('Error loading file:', err);
-        showLoading(false);
-        setError(err.message || 'Could not load questions file.');
     }
-}
 
-    // Robust parser:
-    // Expected format per question block:
-    // 1. Question text...
-    // a) Option text
-    // b) Option text
-    // c) Option text
-    // d) Option text
-    // Answer: A
-    // Explanation: Why A is correct...
+    // Robust parser for your specific format
     function parseQuestions(content) {
-    // Normalize newlines and strip BOM
-    const text = content.replace(/^\uFEFF/, '').replace(/\r\n?/g, '\n').trim();
+        // Normalize newlines and trim
+        const text = content.replace(/^\uFEFF/, '').replace(/\r\n?/g, '\n').trim();
+        
+        // Split on numbered questions
+        const blocks = text.split(/(?=^\d+\.\s)/m);
+        questions = [];
 
-    // Split on lines like "1. " or "1) "
-    const blocks = text.split(/(?=^\s*\d+[\.KATEX_INLINE_CLOSE]\s+)/m);
-    questions = [];
+        for (const rawBlock of blocks) {
+            const lines = rawBlock.trim().split('\n').map(l => l.trim()).filter(Boolean);
+            if (!lines.length) continue;
 
-    for (const rawBlock of blocks) {
-        const lines = rawBlock.trim().split('\n').map(l => l.trim()).filter(Boolean);
-        if (!lines.length) continue;
+            // Extract question text (remove number prefix)
+            const questionText = lines[0].replace(/^\d+\.\s*/, '').trim();
 
-        // Remove leading number "1. " or "1) "
-        const questionText = lines[0].replace(/^\s*\d+[\.KATEX_INLINE_CLOSE]\s*/, '').trim();
-
-        // Collect exactly 4 options (supports a) A) A. A: A- and (A))
-        const options = [];
-        let i = 1;
-        while (i < lines.length && options.length < 4) {
-            const m = lines[i].match(/^\s*KATEX_INLINE_OPEN?([A-Da-d])[KATEX_INLINE_CLOSE\.\-:]\s*(.+)$/);
-            if (m) options.push(m[2].trim());
-            i++;
-        }
-
-        // Find answer (letter) and optional explanation
-        let correctLetter = null;
-        let explanation = 'No explanation provided.';
-        for (; i < lines.length; i++) {
-            const line = lines[i];
-
-            // Accept "Answer: B" or "Answer: b) 1921"
-            const ansMatch = line.match(/^(?:Answer|Ans|Correct(?:\s*Answer)?)\s*[:\-]\s*([A-Da-d])/i);
-            if (ansMatch && !correctLetter) {
-                correctLetter = ansMatch[1].toUpperCase();
-                continue;
+            // Extract exactly 4 options (a) b) c) d)
+            const options = [];
+            let i = 1;
+            while (i < lines.length && options.length < 4) {
+                const line = lines[i];
+                // Match lines like "a) Option text", "A) Option text", "(A) Option text"
+                const match = line.match(/^[a-zA-Z]KATEX_INLINE_CLOSE?\s*[.)-:]?\s*(.+)$/);
+                if (match) options.push(match[1].trim());
+                i++;
             }
 
-            const expMatch = line.match(/^(?:Explanation|Explain|Notes?)\s*[:\-]\s*(.*)/i);
-            if (expMatch) {
-                explanation = expMatch[1].trim();
-                const rest = lines.slice(i + 1).join(' ').trim();
-                if (rest) explanation += ' ' + rest;
-                break;
-            }
-        }
+            // Find answer line (may contain extra text like "b) 1921")
+            let correctLetter = null;
+            let explanation = 'No explanation provided.';
+            for (; i < lines.length; i++) {
+                const line = lines[i];
+                
+                // Look for "Answer:" followed by a letter
+                const ansMatch = line.match(/^(?:Answer|Ans):\s*([a-zA-Z])/i);
+                if (ansMatch && !correctLetter) {
+                    correctLetter = ansMatch[1].toUpperCase();
+                    continue;
+                }
 
-        if (questionText && options.length === 4 && correctLetter) {
-            questions.push({ text: questionText, options, correct: correctLetter, explanation });
+                // Look for explanation
+                const expMatch = line.match(/^(?:Explanation|Explain):\s*(.*)/i);
+                if (expMatch) {
+                    explanation = expMatch[1].trim();
+                    const rest = lines.slice(i + 1).join(' ').trim();
+                    if (rest) explanation += ' ' + rest;
+                    break;
+                }
+            }
+
+            if (questionText && options.length === 4 && correctLetter) {
+                questions.push({
+                    text: questionText,
+                    options,
+                    correct: correctLetter,
+                    explanation
+                });
+            }
         }
     }
-}
+
     // ==========================
     // Exam Flow
     // ==========================
@@ -329,7 +314,7 @@
             optionsContainer.appendChild(button);
         });
 
-        // If already answered previously, show states and explanation
+        // If already answered, show states and explanation
         if (answered) {
             const buttons = document.querySelectorAll('.option-btn');
             buttons.forEach((btn, index) => {
@@ -459,20 +444,9 @@
     // Init
     // ==========================
     window.onload = function () {
-        // Build tabs and load the first set automatically
         renderTabs();
         loadActiveSet();
     };
 </script>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
