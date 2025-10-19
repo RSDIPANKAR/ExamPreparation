@@ -240,10 +240,10 @@
     // Answer: A
     // Explanation: Why A is correct...
     function parseQuestions(content) {
-    // Normalize newlines
-    const text = content.replace(/\r\n?/g, '\n').trim();
+    // Normalize newlines and strip BOM if present
+    const text = content.replace(/^\uFEFF/, '').replace(/\r\n?/g, '\n').trim();
 
-    // Split questions on lines that start with "1. " or "1) "
+    // Split on lines like "1. " or "1) "
     const blocks = text.split(/(?=^\s*\d+[\.KATEX_INLINE_CLOSE]\s+)/m);
     questions = [];
 
@@ -254,17 +254,26 @@
         const lines = block.split('\n').map(l => l.trim()).filter(Boolean);
         if (!lines.length) continue;
 
-        // Question line
+        // Question line (remove leading "1. " or "1) ")
         let questionText = lines[0].replace(/^\s*\d+[\.KATEX_INLINE_CLOSE]\s*/, '').trim();
 
-        // Collect options (supports A) A. A: A- and (A))
+        // Collect options (A) A. A: A- or (A) all supported)
         const options = [];
         let i = 1;
         while (i < lines.length && options.length < 4) {
             const line = lines[i];
-            const match = line.match(/^KATEX_INLINE_OPEN?[A-Da-d][KATEX_INLINE_CLOSE\.\-:]\s*(.+)$/);
-            if (match) options.push(match[1].trim());
+            // IMPORTANT: no KATEX_INLINE_CLOSE here
+            const match = line.match(/^\s*KATEX_INLINE_OPEN?([A-Da-d])[KATEX_INLINE_CLOSE\.\-:]\s*(.+)$/);
+            if (match) options.push(match[2].trim());
             i++;
+        }
+
+        // Optional fallback: if options didn't match labels, try next 4 non-empty lines as options
+        if (options.length === 0) {
+            const nextFour = lines.slice(1).filter(Boolean).slice(0, 4);
+            if (nextFour.length === 4) {
+                nextFour.forEach(opt => options.push(opt.replace(/^[\-\*\u2022]\s*/, '').trim()));
+            }
         }
 
         // Find answer and explanation
@@ -273,13 +282,13 @@
         for (; i < lines.length; i++) {
             const line = lines[i];
 
-            const ansMatch = line.match(/^(?:Answer|Ans|Correct(?:\s*Answer)?)\s*:\s*([A-Da-d])/i);
-            if (ansMatch) {
+            const ansMatch = line.match(/^(?:Answer|Ans|Correct(?:\s*Answer)?)\s*[:\-]\s*([A-Da-d])/i);
+            if (ansMatch && !correctLetter) {
                 correctLetter = ansMatch[1].toUpperCase();
                 continue;
             }
 
-            const expMatch = line.match(/^(?:Explanation|Explain|Notes?)\s*:\s*(.*)/i);
+            const expMatch = line.match(/^(?:Explanation|Explain|Notes?)\s*[:\-]\s*(.*)/i);
             if (expMatch) {
                 explanation = expMatch[1].trim();
                 const rest = lines.slice(i + 1).join(' ').trim();
@@ -474,6 +483,7 @@
 </script>
 </body>
 </html>
+
 
 
 
