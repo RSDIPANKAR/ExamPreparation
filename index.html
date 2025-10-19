@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Interactive History Exam</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive History Exam (Multi-file, Nested Tabs)</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .question-card { transition: all 0.3s ease; }
@@ -16,290 +16,459 @@
         #progressBar { width: 0%; transition: width 0.3s ease; }
         #loading { display: block; }
         #examContent { display: none; }
+        .tab-active { border-bottom-width: 2px; border-color: #2563eb; color: #2563eb; }
     </style>
 </head>
 <body class="bg-gray-100 min-h-screen p-4">
-    <div class="max-w-4xl mx-auto">
-        <!-- Loading Screen -->
-        <div id="loading" class="bg-white rounded-lg shadow-lg p-6 text-center">
-            <h1 class="text-3xl font-bold text-gray-800 mb-4">Loading Exam Questions...</h1>
-            <p class="text-gray-600">Please wait while we load your questions from the text file.</p>
+<div class="max-w-5xl mx-auto">
+    <!-- Loading Screen -->
+    <div id="loading" class="bg-white rounded-lg shadow-lg p-6 text-center">
+        <h1 id="loadingTitle" class="text-3xl font-bold text-gray-800 mb-2">Loading Exam Questions...</h1>
+        <p id="loadingDesc" class="text-gray-600">Please wait while we load your questions from the text file.</p>
+    </div>
+
+    <!-- Main Exam Content -->
+    <div id="examContent">
+        <!-- Tabs: Categories and Sets -->
+        <div class="bg-white rounded-lg shadow-lg p-4 mb-6">
+            <div class="mb-2">
+                <h2 class="text-xl font-semibold text-gray-800">Select Exam Set</h2>
+            </div>
+            <!-- Category Tabs -->
+            <div id="categoryTabs" class="flex flex-wrap gap-2 border-b pb-2"></div>
+            <!-- Set Tabs (nested) -->
+            <div id="setTabs" class="flex flex-wrap gap-2 mt-3"></div>
         </div>
 
-        <!-- Main Exam Content -->
-        <div id="examContent">
-            <!-- Header -->
-            <div class="bg-white rounded-lg shadow-lg p-6 mb-6">
-                <h1 class="text-3xl font-bold text-center text-gray-800 mb-4">Interactive History Exam</h1>
+        <!-- Header -->
+        <div class="bg-white rounded-lg shadow-lg p-6 mb-6">
+            <h1 class="text-3xl font-bold text-center text-gray-800 mb-4">Interactive History Exam</h1>
 
-                <!-- Progress Bar -->
-                <div class="w-full bg-gray-200 rounded-full h-2 mb-4">
-                    <div id="progressBar" class="bg-blue-600 h-2 rounded-full"></div>
-                </div>
-
-                <!-- Score Display -->
-                <div class="text-center">
-                    <span id="scoreDisplay" class="text-lg font-semibold">Score: 0/0</span>
-                    <span id="questionCounter" class="text-gray-600 ml-4">Question: 0/0</span>
-                </div>
+            <!-- Progress Bar -->
+            <div class="w-full bg-gray-200 rounded-full h-2 mb-4">
+                <div id="progressBar" class="bg-blue-600 h-2 rounded-full"></div>
             </div>
 
-            <!-- Question Display Area -->
-            <div id="questionContainer" class="bg-white rounded-lg shadow-lg p-6 mb-6">
-                <div class="question-card">
-                    <h2 id="questionText" class="text-xl font-semibold mb-4"></h2>
-                    <div id="optionsContainer" class="space-y-3"></div>
-                    <div id="explanationContainer" class="explanation"></div>
-                    <div class="flex justify-between mt-6">
-                        <button id="prevBtn" onclick="previousQuestion()" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600" disabled>Previous</button>
-                        <button id="nextBtn" onclick="nextQuestion()" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700" disabled>Next</button>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Results Section -->
-            <div id="resultsContainer" class="bg-white rounded-lg shadow-lg p-6" style="display: none;">
-                <h2 class="text-2xl font-bold text-center mb-4">Exam Results</h2>
-                <div id="finalScore" class="text-center text-3xl font-bold mb-4"></div>
-                <div id="detailedResults" class="space-y-2"></div>
-                <div class="text-center mt-6">
-                    <button onclick="restartExam()" class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">Restart Exam</button>
-                </div>
+            <!-- Score Display -->
+            <div class="text-center">
+                <span id="scoreDisplay" class="text-lg font-semibold">Score: 0/0</span>
+                <span id="questionCounter" class="text-gray-600 ml-4">Question: 0/0</span>
             </div>
         </div>
 
-        <!-- Error Message -->
-        <div id="errorMessage" class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mt-4" style="display: none;">
-            <strong>Error:</strong> Could not load questions.txt file. Make sure the file exists in the same folder.
+        <!-- Question Display Area -->
+        <div id="questionContainer" class="bg-white rounded-lg shadow-lg p-6 mb-6">
+            <div class="question-card">
+                <h2 id="questionText" class="text-xl font-semibold mb-4"></h2>
+                <div id="optionsContainer" class="space-y-3"></div>
+                <div id="explanationContainer" class="explanation"></div>
+                <div class="flex justify-between mt-6">
+                    <button id="prevBtn" onclick="previousQuestion()" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600" disabled>Previous</button>
+                    <button id="nextBtn" onclick="nextQuestion()" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700" disabled>Next</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <div id="resultsContainer" class="bg-white rounded-lg shadow-lg p-6" style="display: none;">
+            <h2 class="text-2xl font-bold text-center mb-4">Exam Results</h2>
+            <div id="finalScore" class="text-center text-3xl font-bold mb-4"></div>
+            <div id="detailedResults" class="space-y-2"></div>
+            <div class="text-center mt-6">
+                <button onclick="restartExam()" class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">Restart Exam</button>
+            </div>
         </div>
     </div>
 
-    <script>
-        let questions = [];
-        let currentQuestionIndex = 0;
-        let score = 0;
-        let userAnswers = [];
-        let answered = false;
+    <!-- Error Message -->
+    <div id="errorMessage" class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded mt-4" style="display: none;">
+        <strong>Error:</strong> Could not load questions file. Make sure the file exists in the same folder.
+    </div>
+</div>
 
-        // Load questions from questions.txt file
-        async function loadQuestions() {
-            try {
-                // Try to fetch the questions.txt file
-                const response = await fetch('questions.txt');
+<script>
+    // ==========================
+    // Configuration: Nested Tabs
+    // ==========================
+    // Replace file names with your actual .txt files (place them in the same folder as this HTML)
+    const EXAM_CONFIG = [
+        {
+            label: 'Ancient History',
+            sets: [
+                { label: 'Set 1', file: 'questions.txt' }];
+                //{ label: 'Set 2', file: 'ancient_set2.txt' }
+           // ]
+       // },
+       // {
+           // label: 'Medieval History',
+           // sets: [
+              //  { label: 'Set 1', file: 'medieval_set1.txt' },
+              //  { label: 'Set 2', file: 'medieval_set2.txt' }
+           // ]
+      //  },
+      //  {
+        //    label: 'Modern History',
+        //    sets: [
+         //       { label: 'Set 1', file: 'modern_set1.txt' }
+       //     ]
+    //    }
+ //   ];
 
-                if (!response.ok) {
-                    throw new Error('File not found');
-                }
+    // ==========================
+    // State
+    // ==========================
+    let questions = [];
+    let currentQuestionIndex = 0;
+    let userAnswers = [];
+    let answered = false;
 
-                const content = await response.text();
-                parseQuestions(content);
-            } catch (error) {
-                console.error('Error loading questions:', error);
-                document.getElementById('loading').style.display = 'none';
-                document.getElementById('errorMessage').style.display = 'block';
-            }
+    let activeCategoryIndex = 0;
+    let activeSetIndex = 0;
+
+    // ==========================
+    // UI Helpers
+    // ==========================
+    function showLoading(show, title = 'Loading Exam Questions...', desc = 'Please wait while we load your questions from the text file.') {
+        document.getElementById('loadingTitle').textContent = title;
+        document.getElementById('loadingDesc').textContent = desc;
+        document.getElementById('loading').style.display = show ? 'block' : 'none';
+        document.getElementById('examContent').style.display = show ? 'none' : 'block';
+        if (show) {
+            document.getElementById('errorMessage').style.display = 'none';
         }
+    }
 
-        // Parse questions from your specific format
-        function parseQuestions(content) {
-            // Split questions by the pattern "number." at start of line
-            const questionBlocks = content.trim().split(/(?=^\d+\.)/m);
+    function setError(msg) {
+        const el = document.getElementById('errorMessage');
+        el.innerHTML = '<strong>Error:</strong> ' + msg;
+        el.style.display = 'block';
+    }
 
-            questions = [];
+    function computeScore() {
+        if (!questions.length) return 0;
+        return userAnswers.reduce((acc, ans, i) => acc + (ans === questions[i]?.correct ? 1 : 0), 0);
+    }
 
-            questionBlocks.forEach(block => {
-                if (block.trim()) {
-                    const lines = block.trim().split('\n').filter(line => line.trim());
+    // ==========================
+    // Tabs Rendering
+    // ==========================
+    function renderTabs() {
+        const categoryTabs = document.getElementById('categoryTabs');
+        const setTabs = document.getElementById('setTabs');
 
-                    if (lines.length >= 7) {
-                        // Extract question (remove number)
-                        const questionText = lines[0].replace(/^\d+\.\s*/, '');
+        // Render category tabs
+        categoryTabs.innerHTML = '';
+        EXAM_CONFIG.forEach((cat, idx) => {
+            const btn = document.createElement('button');
+            btn.className = 'px-3 py-2 rounded-t text-sm font-medium text-gray-700 hover:text-blue-600 hover:bg-blue-50 ' +
+                            (idx === activeCategoryIndex ? 'tab-active' : '');
+            btn.textContent = cat.label;
+            btn.onclick = () => selectCategory(idx);
+            categoryTabs.appendChild(btn);
+        });
 
-                        // Extract options
-                        const options = [
-                            lines[1].replace(/^[a-d]KATEX_INLINE_CLOSE\s*/, ''),
-                            lines[2].replace(/^[a-d]KATEX_INLINE_CLOSE\s*/, ''),
-                            lines[3].replace(/^[a-d]KATEX_INLINE_CLOSE\s*/, ''),
-                            lines[4].replace(/^[a-d]KATEX_INLINE_CLOSE\s*/, '')
-                        ];
+        // Render set tabs for active category
+        setTabs.innerHTML = '';
+        const activeCategory = EXAM_CONFIG[activeCategoryIndex];
+        activeCategory.sets.forEach((set, idx) => {
+            const btn = document.createElement('button');
+            btn.className = 'px-3 py-1.5 rounded border text-sm font-medium ' +
+                            (idx === activeSetIndex
+                                ? 'bg-blue-600 text-white border-blue-600'
+                                : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-100');
+            btn.textContent = set.label;
+            btn.onclick = () => selectSet(idx);
+            setTabs.appendChild(btn);
+        });
+    }
 
-                        // Extract answer (get the letter)
-                        const answerLine = lines[5].replace('Answer: ', '');
-                        const correctLetter = answerLine.charAt(0).toUpperCase();
+    function selectCategory(idx) {
+        activeCategoryIndex = idx;
+        activeSetIndex = 0; // reset to first set of the new category
+        renderTabs();
+        loadActiveSet();
+    }
 
-                        // Extract explanation
-                        const explanation = lines[6].replace('Explanation: ', '');
+    function selectSet(idx) {
+        activeSetIndex = idx;
+        renderTabs();
+        loadActiveSet();
+    }
 
-                        const question = {
-                            text: questionText,
-                            options: options,
-                            correct: correctLetter,
-                            explanation: explanation
-                        };
+    function getActiveSetInfo() {
+        const cat = EXAM_CONFIG[activeCategoryIndex];
+        return { category: cat.label, ...cat.sets[activeSetIndex] }; // { category, label, file }
+    }
 
-                        questions.push(question);
-                    }
-                }
-            });
+    async function loadActiveSet() {
+        const { category, label, file } = getActiveSetInfo();
+        showLoading(true, `Loading: ${category} • ${label}`, `Fetching ${file} from the server...`);
+        await loadQuestionsFromFile(file);
+    }
+
+    // ==========================
+    // Loading + Parsing Questions
+    // ==========================
+    async function loadQuestionsFromFile(filePath) {
+        try {
+            const response = await fetch(filePath);
+            if (!response.ok) throw new Error(`Cannot fetch "${filePath}". Make sure the file exists.`);
+            const content = await response.text();
+            parseQuestions(content);
 
             if (questions.length > 0) {
-                document.getElementById('loading').style.display = 'none';
-                document.getElementById('examContent').style.display = 'block';
                 initializeExam();
+                showLoading(false);
             } else {
-                document.getElementById('loading').style.display = 'none';
-                document.getElementById('errorMessage').textContent = 'No valid questions found in questions.txt file.';
-                document.getElementById('errorMessage').style.display = 'block';
+                showLoading(false);
+                setError(`No valid questions found in "${filePath}". Check the file format.`);
+            }
+        } catch (err) {
+            console.error('Error loading file:', err);
+            showLoading(false);
+            setError(err.message || 'Could not load questions file.');
+        }
+    }
+
+    // Robust parser:
+    // Expected format per question block:
+    // 1. Question text...
+    // a) Option text
+    // b) Option text
+    // c) Option text
+    // d) Option text
+    // Answer: A
+    // Explanation: Why A is correct...
+    function parseQuestions(content) {
+        const blocks = content.trim().split(/(?=^\d+\.\s)/m);
+        questions = [];
+
+        for (const rawBlock of blocks) {
+            const block = rawBlock.trim();
+            if (!block) continue;
+
+            const lines = block.split(/\r?\n/).map(l => l.trim()).filter(Boolean);
+            if (!lines.length) continue;
+
+            // Question line
+            let questionLine = lines[0] || '';
+            let questionText = questionLine.replace(/^\d+\.\s*/, '').trim();
+
+            // Collect options (next 4 lines that start with a-d/A-D)
+            const options = [];
+            let i = 1;
+            while (i < lines.length && options.length < 4) {
+                const line = lines[i];
+                const match = line.match(/^[A-Da-d][KATEX_INLINE_CLOSE\.\-:]\s*(.*)$/);
+                if (match) {
+                    options.push(match[1].trim());
+                }
+                i++;
+            }
+
+            // Find answer line in remaining lines
+            let correctLetter = null;
+            let explanation = 'No explanation provided.';
+            for (; i < lines.length; i++) {
+                const line = lines[i];
+
+                if (/^Answer\s*:/i.test(line) || /^Correct\s*:/i.test(line)) {
+                    const m = line.match(/:\s*([A-Da-d])/);
+                    if (m) correctLetter = m[1].toUpperCase();
+                }
+
+                if (/^Explanation\s*:/i.test(line)) {
+                    explanation = line.replace(/^Explanation\s*:\s*/i, '').trim();
+                    // If explanation spans multiple lines, join the rest
+                    const rest = lines.slice(i + 1).join(' ').trim();
+                    if (rest) explanation += ' ' + rest;
+                    break;
+                }
+            }
+
+            if (questionText && options.length === 4 && correctLetter) {
+                questions.push({
+                    text: questionText,
+                    options,
+                    correct: correctLetter,
+                    explanation
+                });
             }
         }
+    }
 
-        // Initialize exam
-        function initializeExam() {
-            currentQuestionIndex = 0;
-            score = 0;
-            userAnswers = new Array(questions.length).fill(null);
-            answered = false;
+    // ==========================
+    // Exam Flow
+    // ==========================
+    function initializeExam() {
+        currentQuestionIndex = 0;
+        userAnswers = new Array(questions.length).fill(null);
+        answered = false;
 
-            document.getElementById('questionContainer').style.display = 'block';
-            document.getElementById('resultsContainer').style.display = 'none';
+        document.getElementById('questionContainer').style.display = 'block';
+        document.getElementById('resultsContainer').style.display = 'none';
 
-            updateDisplay();
-            displayQuestion();
-        }
+        updateDisplay();
+        displayQuestion();
+    }
 
-        // Display current question
-        function displayQuestion() {
-            const question = questions[currentQuestionIndex];
-            document.getElementById('questionText').textContent = `${currentQuestionIndex + 1}. ${question.text}`;
+    function displayQuestion() {
+        const q = questions[currentQuestionIndex];
+        if (!q) return;
 
-            const optionsContainer = document.getElementById('optionsContainer');
-            optionsContainer.innerHTML = '';
+        const questionTextEl = document.getElementById('questionText');
+        questionTextEl.textContent = `${currentQuestionIndex + 1}. ${q.text}`;
 
-            question.options.forEach((option, index) => {
-                const optionLetter = String.fromCharCode(65 + index); // A, B, C, D
-                const button = document.createElement('button');
-                button.className = 'option-btn w-full text-left p-3 border rounded-lg hover:bg-gray-100';
-                button.textContent = `${optionLetter}. ${option}`;
-                button.onclick = () => selectAnswer(optionLetter, button);
-                optionsContainer.appendChild(button);
-            });
+        const optionsContainer = document.getElementById('optionsContainer');
+        optionsContainer.innerHTML = '';
 
-            // Hide explanation initially
-            document.getElementById('explanationContainer').style.display = 'none';
-            answered = false;
-            updateButtons();
-        }
+        const savedAnswer = userAnswers[currentQuestionIndex];
+        answered = savedAnswer !== null;
 
-        // Handle answer selection
-        function selectAnswer(selectedOption, buttonElement) {
-            if (answered) return;
+        q.options.forEach((opt, idx) => {
+            const optionLetter = String.fromCharCode(65 + idx); // A, B, C, D
+            const button = document.createElement('button');
+            button.className = 'option-btn w-full text-left p-3 border rounded-lg hover:bg-gray-100';
+            button.textContent = `${optionLetter}. ${opt}`;
+            button.onclick = () => selectAnswer(optionLetter);
 
-            const question = questions[currentQuestionIndex];
-            userAnswers[currentQuestionIndex] = selectedOption;
-            answered = true;
+            optionsContainer.appendChild(button);
+        });
 
-            // Show correct/incorrect styling
+        // If already answered previously, show states and explanation
+        if (answered) {
             const buttons = document.querySelectorAll('.option-btn');
             buttons.forEach((btn, index) => {
-                const optionLetter = String.fromCharCode(65 + index);
-                if (optionLetter === question.correct) {
+                const letter = String.fromCharCode(65 + index);
+                if (letter === q.correct) {
                     btn.classList.add('correct');
-                } else if (optionLetter === selectedOption && selectedOption !== question.correct) {
+                } else if (letter === savedAnswer && savedAnswer !== q.correct) {
                     btn.classList.add('incorrect');
                 }
                 btn.disabled = true;
             });
 
-            // Update score
-            if (selectedOption === question.correct) {
-                score++;
-            }
-
-            // Show explanation
             const explanationContainer = document.getElementById('explanationContainer');
-            explanationContainer.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+            explanationContainer.innerHTML = `<strong>Explanation:</strong> ${q.explanation}`;
             explanationContainer.style.display = 'block';
-
-            updateDisplay();
-            updateButtons();
+        } else {
+            document.getElementById('explanationContainer').style.display = 'none';
         }
 
-        // Navigation functions
-        function nextQuestion() {
-            if (currentQuestionIndex < questions.length - 1) {
-                currentQuestionIndex++;
-                displayQuestion();
-            } else {
-                showResults();
+        updateButtons();
+        updateDisplay();
+    }
+
+    function selectAnswer(selectedOption) {
+        if (answered) return;
+
+        const q = questions[currentQuestionIndex];
+        userAnswers[currentQuestionIndex] = selectedOption;
+        answered = true;
+
+        // Show correct/incorrect styling
+        const buttons = document.querySelectorAll('.option-btn');
+        buttons.forEach((btn, index) => {
+            const optionLetter = String.fromCharCode(65 + index);
+            if (optionLetter === q.correct) {
+                btn.classList.add('correct');
+            } else if (optionLetter === selectedOption && selectedOption !== q.correct) {
+                btn.classList.add('incorrect');
             }
+            btn.disabled = true;
+        });
+
+        // Show explanation
+        const explanationContainer = document.getElementById('explanationContainer');
+        explanationContainer.innerHTML = `<strong>Explanation:</strong> ${q.explanation}`;
+        explanationContainer.style.display = 'block';
+
+        updateDisplay();
+        updateButtons();
+    }
+
+    function nextQuestion() {
+        if (currentQuestionIndex < questions.length - 1) {
+            currentQuestionIndex++;
+            displayQuestion();
+        } else if (answered) {
+            showResults();
         }
+    }
 
-        function previousQuestion() {
-            if (currentQuestionIndex > 0) {
-                currentQuestionIndex--;
-                displayQuestion();
-            }
+    function previousQuestion() {
+        if (currentQuestionIndex > 0) {
+            currentQuestionIndex--;
+            displayQuestion();
         }
+    }
 
-        // Update display elements
-        function updateDisplay() {
-            document.getElementById('scoreDisplay').textContent = `Score: ${score}/${questions.length}`;
-            document.getElementById('questionCounter').textContent = `Question: ${currentQuestionIndex + 1}/${questions.length}`;
+    function updateDisplay() {
+        const total = questions.length;
+        const score = computeScore();
 
-            const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
-            document.getElementById('progressBar').style.width = `${progress}%`;
+        document.getElementById('scoreDisplay').textContent = `Score: ${score}/${total}`;
+        document.getElementById('questionCounter').textContent = `Question: ${total ? currentQuestionIndex + 1 : 0}/${total}`;
+
+        const progress = total ? ((currentQuestionIndex + 1) / total) * 100 : 0;
+        document.getElementById('progressBar').style.width = `${progress}%`;
+    }
+
+    function updateButtons() {
+        const isFirst = currentQuestionIndex === 0;
+        const isLast = currentQuestionIndex === questions.length - 1;
+
+        const prevBtn = document.getElementById('prevBtn');
+        const nextBtn = document.getElementById('nextBtn');
+
+        prevBtn.disabled = isFirst;
+        nextBtn.textContent = isLast ? 'Show Results' : 'Next';
+        nextBtn.disabled = !answered;
+    }
+
+    function showResults() {
+        document.getElementById('questionContainer').style.display = 'none';
+        document.getElementById('resultsContainer').style.display = 'block';
+
+        const score = computeScore();
+        const total = questions.length;
+        const percentage = total ? Math.round((score / total) * 100) : 0;
+
+        document.getElementById('finalScore').textContent = `${score}/${total} (${percentage}%)`;
+
+        const detailedResults = document.getElementById('detailedResults');
+        detailedResults.innerHTML = '';
+
+        questions.forEach((question, index) => {
+            const userAnswer = userAnswers[index];
+            const isCorrect = userAnswer === question.correct;
+
+            const resultDiv = document.createElement('div');
+            resultDiv.className = `p-3 rounded ${isCorrect ? 'bg-green-100' : 'bg-red-100'}`;
+            resultDiv.innerHTML = `
+                <strong>Q${index + 1}:</strong> ${question.text}<br>
+                <strong>Your Answer:</strong> ${userAnswer || 'Not answered'}<br>
+                <strong>Correct Answer:</strong> ${question.correct}<br>
+                <span class="${isCorrect ? 'text-green-600' : 'text-red-600'}">${isCorrect ? '✓ Correct' : '✗ Incorrect'}</span>
+            `;
+            detailedResults.appendChild(resultDiv);
+        });
+    }
+
+    function restartExam() {
+        if (questions.length > 0) {
+            initializeExam();
         }
+    }
 
-        // Update button states
-        function updateButtons() {
-            document.getElementById('prevBtn').disabled = currentQuestionIndex === 0;
-            document.getElementById('nextBtn').disabled = !answered && currentQuestionIndex === questions.length - 1;
-
-            if (currentQuestionIndex === questions.length - 1 && answered) {
-                document.getElementById('nextBtn').textContent = 'Show Results';
-            } else {
-                document.getElementById('nextBtn').textContent = 'Next';
-            }
-        }
-
-        // Show final results
-        function showResults() {
-            document.getElementById('questionContainer').style.display = 'none';
-            document.getElementById('resultsContainer').style.display = 'block';
-
-            const percentage = Math.round((score / questions.length) * 100);
-            document.getElementById('finalScore').textContent = `${score}/${questions.length} (${percentage}%)`;
-
-            const detailedResults = document.getElementById('detailedResults');
-            detailedResults.innerHTML = '';
-
-            questions.forEach((question, index) => {
-                const userAnswer = userAnswers[index];
-                const isCorrect = userAnswer === question.correct;
-
-                const resultDiv = document.createElement('div');
-                resultDiv.className = `p-3 rounded ${isCorrect ? 'bg-green-100' : 'bg-red-100'}`;
-                resultDiv.innerHTML = `
-                    <strong>Q${index + 1}:</strong> ${question.text}<br>
-                    <strong>Your Answer:</strong> ${userAnswer || 'Not answered'}<br>
-                    <strong>Correct Answer:</strong> ${question.correct}<br>
-                    <span class="${isCorrect ? 'text-green-600' : 'text-red-600'}">${isCorrect ? '✓ Correct' : '✗ Incorrect'}</span>
-                `;
-                detailedResults.appendChild(resultDiv);
-            });
-        }
-
-        // Restart exam
-        function restartExam() {
-            if (questions.length > 0) {
-                initializeExam();
-            }
-        }
-
-        // Load questions when page loads
-        window.onload = function() {
-            loadQuestions();
-        };
-    </script>
+    // ==========================
+    // Init
+    // ==========================
+    window.onload = function () {
+        // Build tabs and load the first set automatically
+        renderTabs();
+        loadActiveSet();
+    };
+</script>
 </body>
 </html>
