@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Interactive History Exam (Multi-file, Nested Tabs)</title>
+    <title>Interactive History Exam</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         .question-card { transition: all 0.3s ease; }
@@ -231,18 +231,18 @@
             // Extract question text (remove number prefix)
             const questionText = lines[0].replace(/^\d+\.\s*/, '').trim();
 
-            // Extract exactly 4 options (a) b) c) d)
+            // Extract exactly 4 options (supports a) b) c) d)
             const options = [];
             let i = 1;
             while (i < lines.length && options.length < 4) {
                 const line = lines[i];
                 // Match lines like "a) Option text", "A) Option text", "(A) Option text"
-                const match = line.match(/^[a-zA-Z]KATEX_INLINE_CLOSE?\s*[.)-:]?\s*(.+)$/);
+                const match = line.match(/^\s*KATEX_INLINE_OPEN?([A-Da-d])[KATEX_INLINE_CLOSE\.\-:]?\s*(.+)$/);
                 if (match) options.push(match[1].trim());
                 i++;
             }
 
-            // Find answer line (may contain extra text like "b) 1921")
+            // Find answer and explanation
             let correctLetter = null;
             let explanation = 'No explanation provided.';
             for (; i < lines.length; i++) {
@@ -255,7 +255,6 @@
                     continue;
                 }
 
-                // Look for explanation
                 const expMatch = line.match(/^(?:Explanation|Explain):\s*(.*)/i);
                 if (expMatch) {
                     explanation = expMatch[1].trim();
