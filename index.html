@@ -233,7 +233,8 @@
         blocks = text.split(/(?=^\d+\.\s+)/m);
       }
 
-      const optionPattern = /^[A-Da-d]\s*[KATEX_INLINE_CLOSE\.\:\-]\s*(.+)$/;
+      //const optionPattern = /^[A-Da-d]\s*[KATEX_INLINE_CLOSE\.\:\-]\s*(.+)$/;
+      const optionPattern = new RegExp('^[A-Da-d]\s*[\\.:\-]\s*(.+)$');
       const parsed = [];
 
       blocks.forEach(block => {
@@ -484,6 +485,7 @@
   </script>
 </body>
 </html>
+
 
 
 
