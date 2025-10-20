@@ -312,6 +312,130 @@
             0%, 100% { transform: translateY(0); }
             50% { transform: translateY(-10px); }
         }
+        
+        .submit-btn {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .submit-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+        
+        .submit-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .summary-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 15px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        
+        .score-circle {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: conic-gradient(#10b981 0%, #10b981 var(--score), #e5e7eb var(--score), #e5e7eb 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            position: relative;
+        }
+        
+        .score-circle::before {
+            content: "";
+            position: absolute;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            background: white;
+        }
+        
+        .score-value {
+            position: relative;
+            font-size: 2rem;
+            font-weight: bold;
+            color: #333;
+        }
+        
+        .score-stats {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        
+        .score-stat {
+            text-align: center;
+        }
+        
+        .score-stat-value {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+        
+        .score-stat-label {
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+        
+        .performance-message {
+            text-align: center;
+            font-size: 1.2rem;
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .detailed-results {
+            max-height: 400px;
+            overflow-y: auto;
+            margin-top: 20px;
+        }
+        
+        .result-item {
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 8px;
+            background: rgba(255, 255, 255, 0.1);
+            animation: fadeIn 0.3s ease-in-out;
+        }
+        
+        .result-item.correct {
+            background: rgba(16, 185, 129, 0.2);
+        }
+        
+        .result-item.incorrect {
+            background: rgba(239, 68, 68, 0.2);
+        }
+        
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
     </style>
 </head>
 <body>
@@ -438,7 +562,8 @@
                             currentQuestionIndex: 0,
                             score: 0,
                             userAnswers: new Array(questions.length).fill(null),
-                            answered: false
+                            answered: false,
+                            submitted: false
                         };
                         
                         // Create tab content
@@ -542,16 +667,55 @@
                         <div class="flex justify-between mt-6">
                             <button id="prevBtn-${examIndex}" onclick="previousQuestion(${examIndex})" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600" disabled>Previous</button>
                             <button id="nextBtn-${examIndex}" onclick="nextQuestion(${examIndex})" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700" disabled>Next</button>
+                            <button id="submitBtn-${examIndex}" onclick="submitExam(${examIndex})" class="submit-btn" disabled>Submit Exam</button>
                         </div>
+                    </div>
+                </div>
+
+                <!-- Summary Section -->
+                <div id="summaryContainer-${examIndex}" class="summary-card" style="display: none;">
+                    <h2 class="text-2xl font-bold text-center mb-4">Exam Summary</h2>
+                    
+                    <div class="score-circle" style="--score: 0%">
+                        <div class="score-value">0%</div>
+                    </div>
+                    
+                    <div class="score-stats">
+                        <div class="score-stat">
+                            <div class="score-stat-value" id="correctCount-${examIndex}">0</div>
+                            <div class="score-stat-label">Correct</div>
+                        </div>
+                        <div class="score-stat">
+                            <div class="score-stat-value" id="wrongCount-${examIndex}">0</div>
+                            <div class="score-stat-label">Wrong</div>
+                        </div>
+                        <div class="score-stat">
+                            <div class="score-stat-value" id="unansweredCount-${examIndex}">0</div>
+                            <div class="score-stat-label">Unanswered</div>
+                        </div>
+                    </div>
+                    
+                    <div class="performance-message" id="performanceMessage-${examIndex}">
+                        Keep practicing to improve your score!
+                    </div>
+                    
+                    <div class="detailed-results" id="detailedResults-${examIndex}">
+                        <!-- Detailed results will be added here -->
+                    </div>
+                    
+                    <div class="text-center mt-6">
+                        <button onclick="restartExam(${examIndex})" class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700 mr-2">Restart Exam</button>
+                        <button onclick="showDetailedResults(${examIndex})" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700">View Detailed Results</button>
                     </div>
                 </div>
 
                 <!-- Results Section -->
                 <div id="resultsContainer-${examIndex}" class="result-card p-6" style="display: none;">
-                    <h2 class="text-2xl font-bold text-center mb-4">Exam Results</h2>
+                    <h2 class="text-2xl font-bold text-center mb-4">Detailed Results</h2>
                     <div id="finalScore-${examIndex}" class="text-center text-3xl font-bold mb-4"></div>
-                    <div id="detailedResults-${examIndex}" class="space-y-2"></div>
+                    <div id="detailedResultsList-${examIndex}" class="space-y-2"></div>
                     <div class="text-center mt-6">
+                        <button onclick="showSummary(${examIndex})" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 mr-2">Back to Summary</button>
                         <button onclick="restartExam(${examIndex})" class="bg-green-600 text-white px-6 py-2 rounded hover:bg-green-700">Restart Exam</button>
                     </div>
                 </div>
@@ -594,8 +758,10 @@
             exam.score = 0;
             exam.userAnswers = new Array(exam.questions.length).fill(null);
             exam.answered = false;
+            exam.submitted = false;
 
             document.getElementById(`questionContainer-${examIndex}`).style.display = 'block';
+            document.getElementById(`summaryContainer-${examIndex}`).style.display = 'none';
             document.getElementById(`resultsContainer-${examIndex}`).style.display = 'none';
 
             updateDisplay(examIndex);
@@ -669,7 +835,8 @@
                 exam.currentQuestionIndex++;
                 displayQuestion(examIndex);
             } else {
-                showResults(examIndex);
+                // Enable submit button if on last question
+                document.getElementById(`submitBtn-${examIndex}`).disabled = false;
             }
         }
 
@@ -679,6 +846,120 @@
                 exam.currentQuestionIndex--;
                 displayQuestion(examIndex);
             }
+        }
+
+        // Submit exam
+        function submitExam(examIndex) {
+            const exam = exams[examIndex];
+            exam.submitted = true;
+            
+            // Calculate final score
+            let correctCount = 0;
+            let wrongCount = 0;
+            let unansweredCount = 0;
+            
+            exam.questions.forEach((question, index) => {
+                const userAnswer = exam.userAnswers[index];
+                if (userAnswer === null) {
+                    unansweredCount++;
+                } else if (userAnswer === question.correct) {
+                    correctCount++;
+                } else {
+                    wrongCount++;
+                }
+            });
+            
+            // Calculate percentage
+            const percentage = Math.round((correctCount / exam.questions.length) * 100);
+            
+            // Update summary display
+            document.getElementById(`questionContainer-${examIndex}`).style.display = 'none';
+            document.getElementById(`summaryContainer-${examIndex}`).style.display = 'block';
+            
+            // Update score circle
+            const scoreCircle = document.querySelector(`#summaryContainer-${examIndex} .score-circle`);
+            scoreCircle.style.setProperty('--score', `${percentage}%`);
+            document.querySelector(`#summaryContainer-${examIndex} .score-value`).textContent = `${percentage}%`;
+            
+            // Update stats
+            document.getElementById(`correctCount-${examIndex}`).textContent = correctCount;
+            document.getElementById(`wrongCount-${examIndex}`).textContent = wrongCount;
+            document.getElementById(`unansweredCount-${examIndex}`).textContent = unansweredCount;
+            
+            // Update performance message
+            const performanceMessage = document.getElementById(`performanceMessage-${examIndex}`);
+            if (percentage >= 90) {
+                performanceMessage.textContent = "Excellent work! You've mastered this subject!";
+                performanceMessage.style.backgroundColor = "rgba(16, 185, 129, 0.2)";
+            } else if (percentage >= 70) {
+                performanceMessage.textContent = "Good job! You have a solid understanding of the material.";
+                performanceMessage.style.backgroundColor = "rgba(59, 130, 246, 0.2)";
+            } else if (percentage >= 50) {
+                performanceMessage.textContent = "You're on the right track. Keep practicing to improve!";
+                performanceMessage.style.backgroundColor = "rgba(245, 158, 11, 0.2)";
+            } else {
+                performanceMessage.textContent = "Keep practicing! Review the material and try again.";
+                performanceMessage.style.backgroundColor = "rgba(239, 68, 68, 0.2)";
+            }
+            
+            // Populate detailed results
+            const detailedResults = document.getElementById(`detailedResults-${examIndex}`);
+            detailedResults.innerHTML = '';
+            
+            exam.questions.forEach((question, index) => {
+                const userAnswer = exam.userAnswers[index];
+                const isCorrect = userAnswer === question.correct;
+                
+                const resultItem = document.createElement('div');
+                resultItem.className = `result-item ${isCorrect ? 'correct' : 'incorrect'}`;
+                resultItem.innerHTML = `
+                    <div class="flex justify-between items-center">
+                        <div>
+                            <strong>Q${index + 1}:</strong> ${question.text.substring(0, 50)}${question.text.length > 50 ? '...' : ''}
+                        </div>
+                        <div>
+                            ${isCorrect ? 
+                                '<i class="fas fa-check-circle text-green-500"></i>' : 
+                                '<i class="fas fa-times-circle text-red-500"></i>'}
+                        </div>
+                    </div>
+                `;
+                detailedResults.appendChild(resultItem);
+            });
+        }
+
+        // Show detailed results
+        function showDetailedResults(examIndex) {
+            document.getElementById(`summaryContainer-${examIndex}`).style.display = 'none';
+            document.getElementById(`resultsContainer-${examIndex}`).style.display = 'block';
+            
+            const exam = exams[examIndex];
+            const percentage = Math.round((exam.score / exam.questions.length) * 100);
+            document.getElementById(`finalScore-${examIndex}`).textContent = `${exam.score}/${exam.questions.length} (${percentage}%)`;
+
+            const detailedResultsList = document.getElementById(`detailedResultsList-${examIndex}`);
+            detailedResultsList.innerHTML = '';
+
+            exam.questions.forEach((question, index) => {
+                const userAnswer = exam.userAnswers[index];
+                const isCorrect = userAnswer === question.correct;
+
+                const resultDiv = document.createElement('div');
+                resultDiv.className = `p-3 rounded ${isCorrect ? 'bg-green-100' : 'bg-red-100'}`;
+                resultDiv.innerHTML = `
+                    <strong>Q${index + 1}:</strong> ${question.text}<br>
+                    <strong>Your Answer:</strong> ${userAnswer || 'Not answered'}<br>
+                    <strong>Correct Answer:</strong> ${question.correct}<br>
+                    <span class="${isCorrect ? 'text-green-600' : 'text-red-600'}">${isCorrect ? '✓ Correct' : '✗ Incorrect'}</span>
+                `;
+                detailedResultsList.appendChild(resultDiv);
+            });
+        }
+
+        // Show summary
+        function showSummary(examIndex) {
+            document.getElementById(`resultsContainer-${examIndex}`).style.display = 'none';
+            document.getElementById(`summaryContainer-${examIndex}`).style.display = 'block';
         }
 
         // Update display elements
@@ -695,41 +976,18 @@
         function updateButtons(examIndex) {
             const exam = exams[examIndex];
             document.getElementById(`prevBtn-${examIndex}`).disabled = exam.currentQuestionIndex === 0;
-            document.getElementById(`nextBtn-${examIndex}`).disabled = !exam.answered && exam.currentQuestionIndex === exam.questions.length - 1;
+            document.getElementById(`nextBtn-${examIndex}`).disabled = !exam.answered;
+            
+            // Enable submit button if all questions have been answered or if it's the last question
+            const allAnswered = exam.userAnswers.every(answer => answer !== null);
+            const isLastQuestion = exam.currentQuestionIndex === exam.questions.length - 1;
+            document.getElementById(`submitBtn-${examIndex}`).disabled = !allAnswered && !isLastQuestion;
 
             if (exam.currentQuestionIndex === exam.questions.length - 1 && exam.answered) {
-                document.getElementById(`nextBtn-${examIndex}`).textContent = 'Show Results';
+                document.getElementById(`nextBtn-${examIndex}`).textContent = 'Last Question';
             } else {
                 document.getElementById(`nextBtn-${examIndex}`).textContent = 'Next';
             }
-        }
-
-        // Show final results
-        function showResults(examIndex) {
-            const exam = exams[examIndex];
-            document.getElementById(`questionContainer-${examIndex}`).style.display = 'none';
-            document.getElementById(`resultsContainer-${examIndex}`).style.display = 'block';
-
-            const percentage = Math.round((exam.score / exam.questions.length) * 100);
-            document.getElementById(`finalScore-${examIndex}`).textContent = `${exam.score}/${exam.questions.length} (${percentage}%)`;
-
-            const detailedResults = document.getElementById(`detailedResults-${examIndex}`);
-            detailedResults.innerHTML = '';
-
-            exam.questions.forEach((question, index) => {
-                const userAnswer = exam.userAnswers[index];
-                const isCorrect = userAnswer === question.correct;
-
-                const resultDiv = document.createElement('div');
-                resultDiv.className = `p-3 rounded ${isCorrect ? 'bg-green-100' : 'bg-red-100'}`;
-                resultDiv.innerHTML = `
-                    <strong>Q${index + 1}:</strong> ${question.text}<br>
-                    <strong>Your Answer:</strong> ${userAnswer || 'Not answered'}<br>
-                    <strong>Correct Answer:</strong> ${question.correct}<br>
-                    <span class="${isCorrect ? 'text-green-600' : 'text-red-600'}">${isCorrect ? '✓ Correct' : '✗ Incorrect'}</span>
-                `;
-                detailedResults.appendChild(resultDiv);
-            });
         }
 
         // Restart exam
@@ -744,24 +1002,5 @@
             initializeApp();
         };
     </script>
-    
-    <style>
-        .spinner {
-            width: 50px;
-            height: 50px;
-            border: 5px solid #f3f3f3;
-            border-top: 5px solid #3498db;
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin: 0 auto 20px;
-        }
-        
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-    </style>
 </body>
 </html>
-
-
