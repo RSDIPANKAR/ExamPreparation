@@ -5,35 +5,35 @@ c) Bindusara
 d) Samudragupta
 Answer: b
 Explanation: Chandragupta Maurya (321 BCE) with Chanakya. Ashoka (grandson), Bindusara (son), Samudragupta (Gupta ruler).
-Q2. Harappan Civilization dates? (Rep: 15)
+2. Harappan Civilization dates? (Rep: 15)
 a) 2500–1900 BCE
 b) 1500–1000 BCE
 c) 500 BCE–100 CE
 d) 300–600 CE
 Answer: a
 Explanation: Mature Harappan: 2600–1900 BCE. b=Vedic; c=Mauryan; d=Gupta.
-Q3. Ashoka's edicts language? (Rep: 10)
+3. Ashoka's edicts language? (Rep: 10)
 a) SAnswerkrit
 b) Prakrit
 c) Tamil
 d) Pali
 Answer: b
 Explanation: Prakrit (Brahmi script). Some Greek/Aramaic.
-Q4. 'Arthashastra' author? (Rep: 18)
+4. 'Arthashastra' author? (Rep: 18)
 a) Kalidasa
 b) Kautilya
 c) Panini
 d) Patanjali
 Answer: b
 Explanation: Kautilya (Chanakya) for Chandragupta. a=Poet; c=Grammarian; d=Yoga.
-Q5. Ajanta Caves famous for? (Rep: 9)
+5. Ajanta Caves famous for? (Rep: 9)
 a) Buddhist rock-cut
 b) Jain temples
 c) Hindu sculptures
 d) Mughal paintings
 Answer: a
 Explanation: 2nd BCE–6th CE, Maharashtra.
-Q6. Indus Valley famous for? (Rep: 11)
+6. Indus Valley famous for? (Rep: 11)
 a) Drainage system
 b) Iron tools
 c) Horse worship
@@ -698,3 +698,4 @@ c) 1901
 d) 1951
 Answer: b
 Explanation: Decennial.
+
