@@ -10,14 +10,14 @@ a) 2500–1900 BCE
 b) 1500–1000 BCE
 c) 500 BCE–100 CE
 d) 300–600 CE
-Answer: a
+Answer: a) 2500–1900 BCE
 Explanation: Mature Harappan: 2600–1900 BCE. b=Vedic; c=Mauryan; d=Gupta.
 3. Ashoka's edicts language? (Rep: 10)
 a) SAnswerkrit
 b) Prakrit
 c) Tamil
 d) Pali
-Answer: b
+Answer: b) Prakrit
 Explanation: Prakrit (Brahmi script). Some Greek/Aramaic.
 4. 'Arthashastra' author? (Rep: 18)
 a) Kalidasa
@@ -698,4 +698,5 @@ c) 1901
 d) 1951
 Answer: b
 Explanation: Decennial.
+
 
