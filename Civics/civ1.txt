@@ -1,0 +1,700 @@
+201. Five Year Plans start? (Rep: 10)
+a) 1951
+b) 1947
+c) 1961
+d) 1991
+Answer: a) 1951
+Explanation: First Plan.
+202. Green Revolution? (Rep: 13)
+a) 1960s, Wheat-Rice
+b) 1980s, Cotton
+c) 1990s, Dairy
+d) 2000s, IT
+Answer: a) 1960s, Wheat-Rice
+Explanation: HYV seeds.
+203. NREGA days? (Rep: 11)
+a) 100
+b) 150
+c) 200
+d) 365
+Answer: a) 100
+Explanation: 2005.
+204. White Revolution?
+a) Milk
+b) Egg
+c) Fish
+d) Honey
+Answer: a) Milk
+Explanation: Amul, Verghese Kurien.
+205. Blue Revolution? (Rep: 9)
+a) Fish
+b) Water
+c) Sky
+d) Oil
+Answer: a) Fish
+Explanation: Aquaculture.
+206. Poverty line?
+a) Tendulkar
+b) Lakdawala
+c) Both
+d) None
+Answer: a) Tendulkar
+Explanation: 2011–12.
+207. HDI India rank? (Rep: 7)
+a) 130+
+b) 50
+c) 10
+d) 100
+Answer: a) 130+
+Explanation: UNDP.
+208. Unemployment type?
+a) Structural
+b) Seasonal
+c) Both
+d) None
+Answer: c) Both
+Explanation: India context.
+209. GDP base year?
+a) 2011–12
+b) 2004–05
+c) 1999–2000
+d) 2020–21
+Answer: a) 2011–12
+Explanation: New series.
+210. Fiscal Deficit? (Rep: 8)
+a) Total liability
+b) Revenue
+c) Primary
+d) Monetized
+Answer: a) Total liability
+Explanation: Borrowing.
+211. FRBM Act?
+a) 2003
+b) 1991
+c) 2016
+d) 1951
+Answer: a) 2003
+Explanation: Deficit control.
+212. Demonetisation? (Rep: 10)
+a) 2016
+b) 1978
+c) 1991
+d) 2000
+Answer: a) 2016
+Explanation: 500/1000 notes.
+213. GST?
+a) 2017
+b) 1991
+c) 2000
+d) 2010
+Answer: a) 2017
+Explanation: One nation one tax.
+214. Make in India? (Rep: 6)
+a) 2014
+b) 1991
+c) 2005
+d) 2020
+Answer: a) 2014
+Explanation: Manufacturing.
+215. Digital India?
+a) 2015
+b) 2014
+c) 2016
+d) 2017
+Answer: a) 2015
+Explanation: E-governance.
+216. Startup India? (Rep: 9)
+a) 2016
+b) 2014
+c) 2020
+d) 2010
+Answer: a) 2016
+Explanation: Fund of funds.
+217. MGNREGA renamed?
+a) 2009
+b) 2005
+c) 2011
+d) 2020
+Answer: a) 2009
+Explanation: From NREGA.
+218. PMJDY?
+a) 2014
+b) 2005
+c) 2018
+d) 1990
+Answer: a) 2014
+Explanation: Zero balance.
+219. Ayushman Bharat? (Rep: 8)
+a) 2018
+b) 2014
+c) 2020
+d) 2015
+Answer: a) 2018
+Explanation: Health insurance.
+220. Atmanirbhar Bharat?
+a) 2020
+b) 2014
+c) 2016
+d) 2019
+Answer: a) 2020
+Explanation: COVID package.
+221. SEZ Act?
+a) 2005
+b) 1991
+c) 2000
+d) 2010
+Answer: a) 2005
+Explanation: Export promotion.
+222. WTO India join? (Rep: 7)
+a) 1995
+b) 1948
+c) 1986
+d) 2001
+Answer: a) 1995
+Explanation: GATT successor.
+223. FDI limit?
+a) 100% many sectors
+b) 49%
+c) 26%
+d) 51%
+Answer: a) 100% many sectors
+Explanation: Automatic route.
+224. Inflation target?
+a) 4% RBI
+b) 6%
+c) 2%
+d) 8%
+Answer: a) 4% RBI
+Explanation: 2016 Act.
+225. Currency symbol? (Rep: 10)
+a) 2010
+b) 2000
+c) 1991
+d) 1947
+Answer: a) 2010
+Explanation: Udaya Kumar.
+226. Bloom's highest? (Rep: 14)
+a) Creating
+b) Evaluating
+c) Analyzing
+d) Applying
+Answer: a) Creating
+Explanation: Revised 2001.
+227. Source method? (Rep: 12)
+a) Primary documents
+b) Lecture
+c) Rote
+d) Audio-visual
+Answer: a) Primary documents
+Explanation: Authentic learning.
+228. NCERT Class 6 History? (Rep: 11)
+a) Our Pasts-I
+b) Themes
+c) Ancient
+d) Medieval
+Answer: a) Our Pasts-I
+Explanation: 2019 syllabus.
+229. Constructivism? (Rep: 8)
+a) Student builds knowledge
+b) Teacher centric
+c) Memorize
+d) Exam oriented
+Answer: a) Student builds knowledge
+Explanation: Vygotsky.
+230. NCF 2005 focus? (Rep: 13)
+a) Critical thinking
+b) Rote
+c) Syllabus heavy
+d) Teacher talk
+Answer: a) Critical thinking
+Explanation: Child-centered.
+231. Project Method? (Rep: 10)
+a) Dewey
+b) Froebel
+c) Montessori
+d) Piaget
+Answer: a) Dewey
+Explanation: 1897.
+232. Inquiry method?
+a) Questioning
+b) Lecture
+c) Drill
+d) Copying
+Answer: a) Questioning
+Explanation: Discovery.
+233. Map skill? (Rep: 9)
+a) Spatial thinking
+b) Memory
+c) Drawing
+d) Coloring
+Answer: a) Spatial thinking
+Explanation: Geography.
+234. Timeline teaching?
+a) History sequence
+b) Geography
+c) Civics
+d) Economics
+Answer: a) History sequence
+Explanation: Chronology.
+235. Role play? (Rep: 7)
+a) Empathy building
+b) Facts
+c) Quiz
+d) Test
+Answer: a) Empathy building
+Explanation: Democracy simulation.
+236. Field trip?
+a) Experiential
+b) Classroom
+c) Book
+d) Video
+Answer: a) Experiential
+Explanation: Local sites.
+237. Evaluation formative? (Rep: 11)
+a) Continuous
+b) End term
+c) Annual
+d) Rank
+Answer: a) Continuous
+Explanation: Feedback.
+238. CCE?
+a) 2009
+b) 2015
+c) 2020
+d) 2005
+Answer: a) 2009
+Explanation: No board till 10th.
+239. Inclusive education? (Rep: 10)
+a) Differently abled
+b) Gifted only
+c) Girls
+d) Boys
+Answer: a) Differently abled
+Explanation: RTE.
+240. Gender sensitivity?
+a) Equal treatment
+b) Boys favor
+c) Girls only
+d) Ignore
+Answer: a) Equal treatment
+Explanation: Curriculum.
+241. Environmental education? (Rep: 8)
+a) Integrated in SS
+b) Separate
+c) Optional
+d) None
+Answer: a) Integrated in SS
+Explanation: NCF.
+242. Value education?
+a) Secularism, democracy
+b) Religion
+c) Caste
+d) Wealth
+Answer: a) Secularism, democracy
+Explanation: Constitutional.
+243. Multiple intelligence? (Rep: 9)
+a) Gardner
+b) Bloom
+c) Piaget
+d) Kohlberg
+Answer: a) Gardner
+Explanation: 8 types.
+244. Zone of Proximal Development?
+a) Vygotsky
+b) Skinner
+c) Pavlov
+d) Thorndike
+Answer: a) Vygotsky
+Explanation: Scaffolding.
+245. Motivation theory? (Rep: 7)
+a) Maslow
+b) Freud
+c) Erikson
+d) Bandura
+Answer: a) Maslow
+Explanation: Hierarchy.
+246. Classroom management?
+a) Democratic
+b) Authoritarian
+c) Laissez-faire
+d) All possible
+Answer: d) All possible
+Explanation: Situational.
+247. Active learning? (Rep: 10)
+a) Discussion
+b) Passive listening
+c) Note taking
+d) Homework
+Answer: a) Discussion
+Explanation: Engagement.
+248. ICT in SS?
+a) Google Earth
+b) Textbook
+c) Blackboard
+d) Chart
+Answer: a) Google Earth
+Explanation: Virtual tours.
+249. Assessment rubric?
+a) Descriptive
+b) Marks
+c) Grade
+d) Percent
+Answer: a) Descriptive
+Explanation: Criteria based.
+250. Backward design?
+a) Objectives first
+b) Activities
+c) Assessment
+d) Resources
+Answer: a) Objectives first
+Explanation: UbD.
+251. Cooperative learning? (Rep: 6)
+a) Group work
+b) Individual
+c) Competitive
+d) Teacher led
+Answer: a) Group work
+Explanation: Jigsaw.
+252. Differentiated instruction?
+a) Individual needs
+b) Uniform
+c) Advanced
+d) Slow
+Answer: a) Individual needs
+Explanation: Tomlinson.
+253. Metacognition?
+a) Thinking about thinking
+b) Memory
+c) Recall
+d) Comprehension
+Answer: a) Thinking about thinking
+Explanation: Self-regulation.
+254. Socratic method? (Rep: 8)
+a) Questioning
+b) Lecture
+c) Demonstration
+d) Experiment
+Answer: a) Questioning
+Explanation: Dialogue.
+255. Flipped classroom?
+a) Home video, class discussion
+b) Traditional
+c) Online only
+d) Group
+Answer: a) Home video, class discussion
+Explanation: Bergmann.
+256. Gamification?
+a) Games in learning
+b) Sports
+c) Play
+d) Recreation
+Answer: a) Games in learning
+Explanation: Points, badges.
+257. Mindfulness in class? (Rep: 5)
+a) Stress reduction
+b) Discipline
+c) Focus
+d) All
+Answer: d) All
+Explanation: Kabat-Zinn.
+258. Universal Design Learning?
+a) Flexible
+b) Rigid
+c) One size
+d) Elite
+Answer: a) Flexible
+Explanation: CAST.
+259. Emotional intelligence?
+a) Goleman
+b) IQ
+c) EQ
+d) SQ
+Answer: a) Goleman
+Explanation: Self-awareness.
+260. Growth mindset? (Rep: 9)
+a) Carol Dweck
+b) Fixed
+c) Talent
+d) Innate
+Answer: a) Carol Dweck
+Explanation: Effort.
+261. NEP 2020 SS?
+a) Multidisciplinary
+b) Rote
+c) Exam
+d) Syllabus
+Answer: a) Multidisciplinary
+Explanation: 5+3+3+4.
+262. Samagra Shiksha?
+a) 2018
+b) 2009
+c) 2014
+d) 2020
+Answer: a) 2018
+Explanation: SSA + RMSA.
+263. DIKSHA? (Rep: 7)
+a) Digital platform
+b) Book
+c) App
+d) Both a&c
+Answer: d) Both a&c
+Explanation: Teacher training.
+264. NISHTHA?
+a) 2019
+b) 2015
+c) 2020
+d) 2010
+Answer: a) 2019
+Explanation: Capacity building.
+265. NCERT role? (Rep: 10)
+a) Curriculum framework
+b) Exams
+c) Affiliation
+d) Degrees
+Answer: a) Curriculum framework
+Explanation: Textbooks.
+266. CBSE SS evaluation?
+a) HOTS
+b) MCQ only
+c) Essay
+d) Oral
+Answer: a) HOTS
+Explanation: Competency based.
+267. NABARD?
+a) Rural development
+b) Urban
+c) Industry
+d) Trade
+Answer: a) Rural development
+Explanation: Agriculture finance.
+268. RMSA? (Rep: 6)
+a) Secondary
+b) Primary
+c) Higher
+d) Adult
+Answer: a) Secondary
+Explanation: 2009.
+269. Mid-day meal?
+a) 1995
+b) 2001
+c) 2013
+d) 1980
+Answer: b) 2001
+Explanation: Universal.
+270. Beti Bachao? (Rep: 8)
+a) 2015
+b) 2005
+c) 2020
+d) 2010
+Answer: a) 2015
+Explanation: Haryana.
+271. Swachh Bharat?
+a) 2014
+b) 2000
+c) 2019
+d) 1990
+Answer: a) 2014
+Explanation: Gandhi 150th.
+272. Skill India? (Rep: 9)
+a) 2015
+b) 2014
+c) 2020
+d) 2016
+Answer: a) 2015
+Explanation: Pradhan Mantri.
+273. Teacher eligibility?
+a) TET
+b) NET
+c) SET
+d) All
+Answer: d) All
+Explanation: CTET for central.
+274. Pupil-teacher ratio? (Rep: 11)
+a) 30:1 elementary
+b) 40:1
+c) 20:1
+d) 50:1
+Answer: a) 30:1 elementary
+Explanation: RTE.
+275. No detention policy?
+a) Upto Class 8
+b) 10
+c) 12
+d) None
+Answer: a) Upto Class 8
+Explanation: Amended 2019.
+276. Vocational education?
+a) NEP 50%
+b) 10%
+c) 20%
+d) 100%
+Answer: a) NEP 50%
+Explanation: Class 6+.
+277. Art integrated learning? (Rep: 7)
+a) CBSE 2020
+b) NCERT 2005
+c) NEP
+d) All
+Answer: d) All
+Explanation: Creativity.
+278. Experiential learning?
+a) Kolb
+b) Dewey
+c) Both
+d) None
+Answer: c) Both
+Explanation: Cycle.
+279. Reflective practice? (Rep: 6)
+a) Schon
+b) Dewey
+c) Piaget
+d) Vygotsky
+Answer: a) Schon
+Explanation: Reflection-in-action.
+280. Professional development?
+a) Continuous
+b) One time
+c) Annual
+d) None
+Answer: a) Continuous
+Explanation: In-service.
+281. Mentoring?
+a) Peer support
+b) Training
+c) Evaluation
+d) Punishment
+Answer: a) Peer support
+Explanation: New teachers.
+282. Action research? (Rep: 10)
+a) Classroom problem solving
+b) Theoretical
+c) Survey
+d) Experiment
+Answer: a) Classroom problem solving
+Explanation: Kemmis.
+283. Portfolio assessment?
+a) Collection of work
+b) Single test
+c) Oral
+d) Written
+Answer: a) Collection of work
+Explanation: Progress.
+284. Self-assessment?
+a) Student evaluates
+b) Teacher
+c) Peer
+d) Parent
+Answer: a) Student evaluates
+Explanation: Metacognitive.
+285. Diagnostic test? (Rep: 8)
+a) Identify weaknesses
+b) Rank
+c) Final
+d) Practice
+Answer: a) Identify weaknesses
+Explanation: Remedial.
+286. Talent search?
+a) Gifted children
+b) All
+c) Slow
+d) Average
+Answer: a) Gifted children
+Explanation: NTSE.
+287. Remedial teaching?
+a) Extra help
+b) Punishment
+c) Skip
+d) Ignore
+Answer: a) Extra help
+Explanation: Individual.
+288. Guidance counseling? (Rep: 9)
+a) School counselor
+b) Teacher only
+c) Principal
+d) Parent
+Answer: a) School counselor
+Explanation: Mental health.
+289. Parent-teacher meeting?
+a) Communication
+b) Report
+c) Both
+d) None
+Answer: c) Both
+Explanation: Involvement.
+290. Community engagement?
+a) Local resources
+b) Isolated
+c) Urban only
+d) Rural
+Answer: a) Local resources
+Explanation: SS teaching.
+291. Disaster management in SS? (Rep: 7)
+a) Integrated
+b) Separate
+c) Optional
+d) None
+Answer: a) Integrated
+Explanation: CBSE.
+292. Peace education?
+a) Conflict resolution
+b) War
+c) Competition
+d) Aggression
+Answer: a) Conflict resolution
+Explanation: UNESCO.
+293. Human rights education?
+a) Class 6–12
+b) Higher
+c) Primary
+d) None
+Answer: a) Class 6–12
+Explanation: NCERT.
+294. Consumer rights? (Rep: 6)
+a) Economics chapter
+b) Civics
+c) Both
+d) None
+Answer: c) Both
+Explanation: Class 10.
+295. Democracy simulation?
+a) Mock parliament
+b) Lecture
+c) Book
+d) Video
+Answer: a) Mock parliament
+Explanation: Participation.
+296. Newspaper in class? (Rep: 10)
+a) Current affairs
+b) History
+c) Static
+d) Fiction
+Answer: a) Current affairs
+Explanation: Relevance.
+297. Debate club?
+a) Critical thinking
+b) Memorize
+c) Silent
+d) Copy
+Answer: a) Critical thinking
+Explanation: Oratory.
+298. Survey method?
+a) Data collection
+b) Theory
+c) Guess
+d) Assume
+Answer: a) Data collection
+Explanation: Local issues.
+299. Documentary analysis? (Rep: 8)
+a) Primary source
+b) Secondary
+c) Tertiary
+d) None
+Answer: a) Primary source
+Explanation: Interpretation.
+300. Holistic assessment?
+a) 360 degree
+b) Cognitive only
+c) Affective
+d) Psychomotor
+Answer: a) 360 degree
+Explanation: CBSE, all domains.
