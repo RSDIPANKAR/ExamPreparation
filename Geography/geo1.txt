@@ -1,0 +1,350 @@
+101. Longest river India? (Rep: 17)
+a) Ganga
+b) Brahmaputra
+c) Indus
+d) Godavari
+Answer: a) Ganga
+Explanation: 2525 km in India.
+102. Tropic of Cancer states? (Rep: 11)
+a) 8
+b) 7
+c) 6
+d) 9
+Answer: a) 8
+Explanation: Gujarat, Rajasthan, MP, Chhattisgarh, Jharkhand, WB, Tripura, Mizoram.
+103. Cotton soil? (Rep: 14)
+a) Black
+b) Red
+c) Alluvial
+d) Laterite
+Answer: a) Black
+Explanation: Regur.
+104. Monsoon onset Kerala? (Rep: 12)
+a) 1 June
+b) 15 June
+c) 1 July
+d) 15 July
+Answer: a) 1 June
+Explanation: IMD declaration.
+105. Himalayas formed by? (Rep: 9)
+a) Gondwana
+b) Tethys Sea
+c) Deccan Trap
+d) Peninsular
+Answer: b) Tethys Sea
+Explanation: Plate collision.
+106. Highest peak?
+a) K2
+b) Kanchenjunga
+c) Everest
+d) Nanda Devi
+Answer: c) Everest
+Explanation: World highest.
+107. Thar Desert? (Rep: 8)
+a) Rajasthan
+b) Gujarat
+c) MP
+d) Haryana
+Answer: a) Rajasthan
+Explanation: Arid.
+108. Coromandel Coast?
+a) East
+b) West
+c) North
+d) South
+Answer: a) East
+Explanation: Tamil Nadu.
+109. Sunderbans delta? (Rep: 10)
+a) Ganga-Brahmaputra
+b) Godavari
+c) Mahanadi
+d) Narmada
+Answer: a) Ganga-Brahmaputra
+Explanation: Largest.
+110. Rihand Dam?
+a) UP
+b) Bihar
+c) MP
+d) Maharashtra
+Answer: a) UP
+Explanation: Rihand River.
+111. Hirakud Dam? (Rep: 7)
+a) Odisha
+b) AP
+c) Karnataka
+d) Kerala
+Answer: a) Odisha
+Explanation: Mahanadi.
+112. Tea plantation soil?
+a) Laterite
+b) Alluvial
+c) Black
+d) Red
+Answer: a) Laterite
+Explanation: Acidic.
+113. Rice major state? (Rep: 13)
+a) WB
+b) Punjab
+c) Haryana
+d) UP
+Answer: a) WB
+Explanation: Kharif.
+114. Jute 'Golden Fibre'?
+a) WB
+b) Bihar
+c) Assam
+d) Odisha
+Answer: a) WB
+Explanation: Delta.
+115. Coal major? (Rep: 11)
+a) Jharkhand
+b) Odisha
+c) Chhattisgarh
+d) MP
+Answer: a) Jharkhand
+Explanation: Dhanbad.
+116. Iron ore?
+a) Odisha
+b) Karnataka
+c) Both
+d) None
+Answer: c) Both
+Explanation: Bellary, Sundargarh.
+117. Petroleum? (Rep: 9)
+a) Assam
+b) Gujarat
+c) Mumbai High
+d) All
+Answer: d) All
+Explanation: ONGC.
+118. Konkan Railway?
+a) Maharashtra-Goa-Karnataka
+b) Gujarat
+c) Kerala
+d) AP
+Answer: a) Maharashtra-Goa-Karnataka
+Explanation: 1998.
+119. Golden Quadrilateral? (Rep: 8)
+a) 4 metros
+b) Delhi-Mumbai-Chennai-Kolkata
+c) Both
+d) None
+Answer: c) Both
+Explanation: NHAI.
+120. IST meridian?
+a) 82.5° E
+b) 68° E
+c) 97° E
+d) 77° E
+Answer: a) 82.5° E
+Explanation: Allahabad.
+121. Equator length?
+a) 40000 km
+b) 36000 km
+c) 50000 km
+d) 30000 km
+Answer: a) 40000 km
+Explanation: Circumference.
+122. Ozone hole above? (Rep: 6)
+a) Antarctica
+b) Arctic
+c) Tropics
+d) Equator
+Answer: a) Antarctica
+Explanation: CFC.
+123. Tsunami 2004?
+a) Sumatra
+b) Japan
+c) Chile
+d) Alaska
+Answer: a) Sumatra
+Explanation: 9.1 Richter.
+124. Biodiversity hotspot? (Rep: 10)
+a) Western Ghats
+b) Thar
+c) Gangetic Plain
+d) Deccan
+Answer: a) Western Ghats
+Explanation: Endemic species.
+125. National Park tiger?
+a) Corbett
+b) Kaziranga
+c) Sundarbans
+d) All
+Answer: d) All
+Explanation: Project Tiger.
+126. Silent Valley?
+a) Kerala
+b) Karnataka
+c) TN
+d) AP
+Answer: a) Kerala
+Explanation: Rainforest.
+127. Chipko Movement? (Rep: 7)
+a) 1973, Uttarakhand
+b) 1980, Kerala
+c) 1990, MP
+d) 1960, Rajasthan
+Answer: a) 1973, Uttarakhand
+Explanation: Gaura Devi.
+128. Population density highest? (Rep: 12)
+a) UP
+b) Bihar
+c) WB
+d) Kerala
+Answer: b) Bihar
+Explanation: 1100/sq km.
+129. Sex ratio lowest?
+a) Haryana
+b) Punjab
+c) Rajasthan
+d) UP
+Answer: a) Haryana
+Explanation: 879.
+130. Literacy highest? (Rep: 9)
+a) Kerala
+b) Mizoram
+c) Goa
+d) Lakshadweep
+Answer: a) Kerala
+Explanation: 94%.
+131. Multi-purpose river valley project?
+a) Bhakra Nangal
+b) Indira Gandhi Canal
+c) Both
+d) None
+Answer: a) Bhakra Nangal
+Explanation: Sutlej.
+132. Deccan Trap? (Rep: 8)
+a) Volcanic
+b) Sedimentary
+c) Igneous
+d) Metamorphic
+Answer: a) Volcanic
+Explanation: Basalt.
+133. Peninsular rivers?
+a) Seasonal
+b) Perennial
+c) Both
+d) None
+Answer: a) Seasonal
+Explanation: Rain dependent.
+134. Western Disturbances?
+a) Winter rain NW
+b) Monsoon
+c) Cyclone
+d) Typhoon
+Answer: a) Winter rain NW
+Explanation: Mediterranean.
+135. Mango showers? (Rep: 6)
+a) Kerala
+b) Rajasthan
+c) Punjab
+d) Assam
+Answer: a) Kerala
+Explanation: Pre-monsoon.
+136. Loo winds?
+a) Summer, UP
+b) Winter, Rajasthan
+c) Monsoon, Kerala
+d) Cyclone, Odisha
+Answer: a) Summer, UP
+Explanation: Hot dry.
+137. Kaala Baarish?
+a) Acid rain
+b) Black cotton soil rain
+c) Both
+d) None
+Answer: b) Black cotton soil rain
+Explanation: Maharashtra.
+138. Retreating monsoon? (Rep: 10)
+a) Tamil Nadu
+b) Gujarat
+c) Odisha
+d) Assam
+Answer: a) Tamil Nadu
+Explanation: NE.
+139. Natural vegetation type Deccan?
+a) Tropical Deciduous
+b) Evergreen
+c) Thorn
+d) Mangrove
+Answer: a) Tropical Deciduous
+Explanation: Teak, Sal.
+140. Rubber plantation?
+a) Kerala
+b) Assam
+c) Karnataka
+d) TN
+Answer: a) Kerala
+Explanation: 90%.
+141. Silk worm? (Rep: 7)
+a) Karnataka
+b) UP
+c) Bihar
+d) WB
+Answer: a) Karnataka
+Explanation: Mysore.
+142. Wool?
+a) Rajasthan
+b) J&K
+c) Both
+d) None
+Answer: c) Both
+Explanation: Sheep.
+143. IT hub? (Rep: 11)
+a) Bengaluru
+b) Hyderabad
+c) Chennai
+d) Pune
+Answer: a) Bengaluru
+Explanation: Silicon Valley.
+144. Petrochemical?
+a) Jamnagar
+b) Haldia
+c) Both
+d) None
+Answer: c) Both
+Explanation: Reliance.
+145. Airport international max?
+a) Delhi
+b) Mumbai
+c) Chennai
+d) Kolkata
+Answer: a) Delhi
+Explanation: IGI.
+146. Metro cities? (Rep: 9)
+a) 4
+b) 8
+c) 12
+d) 20
+Answer: a) 4
+Explanation: Delhi, Mumbai, etc.
+147. Smart City Mission?
+a) 100 cities
+b) 50
+c) 200
+d) 20
+Answer: a) 100 cities
+Explanation: 2015.
+148. Ganga cleaning?
+a) Namami Gange
+b) Swachh Bharat
+c) Both
+d) None
+Answer: a) Namami Gange
+Explanation: 2014.
+149. Cyclone naming? (Rep: 6)
+a) SAARC
+b) UN
+c) IMD
+d) WHO
+Answer: a) SAARC
+Explanation: Amphan, etc.
+150. El Nino effect?
+a) Drought India
+b) Flood
+c) Both
+d) None
+Answer: a) Drought India
+Explanation: Weak monsoon.
