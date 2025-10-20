@@ -5,28 +5,336 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Exam System</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
-        .question-card { transition: all 0.3s ease; }
-        .question-card:hover { transform: translateY(-2px); }
-        .option-btn { transition: all 0.2s ease; }
-        .option-btn:hover { background-color: #e5e7eb; }
-        .correct { background-color: #10b981 !important; color: white; }
-        .incorrect { background-color: #ef4444 !important; color: white; }
-        .explanation { display: none; margin-top: 10px; padding: 10px; background-color: #f3f4f6; border-radius: 5px; }
-        .progressBar { width: 0%; transition: width 0.3s ease; }
-        .loading { display: block; }
-        .examContent { display: none; }
-        .tab { cursor: pointer; }
-        .tab.active { background-color: #3b82f6; color: white; }
-        .tab-content { display: none; }
-        .tab-content.active { display: block; }
+        body {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            position: relative;
+            overflow-x: hidden;
+        }
+        
+        body::before {
+            content: "";
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image: url('https://picsum.photos/seed/education/1920/1080.jpg');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.1;
+            z-index: -1;
+        }
+        
+        .question-card { 
+            transition: all 0.3s ease; 
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        
+        .question-card:hover { 
+            transform: translateY(-5px); 
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .option-btn { 
+            transition: all 0.2s ease; 
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .option-btn::before {
+            content: "";
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.5);
+            transform: translate(-50%, -50%);
+            transition: width 0.6s, height 0.6s;
+        }
+        
+        .option-btn:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+        
+        .option-btn:hover { 
+            background-color: #e5e7eb; 
+            transform: translateX(5px);
+        }
+        
+        .correct { 
+            background-color: #10b981 !important; 
+            color: white; 
+            animation: pulse 0.5s;
+        }
+        
+        .incorrect { 
+            background-color: #ef4444 !important; 
+            color: white; 
+            animation: shake 0.5s;
+        }
+        
+        .explanation { 
+            display: none; 
+            margin-top: 10px; 
+            padding: 10px; 
+            background-color: #f3f4f6; 
+            border-radius: 5px; 
+            animation: slideDown 0.3s ease-out;
+        }
+        
+        .progressBar { 
+            width: 0%; 
+            transition: width 0.3s ease; 
+        }
+        
+        .loading { 
+            display: block; 
+        }
+        
+        .examContent { 
+            display: none; 
+        }
+        
+        .tab { 
+            cursor: pointer; 
+            transition: all 0.3s ease;
+            position: relative;
+        }
+        
+        .tab::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 3px;
+            background-color: #3b82f6;
+            transition: width 0.3s ease;
+        }
+        
+        .tab:hover::after {
+            width: 100%;
+        }
+        
+        .tab.active { 
+            background-color: #3b82f6; 
+            color: white; 
+            transform: translateY(-2px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        .tab-content { 
+            display: none; 
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        
+        .tab-content.active { 
+            display: block; 
+        }
+        
+        .header-card {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+        }
+        
+        .content-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+        }
+        
+        .result-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
+        }
+        
+        .floating-shapes {
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+        
+        .shape {
+            position: absolute;
+            opacity: 0.1;
+            animation: float 20s infinite ease-in-out;
+        }
+        
+        .shape:nth-child(1) {
+            width: 80px;
+            height: 80px;
+            left: 10%;
+            background-color: #ff6b6b;
+            border-radius: 50%;
+            animation-duration: 25s;
+            animation-delay: 0s;
+        }
+        
+        .shape:nth-child(2) {
+            width: 120px;
+            height: 120px;
+            left: 70%;
+            background-color: #4ecdc4;
+            border-radius: 50%;
+            animation-duration: 30s;
+            animation-delay: 2s;
+        }
+        
+        .shape:nth-child(3) {
+            width: 100px;
+            height: 100px;
+            left: 40%;
+            background-color: #45b7d1;
+            border-radius: 50%;
+            animation-duration: 35s;
+            animation-delay: 4s;
+        }
+        
+        .shape:nth-child(4) {
+            width: 60px;
+            height: 60px;
+            left: 85%;
+            background-color: #f9ca24;
+            border-radius: 50%;
+            animation-duration: 40s;
+            animation-delay: 0s;
+        }
+        
+        .shape:nth-child(5) {
+            width: 90px;
+            height: 90px;
+            left: 25%;
+            background-color: #6c5ce7;
+            border-radius: 50%;
+            animation-duration: 45s;
+            animation-delay: 3s;
+        }
+        
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0) rotate(0deg);
+            }
+            50% {
+                transform: translateY(-100vh) rotate(360deg);
+            }
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes slideDown {
+            from {
+                max-height: 0;
+                opacity: 0;
+            }
+            to {
+                max-height: 500px;
+                opacity: 1;
+            }
+        }
+        
+        @keyframes pulse {
+            0% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+            100% { transform: scale(1); }
+        }
+        
+        @keyframes shake {
+            0%, 100% { transform: translateX(0); }
+            10%, 30%, 50%, 70%, 90% { transform: translateX(-5px); }
+            20%, 40%, 60%, 80% { transform: translateX(5px); }
+        }
+        
+        .stats-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        
+        .stats-card:hover {
+            transform: translateY(-3px);
+        }
+        
+        .stats-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+        
+        .stats-item:last-child {
+            margin-bottom: 0;
+        }
+        
+        .stats-value {
+            font-weight: bold;
+        }
+        
+        .icon-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        .icon-container i {
+            font-size: 3rem;
+            color: #667eea;
+            margin: 0 10px;
+            animation: bounce 2s infinite;
+        }
+        
+        .icon-container i:nth-child(2) {
+            animation-delay: 0.2s;
+        }
+        
+        .icon-container i:nth-child(3) {
+            animation-delay: 0.4s;
+        }
+        
+        @keyframes bounce {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
+        }
     </style>
 </head>
-<body class="bg-gray-100 min-h-screen p-4">
+<body>
+    <!-- Floating Shapes Background -->
+    <div class="floating-shapes">
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+        <div class="shape"></div>
+    </div>
+
     <div class="max-w-6xl mx-auto">
         <!-- Header -->
-        <div class="bg-white rounded-lg shadow-lg p-6 mb-6">
+        <div class="header-card p-6 mb-6">
             <h1 class="text-3xl font-bold text-center text-gray-800 mb-4">Interactive Exam System</h1>
+            
+            <!-- Icons -->
+            <div class="icon-container">
+                <i class="fas fa-graduation-cap"></i>
+                <i class="fas fa-book"></i>
+                <i class="fas fa-pencil-alt"></i>
+            </div>
             
             <!-- Tabs -->
             <div id="tabsContainer" class="flex flex-wrap justify-center gap-2 mb-4">
@@ -37,7 +345,10 @@
         <!-- Main Content Area -->
         <div id="mainContent">
             <!-- Loading Screen -->
-            <div id="loading" class="loading bg-white rounded-lg shadow-lg p-6 text-center">
+            <div id="loading" class="loading content-card p-6 text-center">
+                <div class="spinner-container">
+                    <div class="spinner"></div>
+                </div>
                 <h1 class="text-3xl font-bold text-gray-800 mb-4">Loading Exam Questions...</h1>
                 <p class="text-gray-600">Please wait while we load your questions from the text files.</p>
             </div>
@@ -57,9 +368,9 @@
     <script>
         // Configuration - Add your text files here
         const examFiles = [
-            { name: 'History', file: 'questions.txt' },
-            { name: 'Science', file: 'science.txt' },
-            { name: 'Geography', file: 'geography.txt' }
+            { name: 'History', file: 'history.txt', icon: 'fa-landmark' },
+            { name: 'Science', file: 'science.txt', icon: 'fa-flask' },
+            { name: 'Geography', file: 'geography.txt', icon: 'fa-globe' }
         ];
 
         let exams = {}; // Store all exam data
@@ -97,8 +408,8 @@
             
             examFiles.forEach((exam, index) => {
                 const tab = document.createElement('button');
-                tab.className = 'tab px-4 py-2 rounded-lg bg-gray-200 hover:bg-gray-300';
-                tab.textContent = exam.name;
+                tab.className = 'tab px-4 py-2 rounded-lg bg-gray-200 hover:bg-gray-300 flex items-center';
+                tab.innerHTML = `<i class="fas ${exam.icon} mr-2"></i> ${exam.name}`;
                 tab.onclick = () => activateTab(index);
                 tab.id = `tab-${index}`;
                 tabsContainer.appendChild(tab);
@@ -122,6 +433,7 @@
                     if (questions.length > 0) {
                         exams[i] = {
                             name: examFile.name,
+                            icon: examFile.icon,
                             questions: questions,
                             currentQuestionIndex: 0,
                             score: 0,
@@ -191,8 +503,24 @@
             tabContent.id = `tab-content-${examIndex}`;
             
             tabContent.innerHTML = `
+                <!-- Stats Card -->
+                <div class="stats-card">
+                    <div class="stats-item">
+                        <span><i class="fas fa-question-circle mr-2"></i>Total Questions:</span>
+                        <span class="stats-value">${exams[examIndex].questions.length}</span>
+                    </div>
+                    <div class="stats-item">
+                        <span><i class="fas fa-clock mr-2"></i>Time Limit:</span>
+                        <span class="stats-value">No Limit</span>
+                    </div>
+                    <div class="stats-item">
+                        <span><i class="fas fa-trophy mr-2"></i>Passing Score:</span>
+                        <span class="stats-value">70%</span>
+                    </div>
+                </div>
+                
                 <!-- Exam Content -->
-                <div class="examContent bg-white rounded-lg shadow-lg p-6 mb-6">
+                <div class="examContent content-card p-6 mb-6">
                     <!-- Progress Bar -->
                     <div class="w-full bg-gray-200 rounded-full h-2 mb-4">
                         <div id="progressBar-${examIndex}" class="progressBar bg-blue-600 h-2 rounded-full"></div>
@@ -206,7 +534,7 @@
                 </div>
 
                 <!-- Question Display Area -->
-                <div id="questionContainer-${examIndex}" class="bg-white rounded-lg shadow-lg p-6 mb-6">
+                <div id="questionContainer-${examIndex}" class="content-card p-6 mb-6">
                     <div class="question-card">
                         <h2 id="questionText-${examIndex}" class="text-xl font-semibold mb-4"></h2>
                         <div id="optionsContainer-${examIndex}" class="space-y-3"></div>
@@ -219,7 +547,7 @@
                 </div>
 
                 <!-- Results Section -->
-                <div id="resultsContainer-${examIndex}" class="bg-white rounded-lg shadow-lg p-6" style="display: none;">
+                <div id="resultsContainer-${examIndex}" class="result-card p-6" style="display: none;">
                     <h2 class="text-2xl font-bold text-center mb-4">Exam Results</h2>
                     <div id="finalScore-${examIndex}" class="text-center text-3xl font-bold mb-4"></div>
                     <div id="detailedResults-${examIndex}" class="space-y-2"></div>
@@ -416,5 +744,22 @@
             initializeApp();
         };
     </script>
+    
+    <style>
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 5px solid #f3f3f3;
+            border-top: 5px solid #3498db;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+        
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
 </body>
 </html>
