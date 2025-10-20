@@ -1,9 +1,9 @@
-Q1. Who founded the Maurya Empire? (Rep: 12)
+1. Who founded the Maurya Empire? (Rep: 12)
 a) Ashoka
 b) Chandragupta Maurya
 c) Bindusara
 d) Samudragupta
-Answer: b
+Answer: b) Chandragupta Maurya
 Explanation: Chandragupta Maurya (321 BCE) with Chanakya. Ashoka (grandson), Bindusara (son), Samudragupta (Gupta ruler).
 2. Harappan Civilization dates? (Rep: 15)
 a) 2500–1900 BCE
@@ -13,7 +13,7 @@ d) 300–600 CE
 Answer: a) 2500–1900 BCE
 Explanation: Mature Harappan: 2600–1900 BCE. b=Vedic; c=Mauryan; d=Gupta.
 3. Ashoka's edicts language? (Rep: 10)
-a) SAnswerkrit
+a) Sanskrit
 b) Prakrit
 c) Tamil
 d) Pali
@@ -24,679 +24,677 @@ a) Kalidasa
 b) Kautilya
 c) Panini
 d) Patanjali
-Answer: b
+Answer: b) Kautilya
 Explanation: Kautilya (Chanakya) for Chandragupta. a=Poet; c=Grammarian; d=Yoga.
 5. Ajanta Caves famous for? (Rep: 9)
 a) Buddhist rock-cut
 b) Jain temples
 c) Hindu sculptures
 d) Mughal paintings
-Answer: a
+Answer: a) Buddhist rock-cut
 Explanation: 2nd BCE–6th CE, Maharashtra.
 6. Indus Valley famous for? (Rep: 11)
 a) Drainage system
 b) Iron tools
 c) Horse worship
 d) Varna system
-Answer: a
+Answer: a) Drainage system
 Explanation: Planned cities, Mohenjo-Daro.
-Q7. Rig Veda composer?
+7. Rig Veda composer?
 a) Vishwamitra
 b) Valmiki
 c) Vyasa
 d) Tulsidas
-Answer: c
+Answer: c) Vyasa
 Explanation: Vyasa compiled Vedas.
-Q8. Buddha attained Nirvana at? (Rep: 8)
+8. Buddha attained Nirvana at? (Rep: 8)
 a) Bodh Gaya
 b) Sarnath
 c) Kushinagar
 d) Lumbini
-Answer: a
+Answer: a) Bodh Gaya
 Explanation: Under Bodhi tree.
-Q9. Mahavira founder of? (Rep: 7)
+9. Mahavira founder of? (Rep: 7)
 a) Buddhism
 b) Jainism
 c) Ajivika
 d) Charvaka
-Answer: b
+Answer: b) Jainism
 Explanation: 24th Tirthankara.
-Q10. Kalinga War year? (Rep: 13)
+10. Kalinga War year? (Rep: 13)
 a) 261 BCE
 b) 321 BCE
 c) 185 BCE
 d) 78 CE
-Answer: a
+Answer: a) 261 BCE
 Explanation: Led to Ashoka's Dhamma.
-Q11. Gupta Empire 'Golden Age' ruler? (Rep: 10)
+11. Gupta Empire 'Golden Age' ruler? (Rep: 10)
 a) Chandragupta I
 b) Samudragupta
 c) Chandragupta II
 d) Skandagupta
-Answer: c
+Answer: c) Chandragupta II
 Explanation: Vikramaditya; Kalidasa era.
-Q12. Nalanda University founded by?
+12. Nalanda University founded by?
 a) Kumaragupta I
 b) Ashoka
 c) Harsha
 d) Dharmapala
-Answer: a
+Answer: a) Kumaragupta I
 Explanation: 5th CE.
-Q13. Chola bronze sculptures famous for? (Rep: 6)
+13. Chola bronze sculptures famous for? (Rep: 6)
 a) Nataraja
 b) Buddha
 c) Vishnu
 d) Shiva lingam
-Answer: a
+Answer: a) Nataraja
 Explanation: Lost-wax technique.
-Q14. Al-Biruni visited India during? (Rep: 9)
+14. Al-Biruni visited India during? (Rep: 9)
 a) Akbar
 b) Mahmud Ghazni
 c) Aurangzeb
 d) Shah Jahan
-Answer: b
+Answer: b) Mahmud Ghazni
 Explanation: 11th CE.
-Q15. Bhakti Movement leader Ramananda disciple?
+15. Bhakti Movement leader Ramananda disciple?
 a) Kabir
 b) Tukaram
 c) Chaitanya
 d) Mirabai
-Answer: a
+Answer: a) Kabir
 Explanation: Nirguna Bhakti.
-Q16. Vijayanagara founded by? (Rep: 8)
+16. Vijayanagara founded by? (Rep: 8)
 a) Harihara-Bukka
 b) Krishnadevaraya
 c) Devaraya
 d) Saluva
-Answer: a
+Answer: a) Harihara-Bukka
 Explanation: 1336 CE.
-Q17. Battle of Talikota? (Rep: 7)
+17. Battle of Talikota? (Rep: 7)
 a) 1565
 b) 1526
 c) 1761
 d) 1192
-Answer: a
+Answer: a) 1565
 Explanation: End of Vijayanagara.
-Q18. Mughal founder? (Rep: 14)
+18. Mughal founder? (Rep: 14)
 a) Babur
 b) Humayun
 c) Akbar
 d) Jahangir
-Answer: a
+Answer: a) Babur
 Explanation: 1526, Panipat.
-Q19. Din-i-Ilahi by? (Rep: 11)
+19. Din-i-Ilahi by? (Rep: 11)
 a) Akbar
 b) Aurangzeb
 c) Shah Jahan
 d) Bahadur Shah
-Answer: a
+Answer: a) Akbar
 Explanation: 1582, syncretic faith.
-Q20. Taj Mahal built by? (Rep: 15)
+20. Taj Mahal built by? (Rep: 15)
 a) Akbar
 b) Shah Jahan
 c) Aurangzeb
 d) Jahangir
-Answer: b
+Answer: b) Shah Jahan
 Explanation: For Mumtaz, 1632–53.
-Q21. Sikh Guru who compiled Adi Granth?
+21. Sikh Guru who compiled Adi Granth?
 a) Guru Arjan
 b) Guru Nanak
 c) Guru Tegh Bahadur
 d) Guru Gobind Singh
-Answer: a
+Answer: a) Guru Arjan
 Explanation: 1604.
-Q22. Maratha Empire founder? (Rep: 6)
+22. Maratha Empire founder? (Rep: 6)
 a) Shivaji
 b) Sambhaji
 c) Peshwa Bajirao
 d) Baji Rao II
-Answer: a
+Answer: a) Shivaji
 Explanation: 1674, Raigad.
-Q23. Battle of Plassey? (Rep: 12)
+23. Battle of Plassey? (Rep: 12)
 a) 1757
 b) 1857
 c) 1764
 d) 1526
-Answer: a
+Answer: a) 1757
 Explanation: Clive vs Siraj.
-Q24. First Anglo-Mysore War?
+24. First Anglo-Mysore War?
 a) 1767–69
 b) 1780–84
 c) 1799
 d) 1803
-Answer: a
+Answer: a) 1767–69
 Explanation: Hyder Ali.
-Q25. Subsidiary Alliance by? (Rep: 10)
+25. Subsidiary Alliance by? (Rep: 10)
 a) Wellesley
 b) Dalhousie
 c) Cornwallis
 d) Hastings
-Answer: a
+Answer: a) Wellesley
 Explanation: 1798.
-Q26. 1857 Revolt leader in Kanpur?
+26. 1857 Revolt leader in Kanpur?
 a) Nana Saheb
 b) Rani Lakshmibai
 c) Tantia Tope
 d) Bahadur Shah
-Answer: a
+Answer: a) Nana Saheb
 Explanation: Adopted son of Peshwa.
-Q27. INC founded? (Rep: 16)
+27. INC founded? (Rep: 16)
 a) 1885
 b) 1905
 c) 1919
 d) 1942
-Answer: a
+Answer: a) 1885
 Explanation: A.O. Hume, Bombay.
-Q28. Partition of Bengal? (Rep: 9)
+28. Partition of Bengal? (Rep: 9)
 a) 1905
 b) 1911
 c) 1947
 d) 1935
-Answer: a
+Answer: a) 1905
 Explanation: Curzon; annulled 1911.
-Q29. 'Swaraj is my birthright' by? (Rep: 13)
+29. 'Swaraj is my birthright' by? (Rep: 13)
 a) Tilak
 b) Gandhi
 c) Nehru
 d) Bose
-Answer: a
+Answer: a) Tilak
 Explanation: Bal Gangadhar Tilak.
-Q30. Non-Cooperation Movement? (Rep: 11)
+30. Non-Cooperation Movement? (Rep: 11)
 a) 1920
 b) 1930
 c) 1942
 d) 1919
-Answer: a
+Answer: a) 1920
 Explanation: Khilafat + Rowlatt.
-Q31. Simon Commission boycotted because?
+31. Simon Commission boycotted because?
 a) All British
-b) IndiAnswer excluded
+b) Indians excluded
 c) Economic focus
 d) Military
-Answer: b
+Answer: b) Indians excluded
 Explanation: 1928.
-Q32. Dandi March? (Rep: 14)
+32. Dandi March? (Rep: 14)
 a) 1930
 b) 1920
 c) 1942
 d) 1947
-Answer: a
+Answer: a) 1930
 Explanation: Salt Satyagraha.
-Q33. 'Do or Die' slogan? (Rep: 10)
+33. 'Do or Die' slogan? (Rep: 10)
 a) Gandhi
 b) Nehru
 c) Bose
 d) Patel
-Answer: a
+Answer: a) Gandhi
 Explanation: Quit India 1942.
-Q34. INA founded by? (Rep: 8)
+34. INA founded by? (Rep: 8)
 a) Rash Behari Bose
 b) Subhas Bose
 c) Mohan Singh
 d) Gandhi
-Answer: a
+Answer: a) Rash Behari Bose
 Explanation: 1942; Subhas 1943.
-Q35. Cabinet Mission?
+35. Cabinet Mission?
 a) 1946
 b) 1942
 c) 1935
 d) 1947
-Answer: a
-Explanation: Plan for trAnswerfer.
-Q36. Mountbatten Plan? (Rep: 7)
+Answer: a) 1946
+Explanation: Plan for transfer.
+36. Mountbatten Plan? (Rep: 7)
 a) 1947
 b) 1946
 c) 1950
 d) 1930
-Answer: a
+Answer: a) 1947
 Explanation: Partition.
-Q37. First Governor-General? (Rep: 12)
+37. First Governor-General? (Rep: 12)
 a) Warren Hastings
 b) Lord Canning
 c) Dalhousie
 d) Cornwallis
-Answer: a
+Answer: a) Warren Hastings
 Explanation: 1773.
-Q38. First Viceroy? (Rep: 9)
+38. First Viceroy? (Rep: 9)
 a) Lord Canning
 b) Dalhousie
 c) Curzon
 d) Mountbatten
-Answer: a
+Answer: a) Lord Canning
 Explanation: 1858.
-Q39. Vernacular Press Act?
+39. Vernacular Press Act?
 a) 1878
 b) 1857
 c) 1908
 d) 1919
-Answer: a
+Answer: a) 1878
 Explanation: Lytton.
-Q40. Ilbert Bill controversy? (Rep: 6)
+40. Ilbert Bill controversy? (Rep: 6)
 a) 1883
 b) 1878
 c) 1905
 d) 1919
-Answer: a
+Answer: a) 1883
 Explanation: Racial discrimination.
-Q41. Veda Vyasa authored?
+41. Veda Vyasa authored?
 a) Mahabharata
 b) Ramayana
 c) Bhagavad Gita
 d) Both a & c
-Answer: d
+Answer: d) Both a & c
 Explanation: Compiler of Vedas too.
-Q42. Sangam literature language? (Rep: 5)
+42. Sangam literature language? (Rep: 5)
 a) Tamil
-b) SAnswerkrit
+b) Sanskrit
 c) Prakrit
 d) Pali
-Answer: a
+Answer: a) Tamil
 Explanation: South India, 300 BCE–300 CE.
-Q43. Pallavas famous for?
+43. Pallavas famous for?
 a) Shore Temple
 b) Brihadeeswara
 c) Kailasa
 d) Elephanta
-Answer: a
+Answer: a) Shore Temple
 Explanation: Mahabalipuram.
-Q44. Rashtrakutas rock-cut?
+44. Rashtrakutas rock-cut?
 a) Kailasa Temple
 b) Elephanta
 c) Badami
 d) Aihole
-Answer: a
+Answer: a) Kailasa Temple
 Explanation: Ellora.
-Q45. Arab invasion of Sindh? (Rep: 6)
+45. Arab invasion of Sindh? (Rep: 6)
 a) 712 CE
 b) 1001 CE
 c) 1192 CE
 d) 1526 CE
-Answer: a
+Answer: a) 712 CE
 Explanation: Muhammad bin Qasim.
-Q46. Delhi Sultanate first dynasty? (Rep: 7)
+46. Delhi Sultanate first dynasty? (Rep: 7)
 a) Slave
 b) Khilji
 c) Tughlaq
 d) Lodi
-Answer: a
+Answer: a) Slave
 Explanation: Qutbuddin Aibak.
-Q47. Alauddin Khilji market controls? (Rep: 8)
+47. Alauddin Khilji market controls? (Rep: 8)
 a) Price fixation
 b) Land revenue
 c) Iqta system
-d) MAnswerabdari
-Answer: a
+d) Mansabdari
+Answer: a) Price fixation
 Explanation: To curb inflation.
-Q48. Amir Khusrau contemporary of?
+48. Amir Khusrau contemporary of?
 a) Alauddin
 b) Firoz Shah
 c) Muhammad bin Tughlaq
 d) Balban
-Answer: a
+Answer: a) Alauddin
 Explanation: Poet-musician.
-Q49. Timur invaded?
+49. Timur invaded?
 a) 1398
 b) 1526
 c) 1192
 d) 1761
-Answer: a
+Answer: a) 1398
 Explanation: Delhi sacked.
-Q50. Sayyid Dynasty founder?
+50. Sayyid Dynasty founder?
 a) Khizr Khan
 b) Mubarak Shah
 c) Muhammad Shah
 d) Alam Shah
-Answer: a
+Answer: a) Khizr Khan
 Explanation: 1414.
-Q51. Lodi Dynasty last ruler? (Rep: 5)
+51. Lodi Dynasty last ruler? (Rep: 5)
 a) Sikandar Lodi
 b) Bahlol Lodi
 c) Ibrahim Lodi
 d) Daulat Khan
-Answer: c
+Answer: c) Ibrahim Lodi
 Explanation: Defeated at Panipat 1526.
-Q52. Babur's memoir? (Rep: 9)
+52. Babur's memoir? (Rep: 9)
 a) Baburnama
 b) Akbarnama
 c) Tuzuk-i-Jahangiri
 d) Alamgirnama
-Answer: a
+Answer: a) Baburnama
 Explanation: Turkish.
-Q53. Akbar's revenue system? (Rep: 10)
+53. Akbar's revenue system? (Rep: 10)
 a) Zabt
 b) Jagir
-c) MAnswerabdari
+c) Mansabdari
 d) Iqta
-Answer: a
+Answer: a) Zabt
 Explanation: Todar Mal.
-Q54. Fatehpur Sikri built by? (Rep: 11)
+54. Fatehpur Sikri built by? (Rep: 11)
 a) Akbar
 b) Jahangir
 c) Shah Jahan
 d) Aurangzeb
-Answer: a
+Answer: a) Akbar
 Explanation: 1571.
-Q55. Sikhism military form by?
+55. Sikhism military form by?
 a) Guru Gobind Singh
 b) Guru Hargobind
 c) Guru Tegh Bahadur
 d) Guru Arjan
-Answer: a
+Answer: a) Guru Gobind Singh
 Explanation: Khalsa 1699.
-Q56. Third Battle of Panipat? (Rep: 7)
+56. Third Battle of Panipat? (Rep: 7)
 a) 1761
 b) 1526
 c) 1556
 d) 1741
-Answer: a
+Answer: a) 1761
 Explanation: Ahmad Shah vs Marathas.
-Q57. Permanent Settlement by? (Rep: 12)
+57. Permanent Settlement by? (Rep: 12)
 a) Cornwallis
 b) Wellesley
 c) Dalhousie
 d) Bentinck
-Answer: a
+Answer: a) Cornwallis
 Explanation: 1793, Bengal.
-Q58. Doctrine of Lapse by? (Rep: 13)
+58. Doctrine of Lapse by? (Rep: 13)
 a) Dalhousie
 b) Wellesley
 c) Canning
 d) Ripon
-Answer: a
+Answer: a) Dalhousie
 Explanation: 1848–56.
-Q59. Ryotwari System?
+59. Ryotwari System?
 a) Madras
 b) Bengal
 c) Punjab
 d) Oudh
-Answer: a
+Answer: a) Madras
 Explanation: Direct with peasants.
-Q60. First War of Independence? (Rep: 14)
+60. First War of Independence? (Rep: 14)
 a) 1857
 b) 1764
 c) 1757
 d) 1526
-Answer: a
+Answer: a) 1857
 Explanation: Sepoy Mutiny.
-Q61. Rani Lakshmibai fought at?
-a) JhAnsweri
+61. Rani Lakshmibai fought at?
+a) Jhansi
 b) Kanpur
 c) Lucknow
 d) Delhi
-Answer: a
+Answer: a) Jhansi
 Explanation: Gwalior too.
-Q62. V.D. Savarkar book?
+62. V.D. Savarkar book?
 a) Indian War of Independence
 b) Hind Swaraj
 c) Discovery of India
-d) My Explanationeriments
-Answer: a
+d) My Experiments
+Answer: a) Indian War of Independence
 Explanation: On 1857.
-Q63. Moderate leader? (Rep: 6)
+63. Moderate leader? (Rep: 6)
 a) Gokhale
 b) Lala Lajpat Rai
 c) Bipin Chandra Pal
 d) Aurobindo
-Answer: a
+Answer: a) Gokhale
 Explanation: Petition politics.
-Q64. Extremist trio?
+64. Extremist trio?
 a) Lal-Bal-Pal
 b) Gandhi-Nehru-Patel
 c) Bose-Azad-Bhagat
 d) Tilak-Gokhale-Ranade
-Answer: a
+Answer: a) Lal-Bal-Pal
 Explanation: Lajpat, Bal, Pal.
-Q65. Lucknow Pact? (Rep: 8)
+65. Lucknow Pact? (Rep: 8)
 a) 1916
 b) 1906
 c) 1928
 d) 1930
-Answer: a
+Answer: a) 1916
 Explanation: INC-Muslim League.
-Q66. Rowlatt Act? (Rep: 9)
+66. Rowlatt Act? (Rep: 9)
 a) 1919
 b) 1909
 c) 1935
 d) 1947
-Answer: a
+Answer: a) 1919
 Explanation: Jallianwala trigger.
-Q67. Jallianwala Bagh? (Rep: 10)
+67. Jallianwala Bagh? (Rep: 10)
 a) 1919
 b) 1921
 c) 1930
 d) 1942
-Answer: a
+Answer: a) 1919
 Explanation: Dyer.
-Q68. Khilafat Movement leader?
+68. Khilafat Movement leader?
 a) Ali Brothers
 b) Gandhi
 c) Nehru
 d) Jinnah
-Answer: a
+Answer: a) Ali Brothers
 Explanation: Maulana Muhammad, Shaukat.
-Q69. Chauri Chaura? (Rep: 7)
+69. Chauri Chaura? (Rep: 7)
 a) 1922
 b) 1930
 c) 1942
 d) 1919
-Answer: a
+Answer: a) 1922
 Explanation: End of Non-Coop.
-Q70. Bardoli Satyagraha?
+70. Bardoli Satyagraha?
 a) 1928
 b) 1930
 c) 1942
 d) 1919
-Answer: a
+Answer: a) 1928
 Explanation: Sardar Patel.
-Q71. Round Table Conferences?
+71. Round Table Conferences?
 a) 1930–32
 b) 1928
 c) 1942
 d) 1946
-Answer: a
+Answer: a) 1930–32
 Explanation: London.
-Q72. Poona Pact? (Rep: 11)
+72. Poona Pact? (Rep: 11)
 a) 1932
 b) 1916
 c) 1942
 d) 1909
-Answer: a
+Answer: a) 1932
 Explanation: Ambedkar-Gandhi.
-Q73. 1935 Act feature? (Rep: 6)
+73. 1935 Act feature? (Rep: 6)
 a) Provincial Autonomy
 b) Dominion Status
 c) Federation
 d) All
-Answer: d
+Answer: d) All
 Explanation: Govt of India Act.
-Q74. August Offer?
+74. August Offer?
 a) 1940
 b) 1942
 c) 1945
 d) 1939
-Answer: a
+Answer: a) 1940
 Explanation: Linlithgow.
-Q75. Cripps Mission? (Rep: 8)
+75. Cripps Mission? (Rep: 8)
 a) 1942
 b) 1940
 c) 1946
 d) 1939
-Answer: a
+Answer: a) 1942
 Explanation: Rejected.
-Q76. Quit India Resolution? (Rep: 12)
+76. Quit India Resolution? (Rep: 12)
 a) 1942
 b) 1930
 c) 1920
 d) 1947
-Answer: a
+Answer: a) 1942
 Explanation: Bombay session.
-Q77. Indian National Army trials?
+77. Indian National Army trials?
 a) Red Fort
 b) Cellular Jail
 c) Ahmednagar Fort
 d) Lahore Fort
-Answer: a
+Answer: a) Red Fort
 Explanation: 1945–46.
-Q78. Wavell Plan?
+78. Wavell Plan?
 a) 1945
 b) 1942
 c) 1946
 d) 1947
-Answer: a
+Answer: a) 1945
 Explanation: Simla Conference.
-Q79. Direct Action Day? (Rep: 9)
+79. Direct Action Day? (Rep: 9)
 a) 1946
 b) 1942
 c) 1930
 d) 1920
-Answer: a
+Answer: a) 1946
 Explanation: Calcutta riots.
-Q80. Indian Independence Act?
+80. Indian Independence Act?
 a) 1947
 b) 1946
 c) 1935
 d) 1919
-Answer: a
+Answer: a) 1947
 Explanation: 15 Aug.
-Q81. First President? (Rep: 5)
+81. First President? (Rep: 5)
 a) Rajendra Prasad
 b) Radhakrishnan
 c) Nehru
 d) Patel
-Answer: a
+Answer: a) Rajendra Prasad
 Explanation: 1950.
-Q82. Harappan script?
+82. Harappan script?
 a) Undeciphered
 b) Brahmi
 c) Kharosthi
 d) Devanagari
-Answer: a
+Answer: a) Undeciphered
 Explanation: Pictographic.
-Q83. Ashoka's capital? (Rep: 6)
+83. Ashoka's capital? (Rep: 6)
 a) Pataliputra
 b) Taxila
 c) Ujjain
 d) Kalinga
-Answer: a
+Answer: a) Pataliputra
 Explanation: Modern Patna.
-Q84. Zero inventor?
+84. Zero inventor?
 a) Aryabhata
 b) Brahmagupta
 c) Bhaskara
 d) Varahamihira
-Answer: b
+Answer: b) Brahmagupta
 Explanation: 7th CE.
-Q85. Hiuen Tsang visited?
+85. Hiuen Tsang visited?
 a) Harsha
 b) Ashoka
 c) Chandragupta
 d) Kanishka
-Answer: a
+Answer: a) Harsha
 Explanation: 7th CE.
-Q86. Arab traveller Sulaiman?
+86. Arab traveller Sulaiman?
 a) 9th CE
 b) 7th CE
 c) 11th CE
 d) 13th CE
-Answer: a
+Answer: a) 9th CE
 Explanation: Cholas.
-Q87. Ibn Battuta during? (Rep: 7)
+87. Ibn Battuta during? (Rep: 7)
 a) Muhammad bin Tughlaq
 b) Firoz Shah
 c) Alauddin
 d) Balban
-Answer: a
+Answer: a) Muhammad bin Tughlaq
 Explanation: 1333–42.
-Q88. Guru Nanak born?
+88. Guru Nanak born?
 a) 1469
 b) 1639
 c) 1553
 d) 1666
-Answer: a
+Answer: a) 1469
 Explanation: Talwandi.
-Q89. English East India Company? (Rep: 10)
+89. English East India Company? (Rep: 10)
 a) 1600
 b) 1498
 c) 1757
 d) 1858
-Answer: a
+Answer: a) 1600
 Explanation: Queen Elizabeth.
-Q90. Black Hole Tragedy?
+90. Black Hole Tragedy?
 a) 1756
 b) 1757
 c) 1764
 d) 1857
-Answer: a
+Answer: a) 1756
 Explanation: Siraj vs Calcutta.
-Q91. Treaty of Allahabad?
+91. Treaty of Allahabad?
 a) 1765
 b) 1757
 c) 1780
 d) 1793
-Answer: a
+Answer: a) 1765
 Explanation: Shuja-ud-Daulah.
-Q92. Regulating Act? (Rep: 8)
+92. Regulating Act? (Rep: 8)
 a) 1773
 b) 1784
 c) 1793
 d) 1813
-Answer: a
+Answer: a) 1773
 Explanation: First control.
-Q93. Pitt's India Act?
+93. Pitt's India Act?
 a) 1784
 b) 1773
 c) 1793
 d) 1813
-Answer: a
+Answer: a) 1784
 Explanation: Board of Control.
-Q94. Charter Act 1813? (Rep: 6)
+94. Charter Act 1813? (Rep: 6)
 a) Missionaries allowed
 b) Trade monopoly ended
 c) Both
 d) None
-Answer: c
+Answer: c) Both
 Explanation: Education funds too.
-Q95. Education Despatch?
+95. Education Despatch?
 a) 1854
 b) 1835
 c) 1904
 d) 1913
-Answer: a
+Answer: a) 1854
 Explanation: Wood's.
-Q96. Revolt of 1857 cause? (Rep: 9)
+96. Revolt of 1857 cause? (Rep: 9)
 a) Greased cartridges
 b) Annexation
 c) Both
 d) Economic
-Answer: c
+Answer: c) Both
 Explanation: Multiple.
-Q97. Mangal Pandey?
+97. Mangal Pandey?
 a) Barrackpore
 b) Meerut
 c) Delhi
 d) Kanpur
-Answer: a
+Answer: a) Barrackpore
 Explanation: 29 March 1857.
-Q98. Bahadur Shah II? (Rep: 5)
+98. Bahadur Shah II? (Rep: 5)
 a) Last Mughal
 b) Peshwa
-c) Raja of JhAnsweri
+c) Raja of Jhansi
 d) Begum of Awadh
-Answer: a
+Answer: a) Last Mughal
 Explanation: Nominal leader.
-Q99. After 1857, army changes?
-a) More EuropeAnswer
-b) Artillery IndiAnswer banned
+99. After 1857, army changes?
+a) More Europeans
+b) Artillery Indians banned
 c) Both
 d) None
-Answer: c
+Answer: c) Both
 Explanation: Racial.
-Q100. First Census India?
+100. First Census India?
 a) 1872
 b) 1881
 c) 1901
 d) 1951
-Answer: b
+Answer: b) 1881
 Explanation: Decennial.
-
-
