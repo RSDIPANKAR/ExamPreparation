@@ -1,0 +1,350 @@
+151. Preamble starts with? (Rep: 16)
+a) We the people
+b) Sovereign
+c) Justice
+d) Fraternity
+Answer: a) We the people
+Explanation: Source of authority.
+152. Head of State? (Rep: 9)
+a) President
+b) PM
+c) CJI
+d) VP
+Answer: a) President
+Explanation: Article 52.
+153. Fundamental Rights? (Rep: 14)
+a) Part III
+b) Part IV
+c) Part V
+d) Part VI
+Answer: a) Part III
+Explanation: Art 12–35.
+154. Panchayati Raj Amendment? (Rep: 12)
+a) 73rd
+b) 74th
+c) 42nd
+d) 86th
+Answer: a) 73rd
+Explanation: 1992.
+155. Secularism in Preamble? (Rep: 10)
+a) 42nd Amendment
+b) Original
+c) 44th
+d) 1st
+Answer: a) 42nd Amendment
+Explanation: 1976.
+156. Emergency types?
+a) 3
+b) 2
+c) 1
+d) 4
+Answer: a) 3
+Explanation: National, State, Financial.
+157. Article 370?
+a) J&K special
+b) Citizenship
+c) Equality
+d) Freedom
+Answer: a) J&K special
+Explanation: Abrogated 2019.
+158. Directive Principles? (Rep: 11)
+a) Part IV
+b) Part III
+c) Part IVA
+d) Part V
+Answer: a) Part IV
+Explanation: Non-justiciable.
+159. Right to Property?
+a) Legal right
+b) Fundamental
+c) Constitutional
+d) None
+Answer: a) Legal right
+Explanation: Art 300A.
+160. 5th Schedule? (Rep: 8)
+a) Tribal areas
+b) SC/ST
+c) Minorities
+d) Women
+Answer: a) Tribal areas
+Explanation: Administration.
+161. Governor appointment?
+a) President
+b) PM
+c) CM
+d) Council
+Answer: a) President
+Explanation: Art 155.
+162. High Court? (Rep: 7)
+a) State
+b) Union
+c) Both
+d) None
+Answer: a) State
+Explanation: Art 214.
+163. Lok Sabha strength? (Rep: 13)
+a) 543
+b) 250
+c) 545
+d) 552
+Answer: a) 543
+Explanation: Elected + 2 Anglo.
+164. Rajya Sabha?
+a) 245
+b) 250
+c) 238
+d) 233
+Answer: a) 245
+Explanation: 233 elected + 12 nominated.
+165. Speaker? (Rep: 9)
+a) Lok Sabha
+b) Rajya Sabha
+c) Joint
+d) President
+Answer: a) Lok Sabha
+Explanation: Elected.
+166. Money Bill?
+a) Lok Sabha only
+b) Rajya Sabha
+c) Both
+d) President
+Answer: a) Lok Sabha only
+Explanation: Art 110.
+167. Supreme Court CJI? (Rep: 10)
+a) President appoints
+b) Collegium
+c) PM
+d) Parliament
+Answer: a) President appoints
+Explanation: Seniority.
+168. PIL?
+a) 1980s
+b) 1950
+c) 1976
+d) 2000
+Answer: a) 1980s
+Explanation: Public Interest.
+169. Election Commission? (Rep: 11)
+a) Article 324
+b) 356
+c) 370
+d) 368
+Answer: a) Article 324
+Explanation: Chief + 2.
+170. Voting age?
+a) 18
+b) 21
+c) 25
+d) 35
+Answer: a) 18
+Explanation: 61st Amendment 1989.
+171. President impeachment? (Rep: 6)
+a) 2/3 majority
+b) Simple majority
+c) Supreme Court
+d) Parliament dissolves
+Answer: a) 2/3 majority
+Explanation: Art 61.
+172. Ordinance power?
+a) President
+b) Governor
+c) Both
+d) PM
+Answer: c) Both
+Explanation: 6 months.
+173. Federalism? (Rep: 8)
+a) Quasi-federal
+b) Pure
+c) Unitary
+d) Confederal
+Answer: a) Quasi-federal
+Explanation: Strong Centre.
+174. Single citizenship?
+a) India
+b) USA
+c) Canada
+d) Australia
+Answer: a) India
+Explanation: Art 5–11.
+175. Concurrent List? (Rep: 12)
+a) 47 subjects
+b) 97
+c) 66
+d) 100
+Answer: a) 47 subjects
+Explanation: Union + State.
+176. Finance Commission?
+a) Art 280
+b) 324
+c) 368
+d) 356
+Answer: a) Art 280
+Explanation: Every 5 years.
+177. GST Council? (Rep: 7)
+a) 101st Amendment
+b) 99th
+c) 42nd
+d) 73rd
+Answer: a) 101st Amendment
+Explanation: 2016.
+178. RTI Act?
+a) 2005
+b) 2002
+c) 2010
+d) 1996
+Answer: a) 2005
+Explanation: Art 19.
+179. NHRC? (Rep: 9)
+a) 1993
+b) 2000
+c) 1976
+d) 1950
+Answer: a) 1993
+Explanation: Human Rights.
+180. Lokpal?
+a) 2013
+b) 2005
+c) 2019
+d) 1990
+Answer: c) 2019
+Explanation: Anti-corruption.
+181. RTE Article? (Rep: 15)
+a) 21A
+b) 19
+c) 14
+d) 32
+Answer: a) 21A
+Explanation: 2002 Amendment.
+182. SC Reservation?
+a) 15%
+b) 7.5%
+c) 27%
+d) 10%
+Answer: a) 15%
+Explanation: Art 335.
+183. OBC? (Rep: 10)
+a) 27%
+b) 50%
+c) 49%
+d) 22.5%
+Answer: a) 27%
+Explanation: Mandal 1990.
+184. EWS?
+a) 10%
+b) 15%
+c) 5%
+d) 20%
+Answer: a) 10%
+Explanation: 103rd 2019.
+185. Uniform Civil Code? (Rep: 8)
+a) DPSP Art 44
+b) Fundamental
+c) Emergency
+d) Preamble
+Answer: a) DPSP Art 44
+Explanation: Non-justiciable.
+186. Minorities rights?
+a) Art 29–30
+b) 14–18
+c) 19–22
+d) 23–24
+Answer: a) Art 29–30
+Explanation: Culture, education.
+187. Cooperative Societies?
+a) 97th Amendment
+b) 73rd
+c) 74th
+d) 86th
+Answer: a) 97th Amendment
+Explanation: 2011.
+188. Anti-Defection? (Rep: 11)
+a) 10th Schedule
+b) 9th
+c) 52nd
+d) 42nd
+Answer: a) 10th Schedule
+Explanation: 1985.
+189. CAG?
+a) Art 148
+b) 280
+c) 324
+d) 72
+Answer: a) Art 148
+Explanation: Auditor.
+190. UPSC? (Rep: 6)
+a) Art 315
+b) 368
+c) 370
+d) 352
+Answer: a) Art 315
+Explanation: Recruitment.
+191. Municipalities?
+a) 74th
+b) 73rd
+c) 42nd
+d) 86th
+Answer: a) 74th
+Explanation: 1992.
+192. Women Panchayat? (Rep: 9)
+a) 1/3
+b) 50%
+c) 25%
+d) No
+Answer: a) 1/3
+Explanation: Reservation.
+193. SC/ST Atrocities Act?
+a) 1989
+b) 1955
+c) 1976
+d) 2005
+Answer: a) 1989
+Explanation: Protection.
+194. POCSO Act?
+a) 2012
+b) 2005
+c) 1990
+d) 2018
+Answer: a) 2012
+Explanation: Child sexual offences.
+195. Triple Talaq? (Rep: 7)
+a) Criminalized 2019
+b) Legal
+c) Civil
+d) Optional
+Answer: a) Criminalized 2019
+Explanation: Muslim Women Act.
+196. Citizenship Amendment?
+a) 2019
+b) 2003
+c) 1955
+d) 1986
+Answer: a) 2019
+Explanation: CAA.
+197. Article 15? (Rep: 10)
+a) No discrimination
+b) Equality
+c) Religion
+d) Exploitation
+Answer: a) No discrimination
+Explanation: Grounds.
+198. Article 32?
+a) Remedies
+b) Life
+c) Education
+d) Speech
+Answer: a) Remedies
+Explanation: Heart of Constitution.
+199. Kesavananda Bharati case? (Rep: 8)
+a) Basic Structure
+b) Property
+c) Secularism
+d) Emergency
+Answer: a) Basic Structure
+Explanation: 1973.
+200. 42nd Amendment? (Rep: 12)
+a) Mini-Constitution
+b) Preamble changes
+c) Both
+d) None
+Answer: c) Both
+Explanation: 1976.
