@@ -1,1 +1,423 @@
+1. Which generation of computers used vacuum tubes as the main electronic component? (CTET 2019)
+a) First Generation
+b) Second Generation
+c) Third Generation
+d) Fourth Generation
+Answer: a) First Generation
+Explanation: First generation computers (1946-1959) used vacuum tubes for circuitry and magnetic drums for memory.
 
+2. The brain of any computer system is: (UPTET 2018)
+a) ALU
+b) Memory
+c) CPU
+d) Control unit
+Answer: c) CPU
+Explanation: CPU (Central Processing Unit) is called the brain of computer as it controls all operations and processes data.
+
+3. Which of the following is not a type of computer memory? (HTET 2020)
+a) RAM
+b) ROM
+c) PROM
+d) LCD
+Answer: d) LCD
+Explanation: LCD (Liquid Crystal Display) is an output device, not a memory type. RAM, ROM, and PROM are all types of computer memory.
+
+4. One Gigabyte is equal to: (REET 2021)
+a) 1024 Bytes
+b) 1024 Kilobytes
+c) 1024 Megabytes
+d) 1024 Terabytes
+Answer: c) 1024 Megabytes
+Explanation: 1 GB = 1024 MB, 1 MB = 1024 KB, 1 KB = 1024 Bytes.
+
+5. Which type of software acts as an interface between user and hardware? (CTET 2020)
+a) Application Software
+b) System Software
+c) Utility Software
+d) Firmware
+Answer: b) System Software
+Explanation: System software, particularly the operating system, acts as an interface between users and computer hardware.
+
+6. The smallest unit of data in a computer is: (UPTET 2019)
+a) Bit
+b) Byte
+c) Nibble
+d) Word
+Answer: a) Bit
+Explanation: A bit (binary digit) is the smallest unit of data, representing either 0 or 1.
+
+7. Which of the following is an example of volatile memory? (HTET 2021)
+a) ROM
+b) Hard Disk
+c) RAM
+d) CD-ROM
+Answer: c) RAM
+Explanation: RAM (Random Access Memory) is volatile memory that loses its contents when power is turned off.
+
+8. The process of starting a computer is called: (REET 2020)
+a) Booting
+b) Loading
+c) Processing
+d) Installing
+Answer: a) Booting
+Explanation: Booting is the process of starting a computer and loading the operating system into memory.
+
+9. Which component stores data permanently in a computer? (CTET 2021)
+a) RAM
+b) Cache Memory
+c) Hard Disk
+d) Register
+Answer: c) Hard Disk
+Explanation: Hard disk is a non-volatile storage device that permanently stores data even when power is off.
+
+10. ASCII stands for: (UPTET 2020)
+a) American Standard Code for Information Interchange
+b) American Scientific Code for International Interchange
+c) American Standard Code for Intelligence Interchange
+d) American Scientific Code for Information Interchange
+Answer: a) American Standard Code for Information Interchange
+Explanation: ASCII is a character encoding standard used for representing text in computers.
+
+11. Which of the following is not an operating system? (HTET 2019)
+a) Windows
+b) Linux
+c) Oracle
+d) DOS
+Answer: c) Oracle
+Explanation: Oracle is a database management system, not an operating system.
+
+12. The primary purpose of an operating system is: (REET 2021)
+a) To make the most efficient use of computer hardware
+b) To allow people to use the computer
+c) To keep systems programmers employed
+d) To make computers easier to use
+Answer: a) To make the most efficient use of computer hardware
+Explanation: The OS manages hardware resources efficiently and provides an interface for users and applications.
+
+13. Which type of operating system allows multiple users to use the system simultaneously? (CTET 2020)
+a) Single User OS
+b) Multi-User OS
+c) Single Tasking OS
+d) Real Time OS
+Answer: b) Multi-User OS
+Explanation: Multi-user operating systems like Unix/Linux allow multiple users to access the system concurrently.
+
+14. The file system used by Windows operating system is: (UPTET 2021)
+a) EXT4
+b) HFS+
+c) NTFS
+d) ZFS
+Answer: c) NTFS
+Explanation: NTFS (New Technology File System) is the primary file system used by modern Windows versions.
+
+15. Which key combination is used to open Task Manager in Windows? (HTET 2020)
+a) Ctrl + Alt + Tab
+b) Ctrl + Shift + Esc
+c) Alt + F4
+d) Ctrl + Shift + Delete
+Answer: b) Ctrl + Shift + Esc
+Explanation: Ctrl + Shift + Esc directly opens Task Manager in Windows operating systems.
+
+16. The process of dividing the hard disk into logical sections is called: (REET 2019)
+a) Formatting
+b) Partitioning
+c) Defragmentation
+d) Scanning
+Answer: b) Partitioning
+Explanation: Partitioning divides a hard disk into separate logical sections that can be managed independently.
+
+17. Which of the following is an open-source operating system? (CTET 2021)
+a) Windows 10
+b) macOS
+c) Ubuntu
+d) iOS
+Answer: c) Ubuntu
+Explanation: Ubuntu is a Linux-based open-source operating system that is freely available.
+
+18. Virtual memory is: (UPTET 2020)
+a) Memory on the hard disk used as an extension of RAM
+b) RAM
+c) Only necessary if you do not have any RAM in your computer
+d) A backup device for floppy disks
+Answer: a) Memory on the hard disk used as an extension of RAM
+Explanation: Virtual memory uses hard disk space to extend the available memory when RAM is full.
+
+19. The operating system manages: (HTET 2021)
+a) Memory
+b) Processor
+c) I/O devices
+d) All of the above
+Answer: d) All of the above
+Explanation: The OS manages all system resources including memory, processor, and input/output devices.
+
+20. Which command is used to create a new directory in Windows Command Prompt? (REET 2020)
+a) MD
+b) CD
+c) RD
+d) DIR
+Answer: a) MD
+Explanation: MD (Make Directory) or MKDIR command is used to create new directories in Windows.
+
+21. Which function key is used to check spelling and grammar in MS Word? (CTET 2019)
+a) F5
+b) F7
+c) F9
+d) F12
+Answer: b) F7
+Explanation: F7 opens the Spelling and Grammar dialog box in Microsoft Word.
+
+22. The default file extension for MS Excel 2019 is: (UPTET 2021)
+a) .xls
+b) .xlsx
+c) .xlsm
+d) .csv
+Answer: b) .xlsx
+Explanation: .xlsx is the default file extension for Excel workbooks since Excel 2007.
+
+23. Which of the following is not a valid data type in MS Access? (HTET 2020)
+a) Text
+b) Number
+c) Currency
+d) Formula
+Answer: d) Formula
+Explanation: Formula is not a data type in Access. Common data types include Text, Number, Currency, Date/Time, etc.
+
+24. In MS PowerPoint, which view is used to see all slides at once? (REET 2021)
+a) Normal View
+b) Slide Sorter View
+c) Notes Page View
+d) Reading View
+Answer: b) Slide Sorter View
+Explanation: Slide Sorter View displays thumbnails of all slides, allowing easy rearrangement.
+
+25. The shortcut key to insert a new slide in PowerPoint is: (CTET 2020)
+a) Ctrl + N
+b) Ctrl + M
+c) Ctrl + S
+d) Ctrl + D
+Answer: b) Ctrl + M
+Explanation: Ctrl + M inserts a new slide in the current PowerPoint presentation.
+
+26. Which feature in MS Word automatically corrects common spelling errors? (UPTET 2019)
+a) AutoFormat
+b) AutoCorrect
+c) AutoText
+d) AutoComplete
+Answer: b) AutoCorrect
+Explanation: AutoCorrect automatically fixes common spelling and typing errors as you type.
+
+27. The maximum number of columns in MS Excel 2019 is: (HTET 2021)
+a) 256
+b) 1024
+c) 16384
+d) 65536
+Answer: c) 16384
+Explanation: Excel 2019 supports up to 16,384 columns (labeled A to XFD).
+
+28. Which function is used to find the average of numbers in Excel? (REET 2020)
+a) SUM
+b) AVERAGE
+c) COUNT
+d) MEDIAN
+Answer: b) AVERAGE
+Explanation: The AVERAGE function calculates the arithmetic mean of a range of numbers.
+
+29. Mail Merge feature is available in: (CTET 2021)
+a) MS Word
+b) MS Excel
+c) MS PowerPoint
+d) MS Paint
+Answer: a) MS Word
+Explanation: Mail Merge in MS Word allows creating personalized documents by merging a main document with a data source.
+
+30. The shortcut key to save a document in MS Office applications is: (UPTET 2020)
+a) Ctrl + A
+b) Ctrl + S
+c) Ctrl + D
+d) Ctrl + F
+Answer: b) Ctrl + S
+Explanation: Ctrl + S is the universal shortcut for saving documents in MS Office applications.
+
+31. Which keyboard shortcut is used to cut selected text? (HTET 2019)
+a) Ctrl + C
+b) Ctrl + X
+c) Ctrl + V
+d) Ctrl + Z
+Answer: b) Ctrl + X
+Explanation: Ctrl + X cuts the selected text or object and places it in the clipboard.
+
+32. The shortcut key to undo the last action is: (REET 2021)
+a) Ctrl + Y
+b) Ctrl + Z
+c) Ctrl + U
+d) Ctrl + R
+Answer: b) Ctrl + Z
+Explanation: Ctrl + Z undoes the last action performed in most applications.
+
+33. Which key combination is used to select all content? (CTET 2020)
+a) Ctrl + A
+b) Ctrl + S
+c) Ctrl + E
+d) Ctrl + L
+Answer: a) Ctrl + A
+Explanation: Ctrl + A selects all content in the current document or window.
+
+34. The shortcut to open Find dialog box is: (UPTET 2021)
+a) Ctrl + H
+b) Ctrl + F
+c) Ctrl + G
+d) Ctrl + R
+Answer: b) Ctrl + F
+Explanation: Ctrl + F opens the Find dialog box to search for text in documents.
+
+35. Which key is used to rename a selected file or folder? (HTET 2020)
+a) F1
+b) F2
+c) F3
+d) F4
+Answer: b) F2
+Explanation: F2 key allows you to rename the selected file or folder in Windows.
+
+36. The shortcut key to close the current window is: (REET 2019)
+a) Alt + F4
+b) Ctrl + F4
+c) Shift + F4
+d) Ctrl + W
+Answer: a) Alt + F4
+Explanation: Alt + F4 closes the current active window or application.
+
+37. Which key combination is used to switch between open applications? (CTET 2021)
+a) Alt + Tab
+b) Ctrl + Tab
+c) Shift + Tab
+d) Windows + Tab
+Answer: a) Alt + Tab
+Explanation: Alt + Tab allows switching between open applications in Windows.
+
+38. The shortcut to create a new folder in Windows Explorer is: (UPTET 2020)
+a) Ctrl + N
+b) Ctrl + Shift + N
+c) Alt + N
+d) Shift + N
+Answer: b) Ctrl + Shift + N
+Explanation: Ctrl + Shift + N creates a new folder in the current directory.
+
+39. Which key is used to refresh a webpage? (HTET 2021)
+a) F3
+b) F4
+c) F5
+d) F6
+Answer: c) F5
+Explanation: F5 refreshes the current webpage in web browsers.
+
+40. The shortcut to open Run dialog box in Windows is: (REET 2020)
+a) Windows + R
+b) Windows + E
+c) Windows + D
+d) Windows + L
+Answer: a) Windows + R
+Explanation: Windows + R opens the Run dialog box for executing commands.
+
+41. URL stands for: (CTET 2019)
+a) Uniform Resource Locator
+b) Universal Resource Locator
+c) Uniform Resource Link
+d) Universal Resource Link
+Answer: a) Uniform Resource Locator
+Explanation: URL is the address used to access resources on the internet.
+
+42. HTTP stands for: (UPTET 2021)
+a) Hyper Text Transfer Protocol
+b) Hyper Text Transmission Protocol
+c) High Text Transfer Protocol
+d) High Text Transmission Protocol
+Answer: a) Hyper Text Transfer Protocol
+Explanation: HTTP is the protocol used for transferring web pages on the internet.
+
+43. BIOS stands for: (HTET 2020)
+a) Basic Input Output System
+b) Binary Input Output System
+c) Basic Internal Operating System
+d) Binary Internal Operating System
+Answer: a) Basic Input Output System
+Explanation: BIOS is firmware that initializes hardware during the boot process.
+
+44. PDF stands for: (REET 2021)
+a) Portable Document Format
+b) Personal Document Format
+c) Portable Data Format
+d) Personal Data Format
+Answer: a) Portable Document Format
+Explanation: PDF is a file format developed by Adobe for presenting documents consistently.
+
+45. GUI stands for: (CTET 2020)
+a) Graphical User Interface
+b) General User Interface
+c) Graphical Utility Interface
+d) General Utility Interface
+Answer: a) Graphical User Interface
+Explanation: GUI uses visual elements like windows, icons, and menus for user interaction.
+
+46. ISP stands for: (UPTET 2019)
+a) Internet Service Provider
+b) Internet Security Protocol
+c) Internal Service Provider
+d) Internal Security Protocol
+Answer: a) Internet Service Provider
+Explanation: ISP is a company that provides internet access to customers.
+
+47. USB stands for: (HTET 2021)
+a) Universal Serial Bus
+b) Universal System Bus
+c) Uniform Serial Bus
+d) Uniform System Bus
+Answer: a) Universal Serial Bus
+Explanation: USB is a standard for connecting peripherals to computers.
+
+48. LAN stands for: (REET 2020)
+a) Local Area Network
+b) Large Area Network
+c) Local Access Network
+d) Large Access Network
+Answer: a) Local Area Network
+Explanation: LAN connects computers within a limited area like an office or building.
+
+49. JPEG stands for: (CTET 2021)
+a) Joint Photographic Experts Group
+b) Joint Picture Experts Group
+c) Joint Photographic Electronic Group
+d) Joint Picture Electronic Group
+Answer: a) Joint Photographic Experts Group
+Explanation: JPEG is a commonly used image compression format.
+
+50. DNS stands for: (UPTET 2020)
+a) Domain Name System
+b) Domain Network System
+c) Digital Name System
+d) Digital Network System
+Answer: a) Domain Name System
+Explanation: DNS translates domain names to IP addresses on the internet.
+
+51. Which network topology has all devices connected to a central hub? (HTET 2019)
+a) Bus Topology
+b) Star Topology
+c) Ring Topology
+d) Mesh Topology
+Answer: b) Star Topology
+Explanation: In star topology, all devices connect to a central hub or switch.
+
+52. The device that connects two different networks is called: (REET 2021)
+a) Hub
+b) Switch
+c) Router
+d) Repeater
+Answer: c) Router
+Explanation: A router forwards data packets between different networks.
+
+53. Which layer of the OSI model is responsible for routing? (CTET 2020)
+a) Physical Layer
+b) Data Link Layer
+c) Network Layer
+d) Transport Layer
+Answer: c) Network Layer
+Explanation: The Network Layer (Layer 3) handles routing and logical addressing.
