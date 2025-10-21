@@ -1,1 +1,439 @@
+1. What is the full form of CPU? (CTET 2019)
+a) Central Processing Unit
+b) Computer Processing Unit
+c) Central Program Unit
+d) Computer Program Unit
+Answer: a) Central Processing Unit
+Explanation: CPU stands for Central Processing Unit, which is the brain of the computer that executes instructions and performs calculations.
+
+2. Which of the following is the smallest unit of data in a computer? (UP TET 2020)
+a) Byte
+b) Bit
+c) Nibble
+d) Word
+Answer: b) Bit
+Explanation: A bit (binary digit) is the smallest unit of data in computing, representing either 0 or 1 in binary system.
+
+3. How many bits make one byte? (REET 2021)
+a) 4
+b) 6
+c) 8
+d) 16
+Answer: c) 8
+Explanation: One byte consists of 8 bits, which can represent 256 different values (2^8).
+
+4. Which generation of computers used vacuum tubes? (HTET 2018)
+a) First
+b) Second
+c) Third
+d) Fourth
+Answer: a) First
+Explanation: First generation computers (1940-1956) used vacuum tubes as their primary electronic component.
+
+5. What does ALU stand for? (MPTET 2019)
+a) Arithmetic Logic Unit
+b) Advanced Logic Unit
+c) Automatic Logic Unit
+d) Arithmetic Language Unit
+Answer: a) Arithmetic Logic Unit
+Explanation: ALU is the part of CPU that performs arithmetic and logical operations on data.
+
+6. Which memory is volatile in nature? (CTET 2020)
+a) ROM
+b) RAM
+c) EPROM
+d) Flash Memory
+Answer: b) RAM
+Explanation: RAM (Random Access Memory) is volatile memory that loses its data when power is turned off.
+
+7. What is the brain of the computer called? (UP TET 2021)
+a) Monitor
+b) Keyboard
+c) CPU
+d) Mouse
+Answer: c) CPU
+Explanation: CPU is called the brain of computer as it controls all operations and executes instructions.
+
+8. Which device is used to input text into a computer? (REET 2020)
+a) Monitor
+b) Printer
+c) Keyboard
+d) Speaker
+Answer: c) Keyboard
+Explanation: Keyboard is the primary input device used to enter text and commands into a computer.
+
+9. What does GUI stand for? (HTET 2019)
+a) Graphical User Interface
+b) General User Interface
+c) Graphic Uniform Interface
+d) General Uniform Interface
+Answer: a) Graphical User Interface
+Explanation: GUI allows users to interact with computers using visual elements like windows, icons, and menus.
+
+10. Which of the following is an output device? (MPTET 2020)
+a) Keyboard
+b) Mouse
+c) Scanner
+d) Printer
+Answer: d) Printer
+Explanation: Printer is an output device that produces hard copy of digital documents on paper.
+
+11. What is an Operating System? (CTET 2021)
+a) Application Software
+b) System Software
+c) Programming Software
+d) Utility Software
+Answer: b) System Software
+Explanation: Operating System is system software that manages computer hardware and provides services for computer programs.
+
+12. Which of the following is NOT an operating system? (UP TET 2019)
+a) Windows
+b) Linux
+c) MS Word
+d) macOS
+Answer: c) MS Word
+Explanation: MS Word is application software for word processing, not an operating system.
+
+13. What does DOS stand for? (REET 2021)
+a) Disk Operating System
+b) Data Operating System
+c) Digital Operating System
+d) Direct Operating System
+Answer: a) Disk Operating System
+Explanation: DOS is a disk-based operating system that was widely used in early personal computers.
+
+14. Which function is NOT performed by an operating system? (HTET 2020)
+a) Memory Management
+b) File Management
+c) Word Processing
+d) Process Management
+Answer: c) Word Processing
+Explanation: Word processing is done by application software, not by the operating system.
+
+15. What is multitasking in operating systems? (MPTET 2021)
+a) Running one program at a time
+b) Running multiple programs simultaneously
+c) Shutting down the computer
+d) Installing software
+Answer: b) Running multiple programs simultaneously
+Explanation: Multitasking allows an operating system to execute multiple programs concurrently.
+
+16. Which Windows version introduced the Start button? (CTET 2018)
+a) Windows 3.1
+b) Windows 95
+c) Windows 98
+d) Windows XP
+Answer: b) Windows 95
+Explanation: Windows 95 was the first Windows version to introduce the Start button and taskbar.
+
+17. What is the kernel in an operating system? (UP TET 2020)
+a) User interface
+b) Core component
+c) Application program
+d) Device driver
+Answer: b) Core component
+Explanation: Kernel is the core component of OS that manages system resources and hardware communication.
+
+18. Which key combination is used to open Task Manager in Windows? (REET 2019)
+a) Ctrl + Alt + Del
+b) Ctrl + Shift + Esc
+c) Alt + Tab
+d) Both a and b
+Answer: d) Both a and b
+Explanation: Both Ctrl+Alt+Del and Ctrl+Shift+Esc can be used to open Task Manager in Windows.
+
+19. What is virtual memory? (HTET 2021)
+a) Physical RAM
+b) Hard disk space used as RAM
+c) Cache memory
+d) ROM memory
+Answer: b) Hard disk space used as RAM
+Explanation: Virtual memory uses hard disk space to extend available RAM when physical memory is insufficient.
+
+20. Which command is used to display directory contents in DOS? (MPTET 2018)
+a) DIR
+b) LIST
+c) SHOW
+d) DISPLAY
+Answer: a) DIR
+Explanation: DIR command displays the contents of a directory in DOS and Windows command prompt.
+
+21. MS Office is developed by which company? (CTET 2019)
+a) Google
+b) Apple
+c) Microsoft
+d) IBM
+Answer: c) Microsoft
+Explanation: Microsoft Office is a suite of productivity applications developed by Microsoft Corporation.
+
+22. Which application in MS Office is used for creating presentations? (UP TET 2021)
+a) MS Word
+b) MS Excel
+c) MS PowerPoint
+d) MS Access
+Answer: c) MS PowerPoint
+Explanation: MS PowerPoint is specifically designed for creating and delivering presentations.
+
+23. What is the default file extension for MS Word documents? (REET 2020)
+a) .txt
+b) .doc
+c) .docx
+d) .pdf
+Answer: c) .docx
+Explanation: .docx is the default file extension for MS Word documents in newer versions (2007 onwards).
+
+24. Which function key opens the Save As dialog in MS Office? (HTET 2019)
+a) F10
+b) F11
+c) F12
+d) F9
+Answer: c) F12
+Explanation: F12 key opens the Save As dialog box in most MS Office applications.
+
+25. What does the formula =SUM(A1:A10) do in Excel? (MPTET 2020)
+a) Multiplies values in A1 to A10
+b) Adds values from A1 to A10
+c) Subtracts A10 from A1
+d) Divides A1 by A10
+Answer: b) Adds values from A1 to A10
+Explanation: SUM function calculates the total of all values in the specified range A1 to A10.
+
+26. Which view in PowerPoint shows all slides as thumbnails? (CTET 2020)
+a) Normal View
+b) Slide Sorter View
+c) Notes View
+d) Reading View
+Answer: b) Slide Sorter View
+Explanation: Slide Sorter View displays all slides as thumbnails, making it easy to rearrange and organize slides.
+
+27. What is the maximum number of columns in MS Excel 2019? (UP TET 2018)
+a) 256
+b) 1024
+c) 16384
+d) 65536
+Answer: c) 16384
+Explanation: MS Excel 2019 supports up to 16,384 columns (from A to XFD).
+
+28. Which feature in MS Word automatically corrects common typing errors? (REET 2021)
+a) AutoFormat
+b) AutoCorrect
+c) AutoText
+d) AutoComplete
+Answer: b) AutoCorrect
+Explanation: AutoCorrect automatically fixes common spelling and typing errors as you type.
+
+29. What is a cell reference in Excel? (HTET 2020)
+a) Cell color
+b) Cell address
+c) Cell size
+d) Cell border
+Answer: b) Cell address
+Explanation: Cell reference is the address of a cell, typically consisting of column letter and row number (e.g., A1).
+
+30. Which tab contains the Print option in MS Office applications? (MPTET 2019)
+a) Home
+b) Insert
+c) File
+d) View
+Answer: c) File
+Explanation: The Print option is located in the File tab (or Office Button in older versions) of MS Office applications.
+
+31. What does Ctrl+C do? (CTET 2021)
+a) Cut
+b) Copy
+c) Paste
+d) Clear
+Answer: b) Copy
+Explanation: Ctrl+C is the universal keyboard shortcut for copying selected text or objects to clipboard.
+
+32. Which shortcut is used to paste content? (UP TET 2019)
+a) Ctrl+P
+b) Ctrl+V
+c) Ctrl+X
+d) Ctrl+Z
+Answer: b) Ctrl+V
+Explanation: Ctrl+V pastes the content from clipboard to the current cursor position.
+
+33. What does Ctrl+Z accomplish? (REET 2020)
+a) Zoom
+b) Undo
+c) Cut
+d) Save
+Answer: b) Undo
+Explanation: Ctrl+Z undoes the last action performed, allowing you to reverse recent changes.
+
+34. Which shortcut opens the Find dialog? (HTET 2021)
+a) Ctrl+F
+b) Ctrl+H
+c) Ctrl+G
+d) Ctrl+R
+Answer: a) Ctrl+F
+Explanation: Ctrl+F opens the Find dialog box to search for specific text or content.
+
+35. What does Alt+Tab do? (MPTET 2018)
+a) Close application
+b) Switch between open applications
+c) Open new tab
+d) Refresh page
+Answer: b) Switch between open applications
+Explanation: Alt+Tab allows you to quickly switch between currently open applications or windows.
+
+36. Which shortcut selects all content? (CTET 2020)
+a) Ctrl+A
+b) Ctrl+S
+c) Ctrl+E
+d) Ctrl+L
+Answer: a) Ctrl+A
+Explanation: Ctrl+A selects all content in the current document or window.
+
+37. What does Ctrl+S do? (UP TET 2021)
+a) Search
+b) Save
+c) Select
+d) Sort
+Answer: b) Save
+Explanation: Ctrl+S saves the current document or file to storage.
+
+38. Which shortcut opens a new document? (REET 2019)
+a) Ctrl+N
+b) Ctrl+O
+c) Ctrl+W
+d) Ctrl+Q
+Answer: a) Ctrl+N
+Explanation: Ctrl+N creates a new document or file in most applications.
+
+39. What does F5 typically do in applications? (HTET 2020)
+a) Save
+b) Print
+c) Refresh
+d) Close
+Answer: c) Refresh
+Explanation: F5 is commonly used to refresh or reload content in browsers and many applications.
+
+40. Which shortcut combination locks the Windows screen? (MPTET 2021)
+a) Windows+L
+b) Windows+R
+c) Windows+E
+d) Windows+D
+Answer: a) Windows+L
+Explanation: Windows+L immediately locks the computer screen, requiring password to unlock.
+
+41. What does URL stand for? (CTET 2019)
+a) Universal Resource Locator
+b) Uniform Resource Locator
+c) Universal Reference Link
+d) Uniform Reference Locator
+Answer: b) Uniform Resource Locator
+Explanation: URL is the address used to access resources on the internet, like web pages.
+
+42. What is the full form of HTML? (UP TET 2020)
+a) Hyper Text Markup Language
+b) High Tech Modern Language
+c) Home Tool Markup Language
+d) Hyper Transfer Markup Language
+Answer: a) Hyper Text Markup Language
+Explanation: HTML is the standard markup language used to create web pages and web applications.
+
+43. What does PDF stand for? (REET 2021)
+a) Portable Document Format
+b) Personal Document File
+c) Printed Document Format
+d) Public Document File
+Answer: a) Portable Document Format
+Explanation: PDF is a file format that preserves document formatting across different devices and platforms.
+
+44. What is the meaning of USB? (HTET 2018)
+a) Universal Serial Bus
+b) Universal System Bus
+c) Uniform Serial Bus
+d) Universal Storage Bus
+Answer: a) Universal Serial Bus
+Explanation: USB is a standard for connecting devices to computers for data transfer and power supply.
+
+45. What does WWW represent? (MPTET 2019)
+a) World Wide Web
+b) World Wide Window
+c) World Web Window
+d) Wide World Web
+Answer: a) World Wide Web
+Explanation: WWW is the system of interlinked hypertext documents accessed via the internet.
+
+46. What is the full form of HTTP? (CTET 2020)
+a) Hyper Text Transfer Protocol
+b) High Text Transfer Protocol
+c) Hyper Transfer Text Protocol
+d) Home Text Transfer Protocol
+Answer: a) Hyper Text Transfer Protocol
+Explanation: HTTP is the protocol used for transferring web pages and data over the internet.
+
+47. What does ISP stand for? (UP TET 2021)
+a) Internet Service Provider
+b) Internal Service Provider
+c) Internet System Provider
+d) Internal System Provider
+Answer: a) Internet Service Provider
+Explanation: ISP is a company that provides internet access services to customers.
+
+48. What is the meaning of FAQ? (REET 2020)
+a) Frequently Asked Questions
+b) Fast Asked Questions
+c) First Asked Questions
+d) Final Asked Questions
+Answer: a) Frequently Asked Questions
+Explanation: FAQ is a list of commonly asked questions and their answers about a particular topic.
+
+49. What does JPEG stand for? (HTET 2019)
+a) Joint Photographic Experts Group
+b) Just Photographic Experts Group
+c) Joint Picture Experts Group
+d) Just Picture Experts Group
+Answer: a) Joint Photographic Experts Group
+Explanation: JPEG is a commonly used image compression format developed by the Joint Photographic Experts Group.
+
+50. What is the full form of WiFi? (MPTET 2020)
+a) Wireless Fidelity
+b) Wide Fidelity
+c) Wireless Frequency
+d) Wide Frequency
+Answer: a) Wireless Fidelity
+Explanation: WiFi stands for Wireless Fidelity, a technology for wireless local area networking.
+
+51. What is a computer network? (CTET 2021)
+a) Single computer system
+b) Collection of interconnected computers
+c) Computer software
+d) Computer hardware
+Answer: b) Collection of interconnected computers
+Explanation: A computer network is a group of interconnected computers that can communicate and share resources.
+
+52. Which device is used to connect multiple networks? (UP TET 2019)
+a) Hub
+b) Switch
+c) Router
+d) Modem
+Answer: c) Router
+Explanation: Router is a networking device that forwards data packets between different networks.
+
+53. What does LAN stand for? (REET 2020)
+a) Large Area Network
+b) Local Area Network
+c) Long Area Network
+d) Limited Area Network
+Answer: b) Local Area Network
+Explanation: LAN is a network that connects computers within a limited geographical area like a building.
+
+54. Which topology connects all devices to a central hub? (HTET 2021)
+a) Bus topology
+b) Ring topology
+c) Star topology
+d) Mesh topology
+Answer: c) Star topology
+Explanation: In star topology, all devices are connected to a central hub or switch.
+
+55. What is the range of a typical WiFi network? (MPTET 2018)
+a) 1-5 meters
+b) 30-50 meters
+c) 100-200 meters
+d) 1-2 kilometers
+Answer: b) 30-50 meters
 
