@@ -1,0 +1,343 @@
+201.	Curriculum refers to: (NTA NET 2019)
+a) Textbooks only
+b) All planned learning experiences
+c) Classroom activities only
+d) Examinations only
+Answer: b) All planned learning experiences
+Explanation: Curriculum encompasses all planned and guided learning experiences designed to help students achieve specified learning outcomes.
+202.	Tyler's model of curriculum development emphasizes: (REET 2020)
+a) Content only
+b) Objectives, experiences, organization, and evaluation
+c) Random planning
+d) Teacher preferences
+Answer: b) Objectives, experiences, organization, and evaluation
+Explanation: Ralph Tyler's rationale identifies four fundamental questions: objectives, learning experiences, organization, and evaluation.
+203.	The spiral curriculum was proposed by: (KVS 2018)
+a) Jerome Bruner
+b) John Dewey
+c) Ralph Tyler
+d) Hilda Taba
+Answer: a) Jerome Bruner
+Explanation: Jerome Bruner's spiral curriculum revisits topics at increasing levels of complexity throughout schooling.
+204.	Backward design in curriculum planning starts with: (UPTET 2020)
+a) Learning activities
+b) Desired outcomes and assessments
+c) Textbook selection
+d) Time allocation
+Answer: b) Desired outcomes and assessments
+Explanation: Backward design (Wiggins & McTighe) begins with identifying desired results, then evidence of learning, before planning instruction.
+205.	A well-written learning objective should be: (CTET 2019)
+a) Vague and general
+b) Specific, measurable, and achievable
+c) Teacher-focused
+d) Impossible to assess
+Answer: b) Specific, measurable, and achievable
+Explanation: SMART objectives are Specific, Measurable, Achievable, Relevant, and Time-bound, clearly stating what students will know or do.
+206.	The three components of an instructional objective are: (DSSSB 2021)
+a) Audience, Behavior, Condition
+b) Activity, Books, Content
+c) Assessment, Behavior, Content
+d) Ability, Behavior, Criteria
+Answer: a) Audience, Behavior, Condition
+Explanation: Mager's format includes Audience (who), Behavior (what observable action), Condition (under what circumstances), and Degree (how well).
+207.	Horizontal curriculum integration refers to: (TET 2020)
+a) Different grade levels
+b) Connections across subjects at same grade level
+c) Sequential topics
+d) Assessment methods
+Answer: b) Connections across subjects at same grade level
+Explanation: Horizontal integration connects content and skills across different subject areas within the same grade level.
+208.	Vertical curriculum alignment ensures: (UGC NET 2020)
+a) Topics connect across subjects
+b) Topics build progressively across grade levels
+c) Parallel teaching
+d) Identical content every year
+Answer: b) Topics build progressively across grade levels
+Explanation: Vertical alignment ensures learning objectives and content build upon each other sequentially from grade to grade.
+209.	The hidden curriculum includes: (NTA NET 2018)
+a) Formal lessons
+b) Unintended lessons about values and norms
+c) Secret information
+d) Extra classes
+Answer: b) Unintended lessons about values and norms
+Explanation: Hidden curriculum consists of implicit lessons about values, behaviors, and norms transmitted through school culture and practices.
+210.	Differentiated instruction in lesson planning addresses: (REET 2018)
+a) All students identically
+b) Diverse learning needs, interests, and readiness
+c) Only gifted students
+d) Only struggling students
+Answer: b) Diverse learning needs, interests, and readiness
+Explanation: Differentiation involves modifying content, process, product, or environment to meet individual student needs.
+211.	The scope of curriculum refers to: (KVS 2021)
+a) Size of classroom
+b) Breadth and depth of content covered
+c) Time duration
+d) Number of students
+Answer: b) Breadth and depth of content covered
+Explanation: Scope defines the breadth (topics covered) and depth (level of detail) of curriculum content.
+212.	Sequence in curriculum planning refers to: (UPTET 2021)
+a) Random arrangement
+b) Logical order of learning experiences
+c) Alphabetical order
+d) Difficulty level only
+Answer: b) Logical order of learning experiences
+Explanation: Sequence is the order in which content and experiences are arranged to facilitate learning, from simple to complex or chronological.
+213.	Curriculum mapping helps to: (CTET 2020)
+a) Geographic skills
+b) Document and align what is taught across grades
+c) Create floor plans
+d) Schedule classes
+Answer: b) Document and align what is taught across grades
+Explanation: Curriculum mapping visualizes and documents the taught curriculum to identify gaps, redundancies, and alignment.
+214.	The core curriculum includes: (DSSSB 2019)
+a) Elective subjects only
+b) Essential knowledge and skills for all students
+c) Advanced topics only
+d) Extra-curricular activities
+Answer: b) Essential knowledge and skills for all students
+Explanation: Core curriculum represents the fundamental knowledge and skills all students are expected to learn.
+215.	Enrichment curriculum provides: (TET 2019)
+a) Remedial support
+b) Extended and challenging learning for advanced students
+c) Basic skills only
+d) Simplified content
+Answer: b) Extended and challenging learning for advanced students
+Explanation: Enrichment extends learning beyond the regular curriculum, offering depth and complexity for students who have mastered basics.
+216.	A unit plan typically covers: (UGC NET 2019)
+a) One class period
+b) Extended period focusing on related concepts
+c) Entire year
+d) Random topics
+Answer: b) Extended period focusing on related concepts
+Explanation: A unit plan organizes instruction around related concepts or themes over several days or weeks.
+217.	The affective domain in learning objectives addresses: (NTA NET 2021)
+a) Physical skills
+b) Attitudes, values, and emotions
+c) Cognitive knowledge
+d) Test scores
+Answer: b) Attitudes, values, and emotions
+Explanation: The affective domain involves feelings, emotions, attitudes, values, and appreciation.
+218.	The psychomotor domain involves: (REET 2021)
+a) Thinking skills
+b) Physical and motor skills
+c) Emotional development
+d) Social skills
+Answer: b) Physical and motor skills
+Explanation: The psychomotor domain encompasses physical movement, coordination, and motor skills.
+219.	Curriculum evaluation assesses: (KVS 2019)
+a) Student performance only
+b) Effectiveness of curriculum in achieving goals
+c) Teacher salaries
+d) Building facilities
+Answer: b) Effectiveness of curriculum in achieving goals
+Explanation: Curriculum evaluation examines whether the curriculum achieves its intended outcomes and how it can be improved.
+220.	The null curriculum refers to: (UPTET 2019)
+a) Empty classrooms
+b) What schools don't teach
+c) Failed curriculum
+d) Cancelled classes
+Answer: b) What schools don't teach
+Explanation: Null curriculum represents topics, perspectives, and content that schools choose not to include, which itself teaches lessons.
+221.	Curriculum standards define: (CTET 2018)
+a) Student behavior rules
+b) What students should know and be able to do
+c) Teacher qualifications
+d) School budgets
+Answer: b) What students should know and be able to do
+Explanation: Standards specify learning expectations, defining what students should know and be able to do at specific points.
+222.	Thematic curriculum organizes content around: (DSSSB 2020)
+a) Random topics
+b) Central themes or big ideas
+c) Textbook chapters
+d) Alphabetical order
+Answer: b) Central themes or big ideas
+Explanation: Thematic curriculum integrates multiple subjects and skills around unifying themes or essential questions.
+223.	Curriculum adaptation involves: (TET 2021)
+a) Adopting new textbooks
+b) Modifying curriculum for special learners
+c) Keeping curriculum unchanged
+d) Eliminating content
+Answer: b) Modifying curriculum for special learners
+Explanation: Curriculum adaptation adjusts content, methodology, or materials to meet individual student needs, especially for diverse learners.
+224.	The cognitive domain in Bloom's taxonomy addresses: (UGC NET 2018)
+a) Physical skills
+b) Mental skills and knowledge
+c) Emotions
+d) Social relationships
+Answer: b) Mental skills and knowledge
+Explanation: The cognitive domain involves intellectual skills, including knowledge, comprehension, application, analysis, synthesis, and evaluation.
+225.	Constructive alignment in curriculum means: (NTA NET 2020)
+a) Building alignment
+b) Aligning learning outcomes, activities, and assessment
+c) Constructing buildings
+d) Student seating
+Answer: b) Aligning learning outcomes, activities, and assessment
+Explanation: Constructive alignment ensures learning objectives, teaching activities, and assessments are all aligned and support each other.
+226.	A well-designed lesson plan includes: (REET 2019)
+a) Only objectives
+b) Objectives, activities, materials, assessment, and timing
+c) Teacher's mood
+d) Random activities
+Answer: b) Objectives, activities, materials, assessment, and timing
+Explanation: Complete lesson plans specify objectives, instructional activities, required materials, assessment methods, and time allocation.
+227.	Curriculum content should be selected based on: (KVS 2020)
+a) Teacher preference only
+b) Relevance, validity, significance, and interest
+c) Random choice
+d) Tradition only
+Answer: b) Relevance, validity, significance, and interest
+Explanation: Content selection criteria include validity (accuracy), significance (importance), relevance (connection to students), and interest.
+228.	The first step in lesson planning is: (UPTET 2018)
+a) Selecting activities
+b) Identifying learning objectives
+c) Preparing materials
+d) Designing assessment
+Answer: b) Identifying learning objectives
+Explanation: Planning begins with clear learning objectives that guide all subsequent decisions about activities, materials, and assessment.
+229.	Curriculum implementation refers to: (CTET 2021)
+a) Planning curriculum
+b) Putting curriculum into practice
+c) Evaluating curriculum
+d) Designing curriculum
+Answer: b) Putting curriculum into practice
+Explanation: Implementation is the actual delivery and enactment of the planned curriculum in classrooms.
+230.	Project-based curriculum emphasizes: (DSSSB 2018)
+a) Textbook reading
+b) Extended investigation of real-world problems
+c) Short quizzes
+d) Lecture notes
+Answer: b) Extended investigation of real-world problems
+Explanation: Project-based curriculum engages students in exploring authentic, meaningful problems over extended periods.
+231.	Curriculum frameworks provide: (TET 2019)
+a) Detailed lesson plans
+b) Guidelines and structure for curriculum development
+c) Student handbooks
+d) Assessment tools
+Answer: b) Guidelines and structure for curriculum development
+Explanation: Frameworks outline the structure, philosophy, and guidelines that inform specific curriculum development.
+232.	Cross-curricular teaching involves: (UGC NET 2021)
+a) Teaching only one subject
+b) Integrating multiple subjects
+c) Crossing out curriculum
+d) Outdoor teaching
+Answer: b) Integrating multiple subjects
+Explanation: Cross-curricular teaching makes connections between different subject areas, showing interrelationships and promoting transfer.
+233.	The experiential curriculum is based on: (NTA NET 2019)
+a) Textbook learning
+b) Direct experience and reflection
+c) Memorization
+d) Passive observation
+Answer: b) Direct experience and reflection
+Explanation: Experiential curriculum emphasizes learning through doing, experiencing, and reflecting on those experiences.
+234.	Curriculum relevance means: (REET 2020)
+a) Historical importance
+b) Connection to students' lives and future needs
+c) Difficulty level
+d) Cost effectiveness
+Answer: b) Connection to students' lives and future needs
+Explanation: Relevant curriculum connects to students' experiences, interests, and prepares them for real-world challenges.
+235.	The official curriculum is: (KVS 2018)
+a) Unplanned learning
+b) Formally planned and documented curriculum
+c) Hidden messages
+d) Student-created content
+Answer: b) Formally planned and documented curriculum
+Explanation: Official or formal curriculum is the written, intended curriculum documented in guides, standards, and syllabi.
+236.	Curriculum flexibility allows for: (UPTET 2020)
+a) Rigid adherence to plans
+b) Adaptation to student needs and changing contexts
+c) Ignoring standards
+d) Random teaching
+Answer: b) Adaptation to student needs and changing contexts
+Explanation: Flexible curriculum permits teachers to adapt and modify based on student needs, interests, and emerging situations.
+237.	A balanced curriculum includes: (CTET 2019)
+a) Only core subjects
+b) Appropriate mix of subjects, skills, and experiences
+c) Only practical skills
+d) Only theoretical knowledge
+Answer: b) Appropriate mix of subjects, skills, and experiences
+Explanation: Balanced curriculum provides breadth across subject areas and depth within them, integrating knowledge, skills, and dispositions.
+238.	Curriculum pacing guides help with: (DSSSB 2021)
+a) Student walking speed
+b) Timing and sequence of instruction
+c) School schedules
+d) Physical education
+Answer: b) Timing and sequence of instruction
+Explanation: Pacing guides map out when specific content should be taught to ensure coverage and appropriate instructional time.
+239.	The learned curriculum refers to: (TET 2020)
+a) What is taught
+b) What students actually learn
+c) What is planned
+d) What is tested
+Answer: b) What students actually learn
+Explanation: The learned curriculum is what students actually acquire and retain, which may differ from what was taught or intended.
+240.	Curriculum coherence means: (UGC NET 2020)
+a) Random topics
+b) Logical connections and integration across content
+c) Identical lessons
+d) Simple content
+Answer: b) Logical connections and integration across content
+Explanation: Coherent curriculum has clear, logical connections between topics, building understanding progressively and meaningfully.
+241.	Essential questions in curriculum are: (NTA NET 2018)
+a) Easy questions
+b) Open-ended questions promoting inquiry and understanding
+c) Yes/no questions
+d) Rhetorical questions
+Answer: b) Open-ended questions promoting inquiry and understanding
+Explanation: Essential questions are thought-provoking, open-ended questions that stimulate inquiry, guide learning, and promote deep understanding.
+242.	The tested curriculum includes: (REET 2018)
+a) All taught content
+b) Content actually included in assessments
+c) Future content
+d) Optional topics
+Answer: b) Content actually included in assessments
+Explanation: Tested curriculum represents what is actually assessed, which powerfully influences what teachers teach and students study.
+243.	Curriculum compacting involves: (KVS 2021)
+a) Pressing books
+b) Streamlining content for students who already know it
+c) Reducing class size
+d) Shorter classes
+Answer: b) Streamlining content for students who already know it
+Explanation: Compacting assesses what students already know and modifies curriculum to eliminate redundancy, allowing acceleration or enrichment.
+244.	Learning progressions describe: (UPTET 2021)
+a) Student grades
+b) Typical path students follow in developing understanding
+c) School advancement
+d) Teacher promotion
+Answer: b) Typical path students follow in developing understanding
+Explanation: Learning progressions map the typical sequence of knowledge and skills development in a domain over time.
+245.	Curriculum standards are typically organized by: (CTET 2020)
+a) Student names
+b) Grade level and subject area
+c) Teacher preference
+d) Random order
+Answer: b) Grade level and subject area
+Explanation: Standards are usually organized by grade level (or grade spans) and subject areas, specifying expectations at each level.
+246.	Authentic curriculum connections involve: (DSSSB 2019)
+a) Artificial examples
+b) Real-world applications and meaningful contexts
+c) Disconnected facts
+d) Imaginary scenarios
+Answer: b) Real-world applications and meaningful contexts
+Explanation: Authentic connections link learning to real-world applications, making content meaningful and relevant to students.
+247.	Curriculum resources include: (TET 2018)
+a) Textbooks only
+b) All materials supporting teaching and learning
+c) Buildings only
+d) Furniture only
+Answer: b) All materials supporting teaching and learning
+Explanation: Curriculum resources encompass textbooks, technology, manipulatives, primary sources, and all materials that support instruction.
+248.	Big ideas in curriculum are: (UGC NET 2019)
+a) Large textbooks
+b) Core concepts and principles with lasting value
+c) Difficult topics
+d) Long lessons
+Answer: b) Core concepts and principles with lasting value
+Explanation: Big ideas are central concepts, principles, and theories that have lasting value beyond the classroom and organize learning.
+249.	Curriculum articulation ensures: (NTA NET 2020)
+a) Clear speech
+b) Smooth transitions and connections between grades
+c) Loud teaching
+d) Written curriculum
+Answer: b) Smooth transitions and connections between grades
+Explanation: Articulation coordinates curriculum vertically (across grades) and horizontally (across subjects) to ensure
