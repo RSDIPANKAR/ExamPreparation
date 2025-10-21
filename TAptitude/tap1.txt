@@ -1,1 +1,701 @@
+1.	Which teaching method is most suitable for developing problem-solving skills? (UGC NET 2019)
+a) Lecture method
+b) Demonstration method
+c) Project method
+d) Discussion method
+Answer: c) Project method
+Explanation: Project method involves students in real-life problem-solving activities, encouraging critical thinking, research, and practical application of knowledge.
+2.	The term 'Pedagogy' refers to: (CTET 2018)
+a) Science of teaching adults
+b) Science of teaching children
+c) Science of educational administration
+d) Science of curriculum development
+Answer: b) Science of teaching children
+Explanation: Pedagogy specifically deals with the methods and practice of teaching children, derived from Greek words 'paid' (child) and 'agogos' (leader).
+3.	Heuristic method of teaching was advocated by: (KVS 2020)
+a) John Dewey
+b) H.E. Armstrong
+c) Maria Montessori
+d) Froebel
+Answer: b) H.E. Armstrong
+Explanation: H.E. Armstrong developed the heuristic method where students discover facts and principles through their own exploration and investigation.
+4.	Which is NOT a characteristic of a good lesson plan? (DSSSB 2019)
+a) Flexibility
+b) Rigidity
+c) Clarity of objectives
+d) Logical sequence
+Answer: b) Rigidity
+Explanation: A good lesson plan should be flexible to accommodate unexpected situations and individual learning differences, not rigid.
+5.	Microteaching technique was developed at: (UGC NET 2020)
+a) Oxford University
+b) Cambridge University
+c) Stanford University
+d) Harvard University
+Answer: c) Stanford University
+Explanation: Microteaching was developed by Dwight W. Allen and his colleagues at Stanford University in 1963 as a teacher training technique.
+6.	The most important purpose of teaching is: (REET 2021)
+a) To cover the syllabus
+b) To facilitate learning
+c) To maintain discipline
+d) To complete the curriculum
+Answer: b) To facilitate learning
+Explanation: The primary goal of teaching is to facilitate meaningful learning and help students develop understanding and skills.
+7.	Team teaching refers to: (TET 2019)
+a) Teaching by a group of teachers
+b) Teaching in groups
+c) Teaching a team of students
+d) Teaching games
+Answer: a) Teaching by a group of teachers
+Explanation: Team teaching involves two or more teachers working together to plan, conduct, and evaluate learning activities for the same group of students.
+8.	The Socratic method emphasizes: (NTA NET 2018)
+a) Lecture delivery
+b) Questioning and dialogue
+c) Demonstration
+d) Practical work
+Answer: b) Questioning and dialogue
+Explanation: Socratic method uses critical questioning to stimulate critical thinking and illuminate ideas through dialogue.
+9.	Flipped classroom model involves: (CTET 2020)
+a) Traditional lecture in class
+b) Self-study at home, application in class
+c) Only online learning
+d) Only practical work
+Answer: b) Self-study at home, application in class
+Explanation: In flipped classroom, students learn content at home through videos/readings, and class time is used for discussions, problem-solving, and application.
+10.	Constructivist approach to teaching emphasizes: (UPTET 2019)
+a) Teacher-centered learning
+b) Textbook-based learning
+c) Student-centered active learning
+d) Examination-oriented learning
+Answer: c) Student-centered active learning
+Explanation: Constructivism believes learners construct their own understanding through experiences and reflection, making learning student-centered and active.
+11.	Which teaching strategy is most effective for large classes? (KVS 2018)
+a) Individual instruction
+b) Lecture-cum-demonstration
+c) One-to-one teaching
+d) Personalized learning
+Answer: b) Lecture-cum-demonstration
+Explanation: For large classes, combining lecture with demonstration is practical and effective as it reaches many students while maintaining engagement.
+12.	Differentiated instruction means: (DSSSB 2020)
+a) Teaching different subjects
+b) Adapting teaching to individual learning needs
+c) Teaching at different times
+d) Using different textbooks
+Answer: b) Adapting teaching to individual learning needs
+Explanation: Differentiated instruction involves tailoring teaching methods, materials, and assessment to accommodate diverse learner needs and abilities.
+13.	The Montessori method emphasizes: (REET 2020)
+a) Teacher-directed activities
+b) Self-directed learning with specially designed materials
+c) Competitive learning
+d) Rote memorization
+Answer: b) Self-directed learning with specially designed materials
+Explanation: Montessori method encourages self-paced, independent learning using specially designed educational materials in a prepared environment.
+14.	Brain-based learning focuses on: (UGC NET 2021)
+a) Memory techniques only
+b) How the brain learns naturally
+c) Intelligence tests
+d) Psychological counseling
+Answer: b) How the brain learns naturally
+Explanation: Brain-based learning applies neuroscience research to create teaching strategies that align with how the brain naturally learns best.
+15.	Inquiry-based learning is best suited for: (CTET 2019)
+a) Memorization of facts
+b) Developing research and analytical skills
+c) Speed writing
+d) Physical education
+Answer: b) Developing research and analytical skills
+Explanation: Inquiry-based learning encourages students to ask questions, investigate, and discover answers, developing research and critical thinking skills.
+16.	The lecture method is most criticized for: (TET 2020)
+a) Being time-consuming
+b) Being passive learning
+c) Requiring expensive equipment
+d) Being difficult to plan
+Answer: b) Being passive learning
+Explanation: Lecture method is often criticized because students are passive recipients of information rather than active participants in learning.
+17.	Cooperative learning is characterized by: (NTA NET 2019)
+a) Individual competition
+b) Teacher-centered instruction
+c) Students working together in small groups
+d) Silent independent study
+Answer: c) Students working together in small groups
+Explanation: Cooperative learning involves students working in small heterogeneous groups to achieve common learning goals while helping each other.
+18.	The demonstration method is most effective for teaching: (UPTET 2020)
+a) Abstract concepts
+b) Historical events
+c) Procedural skills and processes
+d) Literary analysis
+Answer: c) Procedural skills and processes
+Explanation: Demonstration method shows "how to do" something, making it ideal for teaching skills, experiments, and procedures.
+19.	Blended learning combines: (KVS 2021)
+a) Online and offline learning
+b) Theory and practical
+c) Arts and science
+d) Primary and secondary education
+Answer: a) Online and offline learning
+Explanation: Blended learning integrates traditional face-to-face classroom methods with online educational materials and activities.
+20.	The main advantage of the discussion method is: (DSSSB 2018)
+a) Covers large content quickly
+b) Requires no preparation
+c) Encourages active participation and critical thinking
+d) Works well in overcrowded classrooms
+Answer: c) Encourages active participation and critical thinking
+Explanation: Discussion method promotes active engagement, allowing students to express ideas, analyze different viewpoints, and develop critical thinking.
+21.	Experiential learning emphasizes: (REET 2019)
+a) Textbook reading
+b) Learning through direct experience
+c) Memorization
+d) Passive observation
+Answer: b) Learning through direct experience
+Explanation: Experiential learning involves learning through reflection on doing, where direct experience is the primary source of learning.
+22.	The Dalton Plan emphasizes: (UGC NET 2018)
+a) Strict time schedules
+b) Student freedom and responsibility
+c) Competitive examinations
+d) Lecture-based teaching
+Answer: b) Student freedom and responsibility
+Explanation: The Dalton Plan gives students freedom to plan their work and take responsibility for their learning within a flexible framework.
+23.	Peer teaching is beneficial because: (CTET 2021)
+a) It saves teacher's time
+b) Students learn better from peers using simpler language
+c) It reduces class size
+d) It eliminates need for teachers
+Answer: b) Students learn better from peers using simpler language
+Explanation: Peer teaching works because students often explain concepts in ways that are more relatable and understandable to their classmates.
+24.	Problem-based learning (PBL) starts with: (TET 2018)
+a) Theory explanation
+b) A real-world problem
+c) Textbook reading
+d) Teacher demonstration
+Answer: b) A real-world problem
+Explanation: PBL begins with presenting students with an authentic, complex problem that they must work to solve, driving the learning process.
+25.	The Waldorf education approach emphasizes: (NTA NET 2020)
+a) Early academic pressure
+b) Standardized testing
+c) Holistic development including arts
+d) Technology-based learning
+Answer: c) Holistic development including arts
+Explanation: Waldorf education focuses on holistic development of head, heart, and hands, integrating academics with arts and practical skills.
+26.	Reciprocal teaching involves: (UPTET 2021)
+a) Teacher teaching students only
+b) Students and teacher taking turns leading discussion
+c) Parents teaching children
+d) Online video lectures
+Answer: b) Students and teacher taking turns leading discussion
+Explanation: Reciprocal teaching is a dialogue between teachers and students where both take turns leading discussions using strategies like questioning and summarizing.
+27.	The mastery learning approach requires: (KVS 2019)
+a) Students to master content before moving forward
+b) Fast-paced curriculum coverage
+c) Competitive grading
+d) Age-based progression only
+Answer: a) Students to master content before moving forward
+Explanation: Mastery learning ensures each student achieves a high level of understanding in one topic before progressing to the next.
+28.	Case study method is most suitable for: (DSSSB 2021)
+a) Teaching mathematics formulas
+b) Analyzing complex real-life situations
+c) Grammar instruction
+d) Physical education
+Answer: b) Analyzing complex real-life situations
+Explanation: Case study method presents real or hypothetical situations for analysis, developing analytical and decision-making skills.
+29.	The main purpose of scaffolding in teaching is: (REET 2018)
+a) Building school infrastructure
+b) Providing temporary support until students can work independently
+c) Creating assessment frameworks
+d) Organizing classroom furniture
+Answer: b) Providing temporary support until students can work independently
+Explanation: Scaffolding provides graduated support that is gradually removed as students develop competence and confidence.
+30.	Simulation as a teaching method is valuable for: (UGC NET 2019)
+a) Replacing all practical experience
+b) Providing safe practice of real-world situations
+c) Reducing teaching time
+d) Eliminating need for resources
+Answer: b) Providing safe practice of real-world situations
+Explanation: Simulation allows students to practice and learn from realistic situations without real-world risks or consequences.
+31.	The Reggio Emilia approach emphasizes: (CTET 2018)
+a) Rigid curriculum
+b) Child-led learning through exploration
+c) Standardized testing
+d) Traditional discipline
+Answer: b) Child-led learning through exploration
+Explanation: Reggio Emilia approach views children as capable learners who direct their own learning through exploration and expression.
+32.	Active learning strategies include all EXCEPT: (TET 2019)
+a) Group discussions
+b) Role playing
+c) Passive listening to lectures
+d) Problem-solving activities
+Answer: c) Passive listening to lectures
+Explanation: Active learning requires students to engage actively with material through discussion, practice, and application, not passive listening.
+33.	The jigsaw method of teaching involves: (NTA NET 2021)
+a) Puzzle-solving only
+b) Each student learning a part and teaching others
+c) Cutting and pasting activities
+d) Art and craft work
+Answer: b) Each student learning a part and teaching others
+Explanation: In jigsaw method, each student becomes an "expert" on one aspect and teaches it to their group, promoting interdependence.
+34.	Direct instruction is most effective for: (UPTET 2018)
+a) Creative thinking
+b) Teaching specific skills and factual knowledge
+c) Moral development
+d) Social skills
+Answer: b) Teaching specific skills and factual knowledge
+Explanation: Direct instruction is systematic and explicit, making it effective for teaching well-defined skills and knowledge.
+35.	The main feature of programmed instruction is: (KVS 2020)
+a) Large group teaching
+b) Self-paced learning with immediate feedback
+c) Unstructured learning
+d) Teacher-dependent learning
+Answer: b) Self-paced learning with immediate feedback
+Explanation: Programmed instruction breaks content into small units, allowing students to progress at their own pace with immediate feedback.
+36.	Reflective teaching involves: (DSSSB 2019)
+a) Using mirrors in classroom
+b) Teachers critically analyzing their own practice
+c) Students reflecting light in science
+d) Copying other teachers
+Answer: b) Teachers critically analyzing their own practice
+Explanation: Reflective teaching requires teachers to regularly examine and evaluate their teaching methods to improve effectiveness.
+37.	The Think-Pair-Share strategy involves: (REET 2020)
+a) Three separate activities
+b) Individual thinking, partner discussion, then class sharing
+c) Only group work
+d) Silent reading
+Answer: b) Individual thinking, partner discussion, then class sharing
+Explanation: Think-Pair-Share has students think individually, discuss with a partner, then share with the larger group, promoting engagement.
+38.	Gamification in education refers to: (UGC NET 2020)
+a) Only playing games in class
+b) Using game elements to motivate learning
+c) Teaching game rules
+d) Sports education
+Answer: b) Using game elements to motivate learning
+Explanation: Gamification applies game design elements like points, badges, and challenges to educational contexts to increase motivation and engagement.
+39.	The main limitation of the demonstration method is: (CTET 2020)
+a) Students remain passive observers
+b) It's too interactive
+c) It requires no planning
+d) It's too cheap
+Answer: a) Students remain passive observers
+Explanation: In demonstration method, students mainly watch, which can limit active participation and hands-on practice if not followed by practice.
+40.	Service learning connects: (TET 2020)
+a) School and home only
+b) Academic learning with community service
+c) Different subjects
+d) Teachers and parents
+Answer: b) Academic learning with community service
+Explanation: Service learning integrates meaningful community service with instruction and reflection to enrich learning and teach civic responsibility.
+41.	The Socratic seminar format emphasizes: (NTA NET 2018)
+a) Teacher lecturing
+b) Student-led dialogue through questioning
+c) Written examinations
+d) Memorization drills
+Answer: b) Student-led dialogue through questioning
+Explanation: Socratic seminar is a student-centered discussion where participants ask questions and examine ideas through collaborative dialogue.
+42.	Anchored instruction involves: (UPTET 2019)
+a) Learning disconnected facts
+b) Learning situated in meaningful, problem-solving contexts
+c) Maritime education only
+d) Memorization techniques
+Answer: b) Learning situated in meaningful, problem-solving contexts
+Explanation: Anchored instruction grounds learning in authentic, engaging contexts or "anchors" that make learning relevant and meaningful.
+43.	The main advantage of the project method is: (KVS 2018)
+a) Quick syllabus completion
+b) Integration of knowledge and practical application
+c) No teacher involvement needed
+d) Easier examination
+Answer: b) Integration of knowledge and practical application
+Explanation: Project method integrates various subjects and skills while providing opportunities for practical application of knowledge.
+44.	Whole language approach to teaching reading emphasizes: (DSSSB 2020)
+a) Phonics drills only
+b) Learning language naturally through meaningful context
+c) Grammar rules first
+d) Letter-by-letter recognition
+Answer: b) Learning language naturally through meaningful context
+Explanation: Whole language approach teaches reading and writing through immersion in authentic literature and meaningful language use.
+45.	The KWL strategy helps students: (REET 2021)
+a) Know, Want to know, Learned
+b) Keep, Work, Learn
+c) Knowledge, Wisdom, Learning
+d) Key, Words, Letters
+Answer: a) Know, Want to know, Learned
+Explanation: KWL is a reading strategy where students identify what they Know, Want to know, and what they Learned, promoting active reading.
+46.	Inverted classroom is another name for: (UGC NET 2021)
+a) Traditional teaching
+b) Flipped classroom
+c) Outdoor teaching
+d) Reverse grading
+Answer: b) Flipped classroom
+Explanation: Inverted or flipped classroom reverses traditional teaching by having students learn content at home and apply it in class.
+47.	The main purpose of advance organizers is to: (CTET 2019)
+a) Organize classroom materials
+b) Provide a cognitive framework before new learning
+c) Schedule classes
+d) Arrange furniture
+Answer: b) Provide a cognitive framework before new learning
+Explanation: Advance organizers are introductory materials that provide a conceptual framework to help students organize and interpret new information.
+48.	Discovery learning was promoted by: (TET 2021)
+a) B.F. Skinner
+b) Jerome Bruner
+c) Ivan Pavlov
+d) Edward Thorndike
+Answer: b) Jerome Bruner
+Explanation: Jerome Bruner advocated for discovery learning where students discover facts and relationships for themselves through exploration.
+49.	The 5E instructional model includes: (NTA NET 2019)
+a) Engage, Explore, Explain, Elaborate, Evaluate
+b) Entry, Exam, Exit, Enroll, End
+c) Easy, Effective, Efficient, Economic, Elastic
+d) English, Ethics, Economics, Environment, Energy
+Answer: a) Engage, Explore, Explain, Elaborate, Evaluate
+Explanation: The 5E model is a constructivist teaching approach with five phases: Engage, Explore, Explain, Elaborate, and Evaluate.
+50.	Universal Design for Learning (UDL) aims to: (UPTET 2020)
+a) Design school buildings
+b) Make learning accessible to all students
+c) Create universal examinations
+d) Standardize curriculum globally
+Answer: b) Make learning accessible to all students
+Explanation: UDL provides multiple means of representation, expression, and engagement to accommodate diverse learners' needs.
+51.	Bloom's Taxonomy classifies learning objectives into how many domains? (CTET 2018)
+a) 2
+b) 3
+c) 4
+d) 5
+Answer: b) 3
+Explanation: Bloom's Taxonomy classifies learning into three domains: Cognitive (knowledge), Affective (attitudes), and Psychomotor (skills).
+52.	The highest level in Bloom's revised cognitive taxonomy is: (UGC NET 2019)
+a) Evaluation
+b) Synthesis
+c) Creating
+d) Analyzing
+Answer: c) Creating
+Explanation: In the revised Bloom's Taxonomy (2001), Creating replaced Synthesis as the highest level of cognitive processing.
+53.	According to Piaget, the concrete operational stage occurs during: (DSSSB 2020)
+a) 0-2 years
+b) 2-7 years
+c) 7-11 years
+d) 11+ years
+Answer: c) 7-11 years
+Explanation: Piaget's concrete operational stage (7-11 years) is when children develop logical thinking about concrete objects and events.
+54.	The theory of multiple intelligences was proposed by: (REET 2019)
+a) Howard Gardner
+b) Alfred Binet
+c) Charles Spearman
+d) Robert Sternberg
+Answer: a) Howard Gardner
+Explanation: Howard Gardner proposed the theory of multiple intelligences in 1983, identifying eight distinct types of intelligence.
+55.	Classical conditioning was discovered by: (KVS 2021)
+a) B.F. Skinner
+b) Ivan Pavlov
+c) Albert Bandura
+d) John Watson
+Answer: b) Ivan Pavlov
+Explanation: Ivan Pavlov discovered classical conditioning through his experiments with dogs, showing how neutral stimuli can trigger conditioned responses.
+56.	According to Vygotsky, the Zone of Proximal Development is: (TET 2020)
+a) The area around school
+b) The gap between what a learner can do independently and with guidance
+c) The cognitive development zone
+d) The physical development area
+Answer: b) The gap between what a learner can do independently and with guidance
+Explanation: ZPD represents tasks a learner cannot do alone but can accomplish with appropriate support from a more knowledgeable person.
+57.	Operant conditioning emphasizes: (NTA NET 2018)
+a) Involuntary responses
+b) Behavior shaped by consequences
+c) Classical reflexes
+d) Innate behaviors only
+Answer: b) Behavior shaped by consequences
+Explanation: B.F. Skinner's operant conditioning shows that behavior is influenced by its consequences (reinforcement or punishment).
+58.	The term 'metacognition' refers to: (UPTET 2021)
+a) Thinking about thinking
+b) Beyond cognition
+c) Meta-analysis
+d) Cognitive disorders
+Answer: a) Thinking about thinking
+Explanation: Metacognition is awareness and understanding of one's own thought processes, including planning, monitoring, and evaluating learning.
+59.	According to Maslow's hierarchy, which need must be satisfied first? (CTET 2019)
+a) Safety needs
+b) Physiological needs
+c) Esteem needs
+d) Belongingness needs
+Answer: b) Physiological needs
+Explanation: Maslow's hierarchy places physiological needs (food, water, shelter) at the base as they must be satisfied before higher-level needs.
+60.	Schema theory in learning was developed by: (DSSSB 2018)
+a) Jean Piaget
+b) Jerome Bruner
+c) Frederic Bartlett
+d) David Ausubel
+Answer: c) Frederic Bartlett
+Explanation: Frederic Bartlett developed schema theory, explaining how prior knowledge structures (schemas) influence learning and memory.
+61.	The information processing model compares human mind to: (REET 2020)
+a) A library
+b) A computer
+c) A telephone
+d) A factory
+Answer: b) A computer
+Explanation: Information processing theory uses the computer metaphor, with input, processing, storage, and retrieval of information.
+62.	Gestalt psychology emphasizes: (UGC NET 2020)
+a) Breaking learning into small parts
+b) Whole is greater than sum of parts
+c) Stimulus-response connections
+d) Random associations
+Answer: b) Whole is greater than sum of parts
+Explanation: Gestalt psychology emphasizes that we perceive organized wholes (gestalts) rather than isolated parts.
+63.	Social learning theory was proposed by: (KVS 2019)
+a) Albert Bandura
+b) Lev Vygotsky
+c) Jean Piaget
+d) Erik Erikson
+Answer: a) Albert Bandura
+Explanation: Albert Bandura developed social learning theory, emphasizing learning through observation, imitation, and modeling.
+64.	The term 'cognitive dissonance' was introduced by: (TET 2019)
+a) Leon Festinger
+b) Carl Rogers
+c) Abraham Maslow
+d) Jerome Bruner
+Answer: a) Leon Festinger
+Explanation: Leon Festinger's cognitive dissonance theory explains the mental discomfort when holding conflicting beliefs or attitudes.
+65.	According to Kohlberg, moral development has: (CTET 2020)
+a) 2 levels
+b) 3 levels
+c) 4 levels
+d) 5 levels
+Answer: b) 3 levels
+Explanation: Kohlberg's theory has three levels of moral development: Pre-conventional, Conventional, and Post-conventional, each with two stages.
+66.	The concept of emotional intelligence was popularized by: (NTA NET 2021)
+a) Howard Gardner
+b) Daniel Goleman
+c) Robert Sternberg
+d) Alfred Binet
+Answer: b) Daniel Goleman
+Explanation: Daniel Goleman popularized emotional intelligence in his 1995 book, though the concept was earlier developed by Salovey and Mayer.
+67.	Crystallized intelligence refers to: (UPTET 2019)
+a) Accumulated knowledge and skills
+b) Problem-solving in new situations
+c) Abstract reasoning
+d) Speed of processing
+Answer: a) Accumulated knowledge and skills
+Explanation: Crystallized intelligence represents knowledge and skills accumulated through experience and education, typically increasing with age.
+68.	The primacy effect in memory suggests: (DSSSB 2021)
+a) First items are remembered best
+b) Last items are remembered best
+c) Middle items are remembered best
+d) All items equally remembered
+Answer: a) First items are remembered best
+Explanation: The primacy effect shows that items presented first in a list are often remembered better due to rehearsal and transfer to long-term memory.
+69.	Intrinsic motivation comes from: (REET 2018)
+a) External rewards
+b) Internal satisfaction and interest
+c) Fear of punishment
+d) Social pressure
+Answer: b) Internal satisfaction and interest
+Explanation: Intrinsic motivation arises from internal factors like personal interest, enjoyment, and satisfaction rather than external rewards.
+70.	The forgetting curve was developed by: (UGC NET 2018)
+a) Hermann Ebbinghaus
+b) Frederic Bartlett
+c) William James
+d) Wilhelm Wundt
+Answer: a) Hermann Ebbinghaus
+Explanation: Hermann Ebbinghaus discovered the forgetting curve, showing that memory retention declines rapidly initially then levels off.
+71.	Assimilation and accommodation are concepts from: (KVS 2020)
+a) Piaget's theory
+b) Skinner's theory
+c) Bandura's theory
+d) Bruner's theory
+Answer: a) Piaget's theory
+Explanation: Piaget described assimilation (fitting new info into existing schemas) and accommodation (changing schemas for new info).
+72.	The recency effect refers to: (CTET 2021)
+a) Better recall of recent items
+b) Better recall of first items
+c) Better recall of middle items
+d) Poor recall of all items
+Answer: a) Better recall of recent items
+Explanation: The recency effect shows that items presented last are often remembered well because they're still in short-term memory.
+73.	Transfer of learning is most effective when: (TET 2018)
+a) Learning contexts are completely different
+b) There are similarities between learning and application contexts
+c) No practice is given
+d) Learning is superficial
+Answer: b) There are similarities between learning and application contexts
+Explanation: Transfer of learning occurs best when there are common elements between the learning situation and the situation where knowledge is applied.
+74.	The term 'andragogy' refers to: (NTA NET 2019)
+a) Teaching children
+b) Teaching adults
+c) Teaching adolescents
+d) Teaching special needs students
+Answer: b) Teaching adults
+Explanation: Andragogy, coined by Malcolm Knowles, is the art and science of helping adults learn, distinct from pedagogy (teaching children).
+75.	Working memory capacity is typically: (UPTET 2020)
+a) 3-5 items
+b) 5-9 items
+c) 10-12 items
+d) Unlimited
+Answer: b) 5-9 items
+Explanation: George Miller's research suggested working memory can hold about 7±2 (5-9) chunks of information at once.
+76.	Insight learning was demonstrated through experiments by: (DSSSB 2019)
+a) Wolfgang Köhler
+b) Edward Thorndike
+c) B.F. Skinner
+d) Ivan Pavlov
+Answer: a) Wolfgang Köhler
+Explanation: Wolfgang Köhler demonstrated insight learning through his experiments with chimpanzees solving problems through sudden understanding.
+77.	The law of readiness was proposed by: (REET 2021)
+a) Edward Thorndike
+b) Ivan Pavlov
+c) B.F. Skinner
+d) John Watson
+Answer: a) Edward Thorndike
+Explanation: Thorndike's law of readiness states that learning is more effective when the learner is ready and willing to learn.
+78.	Distributed practice is generally: (UGC NET 2021)
+a) Less effective than massed practice
+b) More effective than massed practice
+c) Equally effective as massed practice
+d) Ineffective for learning
+Answer: b) More effective than massed practice
+Explanation: Distributed practice (spacing learning over time) is generally more effective than massed practice (cramming) for long-term retention.
+79.	The concept of 'fixed' and 'growth' mindset was developed by: (CTET 2018)
+a) Carol Dweck
+b) Howard Gardner
+c) Robert Sternberg
+d) Daniel Goleman
+Answer: a) Carol Dweck
+Explanation: Carol Dweck's research distinguished between fixed mindset (abilities are static) and growth mindset (abilities can be developed).
+80.	Semantic memory stores: (TET 2020)
+a) Personal experiences
+b) General knowledge and facts
+c) Motor skills
+d) Emotional memories
+Answer: b) General knowledge and facts
+Explanation: Semantic memory is part of long-term memory that stores general world knowledge, concepts, and facts independent of personal experience.
+81.	The cocktail party effect demonstrates: (NTA NET 2020)
+a) Divided attention
+b) Selective attention
+c) Sustained attention
+d) No attention
+Answer: b) Selective attention
+Explanation: The cocktail party effect shows our ability to focus on one conversation while filtering out others, demonstrating selective attention.
+82.	Kolb's learning cycle includes: (UPTET 2018)
+a) 2 stages
+b) 3 stages
+c) 4 stages
+d) 5 stages
+Answer: c) 4 stages
+Explanation: David Kolb's experiential learning cycle has four stages: Concrete Experience, Reflective Observation, Abstract Conceptualization, and Active Experimentation.
+83.	Positive reinforcement involves: (KVS 2018)
+a) Adding something pleasant to increase behavior
+b) Removing something unpleasant to increase behavior
+c) Adding something unpleasant to decrease behavior
+d) Removing something pleasant to decrease behavior
+Answer: a) Adding something pleasant to increase behavior
+Explanation: Positive reinforcement strengthens behavior by adding a desirable consequence when the behavior occurs.
+84.	The spacing effect in learning suggests: (DSSSB 2020)
+a) Learning should happen all at once
+b) Spacing study sessions improves retention
+c) Physical space doesn't matter
+d) Crowded spaces enhance learning
+Answer: b) Spacing study sessions improves retention
+Explanation: The spacing effect shows that information is better retained when study sessions are distributed over time rather than concentrated.
+85.	According to Erikson, the primary crisis in adolescence is: (REET 2019)
+a) Trust vs. Mistrust
+b) Identity vs. Role Confusion
+c) Intimacy vs. Isolation
+d) Initiative vs. Guilt
+Answer: b) Identity vs. Role Confusion
+Explanation: Erikson's psychosocial theory identifies Identity vs. Role Confusion as the central crisis during adolescence (12-18 years).
+86.	Chunking as a memory strategy involves: (UGC NET 2019)
+a) Forgetting information
+b) Grouping information into meaningful units
+c) Random memorization
+d) Avoiding practice
+Answer: b) Grouping information into meaningful units
+Explanation: Chunking groups individual pieces of information into larger, more meaningful units to overcome working memory limitations.
+87.	The term 'scaffolding' in learning was introduced by: (CTET 2019)
+a) Jerome Bruner
+b) Lev Vygotsky
+c) Jean Piaget
+d) John Dewey
+Answer: a) Jerome Bruner
+Explanation: Jerome Bruner introduced the term scaffolding to describe the support provided within a student's Zone of Proximal Development.
+88.	Implicit memory refers to: (TET 2021)
+a) Conscious recollection
+b) Unconscious memory affecting behavior
+c) Short-term memory
+d) Sensory memory
+Answer: b) Unconscious memory affecting behavior
+Explanation: Implicit memory operates unconsciously, influencing behavior without conscious awareness, including procedural skills and priming.
+89.	The Premack Principle states that: (NTA NET 2018)
+a) High-probability behaviors can reinforce low-probability behaviors
+b) All behaviors are equally probable
+c) Punishment is more effective than reinforcement
+d) Learning doesn't require practice
+Answer: a) High-probability behaviors can reinforce low-probability behaviors
+Explanation: The Premack Principle suggests that preferred activities can be used to reinforce less preferred activities (e.g., play after homework).
+90.	Elaborative rehearsal involves: (UPTET 2021)
+a) Simple repetition
+b) Making meaningful connections to existing knowledge
+c) Forgetting quickly
+d) Passive listening
+Answer: b) Making meaningful connections to existing knowledge
+Explanation: Elaborative rehearsal processes information deeply by connecting new information to existing knowledge, improving long-term retention.
+91.	The self-fulfilling prophecy in education is also called: (KVS 2021)
+a) Halo effect
+b) Pygmalion effect
+c) Primacy effect
+d) Recency effect
+Answer: b) Pygmalion effect
+Explanation: The Pygmalion effect shows that teacher expectations can influence student performance, creating a self-fulfilling prophecy.
+92.	Fluid intelligence involves: (DSSSB 2018)
+a) Accumulated knowledge
+b) Ability to solve new problems
+c) Vocabulary skills
+d) Memorized facts
+Answer: b) Ability to solve new problems
+Explanation: Fluid intelligence is the capacity to think logically and solve novel problems independent of acquired knowledge.
+93.	The tip-of-the-tongue phenomenon relates to: (REET 2020)
+a) Encoding failure
+b) Retrieval failure
+c) Storage failure
+d) Sensory failure
+Answer: b) Retrieval failure
+Explanation: The tip-of-the-tongue state occurs when you know information is stored but temporarily cannot retrieve it.
+94.	Shaping in behavior modification involves: (UGC NET 2020)
+a) Reinforcing successive approximations toward a target behavior
+b) Punishing unwanted behavior
+c) Ignoring all behaviors
+d) Random reinforcement
+Answer: a) Reinforcing successive approximations toward a target behavior
+Explanation: Shaping gradually builds complex behaviors by reinforcing small steps that progressively approach the desired final behavior.
+95.	The generation effect suggests that: (CTET 2020)
+a) Information generated by oneself is better remembered
+b) Older generations learn better
+c) New generations are smarter
+d) Memory declines with age
+Answer: a) Information generated by oneself is better remembered
+Explanation: The generation effect shows that information is better retained when learners actively generate it rather than passively receive it.
+96.	Latent learning was demonstrated by: (TET 2019)
+a) Edward Tolman
+b) B.F. Skinner
+c) Ivan Pavlov
+d) John Watson
+Answer: a) Edward Tolman
+Explanation: Edward Tolman's experiments showed that learning can occur without reinforcement and remain latent until needed.
+97.	The phonological loop is part of: (NTA NET 2021)
+a) Long-term memory
+b) Working memory
+c) Sensory memory
+d) Procedural memory
+Answer: b) Working memory
+Explanation: The phonological loop is a component of working memory that handles verbal and acoustic information.
+98.	Extinction in classical conditioning occurs when: (UPTET 2019)
+a) Conditioned stimulus is repeatedly presented without unconditioned stimulus
+b) Punishment is applied
+c) Reinforcement increases
+d) New learning begins
+Answer: a) Conditioned stimulus is repeatedly presented without unconditioned stimulus
+Explanation: Extinction happens when the conditioned stimulus is repeatedly presented without the unconditioned stimulus, weakening the response.
+99.	The levels of processing theory was proposed by: (DSSSB 2021)
+a) Craik and Lockhart
+b) Atkinson and Shiffrin
+c) Baddeley and Hitch
+d) Miller and Johnson
+Answer: a) Craik and Lockhart
+Explanation: Craik and Lockhart proposed that memory depends on depth of processing, with deeper semantic processing leading to better retention.
+100.	Attribution theory in education focuses on: (REET 2018)
+a) How students explain their successes and failures
+b) Teacher attributes
+c) School characteristics
+d) Curriculum features
+Answer: a) How students explain their successes and failures
+Explanation: Attribution theory examines how students' explanations for their performance (ability, effort, luck, task difficulty) affect motivation and future performance.
 
