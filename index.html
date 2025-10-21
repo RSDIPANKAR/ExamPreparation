@@ -343,6 +343,26 @@
             box-shadow: 0 6px 20px rgba(0,0,0,0.15);
         }
         
+        .skip-btn {
+            background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+            color: white;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 8px;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+        
+        .skip-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.15);
+        }
+        
+        .skip-btn:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
         .summary-card {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             color: white;
@@ -430,6 +450,10 @@
         
         .result-item.incorrect {
             background: rgba(239, 68, 68, 0.2);
+        }
+        
+        .result-item.skipped {
+            background: rgba(245, 158, 11, 0.2);
         }
         
         .spinner {
@@ -592,6 +616,16 @@
             transform: translateY(-2px);
             box-shadow: 0 6px 20px rgba(0,0,0,0.15);
         }
+        
+        .skip-indicator {
+            display: inline-block;
+            padding: 2px 6px;
+            background-color: #f59e0b;
+            color: white;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            margin-left: 5px;
+        }
     </style>
 </head>
 <body>
@@ -669,25 +703,25 @@
             { 
                 name: 'History', 
                 icon: 'fa-landmark',
-                folder: 'History',
+                folder: 'history',
                 tests: 15 // Number of test sets (his1.txt to his15.txt)
             },
             { 
                 name: 'Science', 
                 icon: 'fa-flask',
-                folder: 'Science',
+                folder: 'science',
                 tests: 15 // Number of test sets (sci1.txt to sci15.txt)
             },
             { 
                 name: 'Geography', 
                 icon: 'fa-globe',
-                folder: 'Geography',
+                folder: 'geography',
                 tests: 15 // Number of test sets (geo1.txt to geo15.txt)
             },
             {
                 name: 'Civics', 
                 icon: 'fa-book',
-                folder: 'Civics',
+                folder: 'civics',
                 tests: 15 // Number of test sets (geo1.txt to geo15.txt)
             }
         ];
@@ -812,6 +846,7 @@
                             <div class="flex justify-between mt-6">
                                 <button id="prevBtn-${subjectIndex}" onclick="previousQuestion(${subjectIndex})" class="bg-gray-500 text-white px-4 py-2 rounded hover:bg-gray-600" disabled>Previous</button>
                                 <button id="nextBtn-${subjectIndex}" onclick="nextQuestion(${subjectIndex})" class="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700" disabled>Next</button>
+                                <button id="skipBtn-${subjectIndex}" onclick="skipQuestion(${subjectIndex})" class="skip-btn">Skip</button>
                                 <button id="submitBtn-${subjectIndex}" onclick="showConfirmationModal(${subjectIndex})" class="submit-btn">Submit Exam</button>
                             </div>
                         </div>
@@ -837,6 +872,10 @@
                             <div class="score-stat">
                                 <div class="score-stat-value" id="unansweredCount-${subjectIndex}">0</div>
                                 <div class="score-stat-label">Unanswered</div>
+                            </div>
+                            <div class="score-stat">
+                                <div class="score-stat-value" id="skippedCount-${subjectIndex}">0</div>
+                                <div class="score-stat-label">Skipped</div>
                             </div>
                         </div>
                         
@@ -925,7 +964,8 @@
                         score: 0,
                         userAnswers: new Array(questions.length).fill(null),
                         answered: false,
-                        submitted: false
+                        submitted: false,
+                        skippedQuestions: new Set() // Track skipped questions
                     };
                     
                     // Update total questions display
@@ -1035,6 +1075,7 @@
             exam.userAnswers = new Array(exam.questions.length).fill(null);
             exam.answered = false;
             exam.submitted = false;
+            exam.skippedQuestions = new Set();
 
             document.getElementById(`questionContainer-${subjectIndex}`).style.display = 'block';
             document.getElementById(`summaryContainer-${subjectIndex}`).style.display = 'none';
@@ -1049,23 +1090,51 @@
             const exam = exams[subjectIndex];
             const question = exam.questions[exam.currentQuestionIndex];
             
-            document.getElementById(`questionText-${subjectIndex}`).textContent = `${exam.currentQuestionIndex + 1}. ${question.text}`;
+            // Check if this question was skipped
+            const isSkipped = exam.skippedQuestions.has(exam.currentQuestionIndex);
+            const skipIndicator = isSkipped ? '<span class="skip-indicator">SKIPPED</span>' : '';
+            
+            document.getElementById(`questionText-${subjectIndex}`).innerHTML = `${exam.currentQuestionIndex + 1}. ${question.text} ${skipIndicator}`;
 
             const optionsContainer = document.getElementById(`optionsContainer-${subjectIndex}`);
             optionsContainer.innerHTML = '';
 
+            // If question was skipped, show previous answer if any
+            const previousAnswer = exam.userAnswers[exam.currentQuestionIndex];
+            
             question.options.forEach((option, index) => {
                 const optionLetter = String.fromCharCode(65 + index); // A, B, C, D
                 const button = document.createElement('button');
                 button.className = 'option-btn w-full text-left p-3 border rounded-lg hover:bg-gray-100';
                 button.textContent = `${optionLetter}. ${option}`;
-                button.onclick = () => selectAnswer(subjectIndex, optionLetter, button);
+                
+                // If there's a previous answer, show it
+                if (previousAnswer) {
+                    button.disabled = true;
+                    if (optionLetter === question.correct) {
+                        button.classList.add('correct');
+                    } else if (optionLetter === previousAnswer && previousAnswer !== question.correct) {
+                        button.classList.add('incorrect');
+                    }
+                } else {
+                    button.onclick = () => selectAnswer(subjectIndex, optionLetter, button);
+                }
+                
                 optionsContainer.appendChild(button);
             });
 
-            // Hide explanation initially
-            document.getElementById(`explanationContainer-${subjectIndex}`).style.display = 'none';
-            exam.answered = false;
+            // Show explanation if question was previously answered
+            if (previousAnswer) {
+                const explanationContainer = document.getElementById(`explanationContainer-${subjectIndex}`);
+                explanationContainer.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+                explanationContainer.style.display = 'block';
+                exam.answered = true;
+            } else {
+                // Hide explanation initially
+                document.getElementById(`explanationContainer-${subjectIndex}`).style.display = 'none';
+                exam.answered = false;
+            }
+            
             updateButtons(subjectIndex);
         }
 
@@ -1077,6 +1146,9 @@
             const question = exam.questions[exam.currentQuestionIndex];
             exam.userAnswers[exam.currentQuestionIndex] = selectedOption;
             exam.answered = true;
+            
+            // Remove from skipped questions if it was previously skipped
+            exam.skippedQuestions.delete(exam.currentQuestionIndex);
 
             // Show correct/incorrect styling
             const buttons = document.querySelectorAll(`#optionsContainer-${subjectIndex} .option-btn`);
@@ -1104,12 +1176,52 @@
             updateButtons(subjectIndex);
         }
 
+        // Skip question
+        function skipQuestion(subjectIndex) {
+            const exam = exams[subjectIndex];
+            
+            // Mark this question as skipped
+            exam.skippedQuestions.add(exam.currentQuestionIndex);
+            
+            // Move to next question
+            if (exam.currentQuestionIndex < exam.questions.length - 1) {
+                exam.currentQuestionIndex++;
+                displayQuestion(subjectIndex);
+            } else {
+                // If this is the last question, go to first unanswered question
+                goToNextUnansweredQuestion(subjectIndex);
+            }
+            
+            updateDisplay(subjectIndex);
+        }
+
+        // Go to next unanswered question
+        function goToNextUnansweredQuestion(subjectIndex) {
+            const exam = exams[subjectIndex];
+            
+            // Find the first unanswered question
+            for (let i = 0; i < exam.questions.length; i++) {
+                if (exam.userAnswers[i] === null) {
+                    exam.currentQuestionIndex = i;
+                    displayQuestion(subjectIndex);
+                    return;
+                }
+            }
+            
+            // If all questions have been answered, go to the first question
+            exam.currentQuestionIndex = 0;
+            displayQuestion(subjectIndex);
+        }
+
         // Navigation functions
         function nextQuestion(subjectIndex) {
             const exam = exams[subjectIndex];
             if (exam.currentQuestionIndex < exam.questions.length - 1) {
                 exam.currentQuestionIndex++;
                 displayQuestion(subjectIndex);
+            } else {
+                // If this is the last question, go to first unanswered question
+                goToNextUnansweredQuestion(subjectIndex);
             }
         }
 
@@ -1128,11 +1240,12 @@
             
             // Count unanswered questions
             const unansweredCount = exam.userAnswers.filter(answer => answer === null).length;
+            const skippedCount = exam.skippedQuestions.size;
             
             // Update warning message
             const warningElement = document.getElementById('unansweredWarning');
             if (unansweredCount > 0) {
-                warningElement.textContent = `You have ${unansweredCount} unanswered question${unansweredCount > 1 ? 's' : ''}. Are you sure you want to submit?`;
+                warningElement.textContent = `You have ${unansweredCount} unanswered question${unansweredCount > 1 ? 's' : ''} (${skippedCount} skipped). Are you sure you want to submit?`;
             } else {
                 warningElement.textContent = '';
             }
@@ -1164,11 +1277,15 @@
             let correctCount = 0;
             let wrongCount = 0;
             let unansweredCount = 0;
+            let skippedCount = 0;
             
             exam.questions.forEach((question, index) => {
                 const userAnswer = exam.userAnswers[index];
                 if (userAnswer === null) {
                     unansweredCount++;
+                    if (exam.skippedQuestions.has(index)) {
+                        skippedCount++;
+                    }
                 } else if (userAnswer === question.correct) {
                     correctCount++;
                 } else {
@@ -1176,8 +1293,9 @@
                 }
             });
             
-            // Calculate percentage
-            const percentage = Math.round((correctCount / exam.questions.length) * 100);
+            // Calculate percentage (only counting answered questions)
+            const answeredCount = correctCount + wrongCount;
+            const percentage = answeredCount > 0 ? Math.round((correctCount / answeredCount) * 100) : 0;
             
             // Update summary display
             document.getElementById(`questionContainer-${subjectIndex}`).style.display = 'none';
@@ -1192,6 +1310,7 @@
             document.getElementById(`correctCount-${subjectIndex}`).textContent = correctCount;
             document.getElementById(`wrongCount-${subjectIndex}`).textContent = wrongCount;
             document.getElementById(`unansweredCount-${subjectIndex}`).textContent = unansweredCount;
+            document.getElementById(`skippedCount-${subjectIndex}`).textContent = skippedCount;
             
             // Update performance message
             const performanceMessage = document.getElementById(`performanceMessage-${subjectIndex}`);
@@ -1215,19 +1334,38 @@
             
             exam.questions.forEach((question, index) => {
                 const userAnswer = exam.userAnswers[index];
-                const isCorrect = userAnswer === question.correct;
+                const isSkipped = exam.skippedQuestions.has(index);
+                let status, statusClass, statusIcon;
+                
+                if (userAnswer === null) {
+                    if (isSkipped) {
+                        status = "Skipped";
+                        statusClass = "skipped";
+                        statusIcon = '<i class="fas fa-forward text-amber-500"></i>';
+                    } else {
+                        status = "Not Answered";
+                        statusClass = "incorrect";
+                        statusIcon = '<i class="fas fa-times-circle text-red-500"></i>';
+                    }
+                } else if (userAnswer === question.correct) {
+                    status = "Correct";
+                    statusClass = "correct";
+                    statusIcon = '<i class="fas fa-check-circle text-green-500"></i>';
+                } else {
+                    status = "Incorrect";
+                    statusClass = "incorrect";
+                    statusIcon = '<i class="fas fa-times-circle text-red-500"></i>';
+                }
                 
                 const resultItem = document.createElement('div');
-                resultItem.className = `result-item ${isCorrect ? 'correct' : 'incorrect'}`;
+                resultItem.className = `result-item ${statusClass}`;
                 resultItem.innerHTML = `
                     <div class="flex justify-between items-center">
                         <div>
                             <strong>Q${index + 1}:</strong> ${question.text.substring(0, 50)}${question.text.length > 50 ? '...' : ''}
                         </div>
                         <div>
-                            ${isCorrect ? 
-                                '<i class="fas fa-check-circle text-green-500"></i>' : 
-                                '<i class="fas fa-times-circle text-red-500"></i>'}
+                            ${statusIcon}
                         </div>
                     </div>
                 `;
@@ -1241,23 +1379,45 @@
             document.getElementById(`resultsContainer-${subjectIndex}`).style.display = 'block';
             
             const exam = exams[subjectIndex];
-            const percentage = Math.round((exam.score / exam.questions.length) * 100);
-            document.getElementById(`finalScore-${subjectIndex}`).textContent = `${exam.score}/${exam.questions.length} (${percentage}%)`;
+            const answeredCount = exam.userAnswers.filter(answer => answer !== null).length;
+            const percentage = answeredCount > 0 ? Math.round((exam.score / answeredCount) * 100) : 0;
+            document.getElementById(`finalScore-${subjectIndex}`).textContent = `${exam.score}/${answeredCount} (${percentage}%)`;
 
             const detailedResultsList = document.getElementById(`detailedResultsList-${subjectIndex}`);
             detailedResultsList.innerHTML = '';
 
             exam.questions.forEach((question, index) => {
                 const userAnswer = exam.userAnswers[index];
-                const isCorrect = userAnswer === question.correct;
+                const isSkipped = exam.skippedQuestions.has(index);
+                let statusText, statusClass;
+                
+                if (userAnswer === null) {
+                    if (isSkipped) {
+                        statusText = "Skipped";
+                        statusClass = "text-amber-600";
+                    } else {
+                        statusText = "Not answered";
+                        statusClass = "text-red-600";
+                    }
+                } else if (userAnswer === question.correct) {
+                    statusText = "✓ Correct";
+                    statusClass = "text-green-600";
+                } else {
+                    statusText = "✗ Incorrect";
+                    statusClass = "text-red-600";
+                }
 
                 const resultDiv = document.createElement('div');
-                resultDiv.className = `p-3 rounded ${isCorrect ? 'bg-green-100' : 'bg-red-100'}`;
+                resultDiv.className = `p-3 rounded ${userAnswer === question.correct ? 'bg-green-100' : 'bg-red-100'}`;
+                if (userAnswer === null && isSkipped) {
+                    resultDiv.className = 'p-3 rounded bg-amber-100';
+                }
+                
                 resultDiv.innerHTML = `
                     <strong>Q${index + 1}:</strong> ${question.text}<br>
-                    <strong>Your Answer:</strong> ${userAnswer || 'Not answered'}<br>
+                    <strong>Your Answer:</strong> ${userAnswer || (isSkipped ? 'Skipped' : 'Not answered')}<br>
                     <strong>Correct Answer:</strong> ${question.correct}<br>
-                    <span class="${isCorrect ? 'text-green-600' : 'text-red-600'}">${isCorrect ? '✓ Correct' : '✗ Incorrect'}</span>
+                    <span class="${statusClass}">${statusText}</span>
                 `;
                 detailedResultsList.appendChild(resultDiv);
             });
@@ -1279,7 +1439,8 @@
         // Update display elements
         function updateDisplay(subjectIndex) {
             const exam = exams[subjectIndex];
-            document.getElementById(`scoreDisplay-${subjectIndex}`).textContent = `Score: ${exam.score}/${exam.questions.length}`;
+            const answeredCount = exam.userAnswers.filter(answer => answer !== null).length;
+            document.getElementById(`scoreDisplay-${subjectIndex}`).textContent = `Score: ${exam.score}/${answeredCount}`;
             document.getElementById(`questionCounter-${subjectIndex}`).textContent = `Question: ${exam.currentQuestionIndex + 1}/${exam.questions.length}`;
 
             const progress = ((exam.currentQuestionIndex + 1) / exam.questions.length) * 100;
@@ -1294,6 +1455,9 @@
             
             // Submit button is always enabled
             document.getElementById(`submitBtn-${subjectIndex}`).disabled = false;
+            
+            // Skip button is disabled if question is already answered
+            document.getElementById(`skipBtn-${subjectIndex}`).disabled = exam.answered;
 
             if (exam.currentQuestionIndex === exam.questions.length - 1 && exam.answered) {
                 document.getElementById(`nextBtn-${subjectIndex}`).textContent = 'Last Question';
@@ -1309,7 +1473,3 @@
     </script>
 </body>
 </html>
-
-
-
-
