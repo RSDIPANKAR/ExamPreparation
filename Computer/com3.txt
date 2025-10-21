@@ -1,1 +1,448 @@
+1. Which generation of computers used vacuum tubes as the main electronic component? (CTET 2019)
+a) First Generation
+b) Second Generation
+c) Third Generation
+d) Fourth Generation
+Answer: a) First Generation
+Explanation: First generation computers (1946-1959) used vacuum tubes for circuitry and magnetic drums for memory.
+
+2. The brain of any computer system is: (UPTET 2018)
+a) ALU
+b) Memory
+c) CPU
+d) Control unit
+Answer: c) CPU
+Explanation: CPU (Central Processing Unit) is called the brain of computer as it controls all operations and processes data.
+
+3. Which of the following is not a type of computer memory? (HTET 2020)
+a) RAM
+b) ROM
+c) PROM
+d) LCD
+Answer: d) LCD
+Explanation: LCD (Liquid Crystal Display) is an output device, not a memory type. RAM, ROM, and PROM are all types of computer memory.
+
+4. One Gigabyte is equal to: (REET 2021)
+a) 1024 Bytes
+b) 1024 Kilobytes
+c) 1024 Megabytes
+d) 1024 Terabytes
+Answer: c) 1024 Megabytes
+Explanation: 1 GB = 1024 MB, 1 MB = 1024 KB, 1 KB = 1024 Bytes.
+
+5. Which type of software acts as an interface between user and hardware? (CTET 2020)
+a) Application Software
+b) System Software
+c) Utility Software
+d) Firmware
+Answer: b) System Software
+Explanation: System software, particularly the operating system, acts as an interface between users and computer hardware.
+
+6. The smallest unit of data in a computer is: (UPTET 2019)
+a) Bit
+b) Byte
+c) Nibble
+d) Word
+Answer: a) Bit
+Explanation: A bit (binary digit) is the smallest unit of data, representing either 0 or 1.
+
+7. Which of the following is an example of volatile memory? (HTET 2021)
+a) ROM
+b) Hard Disk
+c) RAM
+d) CD-ROM
+Answer: c) RAM
+Explanation: RAM (Random Access Memory) is volatile memory that loses its contents when power is turned off.
+
+8. The process of starting a computer is called: (REET 2020)
+a) Booting
+b) Loading
+c) Processing
+d) Installing
+Answer: a) Booting
+Explanation: Booting is the process of starting a computer and loading the operating system into memory.
+
+9. Which component stores data permanently in a computer? (CTET 2021)
+a) RAM
+b) Cache Memory
+c) Hard Disk
+d) Register
+Answer: c) Hard Disk
+Explanation: Hard disk is a non-volatile storage device that permanently stores data even when power is off.
+
+10. ASCII stands for: (UPTET 2020)
+a) American Standard Code for Information Interchange
+b) American Scientific Code for International Interchange
+c) American Standard Code for Intelligence Interchange
+d) American Scientific Code for Information Interchange
+Answer: a) American Standard Code for Information Interchange
+Explanation: ASCII is a character encoding standard used for representing text in computers.
+
+11. Which component is known as the permanent memory of a computer? (REET 2019)
+a) RAM
+b) ROM
+c) Cache
+d) Register
+Answer: b) ROM
+Explanation: ROM (Read-Only Memory) retains data permanently even when power is off.
+
+12. The speed of a processor is measured in: (CTET 2021)
+a) Megabytes
+b) Gigabytes
+c) Hertz
+d) Bits per second
+Answer: c) Hertz
+Explanation: Processor speed is measured in Hertz (Hz), typically Gigahertz (GHz) for modern CPUs.
+
+13. Which port is commonly used for connecting a printer? (UPTET 2020)
+a) VGA
+b) HDMI
+c) USB
+d) PS/2
+Answer: c) USB
+Explanation: USB ports are the most common interface for connecting modern printers.
+
+14. Cache memory is placed between: (HTET 2021)
+a) CPU and RAM
+b) RAM and Hard disk
+c) CPU and Hard disk
+d) RAM and ROM
+Answer: a) CPU and RAM
+Explanation: Cache memory acts as a buffer between the fast CPU and slower RAM.
+
+15. Which component converts AC to DC in a computer? (REET 2020)
+a) UPS
+b) Power Supply Unit
+c) Motherboard
+d) Voltage Regulator
+Answer: b) Power Supply Unit
+Explanation: The PSU converts alternating current (AC) from the wall outlet to direct current (DC) for computer components.
+
+16. The main circuit board of a computer is called: (CTET 2019)
+a) RAM
+b) ROM
+c) Motherboard
+d) Processor
+Answer: c) Motherboard
+Explanation: The motherboard is the main circuit board that connects all computer components.
+
+17. Which of the following is an input device? (UPTET 2021)
+a) Monitor
+b) Printer
+c) Scanner
+d) Speaker
+Answer: c) Scanner
+Explanation: Scanner is an input device that converts physical documents into digital format.
+
+18. BIOS is stored in: (HTET 2020)
+a) RAM
+b) ROM
+c) Hard Disk
+d) Cache
+Answer: b) ROM
+Explanation: BIOS (Basic Input Output System) is firmware stored in ROM chip on the motherboard.
+
+19. Which memory is directly accessed by the CPU? (REET 2021)
+a) Secondary memory
+b) Primary memory
+c) Auxiliary memory
+d) Backup memory
+Answer: b) Primary memory
+Explanation: Primary memory (RAM) is directly accessed by the CPU for processing.
+
+20. The ALU performs: (CTET 2020)
+a) Arithmetic operations only
+b) Logical operations only
+c) Both arithmetic and logical operations
+d) Storage operations
+Answer: c) Both arithmetic and logical operations
+Explanation: ALU (Arithmetic Logic Unit) performs both mathematical calculations and logical comparisons.
+
+21. Which of the following is not a pointing device? (UPTET 2019)
+a) Mouse
+b) Trackball
+c) Joystick
+d) Keyboard
+Answer: d) Keyboard
+Explanation: Keyboard is an input device for text entry, not a pointing device.
+
+22. The resolution of a monitor is measured in: (HTET 2021)
+a) Dots per inch
+b) Pixels
+c) Hertz
+d) Bytes
+Answer: b) Pixels
+Explanation: Monitor resolution is measured in pixels (e.g., 1920x1080).
+
+23. Which type of printer uses heat to print? (REET 2020)
+a) Inkjet printer
+b) Laser printer
+c) Thermal printer
+d) Dot matrix printer
+Answer: c) Thermal printer
+Explanation: Thermal printers use heat to produce images on special heat-sensitive paper.
+
+24. The device that converts digital signals to analog signals is: (CTET 2021)
+a) Modem
+b) Router
+c) Switch
+d) Hub
+Answer: a) Modem
+Explanation: Modem (Modulator-Demodulator) converts between digital and analog signals.
+
+25. Which storage device uses magnetic technology? (UPTET 2020)
+a) SSD
+b) DVD
+c) Hard Disk
+d) Flash Drive
+Answer: c) Hard Disk
+Explanation: Traditional hard disks use magnetic platters to store data.
+
+26. The number system used by computers internally is: (HTET 2019)
+a) Decimal
+b) Binary
+c) Octal
+d) Hexadecimal
+Answer: b) Binary
+Explanation: Computers use binary (base-2) number system with only 0s and 1s.
+
+27. One byte consists of: (REET 2021)
+a) 4 bits
+b) 8 bits
+c) 16 bits
+d) 32 bits
+Answer: b) 8 bits
+Explanation: One byte equals 8 bits and can represent 256 different values.
+
+28. Which of the following is an optical storage device? (CTET 2020)
+a) Hard Disk
+b) RAM
+c) DVD
+d) Flash Drive
+Answer: c) DVD
+Explanation: DVD uses laser technology to read and write data, making it an optical device.
+
+29. The control unit of CPU: (UPTET 2021)
+a) Performs calculations
+b) Stores data
+c) Controls operations
+d) Displays output
+Answer: c) Controls operations
+Explanation: The control unit directs the operation of the processor and coordinates activities.
+
+30. Which component holds data temporarily during processing? (HTET 2020)
+a) Hard Disk
+b) ROM
+c) RAM
+d) DVD
+Answer: c) RAM
+Explanation: RAM temporarily holds data and programs currently being processed.
+
+31. SMPS stands for: (REET 2019)
+a) Switch Mode Power Supply
+b) Simple Mode Power Supply
+c) System Mode Power Supply
+d) Standard Mode Power Supply
+Answer: a) Switch Mode Power Supply
+Explanation: SMPS efficiently converts AC power to regulated DC power for computer components.
+
+32. The device used to protect computers from power surges is: (CTET 2021)
+a) Stabilizer
+b) UPS
+c) Generator
+d) Transformer
+Answer: b) UPS
+Explanation: UPS (Uninterruptible Power Supply) protects against power surges and provides backup power.
+
+33. Which of the following is a secondary storage device? (UPTET 2020)
+a) RAM
+b) ROM
+c) Cache
+d) SSD
+Answer: d) SSD
+Explanation: SSD (Solid State Drive) is a secondary storage device for permanent data storage.
+
+34. The process of copying data from RAM to hard disk is called: (HTET 2021)
+a) Swapping
+b) Paging
+c) Caching
+d) Buffering
+Answer: a) Swapping
+Explanation: Swapping moves data between RAM and hard disk to manage memory efficiently.
+
+35. Which bus carries data between CPU and memory? (REET 2020)
+a) Address bus
+b) Data bus
+c) Control bus
+d) System bus
+Answer: b) Data bus
+Explanation: The data bus transfers actual data between CPU and memory or I/O devices.
+
+36. The capacity of a hard disk is measured in: (CTET 2019)
+a) MHz
+b) MB/GB/TB
+c) PPM
+d) RPM
+Answer: b) MB/GB/TB
+Explanation: Hard disk capacity is measured in Megabytes, Gigabytes, or Terabytes.
+
+37. Which technology is used in touchscreens? (UPTET 2021)
+a) Magnetic
+b) Capacitive
+c) Thermal
+d) Mechanical
+Answer: b) Capacitive
+Explanation: Most modern touchscreens use capacitive technology to detect touch.
+
+38. The refresh rate of a monitor is measured in: (HTET 2020)
+a) Pixels
+b) Hertz
+c) Bytes
+d) Bits
+Answer: b) Hertz
+Explanation: Refresh rate (Hz) indicates how many times per second the display updates.
+
+39. Which component manages communication between all parts of computer? (REET 2021)
+a) CPU
+b) Chipset
+c) RAM
+d) Power Supply
+Answer: b) Chipset
+Explanation: The chipset manages data flow between processor, memory, and peripherals.
+
+40. Firmware is stored in: (CTET 2020)
+a) RAM
+b) Hard Disk
+c) ROM
+d) Cache
+Answer: c) ROM
+Explanation: Firmware is low-level software stored in ROM or flash memory.
+
+41. The device that reads barcodes is called: (UPTET 2019)
+a) Scanner
+b) Barcode reader
+c) OCR
+d) Plotter
+Answer: b) Barcode reader
+Explanation: Barcode readers use lasers or cameras to scan and decode barcodes.
+
+42. Which of the following is impact printer? (HTET 2021)
+a) Laser printer
+b) Inkjet printer
+c) Dot matrix printer
+d) Thermal printer
+Answer: c) Dot matrix printer
+Explanation: Dot matrix printers physically strike an ink ribbon to print.
+
+43. Virtual RAM is also known as: (REET 2020)
+a) Cache memory
+b) Flash memory
+c) Swap space
+d) Buffer memory
+Answer: c) Swap space
+Explanation: Virtual RAM uses hard disk space as swap space to extend available memory.
+
+44. The device that connects computer to telephone line is: (CTET 2021)
+a) Router
+b) Modem
+c) Switch
+d) Hub
+Answer: b) Modem
+Explanation: Modem enables computers to transmit data over telephone lines.
+
+45. Which unit performs comparisons in CPU? (UPTET 2020)
+a) Control Unit
+b) ALU
+c) Memory Unit
+d) Input Unit
+Answer: b) ALU
+Explanation: ALU performs logical operations including comparisons.
+
+46. The tracks on a disk are divided into: (HTET 2019)
+a) Clusters
+b) Sectors
+c) Segments
+d) Blocks
+Answer: b) Sectors
+Explanation: Disk tracks are divided into sectors, the smallest addressable units.
+
+47. Which memory is fastest? (REET 2021)
+a) Cache memory
+b) RAM
+c) ROM
+d) Hard disk
+Answer: a) Cache memory
+Explanation: Cache memory is the fastest memory, located closest to the CPU.
+
+48. The device used for video conferencing is: (CTET 2020)
+a) Scanner
+b) Webcam
+c) Printer
+d) Plotter
+Answer: b) Webcam
+Explanation: Webcam captures video for video conferencing and streaming.
+
+49. Which component prevents overheating in computers? (UPTET 2021)
+a) Power supply
+b) Cooling fan
+c) Motherboard
+d) RAM
+Answer: b) Cooling fan
+Explanation: Cooling fans dissipate heat generated by computer components.
+
+50. The main memory of computer is also known as: (HTET 2020)
+a) Secondary memory
+b) Primary memory
+c) Auxiliary memory
+d) Cache memory
+Answer: b) Primary memory
+Explanation: RAM is referred to as primary or main memory.
+
+51. Which of the following is not an operating system? (HTET 2019)
+a) Windows
+b) Linux
+c) Oracle
+d) DOS
+Answer: c) Oracle
+Explanation: Oracle is a database management system, not an operating system.
+
+52. The primary purpose of an operating system is: (REET 2021)
+a) To make the most efficient use of computer hardware
+b) To allow people to use the computer
+c) To keep systems programmers employed
+d) To make computers easier to use
+Answer: a) To make the most efficient use of computer hardware
+Explanation: The OS manages hardware resources efficiently and provides an interface for users and applications.
+
+53. Which type of operating system allows multiple users to use the system simultaneously? (CTET 2020)
+a) Single User OS
+b) Multi-User OS
+c) Single Tasking OS
+d) Real Time OS
+Answer: b) Multi-User OS
+Explanation: Multi-user operating systems like Unix/Linux allow multiple users to access the system concurrently.
+
+54. The file system used by Windows operating system is: (UPTET 2021)
+a) EXT4
+b) HFS+
+c) NTFS
+d) ZFS
+Answer: c) NTFS
+Explanation: NTFS (New Technology File System) is the primary file system used by modern Windows versions.
+
+55. Which key combination is used to open Task Manager in Windows? (HTET 2020)
+a) Ctrl + Alt + Tab
+b) Ctrl + Shift + Esc
+c) Alt + F4
+d) Ctrl + Shift + Delete
+Answer: b) Ctrl + Shift + Esc
+Explanation: Ctrl + Shift + Esc directly opens Task Manager in Windows operating systems.
+
+56. The process of dividing the hard disk into logical sections is called: (REET 2019)
+a) Formatting
+b) Partitioning
+c) Defragmentation
+d) Scanning
+Answer: b) Partitioning
+Explanation: Partitioning divides a hard disk into separate logical sections that can be managed independently.
 
