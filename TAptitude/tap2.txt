@@ -1,0 +1,700 @@
+101.	Formative assessment is primarily used for: (CTET 2019)
+a) Final grading
+b) Monitoring learning progress and providing feedback
+c) Ranking students
+d) Certification purposes
+Answer: b) Monitoring learning progress and providing feedback
+Explanation: Formative assessment occurs during instruction to monitor learning, provide feedback, and adjust teaching strategies.
+102.	Summative assessment is conducted: (UGC NET 2020)
+a) During the learning process
+b) At the end of an instructional period
+c) Before instruction begins
+d) Randomly throughout the year
+Answer: b) At the end of an instructional period
+Explanation: Summative assessment evaluates student learning at the end of an instructional unit by comparing it against standards or benchmarks.
+103.	Diagnostic assessment helps to: (DSSSB 2019)
+a) Grade students
+b) Identify learning difficulties and prior knowledge
+c) Promote students
+d) Compare schools
+Answer: b) Identify learning difficulties and prior knowledge
+Explanation: Diagnostic assessment identifies students' strengths, weaknesses, knowledge, and skills before instruction to inform teaching.
+104.	Criterion-referenced tests measure: (TET 2020)
+a) Student performance against other students
+b) Student performance against predetermined criteria
+c) Intelligence quotient
+d) Aptitude only
+Answer: b) Student performance against predetermined criteria
+Explanation: Criterion-referenced tests assess whether students have mastered specific learning objectives or criteria, not their standing relative to others.
+105.	Norm-referenced tests compare: (REET 2021)
+a) Student to specific criteria
+b) Student to other students
+c) Current to past performance
+d) Theory to practice
+Answer: b) Student to other students
+Explanation: Norm-referenced tests compare a student's performance to that of a norm group, typically resulting in rankings or percentiles.
+106.	Portfolio assessment includes: (NTA NET 2019)
+a) Only final examination scores
+b) Collection of student work over time
+c) Single test results
+d) Teacher observations only
+Answer: b) Collection of student work over time
+Explanation: Portfolio assessment compiles samples of student work over time, showing growth, achievement, and learning process.
+107.	Reliability of a test refers to: (KVS 2020)
+a) Validity of content
+b) Consistency of results
+c) Difficulty level
+d) Time required
+Answer: b) Consistency of results
+Explanation: Reliability indicates the consistency and stability of test scores; a reliable test produces similar results under similar conditions.
+108.	Validity of a test means: (UPTET 2018)
+a) It measures what it claims to measure
+b) It is reliable
+c) It is easy to administer
+d) It is objective
+Answer: a) It measures what it claims to measure
+Explanation: Validity refers to how well a test measures what it purports to measure and whether inferences from scores are appropriate.
+109.	Rubrics in assessment are: (CTET 2020)
+a) Scoring guides with criteria and performance levels
+b) Mathematical formulas
+c) Multiple choice questions
+d) Student notebooks
+Answer: a) Scoring guides with criteria and performance levels
+Explanation: Rubrics are scoring guides that define criteria and describe levels of performance quality for assessment tasks.
+110.	Authentic assessment involves: (DSSSB 2020)
+a) Standardized tests only
+b) Real-world, meaningful tasks
+c) Multiple choice questions
+d) Rote memorization tests
+Answer: b) Real-world, meaningful tasks
+Explanation: Authentic assessment uses tasks that mirror real-world applications and challenges, evaluating practical application of knowledge.
+111.	The primary purpose of continuous and comprehensive evaluation (CCE) is: (TET 2018)
+a) Reducing examination stress
+b) Holistic development assessment through regular evaluation
+c) Eliminating all tests
+d) Increasing competition
+Answer: b) Holistic development assessment through regular evaluation
+Explanation: CCE assesses all aspects of student development regularly throughout the year, not just academic achievement at year-end.
+112.	A test blueprint or table of specifications helps ensure: (UGC NET 2021)
+a) Test security
+b) Content validity
+c) Test difficulty
+d) Scoring ease
+Answer: b) Content validity
+Explanation: A test blueprint maps test items to learning objectives and content, ensuring the test adequately represents the intended content domain.
+113.	Inter-rater reliability refers to: (NTA NET 2020)
+a) Consistency across different raters
+b) Consistency over time
+c) Test difficulty
+d) Question clarity
+Answer: a) Consistency across different raters
+Explanation: Inter-rater reliability measures the degree of agreement between two or more raters scoring the same performance.
+114.	Ipsative assessment compares: (REET 2019)
+a) Student with other students
+b) Student with fixed criteria
+c) Student's current performance with their own past performance
+d) Different schools
+Answer: c) Student's current performance with their own past performance
+Explanation: Ipsative assessment measures individual growth by comparing a student's current performance to their previous performance.
+115.	The difficulty index of a test item indicates: (KVS 2019)
+a) How hard it is to write
+b) Proportion of students who answered correctly
+c) Reading level required
+d) Time needed to answer
+Answer: b) Proportion of students who answered correctly
+Explanation: Difficulty index (p-value) represents the percentage of students who answered an item correctly; higher values indicate easier items.
+116.	Discrimination index of a test item measures: (UPTET 2020)
+a) Racial bias
+b) Ability to differentiate between high and low performers
+c) Gender differences
+d) Age appropriateness
+Answer: b) Ability to differentiate between high and low performers
+Explanation: Discrimination index shows how well an item distinguishes between students who perform well overall and those who perform poorly.
+117.	Anecdotal records are: (CTET 2021)
+a) Standardized test scores
+b) Brief narrative descriptions of specific incidents
+c) Attendance records
+d) Grade sheets
+Answer: b) Brief narrative descriptions of specific incidents
+Explanation: Anecdotal records are brief written notes about specific behaviors or incidents observed, providing qualitative assessment data.
+118.	Performance-based assessment requires students to: (DSSSB 2018)
+a) Select correct answers
+b) Demonstrate skills through tasks
+c) Memorize facts
+d) Listen passively
+Answer: b) Demonstrate skills through tasks
+Explanation: Performance-based assessment requires students to demonstrate knowledge and skills through performing complex tasks or creating products.
+119.	Holistic scoring of essays involves: (TET 2021)
+a) Assigning separate scores for different criteria
+b) Assigning a single overall score
+c) Not scoring at all
+d) Using only multiple choice
+Answer: b) Assigning a single overall score
+Explanation: Holistic scoring evaluates the overall quality of work with a single score, rather than scoring individual components separately.
+120.	Analytic scoring involves: (UGC NET 2018)
+a) Assigning one overall score
+b) Assigning separate scores for different criteria
+c) Statistical analysis only
+d) Random scoring
+Answer: b) Assigning separate scores for different criteria
+Explanation: Analytic scoring evaluates performance on multiple dimensions separately, providing detailed feedback on specific aspects.
+121.	Formative assessment data should be used to: (NTA NET 2019)
+a) Calculate final grades only
+b) Adjust instruction and provide feedback
+c) Rank students
+d) Punish poor performers
+Answer: b) Adjust instruction and provide feedback
+Explanation: Formative assessment informs instructional adjustments and provides feedback to help students improve, not for grading purposes.
+122.	Assessment for learning focuses on: (REET 2020)
+a) Final certification
+b) Improving teaching and learning during instruction
+c) School rankings
+d) Teacher evaluation
+Answer: b) Improving teaching and learning during instruction
+Explanation: Assessment for learning (formative) is an ongoing process used to improve teaching and learning, not just measure outcomes.
+123.	Self-assessment helps students: (KVS 2018)
+a) Avoid teacher feedback
+b) Reflect on and evaluate their own learning
+c) Copy from others
+d) Reduce study time
+Answer: b) Reflect on and evaluate their own learning
+Explanation: Self-assessment develops metacognitive skills as students reflect on their learning, identify strengths and weaknesses, and set goals.
+124.	Peer assessment involves: (UPTET 2021)
+a) Students evaluating each other's work
+b) Teachers assessing teachers
+c) Parents grading children
+d) External examiners only
+Answer: a) Students evaluating each other's work
+Explanation: Peer assessment has students evaluate and provide feedback on each other's work, promoting critical thinking and deeper learning.
+125.	The halo effect in assessment occurs when: (CTET 2018)
+a) Overall impression influences rating of specific traits
+b) Assessments are very positive
+c) Students wear halos
+d) Perfect scores are given
+Answer: a) Overall impression influences rating of specific traits
+Explanation: The halo effect is a bias where an overall impression of a person influences ratings on specific characteristics.
+126.	Central tendency error in rating occurs when: (DSSSB 2021)
+a) Raters avoid extreme ratings and cluster around middle
+b) Only highest ratings are given
+c) Only lowest ratings are given
+d) Ratings are perfectly distributed
+Answer: a) Raters avoid extreme ratings and cluster around middle
+Explanation: Central tendency error happens when raters are reluctant to assign extreme ratings, causing most scores to cluster near the middle.
+127.	Bloom's Taxonomy helps in: (TET 2019)
+a) Writing learning objectives at different cognitive levels
+b) Organizing flowers
+c) Classroom seating
+d) Time management
+Answer: a) Writing learning objectives at different cognitive levels
+Explanation: Bloom's Taxonomy provides a framework for classifying learning objectives according to complexity and specificity of cognitive skills.
+128.	Objective type tests are characterized by: (UGC NET 2020)
+a) Subjective scoring
+b) Consistent scoring regardless of scorer
+c) Open-ended questions
+d) Essay writing
+Answer: b) Consistent scoring regardless of scorer
+Explanation: Objective tests have predetermined correct answers, allowing for consistent, unbiased scoring regardless of who scores them.
+129.	Essay-type questions are useful for assessing: (NTA NET 2018)
+a) Factual recall only
+b) Higher-order thinking and expression skills
+c) Spelling only
+d) Computation skills
+Answer: b) Higher-order thinking and expression skills
+Explanation: Essay questions can assess complex cognitive skills like analysis, synthesis, evaluation, and the ability to organize and express ideas.
+130.	A good multiple-choice question should have: (REET 2018)
+a) Obvious correct answer
+b) All similar-sounding options
+c) One clearly correct answer and plausible distractors
+d) Ambiguous stem
+Answer: c) One clearly correct answer and plausible distractors
+Explanation: Effective multiple-choice items have a clear stem, one correct answer, and distractors that are plausible but incorrect.
+131.	Test-retest reliability is established by: (KVS 2021)
+a) Administering the same test twice to same group
+b) Using different tests
+c) Testing different groups
+d) Expert review
+Answer: a) Administering the same test twice to same group
+Explanation: Test-retest reliability is determined by giving the same test to the same students at two different times and correlating scores.
+132.	Face validity refers to: (UPTET 2019)
+a) Actual measurement accuracy
+b) Whether test appears to measure what it claims
+c) Statistical validation
+d) Expert judgment
+Answer: b) Whether test appears to measure what it claims
+Explanation: Face validity is the extent to which a test appears, on the surface, to measure what it intends to measure.
+133.	Construct validity indicates: (CTET 2019)
+a) Test difficulty
+b) Whether test measures the theoretical construct it claims to
+c) Test length
+d) Scoring ease
+Answer: b) Whether test measures the theoretical construct it claims to
+Explanation: Construct validity assesses whether a test actually measures the theoretical construct or trait it is designed to measure.
+134.	Grade equivalent scores indicate: (DSSSB 2019)
+a) Student's grade level
+b) Performance compared to average for grade levels
+c) Pass or fail status
+d) Percentage correct
+Answer: b) Performance compared to average for grade levels
+Explanation: Grade equivalent scores express performance in terms of the grade level for which that score is the average performance.
+135.	Percentile rank indicates: (TET 2020)
+a) Percentage of items answered correctly
+b) Percentage of students scoring at or below that score
+c) Passing percentage
+d) Teacher's rating
+Answer: b) Percentage of students scoring at or below that score
+Explanation: A percentile rank shows the percentage of scores in a distribution that fall at or below a particular score.
+136.	Standard deviation in test scores indicates: (UGC NET 2019)
+a) Average score
+b) Spread or variability of scores
+c) Highest score
+d) Lowest score
+Answer: b) Spread or variability of scores
+Explanation: Standard deviation measures how spread out scores are from the mean; larger values indicate greater variability.
+137.	The normal curve is characterized by: (NTA NET 2021)
+a) Rectangular shape
+b) Bell shape with symmetrical distribution
+c) J-shaped curve
+d) Flat line
+Answer: b) Bell shape with symmetrical distribution
+Explanation: The normal distribution is a symmetrical, bell-shaped curve where most scores cluster around the mean.
+138.	In a positively skewed distribution: (REET 2021)
+a) Most scores are high
+b) Most scores are low
+c) Scores are evenly distributed
+d) No pattern exists
+Answer: b) Most scores are low
+Explanation: In a positively skewed distribution, most scores are concentrated at the lower end with a tail extending toward higher scores.
+139.	The mode is: (KVS 2020)
+a) Middle score
+b) Average score
+c) Most frequently occurring score
+d) Highest score
+Answer: c) Most frequently occurring score
+Explanation: The mode is the value that appears most frequently in a data set.
+140.	The median is: (UPTET 2020)
+a) Most common score
+b) Average of all scores
+c) Middle score when arranged in order
+d) Difference between highest and lowest
+Answer: c) Middle score when arranged in order
+Explanation: The median is the middle value in an ordered set of scores, dividing the distribution in half.
+141.	Standardized tests are: (CTET 2020)
+a) Created by individual teachers
+b) Administered and scored in consistent manner with norms
+c) Unstandardized
+d) Only for special students
+Answer: b) Administered and scored in consistent manner with norms
+Explanation: Standardized tests have consistent administration, scoring procedures, and normative data for score interpretation.
+142.	Mastery testing typically uses: (DSSSB 2020)
+a) Norm-referenced interpretation
+b) Criterion-referenced interpretation
+c) Ipsative interpretation
+d) No interpretation
+Answer: b) Criterion-referenced interpretation
+Explanation: Mastery testing determines if students have achieved predetermined criteria or objectives, using criterion-referenced standards.
+143.	Negative marking in tests is primarily used to: (TET 2018)
+a) Punish students
+b) Discourage random guessing
+c) Make grading easier
+d) Reduce scores
+Answer: b) Discourage random guessing
+Explanation: Negative marking penalizes incorrect answers to discourage students from random guessing when they don't know answers.
+144.	True-false questions are best for testing: (UGC NET 2018)
+a) Complex problem-solving
+b) Simple factual knowledge
+c) Creative thinking
+d) Essay writing skills
+Answer: b) Simple factual knowledge
+Explanation: True-false items are efficient for assessing whether students can identify the accuracy of declarative statements of fact.
+145.	Matching type questions are most appropriate for: (NTA NET 2020)
+a) Testing associations between related items
+b) Essay writing
+c) Problem solving
+d) Creative expression
+Answer: a) Testing associations between related items
+Explanation: Matching items efficiently test students' ability to recognize relationships between two sets of related items.
+146.	Open-book examinations primarily test: (REET 2019)
+a) Memory of facts
+b) Application and analytical skills
+c) Reading speed
+d) Book organization
+Answer: b) Application and analytical skills
+Explanation: Open-book exams focus on applying, analyzing, and synthesizing information rather than mere recall of facts.
+147.	Formative feedback should be: (KVS 2019)
+a) Delayed and general
+b) Immediate and specific
+c) Punitive
+d) Comparative
+Answer: b) Immediate and specific
+Explanation: Effective formative feedback is timely, specific to the task, and provides guidance for improvement.
+148.	The grading system that compares student to predetermined standards is: (UPTET 2018)
+a) Relative grading
+b) Absolute grading
+c) Percentile grading
+d) Curve grading
+Answer: b) Absolute grading
+Explanation: Absolute grading evaluates students against fixed standards or criteria, not relative to other students' performance.
+149.	Achievement tests measure: (CTET 2021)
+a) Future potential
+b) What has been learned
+c) Intelligence
+d) Personality traits
+Answer: b) What has been learned
+Explanation: Achievement tests assess what students have learned or the skills they have acquired from instruction.
+150.	Aptitude tests are designed to predict: (DSSSB 2018)
+a) Past performance
+b) Current knowledge
+c) Future learning potential
+d) Personality type
+Answer: c) Future learning potential
+Explanation: Aptitude tests measure potential or capacity to learn, predicting future performance in specific areas with appropriate training.
+151.	Effective classroom communication should be: (TET 2019)
+a) One-way from teacher to students
+b) Two-way and interactive
+c) Minimal
+d) Only written
+Answer: b) Two-way and interactive
+Explanation: Effective communication involves bidirectional exchange where both teachers and students share information, ask questions, and provide feedback.
+152.	Non-verbal communication includes: (UGC NET 2020)
+a) Lectures
+b) Body language, gestures, and facial expressions
+c) Written instructions
+d) Oral presentations
+Answer: b) Body language, gestures, and facial expressions
+Explanation: Non-verbal communication encompasses all communication without words, including posture, gestures, eye contact, and facial expressions.
+153.	The primary barrier to effective classroom communication is: (NTA NET 2019)
+a) Use of technology
+b) Noise and distractions
+c) Student questions
+d) Visual aids
+Answer: b) Noise and distractions
+Explanation: Physical noise and psychological distractions create barriers that interfere with accurate transmission and reception of messages.
+154.	Active listening involves: (REET 2020)
+a) Passive hearing
+b) Engaging fully and responding thoughtfully
+c) Interrupting frequently
+d) Multitasking
+Answer: b) Engaging fully and responding thoughtfully
+Explanation: Active listening requires full attention, understanding, responding, and remembering what is being said.
+155.	Proxemics in communication refers to: (KVS 2021)
+a) Use of voice
+b) Use of space and distance
+c) Use of time
+d) Use of words
+Answer: b) Use of space and distance
+Explanation: Proxemics studies how people use space in communication and how physical distance affects interactions.
+156.	Classroom climate refers to: (CTET 2019)
+a) Air conditioning
+b) The emotional and social atmosphere
+c) Weather conditions
+d) Temperature only
+Answer: b) The emotional and social atmosphere
+Explanation: Classroom climate encompasses the emotional tone, social relationships, and overall learning environment of the classroom.
+157.	Democratic classroom management style is characterized by: (UPTET 2021)
+a) Teacher making all decisions
+b) Shared decision-making and student participation
+c) No rules
+d) Complete student control
+Answer: b) Shared decision-making and student participation
+Explanation: Democratic management involves students in establishing rules and decisions while teacher provides guidance and maintains ultimate responsibility.
+158.	The most effective approach to classroom discipline is: (DSSSB 2020)
+a) Reactive punishment
+b) Preventive and proactive strategies
+c) Ignoring all misbehavior
+d) Harsh penalties
+Answer: b) Preventive and proactive strategies
+Explanation: Preventive discipline focuses on creating positive learning environments and clear expectations to prevent problems before they occur.
+159.	Wait time in questioning refers to: (TET 2020)
+a) Time wasted in class
+b) Pause after asking question and after student response
+c) Waiting for class to begin
+d) Break time
+Answer: b) Pause after asking question and after student response
+Explanation: Wait time is the pause teachers allow after asking a question and after student responses, improving quality of responses and participation.
+160.	The ripple effect in classroom management means: (UGC NET 2018)
+a) Water activities
+b) Teacher's response to one student affects others
+c) Waves of learning
+d) Progressive teaching
+Answer: b) Teacher's response to one student affects others
+Explanation: The ripple effect occurs when a teacher's disciplinary action toward one student influences the behavior of other students who witness it.
+161.	Withitness in classroom management refers to: (NTA NET 2020)
+a) Having resources
+b) Teacher's awareness of everything happening in classroom
+c) Being friendly
+d) Using technology
+Answer: b) Teacher's awareness of everything happening in classroom
+Explanation: Withitness is a teacher's ability to know what is happening in all parts of the classroom at all times and respond appropriately.
+162.	Proximity control means: (REET 2018)
+a) Using computers
+b) Moving closer to students to manage behavior
+c) Grouping students
+d) Controlling attendance
+Answer: b) Moving closer to students to manage behavior
+Explanation: Proximity control involves teachers moving physically closer to students to prevent or address behavioral issues without direct confrontation.
+163.	Kounin's concept of momentum refers to: (KVS 2020)
+a) Physical movement
+b) Maintaining lesson flow without slowdowns
+c) Student energy
+d) Learning speed
+Answer: b) Maintaining lesson flow without slowdowns
+Explanation: Momentum is maintaining appropriate pacing and flow in lessons, avoiding slowdowns and maintaining student engagement.
+164.	Assertive discipline emphasizes: (CTET 2020)
+a) Aggressive teacher control
+b) Clear expectations and consistent consequences
+c) Passive acceptance
+d) Student-led discipline
+Answer: b) Clear expectations and consistent consequences
+Explanation: Assertive discipline involves clearly communicating behavioral expectations and consistently applying predetermined consequences.
+165.	The most effective teacher questions are: (UPTET 2019)
+a) Yes/no questions only
+b) Mix of lower and higher-order questions
+c) Only factual recall
+d) Rhetorical questions
+Answer: b) Mix of lower and higher-order questions
+Explanation: Effective questioning includes both lower-order (knowledge, comprehension) and higher-order (analysis, synthesis, evaluation) questions.
+166.	Feedback to students should be: (DSSSB 2019)
+a) Delayed and vague
+b) Immediate, specific, and constructive
+c) Always negative
+d) Rarely given
+Answer: b) Immediate, specific, and constructive
+Explanation: Effective feedback is timely, specific to the task, identifies strengths and areas for improvement, and guides future learning.
+167.	Paralanguage in communication includes: (TET 2021)
+a) Body movements
+b) Tone, pitch, volume, and rate of speech
+c) Written symbols
+d) Visual aids
+Answer: b) Tone, pitch, volume, and rate of speech
+Explanation: Paralanguage encompasses vocal characteristics that accompany speech, conveying emotion and emphasis beyond words themselves.
+168.	Positive classroom management focuses on: (UGC NET 2021)
+a) Punishment
+b) Rewarding desired behaviors
+c) Ignoring students
+d) Strict control
+Answer: b) Rewarding desired behaviors
+Explanation: Positive management emphasizes recognizing and reinforcing appropriate behaviors rather than just punishing misbehavior.
+169.	Clear communication in teaching requires: (NTA NET 2018)
+a) Complex vocabulary
+b) Simple, organized, and relevant message
+c) Lengthy explanations
+d) Technical jargon
+Answer: b) Simple, organized, and relevant message
+Explanation: Clarity in teaching involves using appropriate language, logical organization, relevant examples, and checking for understanding.
+170.	The seating arrangement that best facilitates discussion is: (REET 2021)
+a) Traditional rows
+b) Circle or U-shape
+c) Separate cubicles
+d) Random scattered
+Answer: b) Circle or U-shape
+Explanation: Circular or U-shaped arrangements allow students to see and interact with each other, facilitating discussion and participation.
+171.	Behavior modification is based on principles of: (KVS 2018)
+a) Psychoanalysis
+b) Operant conditioning
+c) Gestalt psychology
+d) Humanism
+Answer: b) Operant conditioning
+Explanation: Behavior modification applies operant conditioning principles, using reinforcement and consequences to change behavior.
+172.	Natural consequences as a discipline strategy involve: (UPTET 2020)
+a) Teacher-imposed punishment
+b) Allowing logical results of behavior to occur
+c) Ignoring behavior
+d) Parental intervention
+Answer: b) Allowing logical results of behavior to occur
+Explanation: Natural consequences let students experience the realistic outcomes of their actions, promoting self-discipline and responsibility.
+173.	Time-out as a behavior management technique involves: (CTET 2018)
+a) Permanent removal from class
+b) Temporary removal from reinforcing situation
+c) Longer class hours
+d) Extra homework
+Answer: b) Temporary removal from reinforcing situation
+Explanation: Time-out temporarily removes a student from a reinforcing environment to reduce inappropriate behavior.
+174.	The Premack Principle in classroom management uses: (DSSSB 2021)
+a) Punishment only
+b) Preferred activities to reinforce less preferred behaviors
+c) Random rewards
+d) Negative reinforcement
+Answer: b) Preferred activities to reinforce less preferred behaviors
+Explanation: The Premack Principle uses high-probability behaviors (preferred activities) as rewards for completing low-probability behaviors.
+175.	Effective classroom rules should be: (TET 2019)
+a) Numerous and detailed
+b) Few, clear, and positively stated
+c) Secret
+d) Changed daily
+Answer: b) Few, clear, and positively stated
+Explanation: Effective rules are limited in number, clearly understood, stated positively (what to do), and consistently enforced.
+176.	Token economy in classroom management involves: (UGC NET 2019)
+a) Teaching economics
+b) Using tokens as secondary reinforcers exchangeable for rewards
+c) Using real money
+d) Stock market simulation
+Answer: b) Using tokens as secondary reinforcers exchangeable for rewards
+Explanation: Token economy systems give students tokens for appropriate behavior that can be exchanged for backup reinforcers or privileges.
+177.	Metacommunication refers to: (NTA NET 2021)
+a) Communication about communication
+b) Using metaphors
+c) Digital communication
+d) Mass communication
+Answer: a) Communication about communication
+Explanation: Metacommunication is communication about the communication process itself, clarifying meaning, intent, or relationship aspects.
+178.	The primary purpose of classroom transitions should be: (REET 2019)
+a) Waste time
+b) Move efficiently between activities minimizing disruption
+c) Give students free time
+d) Test student patience
+Answer: b) Move efficiently between activities minimizing disruption
+Explanation: Effective transitions smoothly move students from one activity to another, maintaining momentum and minimizing lost instructional time.
+179.	Overlapping in classroom management means: (KVS 2019)
+a) Excessive content
+b) Attending to multiple events simultaneously
+c) Repeating lessons
+d) Overcrowded classrooms
+Answer: b) Attending to multiple events simultaneously
+Explanation: Overlapping is a teacher's ability to handle two or more classroom events at the same time effectively.
+180.	Eye contact in teaching helps to: (UPTET 2018)
+a) Maintain student attention and show interest
+b) Intimidate students
+c) Avoid communication
+d) Replace verbal instruction
+Answer: a) Maintain student attention and show interest
+Explanation: Eye contact engages students, monitors understanding, conveys interest and confidence, and helps maintain attention.
+181.	Logical consequences differ from punishment in that they: (CTET 2021)
+a) Are more severe
+b) Are related to the misbehavior and teach responsibility
+c) Are random
+d) Involve physical discipline
+Answer: b) Are related to the misbehavior and teach responsibility
+Explanation: Logical consequences are directly related to the misbehavior and focus on teaching responsibility rather than inflicting discomfort.
+182.	The best time to establish classroom rules is: (DSSSB 2018)
+a) After problems occur
+b) Beginning of school year
+c) Mid-year
+d) Never needed
+Answer: b) Beginning of school year
+Explanation: Establishing clear expectations and rules at the beginning sets the tone for the year and prevents many behavioral issues.
+183.	Redundancy in communication means: (TET 2020)
+a) Unnecessary repetition
+b) Intentional repetition for emphasis and clarity
+c) Confusing messages
+d) Silent communication
+Answer: b) Intentional repetition for emphasis and clarity
+Explanation: Controlled redundancy repeats important information through different channels or words to enhance understanding and retention.
+184.	Student engagement is highest when: (UGC NET 2020)
+a) Teacher lectures continuously
+b) Activities are appropriately challenging and relevant
+c) Tasks are too easy
+d) Tasks are too difficult
+Answer: b) Activities are appropriately challenging and relevant
+Explanation: Engagement peaks when tasks fall within students' zone of proximal development and connect to their interests and experiences.
+185.	The halo effect in classroom communication occurs when: (NTA NET 2019)
+a) Teachers use halos
+b) General impression influences specific perceptions
+c) Positive feedback is given
+d) Students are praised
+Answer: b) General impression influences specific perceptions
+Explanation: The halo effect causes a general impression of a student to influence how a teacher interprets specific behaviors or performance.
+186.	Paraphrasing in communication helps to: (REET 2020)
+a) Waste time
+b) Confirm understanding and show listening
+c) Confuse the speaker
+d) Change the message
+Answer: b) Confirm understanding and show listening
+Explanation: Paraphrasing restates someone's message in different words to verify understanding and demonstrate active listening.
+187.	The main purpose of classroom routines is to: (KVS 2020)
+a) Make class boring
+b) Provide structure and maximize instructional time
+c) Control students completely
+d) Reduce teacher planning
+Answer: b) Provide structure and maximize instructional time
+Explanation: Routines create predictability and structure, reducing time spent on organizational tasks and maximizing learning time.
+188.	Effective praise should be: (UPTET 2021)
+a) General and frequent
+b) Specific and contingent on performance
+c) Comparative
+d) Rare
+Answer: b) Specific and contingent on performance
+Explanation: Effective praise specifically identifies what was done well and is given for genuine achievement, not indiscriminately.
+189.	The communication process includes: (CTET 2019)
+a) Sender only
+b) Sender, message, channel, receiver, and feedback
+c) Message only
+d) Receiver only
+Answer: b) Sender, message, channel, receiver, and feedback
+Explanation: Complete communication involves a sender encoding a message, transmitting through a channel, receiver decoding, and providing feedback.
+190.	Semantic barriers in communication arise from: (DSSSB 2020)
+a) Physical noise
+b) Different interpretations of words and symbols
+c) Distance
+d) Time constraints
+Answer: b) Different interpretations of words and symbols
+Explanation: Semantic barriers occur when words and symbols mean different things to different people, causing misunderstanding.
+191.	Group dynamics in classroom refers to: (TET 2018)
+a) Physical movement
+b) Interaction patterns and relationships among students
+c) Group size only
+d) Seating arrangements
+Answer: b) Interaction patterns and relationships among students
+Explanation: Group dynamics encompasses the patterns of interaction, influence, relationships, and roles within the classroom social system.
+192.	Effective questioning should: (UGC NET 2018)
+a) Only test memory
+b) Stimulate thinking at various cognitive levels
+c) Embarrass students
+d) Be answered by teacher
+Answer: b) Stimulate thinking at various cognitive levels
+Explanation: Effective questions engage students at different thinking levels, from recall to analysis and evaluation.
+193.	The attention span of students can be maintained by: (NTA NET 2020)
+a) Long lectures
+b) Varying activities and teaching methods
+c) Monotonous delivery
+d) Avoiding student participation
+Answer: b) Varying activities and teaching methods
+Explanation: Varying instructional methods, activities, and pacing helps maintain student attention and engagement.
+194.	Conflict resolution in classroom is best achieved through: (REET 2018)
+a) Ignoring conflicts
+b) Facilitated dialogue and problem-solving
+c) Taking sides
+d) Punishment only
+Answer: b) Facilitated dialogue and problem-solving
+Explanation: Effective conflict resolution involves helping students communicate, understand perspectives, and collaboratively find solutions.
+195.	The communication barrier of filtering occurs when: (KVS 2021)
+a) Using filters
+b) Information is manipulated to appear favorable
+c) Speaking clearly
+d) Listening actively
+Answer: b) Information is manipulated to appear favorable
+Explanation: Filtering is selective presentation or withholding of information to make it more acceptable to the receiver.
+196.	Classroom arrangement should facilitate: (UPTET 2019)
+a) Teacher control only
+b) Learning goals and student interaction
+c) Isolation of students
+d) Minimal movement
+Answer: b) Learning goals and student interaction
+Explanation: Physical arrangement should support instructional objectives, whether individual work, collaboration, discussion, or presentation.
+197.	The best response to minor classroom disruptions is: (CTET 2020)
+a) Stopping class immediately
+b) Using subtle, non-disruptive interventions
+c) Ignoring completely
+d) Severe punishment
+Answer: b) Using subtle, non-disruptive interventions
+Explanation: Minor disruptions are best handled with minimal intervention like eye contact, proximity, or subtle cues to avoid interrupting learning.
+198.	Emotional intelligence in teaching involves: (DSSSB 2019)
+a) Being emotional
+b) Understanding and managing emotions in self and others
+c) Avoiding emotions
+d) Expressing anger
+Answer: b) Understanding and managing emotions in self and others
+Explanation: Emotional intelligence includes self-awareness, self-regulation, empathy, and skillful relationship management.
+199.	The primary goal of classroom communication is: (TET 2021)
+a) Entertainment
+b) Facilitating learning and understanding
+c) Maintaining authority
+d) Filling time
+Answer: b) Facilitating learning and understanding
+Explanation: All classroom communication should ultimately serve to promote student learning, understanding, and development.
+200.	Cultural responsiveness in communication means: (UGC NET 2021)
+a) Ignoring cultural differences
+b) Recognizing and valuing diverse cultural perspectives
+c) Imposing one culture
+d) Avoiding cultural topics
+Answer: b) Recognizing and valuing diverse cultural perspectives
+Explanation: Culturally responsive communication acknowledges, respects, and incorporates students' diverse cultural backgrounds and perspectives.
