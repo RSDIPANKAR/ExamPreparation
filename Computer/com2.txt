@@ -421,3 +421,917 @@ c) Network Layer
 d) Transport Layer
 Answer: c) Network Layer
 Explanation: The Network Layer (Layer 3) handles routing and logical addressing.
+
+54. The maximum data transfer rate of a network is called: (UPTET 2021)
+a) Bandwidth
+b) Frequency
+c) Amplitude
+d) Wavelength
+Answer: a) Bandwidth
+Explanation: Bandwidth refers to the maximum amount of data that can be transmitted over a network in a given time.
+
+55. Which protocol is used for sending email? (HTET 2020)
+a) HTTP
+b) FTP
+c) SMTP
+d) POP3
+Answer: c) SMTP
+Explanation: SMTP (Simple Mail Transfer Protocol) is used for sending emails between servers.
+
+56. IP address version 4 (IPv4) uses how many bits? (REET 2019)
+a) 16 bits
+b) 32 bits
+c) 64 bits
+d) 128 bits
+Answer: b) 32 bits
+Explanation: IPv4 addresses use 32 bits, allowing for approximately 4.3 billion unique addresses.
+
+57. Which device operates at the Data Link Layer of OSI model? (CTET 2021)
+a) Router
+b) Switch
+c) Gateway
+d) Repeater
+Answer: b) Switch
+Explanation: Switches operate at Layer 2 (Data Link Layer) and forward frames based on MAC addresses.
+
+58. The process of converting analog signals to digital signals is called: (UPTET 2020)
+a) Modulation
+b) Demodulation
+c) Encoding
+d) Decoding
+Answer: a) Modulation
+Explanation: Modulation converts analog signals to digital format for transmission.
+
+59. Which network covers the largest geographical area? (HTET 2021)
+a) LAN
+b) MAN
+c) WAN
+d) PAN
+Answer: c) WAN
+Explanation: WAN (Wide Area Network) covers the largest geographical area, potentially spanning countries or continents.
+
+60. The unique physical address of a network card is called: (REET 2020)
+a) IP Address
+b) MAC Address
+c) Port Address
+d) Socket Address
+Answer: b) MAC Address
+Explanation: MAC (Media Access Control) address is a unique hardware identifier for network interfaces.
+
+61. Which protocol is used for secure data transmission over the internet? (CTET 2019)
+a) HTTP
+b) HTTPS
+c) FTP
+d) SMTP
+Answer: b) HTTPS
+Explanation: HTTPS (HTTP Secure) encrypts data transmission using SSL/TLS protocols.
+
+62. A network that connects computers within a single building is typically a: (UPTET 2021)
+a) WAN
+b) MAN
+c) LAN
+d) GAN
+Answer: c) LAN
+Explanation: LAN (Local Area Network) typically covers a small area like a building or campus.
+
+63. Which device regenerates weak signals in a network? (HTET 2020)
+a) Router
+b) Switch
+c) Repeater
+d) Bridge
+Answer: c) Repeater
+Explanation: A repeater amplifies or regenerates signals to extend network coverage.
+
+64. The protocol used for file transfer is: (REET 2021)
+a) HTTP
+b) FTP
+c) SMTP
+d) POP3
+Answer: b) FTP
+Explanation: FTP (File Transfer Protocol) is specifically designed for transferring files between computers.
+
+65. Which topology provides the highest reliability? (CTET 2020)
+a) Bus
+b) Star
+c) Ring
+d) Mesh
+Answer: d) Mesh
+Explanation: Mesh topology provides multiple paths between devices, ensuring high reliability.
+
+66. DHCP stands for: (UPTET 2019)
+a) Dynamic Host Configuration Protocol
+b) Dynamic Hardware Configuration Protocol
+c) Digital Host Configuration Protocol
+d) Digital Hardware Configuration Protocol
+Answer: a) Dynamic Host Configuration Protocol
+Explanation: DHCP automatically assigns IP addresses to devices on a network.
+
+67. The default port number for HTTP is: (HTET 2021)
+a) 21
+b) 25
+c) 80
+d) 443
+Answer: c) 80
+Explanation: Port 80 is the default port for HTTP web traffic.
+
+68. Which cable type uses light for data transmission? (REET 2020)
+a) Coaxial Cable
+b) Twisted Pair Cable
+c) Fiber Optic Cable
+d) Ethernet Cable
+Answer: c) Fiber Optic Cable
+Explanation: Fiber optic cables use light pulses to transmit data at high speeds.
+
+69. A private network that uses internet protocols is called: (CTET 2021)
+a) Internet
+b) Intranet
+c) Extranet
+d) Ethernet
+Answer: b) Intranet
+Explanation: An intranet is a private network using internet protocols within an organization.
+
+70. The process of finding the best path for data transmission is called: (UPTET 2020)
+a) Switching
+b) Routing
+c) Bridging
+d) Filtering
+Answer: b) Routing
+Explanation: Routing determines the optimal path for data packets to reach their destination.
+
+71. A program that replicates itself and spreads to other computers is called: (HTET 2019)
+a) Virus
+b) Worm
+c) Trojan
+d) Spyware
+Answer: b) Worm
+Explanation: A worm is self-replicating malware that spreads automatically without user intervention.
+
+72. Which of the following is a strong password? (REET 2021)
+a) password123
+b) 12345678
+c) P@ssw0rd#2021
+d) admin
+Answer: c) P@ssw0rd#2021
+Explanation: Strong passwords include uppercase, lowercase, numbers, and special characters.
+
+73. The practice of sending fraudulent emails to steal sensitive information is called: (CTET 2020)
+a) Phishing
+b) Spoofing
+c) Sniffing
+d) Hacking
+Answer: a) Phishing
+Explanation: Phishing involves deceptive emails that trick users into revealing personal information.
+
+74. A firewall is used to: (UPTET 2021)
+a) Prevent unauthorized access
+b) Speed up internet connection
+c) Store data
+d) Cool the computer
+Answer: a) Prevent unauthorized access
+Explanation: Firewalls monitor and control network traffic based on security rules.
+
+75. Which type of malware disguises itself as legitimate software? (HTET 2020)
+a) Virus
+b) Worm
+c) Trojan Horse
+d) Adware
+Answer: c) Trojan Horse
+Explanation: Trojan horses appear to be useful programs but contain malicious code.
+
+76. Two-factor authentication typically includes: (REET 2019)
+a) Two passwords
+b) Password and biometric
+c) Two usernames
+d) Two email addresses
+Answer: b) Password and biometric
+Explanation: Two-factor authentication combines something you know (password) with something you have or are (biometric).
+
+77. Which protocol provides secure remote access? (CTET 2021)
+a) Telnet
+b) SSH
+c) FTP
+d) HTTP
+Answer: b) SSH
+Explanation: SSH (Secure Shell) provides encrypted remote access to systems.
+
+78. A software that monitors user activity without permission is called: (UPTET 2020)
+a) Firewall
+b) Antivirus
+c) Spyware
+d) Firmware
+Answer: c) Spyware
+Explanation: Spyware secretly collects information about users without their consent.
+
+79. Which of the following is NOT a type of cyber attack? (HTET 2021)
+a) DDoS
+b) SQL Injection
+c) Defragmentation
+d) Man-in-the-middle
+Answer: c) Defragmentation
+Explanation: Defragmentation is a disk optimization process, not a cyber attack.
+
+80. The process of encoding data to prevent unauthorized access is called: (REET 2020)
+a) Compression
+b) Encryption
+c) Conversion
+d) Translation
+Answer: b) Encryption
+Explanation: Encryption converts data into a coded format that requires a key to decode.
+
+81. Which of the following is a biometric authentication method? (CTET 2019)
+a) Password
+b) PIN
+c) Fingerprint
+d) Security question
+Answer: c) Fingerprint
+Explanation: Biometric authentication uses physical characteristics like fingerprints for identification.
+
+82. A VPN is used to: (UPTET 2021)
+a) Increase internet speed
+b) Create a secure connection over the internet
+c) Block advertisements
+d) Compress files
+Answer: b) Create a secure connection over the internet
+Explanation: VPN (Virtual Private Network) creates an encrypted tunnel for secure communication.
+
+83. Which attack floods a server with traffic to make it unavailable? (HTET 2020)
+a) Phishing
+b) DDoS
+c) Spoofing
+d) Sniffing
+Answer: b) DDoS
+Explanation: DDoS (Distributed Denial of Service) overwhelms servers with traffic from multiple sources.
+
+84. The practice of using someone else's Wi-Fi without permission is called: (REET 2021)
+a) Piggybacking
+b) Phishing
+c) Spoofing
+d) Hacking
+Answer: a) Piggybacking
+Explanation: Piggybacking refers to unauthorized use of someone's wireless internet connection.
+
+85. Which of the following helps protect against malware? (CTET 2020)
+a) Screensaver
+b) Wallpaper
+c) Antivirus software
+d) Desktop theme
+Answer: c) Antivirus software
+Explanation: Antivirus software detects and removes malicious programs from computers.
+
+86. SSL certificates are used for: (UPTET 2019)
+a) Speeding up websites
+b) Securing web communications
+c) Storing passwords
+d) Blocking ads
+Answer: b) Securing web communications
+Explanation: SSL certificates encrypt data transmitted between web servers and browsers.
+
+87. A honeypot in cybersecurity is: (HTET 2021)
+a) A type of malware
+b) A decoy system to attract attackers
+c) A password manager
+d) An encryption method
+Answer: b) A decoy system to attract attackers
+Explanation: Honeypots are intentionally vulnerable systems used to detect and study attacks.
+
+88. Which of the following is a secure practice for online banking? (REET 2020)
+a) Using public Wi-Fi
+b) Sharing passwords
+c) Using HTTPS websites
+d) Saving passwords in browsers
+Answer: c) Using HTTPS websites
+Explanation: HTTPS ensures encrypted communication for secure online transactions.
+
+89. Ransomware is a type of malware that: (CTET 2021)
+a) Steals passwords
+b) Encrypts files and demands payment
+c) Displays advertisements
+d) Slows down computers
+Answer: b) Encrypts files and demands payment
+Explanation: Ransomware locks users' files and demands ransom for decryption keys.
+
+90. The first line of defense in cybersecurity is: (UPTET 2020)
+a) Antivirus
+b) Firewall
+c) User awareness
+d) Encryption
+Answer: c) User awareness
+Explanation: Educated users who follow security best practices are the most effective defense.
+
+91. The first network that became the basis for the Internet was: (HTET 2019)
+a) USENET
+b) ARPANET
+c) CSNET
+d) NSFNET
+Answer: b) ARPANET
+Explanation: ARPANET, developed in 1969, was the precursor to the modern Internet.
+
+92. Which organization manages domain name registration? (REET 2021)
+a) ICANN
+b) IEEE
+c) ISO
+d) ITU
+Answer: a) ICANN
+Explanation: ICANN (Internet Corporation for Assigned Names and Numbers) coordinates domain name system.
+
+93. A web browser is an example of: (CTET 2020)
+a) System software
+b) Application software
+c) Firmware
+d) Malware
+Answer: b) Application software
+Explanation: Web browsers are application programs used to access and view websites.
+
+94. The protocol used for sending web pages is: (UPTET 2021)
+a) FTP
+b) SMTP
+c) HTTP
+d) POP3
+Answer: c) HTTP
+Explanation: HTTP (Hypertext Transfer Protocol) is used for transmitting web pages.
+
+95. Which of the following is a search engine? (HTET 2020)
+a) Chrome
+b) Firefox
+c) Google
+d) Safari
+Answer: c) Google
+Explanation: Google is a search engine, while others listed are web browsers.
+
+96. The address of a website is called: (REET 2019)
+a) URL
+b) ISP
+c) HTTP
+d) HTML
+Answer: a) URL
+Explanation: URL (Uniform Resource Locator) is the web address used to access websites.
+
+97. Cookies in web browsers are used to: (CTET 2021)
+a) Speed up internet
+b) Store user information
+c) Block viruses
+d) Compress files
+Answer: b) Store user information
+Explanation: Cookies store user preferences and session information for websites.
+
+98. Which HTML tag is used to create a hyperlink? (UPTET 2020)
+a) <link>
+b) <a>
+c) <href>
+d) <url>
+Answer: b) <a>
+Explanation: The anchor tag <a> is used to create hyperlinks in HTML.
+
+99. The default page of a website is usually named: (HTET 2021)
+a) main.html
+b) default.html
+c) index.html
+d) home.html
+Answer: c) index.html
+Explanation: index.html is the conventional name for a website's homepage.
+
+100. Which protocol is used for secure web browsing? (REET 2020)
+a) HTTP
+b) HTTPS
+c) FTP
+d) SMTP
+Answer: b) HTTPS
+Explanation: HTTPS uses SSL/TLS encryption for secure web communications.
+
+101. Which feature in Excel allows you to view data that meets specific criteria? (CTET 2019)
+a) Sort
+b) Filter
+c) Find
+d) Replace
+Answer: b) Filter
+Explanation: Filter feature displays only rows that meet specified criteria while hiding others.
+
+102. The keyboard shortcut for inserting a hyperlink in MS Office is: (UPTET 2021)
+a) Ctrl + H
+b) Ctrl + K
+c) Ctrl + L
+d) Ctrl + I
+Answer: b) Ctrl + K
+Explanation: Ctrl + K opens the Insert Hyperlink dialog box in MS Office applications.
+
+103. Which view in PowerPoint shows speaker notes? (HTET 2020)
+a) Normal View
+b) Slide Sorter View
+c) Notes Page View
+d) Reading View
+Answer: c) Notes Page View
+Explanation: Notes Page View displays slides with their associated speaker notes.
+
+104. The feature that automatically continues a series in Excel is called: (REET 2021)
+a) AutoSum
+b) AutoFill
+c) AutoFormat
+d) AutoCorrect
+Answer: b) AutoFill
+Explanation: AutoFill automatically extends a series of numbers, dates, or other data.
+
+105. Which function key is used for "Save As" in MS Office? (CTET 2020)
+a) F10
+b) F11
+c) F12
+d) F9
+Answer: c) F12
+Explanation: F12 opens the Save As dialog box in MS Office applications.
+
+106. The maximum number of worksheets in an Excel workbook is limited by: (UPTET 2019)
+a) 255
+b) 256
+c) Available memory
+d) 1024
+Answer: c) Available memory
+Explanation: The number of worksheets is limited only by available system memory.
+
+107. Which feature in Word creates a table of contents automatically? (HTET 2021)
+a) Index
+b) References
+c) Styles
+d) Headers
+Answer: c) Styles
+Explanation: Using heading styles allows Word to automatically generate a table of contents.
+
+108. The file extension for a macro-enabled Excel workbook is: (REET 2020)
+a) .xlsx
+b) .xlsm
+c) .xlsb
+d) .xltm
+Answer: b) .xlsm
+Explanation: .xlsm extension indicates an Excel workbook that contains macros.
+
+109. Which PowerPoint feature allows automatic advancement of slides? (CTET 2021)
+a) Animation
+b) Transition
+c) Slide Timing
+d) Rehearse Timings
+Answer: c) Slide Timing
+Explanation: Slide Timing settings allow slides to advance automatically after a specified duration.
+
+110. The shortcut to insert current date in Excel is: (UPTET 2020)
+a) Ctrl + ;
+b) Ctrl + :
+c) Ctrl + D
+d) Ctrl + T
+Answer: a) Ctrl + ;
+Explanation: Ctrl + ; (semicolon) inserts the current date in the selected cell in Excel.
+
+111. Which feature in MS Word allows you to track changes made to a document? (HTET 2019)
+a) Comments
+b) Track Changes
+c) Compare
+d) Protect Document
+Answer: b) Track Changes
+Explanation: Track Changes records all edits made to a document, showing insertions, deletions, and formatting changes.
+
+112. The function to count non-empty cells in Excel is: (REET 2021)
+a) COUNT
+b) COUNTA
+c) COUNTIF
+d) COUNTBLANK
+Answer: b) COUNTA
+Explanation: COUNTA counts all non-empty cells regardless of data type.
+
+113. Which tab contains the Macro option in MS Office? (CTET 2020)
+a) Home
+b) Insert
+c) View
+d) Developer
+Answer: d) Developer
+Explanation: The Developer tab contains macro-related tools and VBA options.
+
+114. The maximum zoom percentage in MS Word is: (UPTET 2021)
+a) 200%
+b) 400%
+c) 500%
+d) 1000%
+Answer: c) 500%
+Explanation: MS Word allows zooming up to 500% for detailed view of documents.
+
+115. Which Excel function returns the largest value in a range? (HTET 2020)
+a) MAX
+b) LARGE
+c) MAXIMUM
+d) HIGH
+Answer: a) MAX
+Explanation: The MAX function returns the highest value from a range of cells.
+
+## Computer Hardware
+
+116. Which component is known as the permanent memory of a computer? (REET 2019)
+a) RAM
+b) ROM
+c) Cache
+d) Register
+Answer: b) ROM
+Explanation: ROM (Read-Only Memory) retains data permanently even when power is off.
+
+117. The speed of a processor is measured in: (CTET 2021)
+a) Megabytes
+b) Gigabytes
+c) Hertz
+d) Bits per second
+Answer: c) Hertz
+Explanation: Processor speed is measured in Hertz (Hz), typically Gigahertz (GHz) for modern CPUs.
+
+118. Which port is commonly used for connecting a printer? (UPTET 2020)
+a) VGA
+b) HDMI
+c) USB
+d) PS/2
+Answer: c) USB
+Explanation: USB ports are the most common interface for connecting modern printers.
+
+119. Cache memory is placed between: (HTET 2021)
+a) CPU and RAM
+b) RAM and Hard disk
+c) CPU and Hard disk
+d) RAM and ROM
+Answer: a) CPU and RAM
+Explanation: Cache memory acts as a buffer between the fast CPU and slower RAM.
+
+120. Which component converts AC to DC in a computer? (REET 2020)
+a) UPS
+b) Power Supply Unit
+c) Motherboard
+d) Voltage Regulator
+Answer: b) Power Supply Unit
+Explanation: The PSU converts alternating current (AC) from the wall outlet to direct current (DC) for computer components.
+
+121. Which language is primarily used for web page structure? (CTET 2019)
+a) Java
+b) HTML
+c) Python
+d) C++
+Answer: b) HTML
+Explanation: HTML (HyperText Markup Language) defines the structure and content of web pages.
+
+122. CSS stands for: (UPTET 2021)
+a) Computer Style Sheets
+b) Cascading Style Sheets
+c) Creative Style Sheets
+d) Colorful Style Sheets
+Answer: b) Cascading Style Sheets
+Explanation: CSS is used for styling and layout of web pages.
+
+123. Which of the following is a client-side scripting language? (HTET 2020)
+a) PHP
+b) Python
+c) JavaScript
+d) Ruby
+Answer: c) JavaScript
+Explanation: JavaScript runs in the user's web browser (client-side) without server processing.
+
+124. The process of improving website ranking in search results is called: (REET 2021)
+a) SEM
+b) SEO
+c) SMM
+d) PPC
+Answer: b) SEO
+Explanation: SEO (Search Engine Optimization) improves website visibility in search engine results.
+
+125. Which protocol is used for real-time communication on the web? (CTET 2020)
+a) HTTP
+b) FTP
+c) WebRTC
+d) SMTP
+Answer: c) WebRTC
+Explanation: WebRTC enables real-time communication like video calls directly in web browsers.
+
+126. Which key uniquely identifies a record in a database table? (UPTET 2019)
+a) Foreign Key
+b) Primary Key
+c) Candidate Key
+d) Alternate Key
+Answer: b) Primary Key
+Explanation: A primary key uniquely identifies each record and cannot contain null values.
+
+127. SQL stands for: (HTET 2021)
+a) Structured Query Language
+b) Simple Query Language
+c) Standard Query Language
+d) System Query Language
+Answer: a) Structured Query Language
+Explanation: SQL is the standard language for managing and querying relational databases.
+
+128. Which SQL command is used to retrieve data from a database? (REET 2020)
+a) GET
+b) FETCH
+c) SELECT
+d) RETRIEVE
+Answer: c) SELECT
+Explanation: SELECT statement is used to query and retrieve data from database tables.
+
+129. The process of organizing data to reduce redundancy is called: (CTET 2021)
+a) Normalization
+b) Denormalization
+c) Optimization
+d) Indexing
+Answer: a) Normalization
+Explanation: Normalization organizes data efficiently by eliminating redundancy and dependencies.
+
+130. Which of the following is a NoSQL database? (UPTET 2020)
+a) MySQL
+b) PostgreSQL
+c) MongoDB
+d) Oracle
+Answer: c) MongoDB
+Explanation: MongoDB is a document-oriented NoSQL database that stores data in JSON-like format.
+
+131. Which of the following is a high-level programming language? (HTET 2019)
+a) Assembly
+b) Machine Language
+c) Python
+d) Binary Code
+Answer: c) Python
+Explanation: Python is a high-level language that uses human-readable syntax.
+
+132. The process of finding and fixing errors in a program is called: (REET 2021)
+a) Compiling
+b) Debugging
+c) Executing
+d) Testing
+Answer: b) Debugging
+Explanation: Debugging involves identifying and correcting errors in program code.
+
+133. Which data structure follows LIFO principle? (CTET 2020)
+a) Queue
+b) Stack
+c) Array
+d) Tree
+Answer: b) Stack
+Explanation: Stack follows Last In First Out (LIFO) principle where the last element added is removed first.
+
+134. An algorithm is: (UPTET 2021)
+a) A programming language
+b) A step-by-step procedure to solve a problem
+c) A type of software
+d) A hardware component
+Answer: b) A step-by-step procedure to solve a problem
+Explanation: An algorithm is a finite sequence of well-defined instructions to solve a problem.
+
+135. Which of the following is an object-oriented programming language? (HTET 2020)
+a) C
+b) Pascal
+c) Java
+d) BASIC
+Answer: c) Java
+Explanation: Java is an object-oriented language that uses classes and objects.
+
+136. Which of the following is a cloud service model? (REET 2019)
+a) IaaS
+b) LAN
+c) WAN
+d) MAN
+Answer: a) IaaS
+Explanation: IaaS (Infrastructure as a Service) provides virtualized computing resources over the internet.
+
+137. Which company provides Azure cloud services? (CTET 2021)
+a) Google
+b) Amazon
+c) Microsoft
+d) IBM
+Answer: c) Microsoft
+Explanation: Microsoft Azure is Microsoft's cloud computing platform.
+
+138. The ability to increase or decrease resources as needed in cloud computing is called: (UPTET 2020)
+a) Elasticity
+b) Availability
+c) Reliability
+d) Durability
+Answer: a) Elasticity
+Explanation: Elasticity allows dynamic scaling of resources based on demand.
+
+139. Which of the following is NOT a benefit of cloud computing? (HTET 2021)
+a) Cost reduction
+b) Scalability
+c) Complete control over data
+d) Accessibility
+Answer: c) Complete control over data
+Explanation: Cloud computing involves storing data on third-party servers, reducing direct control.
+
+140. SaaS stands for: (REET 2020)
+a) Software as a Service
+b) System as a Service
+c) Storage as a Service
+d) Security as a Service
+Answer: a) Software as a Service
+Explanation: SaaS delivers software applications over the internet on a subscription basis.
+
+141. Which operating system is used in iPhone? (CTET 2019)
+a) Android
+b) iOS
+c) Windows Mobile
+d) BlackBerry OS
+Answer: b) iOS
+Explanation: iOS is Apple's proprietary operating system for iPhone and iPad.
+
+142. The technology that allows contactless payment using smartphones is: (UPTET 2021)
+a) Bluetooth
+b) NFC
+c) Wi-Fi
+d) GPS
+Answer: b) NFC
+Explanation: NFC (Near Field Communication) enables contactless payments and data transfer.
+
+143. Which of the following is an Android development language? (HTET 2020)
+a) Swift
+b) Kotlin
+c) Objective-C
+d) Ruby
+Answer: b) Kotlin
+Explanation: Kotlin is an official language for Android app development alongside Java.
+
+144. The small software programs for mobile devices are called: (REET 2021)
+a) Applications
+b) Widgets
+c) Plugins
+d) Extensions
+Answer: a) Applications
+Explanation: Applications (apps) are software programs designed for mobile devices.
+
+145. Which technology is used for mobile internet? (CTET 2020)
+a) 4G/5G
+b) Ethernet
+c) Dial-up
+d) DSL
+Answer: a) 4G/5G
+Explanation: 4G and 5G are cellular network technologies providing mobile internet access.
+
+146. AI stands for: (UPTET 2019)
+a) Automated Intelligence
+b) Artificial Intelligence
+c) Advanced Intelligence
+d) Analytical Intelligence
+Answer: b) Artificial Intelligence
+Explanation: Artificial Intelligence refers to machines simulating human intelligence.
+
+147. Which technology creates a simulated environment? (HTET 2021)
+a) Augmented Reality
+b) Virtual Reality
+c) Mixed Reality
+d) Extended Reality
+Answer: b) Virtual Reality
+Explanation: VR creates completely immersive simulated environments.
+
+148. Blockchain technology is primarily used in: (REET 2020)
+a) Gaming
+b) Cryptocurrency
+c) Social Media
+d) Email
+Answer: b) Cryptocurrency
+Explanation: Blockchain provides the underlying technology for cryptocurrencies like Bitcoin.
+
+149. IoT stands for: (CTET 2021)
+a) Internet of Technology
+b) Internet of Things
+c) Integration of Technology
+d) Information of Things
+Answer: b) Internet of Things
+Explanation: IoT refers to interconnected devices that communicate over the internet.
+
+150. Which technology enables computers to learn from data? (UPTET 2020)
+a) Machine Learning
+b) Cloud Computing
+c) Quantum Computing
+d) Edge Computing
+Answer: a) Machine Learning
+Explanation: Machine Learning allows systems to learn and improve from experience without explicit programming.
+
+151. Which of the following is a video conferencing application? (HTET 2019)
+a) WhatsApp
+b) Zoom
+c) Instagram
+d) Twitter
+Answer: b) Zoom
+Explanation: Zoom is specifically designed for video conferencing and online meetings.
+
+152. The maximum size of a tweet on Twitter is: (REET 2021)
+a) 140 characters
+b) 280 characters
+c) 500 characters
+d) 1000 characters
+Answer: b) 280 characters
+Explanation: Twitter increased the character limit from 140 to 280 characters in 2017.
+
+153. Which protocol is used for instant messaging? (CTET 2020)
+a) XMPP
+b) HTTP
+c) FTP
+d) SMTP
+Answer: a) XMPP
+Explanation: XMPP (Extensible Messaging and Presence Protocol) is used for instant messaging.
+
+154. Digital signature provides: (UPTET 2021)
+a) Encryption only
+b) Authentication only
+c) Both authentication and integrity
+d) Compression
+Answer: c) Both authentication and integrity
+Explanation: Digital signatures verify the sender's identity and ensure message integrity.
+
+155. Which of the following is a professional networking platform? (HTET 2020)
+a) Facebook
+b) LinkedIn
+c) Snapchat
+d) TikTok
+Answer: b) LinkedIn
+Explanation: LinkedIn is designed specifically for professional networking and career development.
+
+156. The process of reducing file size is called: (REET 2019)
+a) Encryption
+b) Compression
+c) Conversion
+d) Extraction
+Answer: b) Compression
+Explanation: Compression reduces file size for storage or transmission efficiency.
+
+157. Which file format supports animation? (CTET 2021)
+a) JPEG
+b) PNG
+c) GIF
+d) BMP
+Answer: c) GIF
+Explanation: GIF format supports simple animations through multiple frames.
+
+158. The extension .zip represents: (UPTET 2020)
+a) Image file
+b) Video file
+c) Compressed file
+d) Audio file
+Answer: c) Compressed file
+Explanation: .zip is a compressed archive file format that can contain multiple files.
+
+159. Which command is used to copy files in Windows Command Prompt? (HTET 2021)
+a) COPY
+b) MOVE
+c) PASTE
+d) TRANSFER
+Answer: a) COPY
+Explanation: The COPY command duplicates files from one location to another.
+
+160. File fragmentation affects: (REET 2020)
+a) File security
+b) File size
+c) Access speed
+d) File type
+Answer: c) Access speed
+Explanation: Fragmentation scatters file pieces across the disk, slowing access times.
+
+161. Which Windows utility is used to free up disk space? (CTET 2019)
+a) Disk Cleanup
+b) Disk Defragmenter
+c) Device Manager
+d) Task Manager
+Answer: a) Disk Cleanup
+Explanation: Disk Cleanup removes temporary files and other unnecessary data to free space.
+
+162. The Windows Registry stores: (UPTET 2021)
+a) User files
+b) System configuration settings
+c) Temporary internet files
+d) Email messages
+Answer: b) System configuration settings
+Explanation: The Registry is a database storing configuration settings for Windows and applications.
+
+163. Which tool is used to manage startup programs in Windows? (HTET 2020)
+a) Control Panel
+b) Task Manager
+c) Device Manager
+d) Disk Manager
+Answer: b) Task Manager
+Explanation: Task Manager's Startup tab allows enabling/disabling programs that run at startup.
+
+164. System Restore in Windows is used to: (REET 2021)
+a) Backup files
+b) Restore deleted files
+c) Return system to a previous state
+d) Update system files
+Answer: c) Return system to a previous state
+Explanation: System Restore reverts system files and settings to an earlier point in time.
+
+165. The Blue Screen of Death (BSOD) indicates: (CTET 2020)
+a) Low battery
+b) System crash
+c) Virus infection
+d) Network error
+Answer: b) System crash
+Explanation: BSOD appears when Windows encounters a critical error that forces system shutdown.
+
+166. Which device connects multiple network segments at the data link layer? (UPTET 2019)
+a) Hub
+b) Bridge
+c) Router
+d) Gateway
+Answer: b) Bridge
+Explanation: A bridge connects network segments and filters traffic at Layer 2 (Data Link).
+
+167. NAT stands for: (HTET 2021)
+a) Network Address Translation
+b) Network Access Terminal
+c) Network Allocation Table
+d) Network Authentication Token
+Answer: a) Network Address Translation
+Explanation: NAT translates private IP addresses to public IP addresses for internet access.
