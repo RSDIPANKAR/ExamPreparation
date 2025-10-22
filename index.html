@@ -634,61 +634,79 @@
         /* Floating Panel Styles */
         .floating-panel {
             position: fixed;
-            top: 0;
-            left: -320px;
+            top: 50px;
+            left: 20px;
             width: 300px;
-            height: 100vh;
+            max-height: 80vh;
             background: rgba(255, 255, 255, 0.95);
             backdrop-filter: blur(10px);
-            box-shadow: 2px 0 15px rgba(0, 0, 0, 0.1);
-            transition: left 0.3s ease;
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.15);
             z-index: 999;
             overflow-y: auto;
             padding: 20px;
+            transition: box-shadow 0.3s ease;
         }
         
-        .floating-panel.open {
-            left: 0;
-        }
-        
-        .panel-toggle {
-            position: fixed;
-            top: 50%;
-            left: 20px;
-            transform: translateY(-50%);
-            width: 40px;
-            height: 80px;
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            color: white;
-            border-radius: 0 10px 10px 0;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            cursor: pointer;
-            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
-            transition: all 0.3s ease;
-            z-index: 998;
-        }
-        
-        .panel-toggle:hover {
-            width: 45px;
-        }
-        
-        .panel-toggle.panel-open {
-            left: 300px;
+        .floating-panel.dragging {
+            box-shadow: 0 15px 40px rgba(31, 38, 135, 0.3);
+            cursor: grabbing;
         }
         
         .panel-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
             margin-bottom: 20px;
             padding-bottom: 15px;
             border-bottom: 1px solid #e5e7eb;
+            cursor: move;
         }
         
         .panel-title {
             font-size: 1.2rem;
             font-weight: bold;
             color: #333;
-            margin-bottom: 10px;
+        }
+        
+        .panel-close {
+            background: none;
+            border: none;
+            color: #6b7280;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: color 0.2s ease;
+        }
+        
+        .panel-close:hover {
+            color: #374151;
+        }
+        
+        .panel-toggle {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+            z-index: 998;
+        }
+        
+        .panel-toggle:hover {
+            transform: scale(1.05);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.25);
+        }
+        
+        .panel-toggle.hidden {
+            opacity: 0.7;
         }
         
         .panel-stats {
@@ -797,19 +815,32 @@
             background-color: #e5e7eb;
         }
         
-        .overlay {
-            position: fixed;
+        .position-indicator {
+            position: absolute;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
-            background-color: rgba(0, 0, 0, 0.3);
-            z-index: 997;
-            display: none;
+            border: 2px dashed #3b82f6;
+            border-radius: 15px;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.3s ease;
         }
         
-        .overlay.show {
-            display: block;
+        .position-indicator.show {
+            opacity: 0.5;
+        }
+        
+        .resize-handle {
+            position: absolute;
+            bottom: 0;
+            right: 0;
+            width: 20px;
+            height: 20px;
+            background: linear-gradient(135deg, transparent 50%, #3b82f6 50%);
+            border-radius: 0 0 15px 0;
+            cursor: nwse-resize;
         }
     </style>
 </head>
@@ -825,10 +856,17 @@
 
     <!-- Floating Panel -->
     <div id="floatingPanel" class="floating-panel">
-        <div class="panel-header">
+        <div class="position-indicator" id="positionIndicator"></div>
+        <div class="resize-handle" id="resizeHandle"></div>
+        
+        <div class="panel-header" id="panelHeader">
             <h2 class="panel-title">Exam Progress</h2>
-            <div id="panelSubject" class="text-sm text-gray-600">Select a test to begin</div>
+            <button class="panel-close" id="panelClose">
+                <i class="fas fa-times"></i>
+            </button>
         </div>
+        
+        <div id="panelSubject" class="text-sm text-gray-600 mb-4">Select a test to begin</div>
         
         <div id="panelStats" class="panel-stats" style="display: none;">
             <div class="panel-stat">
@@ -881,12 +919,9 @@
     </div>
     
     <!-- Panel Toggle Button -->
-    <div id="panelToggle" class="panel-toggle" onclick="togglePanel()">
+    <div id="panelToggle" class="panel-toggle hidden" onclick="togglePanel()">
         <i class="fas fa-chart-bar"></i>
     </div>
-    
-    <!-- Overlay -->
-    <div id="overlay" class="overlay" onclick="togglePanel()"></div>
 
     <div class="max-w-6xl mx-auto">
         <!-- Header -->
@@ -998,7 +1033,11 @@
         let activeTab = 0; // Track which tab is active
         let currentExamIndex = null; // Track which exam is being submitted
         let currentTestSets = {}; // Track current test set for each subject
-        let panelOpen = false; // Track if the floating panel is open
+        let panelOpen = true; // Track if the floating panel is open
+        let panelPosition = { x: 20, y: 50 }; // Default panel position
+        let isDragging = false;
+        let dragStart = { x: 0, y: 0 };
+        let panelSize = { width: 300, height: 0 }; // Panel size
 
         // Initialize the application
         async function initializeApp() {
@@ -1012,6 +1051,9 @@
                 // Hide loading screen
                 document.getElementById('loading').style.display = 'none';
                 
+                // Initialize panel position and size
+                initializePanel();
+                
                 // Activate the first tab
                 if (Object.keys(subjects).length > 0) {
                     activateTab(0);
@@ -1022,6 +1064,149 @@
                 console.error('Error initializing app:', error);
                 document.getElementById('loading').style.display = 'none';
                 document.getElementById('errorMessage').style.display = 'block';
+            }
+        }
+
+        // Initialize panel
+        function initializePanel() {
+            const panel = document.getElementById('floatingPanel');
+            const panelHeader = document.getElementById('panelHeader');
+            const panelClose = document.getElementById('panelClose');
+            const resizeHandle = document.getElementById('resizeHandle');
+            
+            // Set initial position
+            panel.style.left = `${panelPosition.x}px`;
+            panel.style.top = `${panelPosition.y}px`;
+            
+            // Store initial size
+            panelSize.width = panel.offsetWidth;
+            panelSize.height = panel.offsetHeight;
+            
+            // Add drag functionality to header
+            panelHeader.addEventListener('mousedown', startDrag);
+            
+            // Add resize functionality
+            resizeHandle.addEventListener('mousedown', startResize);
+            
+            // Add close functionality
+            panelClose.addEventListener('click', closePanel);
+            
+            // Add global mouse events
+            document.addEventListener('mousemove', handleMouseMove);
+            document.addEventListener('mouseup', handleMouseUp);
+            
+            // Add touch events for mobile
+            panelHeader.addEventListener('touchstart', startDrag);
+            document.addEventListener('touchmove', handleTouchMove);
+            document.addEventListener('touchend', handleMouseUp);
+        }
+
+        // Start dragging
+        function startDrag(e) {
+            isDragging = true;
+            const panel = document.getElementById('floatingPanel');
+            
+            dragStart.x = e.clientX || e.touches[0].clientX;
+            dragStart.y = e.clientY || e.touches[0].clientY;
+            
+            const rect = panel.getBoundingClientRect();
+            dragStart.offsetX = dragStart.x - rect.left;
+            dragStart.offsetY = dragStart.y - rect.top;
+            
+            panel.classList.add('dragging');
+            e.preventDefault();
+        }
+
+        // Start resizing
+        function startResize(e) {
+            isResizing = true;
+            dragStart.x = e.clientX || e.touches[0].clientX;
+            dragStart.y = e.clientY || e.touches[0].clientY;
+            
+            const panel = document.getElementById('floatingPanel');
+            panelSize.width = panel.offsetWidth;
+            panelSize.height = panel.offsetHeight;
+            
+            e.preventDefault();
+        }
+
+        // Handle mouse move
+        function handleMouseMove(e) {
+            if (isDragging) {
+                const panel = document.getElementById('floatingPanel');
+                const newX = (e.clientX || e.touches[0].clientX) - dragStart.offsetX;
+                const newY = (e.clientY || e.touches[0].clientY) - dragStart.offsetY;
+                
+                // Constrain to viewport
+                const maxX = window.innerWidth - panel.offsetWidth;
+                const maxY = window.innerHeight - panel.offsetHeight;
+                
+                panelPosition.x = Math.max(0, Math.min(newX, maxX));
+                panelPosition.y = Math.max(0, Math.min(newY, maxY));
+                
+                panel.style.left = `${panelPosition.x}px`;
+                panel.style.top = `${panelPosition.y}px`;
+                
+                // Save position to localStorage
+                localStorage.setItem('panelPosition', JSON.stringify(panelPosition));
+            } else if (isResizing) {
+                const panel = document.getElementById('floatingPanel');
+                const deltaX = (e.clientX || e.touches[0].clientX) - dragStart.x;
+                const deltaY = (e.clientY || e.touches[0].clientY) - dragStart.y;
+                
+                const newWidth = Math.max(250, panelSize.width + deltaX);
+                const newHeight = Math.max(200, panelSize.height + deltaY);
+                
+                panel.style.width = `${newWidth}px`;
+                panel.style.maxHeight = `${newHeight}px`;
+                
+                // Show position indicator
+                const indicator = document.getElementById('positionIndicator');
+                indicator.classList.add('show');
+            }
+        }
+
+        // Handle touch move
+        function handleTouchMove(e) {
+            if (isDragging || isResizing) {
+                handleMouseMove(e);
+            }
+        }
+
+        // Handle mouse up
+        function handleMouseUp() {
+            isDragging = false;
+            isResizing = false;
+            
+            const panel = document.getElementById('floatingPanel');
+            panel.classList.remove('dragging');
+            
+            // Hide position indicator
+            const indicator = document.getElementById('positionIndicator');
+            indicator.classList.remove('show');
+        }
+
+        // Close panel
+        function closePanel() {
+            const panel = document.getElementById('floatingPanel');
+            const toggle = document.getElementById('panelToggle');
+            
+            panel.style.display = 'none';
+            toggle.classList.remove('hidden');
+            panelOpen = false;
+        }
+
+        // Toggle panel
+        function togglePanel() {
+            const panel = document.getElementById('floatingPanel');
+            const toggle = document.getElementById('panelToggle');
+            
+            if (panelOpen) {
+                closePanel();
+            } else {
+                panel.style.display = 'block';
+                toggle.classList.add('hidden');
+                panelOpen = true;
             }
         }
 
@@ -1289,25 +1474,6 @@
             updateFloatingPanel(index);
         }
 
-        // Toggle floating panel
-        function togglePanel() {
-            const panel = document.getElementById('floatingPanel');
-            const toggle = document.getElementById('panelToggle');
-            const overlay = document.getElementById('overlay');
-            
-            panelOpen = !panelOpen;
-            
-            if (panelOpen) {
-                panel.classList.add('open');
-                toggle.classList.add('panel-open');
-                overlay.classList.add('show');
-            } else {
-                panel.classList.remove('open');
-                toggle.classList.remove('panel-open');
-                overlay.classList.remove('show');
-            }
-        }
-
         // Update floating panel
         function updateFloatingPanel(subjectIndex) {
             const panelSubject = document.getElementById('panelSubject');
@@ -1379,11 +1545,6 @@
                 displayQuestion(subjectIndex);
                 updateDisplay(subjectIndex);
                 updateButtons(subjectIndex);
-                
-                // Close the panel after jumping
-                if (panelOpen) {
-                    togglePanel();
-                }
             }
         }
 
@@ -1840,6 +2001,12 @@
 
         // Load questions when page loads
         window.onload = function() {
+            // Load saved panel position if available
+            const savedPosition = localStorage.getItem('panelPosition');
+            if (savedPosition) {
+                panelPosition = JSON.parse(savedPosition);
+            }
+            
             initializeApp();
         };
     </script>
