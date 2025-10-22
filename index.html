@@ -87,9 +87,13 @@
             animation: slideDown 0.3s ease-out;
         }
         
-        .progressBar { 
-            width: 0%; 
-            transition: width 0.3s ease; 
+        .progressLine {
+            height: 4px;
+            background: linear-gradient(90deg, #3b82f6 0%, #8b5cf6 100%);
+            border-radius: 2px;
+            margin: 0 0 20px 0;
+            width: 0%;
+            transition: width 0.5s ease;
         }
         
         .loading { 
@@ -626,6 +630,187 @@
             font-size: 0.75rem;
             margin-left: 5px;
         }
+        
+        /* Floating Panel Styles */
+        .floating-panel {
+            position: fixed;
+            top: 0;
+            left: -320px;
+            width: 300px;
+            height: 100vh;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            box-shadow: 2px 0 15px rgba(0, 0, 0, 0.1);
+            transition: left 0.3s ease;
+            z-index: 999;
+            overflow-y: auto;
+            padding: 20px;
+        }
+        
+        .floating-panel.open {
+            left: 0;
+        }
+        
+        .panel-toggle {
+            position: fixed;
+            top: 50%;
+            left: 20px;
+            transform: translateY(-50%);
+            width: 40px;
+            height: 80px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 0 10px 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            z-index: 998;
+        }
+        
+        .panel-toggle:hover {
+            width: 45px;
+        }
+        
+        .panel-toggle.panel-open {
+            left: 300px;
+        }
+        
+        .panel-header {
+            margin-bottom: 20px;
+            padding-bottom: 15px;
+            border-bottom: 1px solid #e5e7eb;
+        }
+        
+        .panel-title {
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        
+        .panel-stats {
+            margin-bottom: 20px;
+        }
+        
+        .panel-stat {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 8px;
+            font-size: 0.9rem;
+        }
+        
+        .panel-stat-value {
+            font-weight: bold;
+        }
+        
+        .question-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 8px;
+            margin-top: 15px;
+        }
+        
+        .question-item {
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+        
+        .question-item.answered {
+            background-color: #10b981;
+            color: white;
+        }
+        
+        .question-item.incorrect {
+            background-color: #ef4444;
+            color: white;
+        }
+        
+        .question-item.skipped {
+            background-color: #f59e0b;
+            color: white;
+        }
+        
+        .question-item.current {
+            background-color: #3b82f6;
+            color: white;
+            transform: scale(1.1);
+            box-shadow: 0 0 10px rgba(59, 130, 246, 0.5);
+        }
+        
+        .question-item.unanswered {
+            background-color: #e5e7eb;
+            color: #333;
+        }
+        
+        .question-item:hover {
+            transform: scale(1.05);
+        }
+        
+        .legend {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 15px;
+            font-size: 0.8rem;
+        }
+        
+        .legend-item {
+            display: flex;
+            align-items: center;
+        }
+        
+        .legend-color {
+            width: 12px;
+            height: 12px;
+            border-radius: 3px;
+            margin-right: 5px;
+        }
+        
+        .legend-current {
+            background-color: #3b82f6;
+        }
+        
+        .legend-answered {
+            background-color: #10b981;
+        }
+        
+        .legend-incorrect {
+            background-color: #ef4444;
+        }
+        
+        .legend-skipped {
+            background-color: #f59e0b;
+        }
+        
+        .legend-unanswered {
+            background-color: #e5e7eb;
+        }
+        
+        .overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.3);
+            z-index: 997;
+            display: none;
+        }
+        
+        .overlay.show {
+            display: block;
+        }
     </style>
 </head>
 <body>
@@ -637,6 +822,71 @@
         <div class="shape"></div>
         <div class="shape"></div>
     </div>
+
+    <!-- Floating Panel -->
+    <div id="floatingPanel" class="floating-panel">
+        <div class="panel-header">
+            <h2 class="panel-title">Exam Progress</h2>
+            <div id="panelSubject" class="text-sm text-gray-600">Select a test to begin</div>
+        </div>
+        
+        <div id="panelStats" class="panel-stats" style="display: none;">
+            <div class="panel-stat">
+                <span>Score:</span>
+                <span id="panelScore" class="panel-stat-value">0/0</span>
+            </div>
+            <div class="panel-stat">
+                <span>Answered:</span>
+                <span id="panelAnswered" class="panel-stat-value">0</span>
+            </div>
+            <div class="panel-stat">
+                <span>Skipped:</span>
+                <span id="panelSkipped" class="panel-stat-value">0</span>
+            </div>
+            <div class="panel-stat">
+                <span>Remaining:</span>
+                <span id="panelRemaining" class="panel-stat-value">0</span>
+            </div>
+        </div>
+        
+        <div id="questionOverview" style="display: none;">
+            <h3 class="text-sm font-semibold mb-2">Question Overview</h3>
+            <div id="questionGrid" class="question-grid">
+                <!-- Question items will be dynamically added here -->
+            </div>
+            
+            <div class="legend">
+                <div class="legend-item">
+                    <div class="legend-color legend-current"></div>
+                    <span>Current</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color legend-answered"></div>
+                    <span>Answered</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color legend-incorrect"></div>
+                    <span>Incorrect</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color legend-skipped"></div>
+                    <span>Skipped</span>
+                </div>
+                <div class="legend-item">
+                    <div class="legend-color legend-unanswered"></div>
+                    <span>Unanswered</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Panel Toggle Button -->
+    <div id="panelToggle" class="panel-toggle" onclick="togglePanel()">
+        <i class="fas fa-chart-bar"></i>
+    </div>
+    
+    <!-- Overlay -->
+    <div id="overlay" class="overlay" onclick="togglePanel()"></div>
 
     <div class="max-w-6xl mx-auto">
         <!-- Header -->
@@ -748,6 +998,7 @@
         let activeTab = 0; // Track which tab is active
         let currentExamIndex = null; // Track which exam is being submitted
         let currentTestSets = {}; // Track current test set for each subject
+        let panelOpen = false; // Track if the floating panel is open
 
         // Initialize the application
         async function initializeApp() {
@@ -841,19 +1092,9 @@
                             <span class="stats-value">70%</span>
                         </div>
                     </div>
-                    
-                    <!-- Progress Bar -->
-                    <div class="content-card p-6 mb-6">
-                        <div class="w-full bg-gray-200 rounded-full h-2 mb-4">
-                            <div id="progressBar-${subjectIndex}" class="progressBar bg-blue-600 h-2 rounded-full"></div>
-                        </div>
 
-                        <!-- Score Display -->
-                        <div class="text-center">
-                            <span id="scoreDisplay-${subjectIndex}" class="text-lg font-semibold">Score: 0/0</span>
-                            <span id="questionCounter-${subjectIndex}" class="text-gray-600 ml-4">Question: 0/0</span>
-                        </div>
-                    </div>
+                    <!-- Progress Line -->
+                    <div id="progressLine-${subjectIndex}" class="progressLine"></div>
 
                     <!-- Question Display Area -->
                     <div id="questionContainer-${subjectIndex}" class="content-card p-6 mb-6">
@@ -993,6 +1234,9 @@
                     document.getElementById(`testSelection-${subjectIndex}`).style.display = 'none';
                     document.getElementById(`examContent-${subjectIndex}`).style.display = 'block';
                     
+                    // Update floating panel
+                    updateFloatingPanel(subjectIndex);
+                    
                     // Initialize the exam
                     initializeExam(subjectIndex);
                 } else {
@@ -1017,6 +1261,9 @@
             
             // Clear current test set
             currentTestSets[subjectIndex] = null;
+            
+            // Update floating panel
+            updateFloatingPanel(subjectIndex);
         }
 
         // Activate a specific tab
@@ -1037,6 +1284,107 @@
             
             // Update active tab
             activeTab = index;
+            
+            // Update floating panel
+            updateFloatingPanel(index);
+        }
+
+        // Toggle floating panel
+        function togglePanel() {
+            const panel = document.getElementById('floatingPanel');
+            const toggle = document.getElementById('panelToggle');
+            const overlay = document.getElementById('overlay');
+            
+            panelOpen = !panelOpen;
+            
+            if (panelOpen) {
+                panel.classList.add('open');
+                toggle.classList.add('panel-open');
+                overlay.classList.add('show');
+            } else {
+                panel.classList.remove('open');
+                toggle.classList.remove('panel-open');
+                overlay.classList.remove('show');
+            }
+        }
+
+        // Update floating panel
+        function updateFloatingPanel(subjectIndex) {
+            const panelSubject = document.getElementById('panelSubject');
+            const panelStats = document.getElementById('panelStats');
+            const questionOverview = document.getElementById('questionOverview');
+            const questionGrid = document.getElementById('questionGrid');
+            
+            // Check if a test is selected for this subject
+            if (currentTestSets[subjectIndex] !== null && exams[subjectIndex]) {
+                const exam = exams[subjectIndex];
+                
+                // Update subject info
+                panelSubject.textContent = `${exam.subject} - Test ${exam.testNumber}`;
+                
+                // Update stats
+                const answeredCount = exam.userAnswers.filter(answer => answer !== null).length;
+                const skippedCount = exam.skippedQuestions.size;
+                const remainingCount = exam.questions.length - answeredCount;
+                
+                document.getElementById('panelScore').textContent = `${exam.score}/${answeredCount}`;
+                document.getElementById('panelAnswered').textContent = answeredCount;
+                document.getElementById('panelSkipped').textContent = skippedCount;
+                document.getElementById('panelRemaining').textContent = remainingCount;
+                
+                // Show stats and question overview
+                panelStats.style.display = 'block';
+                questionOverview.style.display = 'block';
+                
+                // Update question grid
+                questionGrid.innerHTML = '';
+                
+                for (let i = 0; i < exam.questions.length; i++) {
+                    const questionItem = document.createElement('div');
+                    questionItem.className = 'question-item';
+                    questionItem.textContent = i + 1;
+                    
+                    // Set status class
+                    if (i === exam.currentQuestionIndex) {
+                        questionItem.classList.add('current');
+                    } else if (exam.userAnswers[i] !== null) {
+                        if (exam.userAnswers[i] === exam.questions[i].correct) {
+                            questionItem.classList.add('answered');
+                        } else {
+                            questionItem.classList.add('incorrect');
+                        }
+                    } else if (exam.skippedQuestions.has(i)) {
+                        questionItem.classList.add('skipped');
+                    } else {
+                        questionItem.classList.add('unanswered');
+                    }
+                    
+                    // Add click event to jump to question
+                    questionItem.onclick = () => jumpToQuestion(subjectIndex, i);
+                    
+                    questionGrid.appendChild(questionItem);
+                }
+            } else {
+                // No test selected
+                panelSubject.textContent = 'Select a test to begin';
+                panelStats.style.display = 'none';
+                questionOverview.style.display = 'none';
+            }
+        }
+
+        // Jump to a specific question
+        function jumpToQuestion(subjectIndex, questionIndex) {
+            if (exams[subjectIndex]) {
+                exams[subjectIndex].currentQuestionIndex = questionIndex;
+                displayQuestion(subjectIndex);
+                updateDisplay(subjectIndex);
+                updateButtons(subjectIndex);
+                
+                // Close the panel after jumping
+                if (panelOpen) {
+                    togglePanel();
+                }
+            }
         }
 
         // Parse questions from your specific format
@@ -1101,6 +1449,7 @@
 
             updateDisplay(subjectIndex);
             displayQuestion(subjectIndex);
+            updateFloatingPanel(subjectIndex);
         }
 
         // Display current question
@@ -1154,6 +1503,7 @@
             }
             
             updateButtons(subjectIndex);
+            updateFloatingPanel(subjectIndex);
         }
 
         // Handle answer selection
@@ -1192,6 +1542,7 @@
 
             updateDisplay(subjectIndex);
             updateButtons(subjectIndex);
+            updateFloatingPanel(subjectIndex);
         }
 
         // Skip question
@@ -1211,6 +1562,7 @@
             }
             
             updateDisplay(subjectIndex);
+            updateFloatingPanel(subjectIndex);
         }
 
         // Go to next unanswered question
@@ -1241,6 +1593,7 @@
                 // If this is the last question, go to first unanswered question
                 goToNextUnansweredQuestion(subjectIndex);
             }
+            updateFloatingPanel(subjectIndex);
         }
 
         function previousQuestion(subjectIndex) {
@@ -1249,6 +1602,7 @@
                 exam.currentQuestionIndex--;
                 displayQuestion(subjectIndex);
             }
+            updateFloatingPanel(subjectIndex);
         }
 
         // Show confirmation modal
@@ -1389,6 +1743,9 @@
                 `;
                 detailedResults.appendChild(resultItem);
             });
+            
+            // Update floating panel
+            updateFloatingPanel(subjectIndex);
         }
 
         // Show detailed results
@@ -1457,12 +1814,9 @@
         // Update display elements
         function updateDisplay(subjectIndex) {
             const exam = exams[subjectIndex];
-            const answeredCount = exam.userAnswers.filter(answer => answer !== null).length;
-            document.getElementById(`scoreDisplay-${subjectIndex}`).textContent = `Score: ${exam.score}/${answeredCount}`;
-            document.getElementById(`questionCounter-${subjectIndex}`).textContent = `Question: ${exam.currentQuestionIndex + 1}/${exam.questions.length}`;
-
+            // Update progress line
             const progress = ((exam.currentQuestionIndex + 1) / exam.questions.length) * 100;
-            document.getElementById(`progressBar-${subjectIndex}`).style.width = `${progress}%`;
+            document.getElementById(`progressLine-${subjectIndex}`).style.width = `${progress}%`;
         }
 
         // Update button states
@@ -1491,6 +1845,3 @@
     </script>
 </body>
 </html>
-
-
-
