@@ -1,1 +1,1215 @@
+1. The National Education Policy 2020 was approved by the Union Cabinet of India in which month and year?
+   A) January 2020
+   B) July 2020
+   C) November 2020
+   D) March 2021
+   Answer: B) July 2020
+   Explanation: The Union Cabinet approved the National Education Policy 2020 on 29th July 2020, replacing the 34-year-old National Policy on Education (NPE) of 1986. (NET:2020)
 
+2. The new 5+3+3+4 curricular structure of school education corresponds to which age groups?
+   A) 3-18 years
+   B) 4-19 years
+   C) 5-17 years
+   D) 6-18 years
+   Answer: A) 3-18 years
+   Explanation: The new structure aims to universalize education from Early Childhood Care and Education (ECCE) to Grade 12, covering the developmental age group of 3-18 years. (NET:2020)
+
+3. The first stage of the new school structure, "Foundational Stage," covers which ages?
+   A) 3-6 years
+   B) 3-8 years
+   C) 4-7 years
+   D) 5-8 years
+   Answer: B) 3-8 years
+   Explanation: The Foundational Stage is divided into two parts: 3 years of preschool or Anganwadi (ages 3-6) and 2 years of primary school (Grades 1-2, ages 6-8). (NET:2020)
+
+4. The "Preparatory Stage" in the new school structure covers which grades?
+   A) Grades 1-2
+   B) Grades 3-5
+   C) Grades 6-8
+   D) Grades 9-10
+   Answer: B) Grades 3-5
+   Explanation: The Preparatory Stage covers ages 8-11, corresponding to Grades 3, 4, and 5. It focuses on play, discovery, and activity-based learning. (NET:2020)
+
+5. The "Middle Stage" in the new school structure covers which grades?
+   A) Grades 3-5
+   B) Grades 4-6
+   C) Grades 6-8
+   D) Grades 9-11
+   Answer: C) Grades 6-8
+   Explanation: The Middle Stage covers ages 11-14, corresponding to Grades 6, 7, and 8. The focus shifts to more abstract concepts and subject teaching. (NET:2020)
+
+6. The "Secondary Stage" in the new school structure covers which grades?
+   A) Grades 8-10
+   B) Grades 9-10
+   C) Grades 9-12
+   D) Grades 10-12
+   Answer: C) Grades 9-12
+   Explanation: The Secondary Stage covers ages 14-18, corresponding to Grades 9, 10, 11, and 12. It includes multidisciplinary study and greater critical thinking. (NET:2020)
+
+7. NEP 2020 aims to achieve 100% Gross Enrollment Ratio (GER) in school education by which year?
+   A) 2025
+   B) 2030
+   C) 2035
+   D) 2040
+   Answer: B) 2030
+   Explanation: A key target of the policy is to bring all children in the age group of 3-18 years into the school system by 2030, achieving 100% GER. (NET:2020)
+
+8. What is the primary aim of the "National Mission on Foundational Literacy and Numeracy"?
+   A) To promote higher education
+   B) To ensure that every child attains foundational literacy and numeracy by Grade 3
+   C) To digitalize all schools
+   D) To increase teacher salaries
+   Answer: B) To ensure that every child attains foundational literacy and numeracy by Grade 3
+   Explanation: This mission is an urgent national priority, aiming to ensure that by 2025, every student in Grade 3 achieves foundational skills in reading, writing, and arithmetic. (NET:2020)
+
+9. According to NEP 2020, what should be the primary medium of instruction until at least Grade 5?
+   A) English
+   B) Hindi
+   C) Mother tongue or local language
+   D) Sanskrit
+   Answer: C) Mother tongue or local language
+   Explanation: The policy strongly advocates for the use of the mother tongue or local language as the medium of instruction to improve foundational learning, preferably until Grade 8 and beyond. (NET:2020)
+
+10. The policy emphasizes that the three-language formula will need to be implemented in its spirit, promoting:
+    A) Monolingualism
+    B) Bilingualism
+    C) Multilingualism
+    D) Classical languages only
+    Answer: C) Multilingualism
+    Explanation: The spirit of the new three-language formula is to promote multilingual competence among students, helping them to appreciate the diversity of India. (NET:2020)
+
+11. Which of the following is NOT a guiding principle of NEP 2020?
+    A) Recognizing, identifying, and fostering the unique capabilities of each student
+    B) Flexibility in the choice of learning pathways
+    C) Emphasis on rote learning and high-stakes board exams
+    D) Extensive use of technology in teaching and learning
+    Answer: C) Emphasis on rote learning and high-stakes board exams
+    Explanation: NEP 2020 explicitly aims to move away from rote learning and reduce the stress of high-stakes board examinations, focusing instead on conceptual understanding. (NET:2020)
+
+12. NEP 2020 proposes to increase the public investment in the education sector to what percentage of GDP?
+    A) 4%
+    B) 5%
+    C) 6%
+    D) 7%
+    Answer: C) 6%
+    Explanation: The policy sets a target of reaching 6% of GDP for public investment in education, which is seen as crucial for achieving its goals. (NET:2020)
+
+13. The policy aims to ensure that every student in Grades 6-8 gets exposure to:
+    A) Vocational education
+    B) Coding
+    C) A foreign language
+    D) All of the above
+    Answer: D) All of the above
+    Explanation: NEP 2020 mandates that every student will have access to vocational education, coding, and a foreign language as an elective during the middle stage. (NET:2020)
+
+14. The term "Pedagogy" refers to:
+    A) The study of children
+    B) The theory and practice of education
+    C) The art of storytelling
+    D) The science of psychology
+    Answer: B) The theory and practice of education
+    Explanation: Pedagogy encompasses the strategies, methods, and activities of instruction. It is the discipline concerned with the theory and practice of teaching. (NET:2020)
+
+15. What is the proposed new name for the Ministry of Human Resource Development (MHRD)?
+    A) Ministry of Learning
+    B) Ministry of Skill Development
+    C) Ministry of Education
+    D) Ministry of Human Development
+    Answer: C) Ministry of Education
+    Explanation: The policy recommended renaming the MHRD to the Ministry of Education (MoE) to bring the focus back on education and learning. (NET:2020)
+
+16. The National Curriculum Framework for School Education (NCFSE) will be revised and prepared by:
+    A) UGC
+    B) NCERT
+    C) NCTE
+    D) NIEPA
+    Answer: B) NCERT
+    Explanation: The NCERT (National Council of Educational Research and Training) is tasked with developing the new NCFSE based on the principles of NEP 2020. (NET:2020)
+
+17. The NEP 2020 proposes the creation of a "National Assessment Centre" known as:
+    A) PARAKH
+    B) DIKSHA
+    C) SWAYAM
+    D) NAD
+    Answer: A) PARAKH
+    Explanation: PARAKH stands for Performance Assessment, Review, and Analysis of Knowledge for Holistic Development. It will set norms and standards for student assessment. (NET:2020)
+
+18. The new school curriculum will be reduced to its core essentials, with an emphasis on:
+    A) Increasing the number of subjects
+    B) Critical thinking and conceptual clarity
+    C) Memorization of facts
+    D) Preparing only for competitive exams
+    Answer: B) Critical thinking and conceptual clarity
+    Explanation: The policy calls for curriculum content reduction to make space for holistic development, critical thinking, and deeper understanding. (NET:2020)
+
+19. Which body is proposed to be set up for the regulation of higher education, replacing existing regulators like UGC and AICTE?
+    A) National Higher Education Authority (NHEA)
+    B) Higher Education Commission of India (HECI)
+    C) All India Council for Higher Education (AICHE)
+    D) University Grants and Regulatory Commission (UGRC)
+    Answer: B) Higher Education Commission of India (HECI)
+    Explanation: HECI is proposed as a single, overarching umbrella body for the entire higher education sector, separate from funding and accreditation. (NET:2020)
+
+20. The HECI will have how many independent verticals?
+    A) 2
+    B) 3
+    C) 4
+    D) 5
+    Answer: C) 4
+    Explanation: The four verticals are: National Higher Education Regulatory Council (NHERC), National Accreditation Council (NAC), Higher Education Grants Council (HEGC), and General Education Council (GEC). (NET:2020)
+
+21. Which vertical of HECI will be responsible for setting academic standards?
+    A) NHERC
+    B) NAC
+    C) HEGC
+    D) GEC
+    Answer: D) GEC
+    Explanation: The General Education Council (GEC) will frame the National Higher Education Qualification Framework (NHEQF) and specify learning outcomes for higher education. (NET:2020)
+
+22. The NEP 2020 aims to increase the Gross Enrollment Ratio (GER) in higher education to what percentage by 2035?
+    A) 30%
+    B) 40%
+    C) 50%
+    D) 60%
+    Answer: C) 50%
+    Explanation: The policy sets an ambitious target to increase the GER in higher education, including vocational education, to 50% by 2035. (NET:2020)
+
+23. What is the proposed structure for undergraduate degree programs?
+    A) A fixed 3-year program
+    B) A fixed 4-year program
+    C) A 3 or 4-year program with multiple exit options
+    D) A 5-year integrated program only
+    Answer: C) A 3 or 4-year program with multiple exit options
+    Explanation: The policy introduces flexible UG programs. After 1 year, a student gets a certificate; after 2 years, a diploma; after 3 years, a bachelor's degree; and after 4 years, a bachelor's degree with research. (NET:2020)
+
+24. The NEP 2020 proposes to create an "Academic Bank of Credits" (ABC) to facilitate:
+    A) Financial aid for students
+    B) Digital storage of academic credits
+    C) Teacher training records
+    D) School infrastructure funding
+    Answer: B) Digital storage of academic credits
+    Explanation: The ABC will digitally store the academic credits earned by a student from various institutions, allowing for flexible, multidisciplinary learning pathways. (NET:2020)
+
+25. The policy proposes to establish a National Research Foundation (NRF) to:
+    A) Fund research projects exclusively in IITs
+    B) Build a strong research culture across all higher education institutions
+    C) Regulate private research labs
+    D) Provide scholarships only for PhD students
+    Answer: B) Build a strong research culture across all higher education institutions
+    Explanation: The NRF will be an autonomous body to fund, mentor, and build capacity for quality research across all universities and colleges in the country. (NET:2020)
+
+26. By what year does NEP 2020 aim to ensure that at least 50% of learners in schools and higher education have access to vocational education?
+    A) 2025
+    B) 2030
+    C) 2035
+    D) 2040
+    Answer: A) 2025
+    Explanation: The policy envisions integrating vocational education into mainstream education in a phased manner, with a target of 50% coverage by 2025. (NET:2020)
+
+27. The "light but tight" regulatory framework proposed by NEP 2020 means:
+    A) Minimal interference but strict action against malpractices
+    B) Strict rules for all institutions
+    C) No regulation for private institutions
+    D) Regulation only for government institutions
+    Answer: A) Minimal interference but strict action against malpractices
+    Explanation: The idea is to grant more autonomy to good-performing institutions while having a strong, transparent system to check substandard quality, corruption, and malpractices. (NET:2020)
+
+28. The NEP 2020 proposes to make which body the apex body for teacher education?
+    A) UGC
+    B) NCERT
+    C) NCTE
+    D) NIEPA
+    Answer: C) NCTE
+    Explanation: The National Council for Teacher Education (NCTE), under the new HECI framework, will be restructured and strengthened as the premier body for teacher education. (NET:2020)
+
+29. What is the proposed minimum qualification for a teacher by 2030?
+    A) 2-year B.Ed.
+    B) 4-year integrated B.Ed.
+    C) D.El.Ed.
+    D) PhD
+    Answer: B) 4-year integrated B.Ed.
+    Explanation: The policy aims to phase out the 2-year B.Ed. program and move towards a 4-year integrated B.Ed. program as the minimum qualification for school teachers by 2030. (NET:2020)
+
+30. The NEP 2020 proposes the establishment of a "Gender Inclusion Fund" to:
+    A) Provide scholarships only for female students
+    B) Build the capacity of all states to provide equitable quality education for all girls and transgender students
+    C) Recruit more female teachers
+    D) Promote co-education in all schools
+    Answer: B) Build the capacity of all states to provide equitable quality education for all girls and transgender students
+    Explanation: The fund will assist states in implementing targeted initiatives to ensure that all girls and transgender children receive a quality education. (NET:2020)
+
+31. Which of the following is a key feature of the new assessment system proposed for schools?
+    A) Annual high-stakes board exams for all grades
+    B) A new National Assessment Test (NAT) for Grades 3, 5, and 8
+    C) Focus on summative assessment only
+    D) No assessment until Grade 8
+    Answer: B) A new National Assessment Test (NAT) for Grades 3, 5, and 8
+    Explanation: The policy proposes a census-based assessment in Grades 3, 5, and 8 to track learning outcomes, conducted by PARAKH. Board exams will be made low-stakes. (NET:2020)
+
+32. The policy suggests that board examinations for Grades 10 and 12 should be:
+    A) Abolished completely
+    B) Made easier with only objective questions
+    C) Redesigned to test core competencies and made low-stakes
+    D) Conducted twice a year with high difficulty
+    Answer: C) Redesigned to test core competencies and made low-stakes
+    Explanation: Board exams will be redesigned to test holistic development and conceptual understanding rather than rote memorization. They can be offered twice a year to reduce stress. (NET:2020)
+
+33. The NEP 2020 envisions transforming the education system into one that is:
+    A) Teacher-centric
+    B) Rote-learning-centric
+    C) Student-centric and holistic
+    D) Exam-centric
+    Answer: C) Student-centric and holistic
+    Explanation: A core principle of the policy is to shift the focus from a teacher-centric, rote-learning model to a student-centric approach that fosters holistic development. (NET:2020)
+
+34. What is the purpose of the "School Quality Assessment and Accreditation Framework" (SQAAF)?
+    A) To rank schools for admissions
+    B) To provide a public-facing quality self-disclosure for all schools
+    C) To close down low-performing schools
+    D) To provide government funding only to top schools
+    Answer: B) To provide a public-facing quality self-disclosure for all schools
+    Explanation: SQAAF is a mechanism for schools to evaluate their own performance against set standards and make the information public, promoting transparency and improvement. (NET:2020)
+
+35. The NEP 2020 emphasizes the integration of which subjects into the school curriculum?
+    A) Arts, music, and crafts
+    B) Physical education and yoga
+    C) Vocational skills
+    D) All of the above
+    Answer: D) All of the above
+    Explanation: The policy calls for a holistic and integrated curriculum where arts, music, physical education, and vocational education are not treated as extracurricular but as integral parts of the curriculum. (NET:2020)
+
+36. The concept of "10+2" structure of school education is replaced by:
+    A) 5+3+3+4
+    B) 4+4+4
+    C) 8+4
+    D) 5+5+2
+    Answer: A) 5+3+3+4
+    Explanation: The NEP 2020 replaces the decades-old 10+2 structure with a new, more developmentally appropriate 5+3+3+4 structure. (NET:2020)
+
+37. The policy aims to set up Special Education Zones (SEZs) in:
+    A) Metropolitan cities
+    B) Regions with significant populations of educationally disadvantaged groups
+    C) Industrial areas
+    D) Tourist destinations
+    Answer: B) Regions with significant populations of educationally disadvantaged groups
+    Explanation: SEZs will be established in disadvantaged regions to provide enhanced educational infrastructure and opportunities. (NET:2020)
+
+38. The NEP 2020 promotes the establishment of:
+    A) Large, multi-disciplinary universities
+    B) Small, single-stream colleges
+    C) Only technical institutions
+    D) Only arts and science colleges
+    Answer: A) Large, multi-disciplinary universities
+    Explanation: The policy encourages the restructuring of higher education institutions into large, well-resourced, vibrant multi-disciplinary universities and colleges. (NET:2020)
+
+39. What is the role of the "National Educational Technology Forum" (NETF)?
+    A) To provide free laptops to students
+    B) To facilitate the exchange of ideas on the use of technology in education
+    C) To regulate ed-tech companies
+    D) To build internet infrastructure in schools
+    Answer: B) To facilitate the exchange of ideas on the use of technology in education
+    Explanation: The NETF will be a platform for the free exchange of ideas on the use of technology to enhance learning, assessment, planning, and administration. (NET:2020)
+
+40. The policy envisions that higher education institutions will have the autonomy to:
+    A) Set their own fees
+    B) Design their own curricula
+    C) Offer new programs
+    D) All of the above, within a regulatory framework
+    Answer: D) All of the above, within a regulatory framework
+    Explanation: NEP 2020 grants significant academic, administrative, and financial autonomy to higher education institutions, especially those with good accreditation records. (NET:2020)
+
+41. The NEP 2020 aims to create a "holistic" 360-degree multidimensional progress report for students. This report will include:
+    A) Only academic marks
+    B) Academic marks plus self-assessment
+    C) Academic marks, self-assessment, peer-assessment, and teacher-assessment
+    D) Only extracurricular achievements
+    Answer: C) Academic marks, self-assessment, peer-assessment, and teacher-assessment
+    Explanation: This holistic report card aims to move beyond a singular focus on marks and provide a more comprehensive picture of a student's development. (NET:2020)
+
+42. The policy proposes that by 2040, all higher education institutions (HEIs) shall aim to become:
+    A) Autonomous bodies
+    B) Multi-disciplinary institutions
+    C) Research-intensive universities
+    D) Deemed-to-be universities
+    Answer: B) Multi-disciplinary institutions
+    Explanation: The goal is to phase out single-stream institutions and create a holistic higher education ecosystem where universities and colleges offer a wide range of programs. (NET:2020)
+
+43. Which of the following is a function of the proposed "Higher Education Grants Council" (HEGC)?
+    A) Regulating academic standards
+    B) Providing funding and financing to higher education institutions
+    C) Accrediting institutions
+    D) Conducting research
+    Answer: B) Providing funding and financing to higher education institutions
+    Explanation: The HEGC will be responsible for the disbursement of funds to HEIs, carrying out the functions currently performed by bodies like the UGC. (NET:2020)
+
+44. The NEP 2020 proposes to create "merit-based scholarships" for students from socio-economically disadvantaged backgrounds to pursue:
+    A) Only school education
+    B) Only undergraduate education
+    C) Undergraduate, postgraduate, and doctoral education
+    D) Only vocational education
+    Answer: C) Undergraduate, postgraduate, and doctoral education
+    Explanation: The National Scholarship Portal will be expanded to support deserving students from all backgrounds at every level of higher education. (NET:2020)
+
+45. The policy encourages HEIs to develop:
+    A) Rigid, fixed curricula
+    B) Flexible, creative curricula with interdisciplinary choices
+    C) Only theory-based courses
+    D) Only job-oriented courses
+    Answer: B) Flexible, creative curricula with interdisciplinary choices
+    Explanation: NEP 2020 promotes a curriculum redesign to allow students to choose subjects from different disciplines, fostering creativity and critical thinking. (NET:2020)
+
+46. What is the proposed mechanism for granting "graded autonomy" to colleges?
+    A) Based on the age of the institution
+    B) Based on the number of students
+    C) Based on accreditation and performance
+    D) Based on government funding
+    Answer: C) Based on accreditation and performance
+    Explanation: Colleges will be granted graded autonomy in phases based on their accreditation status and performance, eventually leading to full autonomy. (NET:2020)
+
+47. The NEP 2020 aims to promote "internationalization" of higher education by:
+    A) Banning foreign universities
+    B) Allowing top foreign universities to operate in India
+    C) Sending all Indian students abroad
+    D) Making English the sole medium of instruction
+    Answer: B) Allowing top foreign universities to operate in India
+    Explanation: The policy facilitates the entry of high-quality foreign universities into India through a legislative framework, promoting global academic collaboration. (NET:2020)
+
+48. The "National Professional Standards for Teachers" (NPST) will be developed by:
+    A) The National Council for Teacher Education (NCTE)
+    B) The University Grants Commission (UGC)
+    C) The National Council of Educational Research and Training (NCERT)
+    D) The Ministry of Education
+    Answer: A) The National Council for Teacher Education (NCTE)
+    Explanation: The NCTE will develop the NPST, which will define the competencies, roles, and career progression pathways for teachers. (NET:2020)
+
+49. The NEP 2020 envisions that by 2030, the minimum degree qualification for teaching will be:
+    A) A 2-year B.Ed. program
+    B) A 4-year integrated B.Ed. program
+    C) A 1-year diploma in education
+    D) A PhD in Education
+    Answer: B) A 4-year integrated B.Ed. program
+    Explanation: The policy aims to phase out the 2-year B.Ed. and establish the 4-year integrated B.Ed. as the standard teacher preparation program. (NET:2020)
+
+50. The policy proposes to establish "Living Labs" in higher education institutions to:
+    A) Conduct biological experiments
+    B) Promote innovation and entrepreneurship
+    C) Teach computer programming
+    D) Provide student accommodation
+    Answer: B) Promote innovation and entrepreneurship
+    Explanation: Living Labs are envisioned as spaces where students, faculty, and industry can collaborate to solve real-world problems and develop innovative products and services. (NET:2020)
+
+51. The NEP 2020 emphasizes the creation of "Indian Institutes of Translation and Interpretation" (IITIs) to:
+    A) Promote only English translations
+    B) Preserve and document all Indian languages and make knowledge accessible across languages
+    C) Train professional translators for the UN
+    D) Translate only ancient texts
+    Answer: B) Preserve and document all Indian languages and make knowledge accessible across languages
+    Explanation: IITIs will be established to promote high-quality translation of literary, technical, and scientific works between Indian and foreign languages. (NET:2020)
+
+52. The policy aims to increase the number of PhDs in India by focusing on:
+    A) Increasing the stipend for all PhD scholars
+    B) Improving the quality of research and expanding research capacity
+    C) Making PhD admission easier
+    D) Reducing the duration of PhD programs
+    Answer: B) Improving the quality of research and expanding research capacity
+    Explanation: The goal is to increase both the quantity and quality of PhDs by strengthening research infrastructure, funding, and mentorship through the NRF. (NET:2020)
+
+53. The "Multiple Entry and Exit" options in higher education are designed to:
+    A) Allow students to drop out and re-enter the education system with credit validation
+    B) Make it easier for students to switch universities
+    C) Reduce the duration of degree programs
+    D) Increase the number of admissions
+    Answer: A) Allow students to drop out and re-enter the education system with credit validation
+    Explanation: This flexible system allows students to take breaks from their education and return later, with their previously earned credits being valid through the Academic Bank of Credits. (NET:2020)
+
+54. The NEP 2020 proposes to create a "National Digital Education Architecture" (NDEAR) to:
+    A) Build a single, unified digital infrastructure for the entire education ecosystem
+    B) Provide free internet to all students
+    C) Develop a new social media platform for education
+    D) Digitize all library books
+    Answer: A) Build a single, unified digital infrastructure for the entire education ecosystem
+    Explanation: NDEAR will support the teaching, learning, and administrative activities of all stakeholders in the education sector, ensuring interoperability of various e-governance initiatives. (NET:2020)
+
+55. The policy suggests that "affiliation" of colleges by universities should be phased out in a period of:
+    A) 5 years
+    B) 10 years
+    C) 15 years
+    D) 20 years
+    Answer: C) 15 years
+    Explanation: NEP 2020 envisions a system where colleges gradually develop into autonomous degree-granting institutions, phasing out the affiliating system over 15 years. (NET:2020)
+
+56. The "National Institutional Ranking Framework" (NIRF) will be restructured to:
+    A) Rank only research universities
+    B) Focus on a broader set of parameters including self-disclosure and peer review
+    C) Rank only private institutions
+    D) Eliminate ranking altogether
+    Answer: B) Focus on a broader set of parameters including self-disclosure and peer review
+    Explanation: The NIRF will be evolved to be more holistic, moving away from a purely quantitative approach to include qualitative parameters for institutional evaluation. (NET:2020)
+
+57. The NEP 2020 aims to set up a "National Mentoring Mission" to:
+    A) Mentor school students for competitive exams
+    B) Mentor and build the capacity of school leaders and teachers
+    C) Mentor new entrepreneurs
+    D) Mentor aspiring politicians
+    Answer: B) Mentor and build the capacity of school leaders and teachers
+    Explanation: This mission will pair experienced school leaders and educators with new ones to provide guidance and support for professional development. (NET:2020)
+
+58. The policy proposes that all teacher education programs must be:
+    A) Conducted only in universities
+    B) Conducted only in standalone colleges
+    C) Conducted within multi-disciplinary university campuses
+    D) Conducted only online
+    Answer: C) Conducted within multi-disciplinary university campuses
+    Explanation: To improve the quality of teacher education, all standalone teacher education colleges will be asked to become multi-disciplinary institutions or merge with a university. (NET:2020)
+
+59. The NEP 2020's vision for higher education is to create institutions that are:
+    A) Rigid and hierarchical
+    B) Multidisciplinary, research-oriented, and socially engaged
+    C) Focused solely on commercial profit
+    D) Isolated from the community
+    Answer: B) Multidisciplinary, research-oriented, and socially engaged
+    Explanation: The overarching vision is to transform higher education into a vibrant, innovative, and socially responsible ecosystem that contributes to national development. (NET:2020)
+
+60. The "e-content" in education will be developed in all Indian languages to ensure:
+    A) That English is the primary language of the internet
+    B) Equitable access to quality digital resources for all students
+    C) That only urban students benefit from digital learning
+    D) That all content is free of cost
+    Answer: B) Equitable access to quality digital resources for all students
+    Explanation: Developing e-content in multiple regional languages is crucial for bridging the digital divide and making digital education inclusive. (NET:2020)
+
+61. The NEP 2020 recommends the establishment of "Institutes of National Importance" (INIs) in:
+    A) Only metropolitan areas
+    B) Every district
+    C) Every state that does not have one yet
+    D) Only in the field of technology
+    Answer: C) Every state that does not have one yet
+    Explanation: To ensure regional balance and equitable access to quality higher education, the policy proposes setting up new INIs in underserved regions. (NET:2020)
+
+62. The policy encourages the creation of "cluster-based" universities, which means:
+    A) Universities with many affiliated colleges in one city
+    B) Grouping nearby colleges into a university to optimize resources
+    C) Creating universities for specific industry clusters
+    D) Forming online university clusters
+    Answer: B) Grouping nearby colleges into a university to optimize resources
+    Explanation: This model aims to create larger, more resourceful universities by consolidating smaller, standalone colleges located in close proximity. (NET:2020)
+
+63. The NEP 2020's focus on "holistic education" in higher education means:
+    A) Only focusing on academic excellence
+    B) Integrating arts, humanities, and sports with science and technology
+    C) Providing only vocational training
+    D) Focusing only on research
+    Answer: B) Integrating arts, humanities, and sports with science and technology
+    Explanation: Holistic education aims to develop all facets of a student's personality, including intellectual, emotional, social, and physical aspects. (NET:2020)
+
+64. The policy proposes to create "Autonomous degree-granting colleges" (ADGCs) which will:
+    A) Be affiliated to a university
+    B) Have full academic and administrative autonomy to award their own degrees
+    C) Only offer diploma courses
+    D) Be controlled by the central government
+    Answer: B) Have full academic and administrative autonomy to award their own degrees
+    Explanation: This is a key step towards phasing out the affiliating system and empowering high-quality colleges to become independent degree-granting institutions. (NET:2020)
+
+65. The NEP 2020 aims to ensure that the professional education (like medicine, law) is:
+    A) An undergraduate program after 12th grade
+    B) A postgraduate program after a general undergraduate degree
+    C) Integrated with general education from the beginning
+    D) Offered only in English
+    Answer: C) Integrated with general education from the beginning
+    Explanation: The policy advocates for integrating professional education with general education, allowing students to have a broad-based foundation before specializing. (NET:2020)
+
+66. The policy suggests that the "Common University Entrance Examination" (CUEE) will be conducted by:
+    A) The National Testing Agency (NTA)
+    B) The University Grants Commission (UGC)
+    C) The Higher Education Commission of India (HECI)
+    D) Individual universities
+    Answer: A) The National Testing Agency (NTA)
+    Explanation: The NTA will conduct a common entrance exam for admission to universities across the country, reducing the burden of multiple exams on students. (NET:2020)
+
+67. The NEP 2020's vision for "online and digital education" is to:
+    A) Replace classroom teaching entirely
+    B) Complement classroom teaching and ensure continuity of learning
+    C) Be used only for higher education
+    D) Be used only during emergencies like pandemics
+    Answer: B) Complement classroom teaching and ensure continuity of learning
+    Explanation: Digital education is seen as a tool to enhance and support traditional classroom learning, not to replace it, and to provide resilient learning options. (NET:2020)
+
+68. The policy proposes to establish a "National Mission for Mentoring" to:
+    A) Mentor teachers for career advancement
+    B) Mentor students for higher studies
+    C) Mentor startups and entrepreneurs
+    D) Mentor athletes
+    Answer: A) Mentor teachers for career advancement
+    Explanation: This mission will connect senior and experienced teachers with early-career teachers to provide guidance, support, and professional development. (NET:2020)
+
+69. The NEP 2020 emphasizes the importance of "life skills" education. This includes:
+    A) Only communication skills
+    B) Critical thinking, problem-solving, and collaboration
+    C) Only financial literacy
+    D) Only technical skills
+    Answer: B) Critical thinking, problem-solving, and collaboration
+    Explanation: Life skills are a broad set of capabilities that enable individuals to deal effectively with the demands and challenges of everyday life. (NET:2020)
+
+70. The "National Book Promotion Policy" under NEP 2020 aims to:
+    A) Promote only books in English
+    B) Promote books, reading, and authors across all Indian languages
+    C) Provide free books to all students
+    D) Digitize all books in the country
+    Answer: B) Promote books, reading, and authors across all Indian languages
+    Explanation: This policy seeks to foster a culture of reading and make quality literature accessible in all languages. (NET:2020)
+
+71. The NEP 2020 aims to create a "higher education system" that is:
+    A) Inward-looking and isolated
+    B) Globally engaged and rooted in Indian ethos
+    C) Focused only on Western models
+    D) Completely independent of any global influence
+    Answer: B) Globally engaged and rooted in Indian ethos
+    Explanation: The policy seeks to create a system that learns from global best practices while being deeply rooted in India's cultural and ethical values. (NET:2020)
+
+72. The "National Credit Framework" (NCrF) will:
+    A) Standardize the credit system across school, higher, and vocational education
+    B) Provide loans to students
+    C) Rank institutions based on credits
+    D) Only be applicable to higher education
+    Answer: A) Standardize the credit system across school, higher, and vocational education
+    Explanation: The NCrF will enable seamless integration and mobility between general and vocational education by creating a unified credit system. (NET:2020)
+
+73. The policy proposes to set up "Mahatma Gandhi Institute of Education for Peace and Sustainable Development" (MGIEP) as a:
+    A) University
+    B) Category 1 Institute of National Importance
+    C) Research center
+    D) School
+    Answer: B) Category 1 Institute of National Importance
+    Explanation: Upgrading MGIEP to a Category 1 INI will give it greater autonomy and resources to promote education for peace and sustainable development. (NET:2020)
+
+74. The NEP 2020's approach to "regulation" in higher education is to:
+    A) Micromanage institutions
+    B) Separate functions like regulation, accreditation, funding, and academic standard-setting
+    C) Combine all regulatory functions into one body
+    D) Eliminate all regulations
+    Answer: B) Separate functions like regulation, accreditation, funding, and academic standard-setting
+    Explanation: This separation of powers is a key feature of the proposed HECI, aimed at creating a more efficient and less burdensome regulatory environment. (NET:2020)
+
+75. The policy encourages the development of "Innovation Hubs" in universities to:
+    A) Host international conferences
+    B) Foster a culture of innovation and entrepreneurship among students and faculty
+    C) Provide administrative support
+    D) Store historical artifacts
+    Answer: B) Foster a culture of innovation and entrepreneurship among students and faculty
+    Explanation: Innovation Hubs will act as incubators for new ideas, projects, and startups, linking academia with industry and society. (NET:2020)
+
+76. The NEP 2020 aims to promote "adult education" and "lifelong learning" by:
+    A) Focusing only on formal education
+    B) Creating community-based learning opportunities and integrating technology
+    C) Making it mandatory for all adults to get a degree
+    D) Providing only financial incentives
+    Answer: B) Creating community-based learning opportunities and integrating technology
+    Explanation: The policy recognizes the need for continuous learning throughout life and proposes various initiatives to support adult learners. (NET:2020)
+
+77. The "National Education Policy 2020" is the ______ education policy of India.
+    A) First
+    B) Second
+    C) Third
+    D) Fourth
+    Answer: C) Third
+    Explanation: India has had three national education policies so far: the first in 1968, the second in 1986 (modified in 1992), and the third in 2020. (NET:2020)
+
+78. The NEP 2020 envisions that all students in higher education will have the opportunity to:
+    A) Study only one subject in depth
+    B) Choose a minor subject alongside their major
+    C) Study only vocational subjects
+    D) Study only foreign languages
+    Answer: B) Choose a minor subject alongside their major
+    Explanation: The flexible, multidisciplinary curriculum allows students to pursue a major area of specialization along with one or more minor areas, broadening their knowledge base. (NET:2020)
+
+79. The policy proposes to establish a "National Institute for Pali, Persian and Prakrit" to:
+    A) Promote only religious studies
+    B) Preserve and promote the study of these classical languages
+    C) Translate only modern texts
+    D) Offer only online courses
+    Answer: B) Preserve and promote the study of these classical languages
+    Explanation: This institute will focus on the research, teaching, and preservation of these important classical languages, which are part of India's rich heritage. (NET:2020)
+
+80. The NEP 2020's goal for higher education is to make it:
+    A) Accessible, equitable, affordable, and accountable
+    B) Exclusive, expensive, and elite
+    C) Focused only on technology
+    D) Controlled only by the private sector
+    Answer: A) Accessible, equitable, affordable, and accountable
+    Explanation: These four pillars form the foundation of the policy's vision for transforming the higher education sector in India. (NET:2020)
+
+81. The NEP 2020 proposes a common "National Professional Standards for Teachers" (NPST) that will be applicable to:
+    A) Only school teachers
+    B) Only higher education teachers
+    C) Teachers at all levels, from pre-school to higher education
+    D) Only teachers in government schools
+    Answer: C) Teachers at all levels, from pre-school to higher education
+    Explanation: The NPST aims to create a common framework for defining the expected competencies and professional standards for all educators. (NET:2020)
+
+82. The policy suggests that the recruitment of teachers will be based on:
+    A) Only academic qualifications
+    B) Only performance in a written test
+    C) Demonstrated knowledge, skills, and passion for teaching
+    D) Seniority and experience only
+    Answer: C) Demonstrated knowledge, skills, and passion for teaching
+    Explanation: NEP 2020 advocates for a more holistic recruitment process that assesses not just academic credentials but also the aptitude and commitment of potential teachers. (NET:2020)
+
+83. To ensure continuous professional development, the NEP 2020 mandates that teachers must participate in:
+    A) 50 hours of Continuous Professional Development (CPD) every year
+    B) 100 hours of CPD every year
+    C) One refresher course every 5 years
+    D) A PhD program
+    Answer: A) 50 hours of Continuous Professional Development (CPD) every year
+    Explanation: The policy makes 50 hours of CPD an annual requirement for all teachers, focusing on innovative pedagogies, subject knowledge, and technology integration. (NET:2020)
+
+84. The "National Curriculum Framework for Teacher Education" (NCFTE) will be revised by:
+    A) The National Council for Teacher Education (NCTE)
+    B) The University Grants Commission (UGC)
+    C) The National Council of Educational Research and Training (NCERT)
+    D) The Ministry of Education
+    Answer: A) The National Council for Teacher Education (NCTE)
+    Explanation: The NCTE is responsible for developing and revising the curriculum framework for teacher education in line with the goals of NEP 2020. (NET:2020)
+
+85. The policy proposes to create a robust system for "teacher empowerment" that includes:
+    A) Increasing their workload
+    B) Providing them with leadership roles and decision-making power
+    C) Reducing their salaries
+    D) Making their contracts temporary
+    Answer: B) Providing them with leadership roles and decision-making power
+    Explanation: Teacher empowerment involves giving teachers more autonomy in curriculum design, pedagogy, and assessment, as well as opportunities for leadership. (NET:2020)
+
+86. The NEP 2020's vision for vocational education is to:
+    A) Treat it as a separate, inferior track
+    B) Integrate it into mainstream education and remove the stigma
+    C) Offer it only to students who are not academically inclined
+    D) Make it mandatory only for high school students
+    Answer: B) Integrate it into mainstream education and remove the stigma
+    Explanation: The policy aims to mainstream vocational education by integrating it into school and higher education curricula, making it a respectable and viable career choice. (NET:2020)
+
+87. The policy proposes to introduce "bagless days" in schools to:
+    A) Give students a holiday
+    B) Encourage enrichment activities, arts, sports, and vocational skills
+    C) Reduce the weight of school bags
+    D) Conduct only exams
+    Answer: B) Encourage enrichment activities, arts, sports, and vocational skills
+    Explanation: "Bagless days" (e.g., 10 days per year) are designed to provide students with hands-on, experiential learning opportunities beyond the traditional classroom. (NET:2020)
+
+88. The NEP 2020 envisions that vocational education will start from:
+    A) Grade 6
+    B) Grade 8
+    C) Grade 11
+    D) The undergraduate level
+    Answer: A) Grade 6
+    Explanation: The policy proposes introducing vocational education, including internships, from Grade 6 onwards, with a focus on hands-on skills. (NET:2020)
+
+89. The policy aims to create "vocational courses" that are designed in collaboration with:
+    A) Only academic experts
+    B) Industry and local artisans
+    C) Only government bodies
+    D) Only international organizations
+    Answer: B) Industry and local artisans
+    Explanation: To ensure relevance and employability, vocational courses will be co-designed and co-taught by industry experts, local craftsmen, and vocational trainers. (NET:2020)
+
+90. The NEP 2020's approach to "skill education" is to:
+    A) Separate it completely from formal education
+    B) Integrate it seamlessly with general education
+    C) Offer it only as an after-school program
+    D) Make it the sole focus of education
+    Answer: B) Integrate it seamlessly with general education
+    Explanation: The policy blurs the lines between academic and vocational streams, allowing students to acquire both knowledge and practical skills. (NET:2020)
+
+91. The "National Skill Qualification Framework" (NSQF) will be aligned with the:
+    A) National Curriculum Framework (NCF)
+    B) National Higher Education Qualification Framework (NHEQF)
+    C) National Credit Framework (NCrF)
+    D) All of the above
+    Answer: D) All of the above
+    Explanation: Aligning the NSQF with other frameworks ensures seamless mobility and credit transfer between vocational and general education streams. (NET:2020)
+
+92. The NEP 2020 proposes to establish "Adult Education Centres" to provide:
+    A) Only literacy programs
+    B) Holistic adult education, including life skills and vocational training
+    C) Only higher education degrees
+    D) Only recreational activities
+    Answer: B) Holistic adult education, including life skills and vocational training
+    Explanation: The policy's vision for adult education is comprehensive, going beyond basic literacy to include skill development, lifelong learning, and community engagement. (NET:2020)
+
+93. The policy emphasizes the creation of an "inclusive" education system that caters to:
+    A) Only students with disabilities
+    B) Only students from rural areas
+    C) All students, regardless of their background, gender, or abilities
+    D) Only academically gifted students
+    Answer: C) All students, regardless of their background, gender, or abilities
+    Explanation: Inclusion is a core principle of NEP 2020, aiming to provide equitable and quality education to every single learner. (NET:2020)
+
+94. The "Gender Inclusion Fund" will be used to:
+    A) Provide scholarships only to girls in urban areas
+    B) Build the capacity of states to provide equitable education for all girls and transgender students
+    C) Recruit more female teachers in schools
+    D) Promote single-gender schools
+    Answer: B) Build the capacity of states to provide equitable education for all girls and transgender students
+    Explanation: The fund is a targeted intervention to support states in implementing initiatives that promote the education of girls and transgender children, especially from disadvantaged backgrounds. (NET:2020)
+
+95. The NEP 2020 proposes to establish "Special Education Zones" to focus on the educational needs of:
+    A) Gifted children
+    B) Children from socio-economically disadvantaged groups
+    C) Children of non-resident Indians
+    D) Children interested in sports
+    Answer: B) Children from socio-economically disadvantaged groups
+    Explanation: These zones will be created in regions with significant populations of Scheduled Castes, Scheduled Tribes, and other disadvantaged communities to provide focused support. (NET:2020)
+
+96. The policy aims to ensure that children with disabilities have access to:
+    A) Only special schools
+    B) Inclusive education in mainstream schools with full support
+    C) Only home-based education
+    D) Only vocational training
+    Answer: B) Inclusive education in mainstream schools with full support
+    Explanation: NEP 2020 strongly promotes the inclusion of children with disabilities in mainstream classrooms, with necessary accommodations, assistive technologies, and teacher training. (NET:2020)
+
+97. The policy proposes to create "Bal Bhavans" as:
+    A) Only daycare centers
+    B) Special day-time boarding schools for children with special needs
+    C) Activity centers for art, music, and play for all children
+    D) Only coaching centers
+    Answer: C) Activity centers for art, music, and play for all children
+    Explanation: Bal Bhavans will be established as spaces in every district/block for children to engage in creative and recreational activities, promoting holistic development. (NET:2020)
+
+98. The NEP 2020's approach to "equitable" education is to ensure that:
+    A) All students receive the same education
+    B) All students have access to education of comparable quality, regardless of their circumstances
+    C) Only meritorious students get quality education
+    D) Education is free for all at all levels
+    Answer: B) All students have access to education of comparable quality, regardless of their circumstances
+    Explanation: Equity means providing personalized support to disadvantaged students to help them achieve the same learning outcomes as their peers. (NET:2020)
+
+99. The policy suggests that "gifted students" should be provided with:
+    A) The same curriculum as other students
+    B) Mentorship, advanced courses, and opportunities to excel
+    C) Only extra homework
+    D) No special attention to avoid inequality
+    Answer: B) Mentorship, advanced courses, and opportunities to excel
+    Explanation: NEP 2020 recognizes the need to identify and nurture gifted students by providing them with challenging learning pathways and mentorship programs. (NET:2020)
+
+100. The "National Scholarship Portal" will be strengthened to:
+     A) Provide scholarships only for engineering
+     B) Ensure timely, transparent, and effective disbursement of scholarships to all deserving students
+     C) Provide loans instead of scholarships
+     D) Be managed by private banks
+     Answer: B) Ensure timely, transparent, and effective disbursement of scholarships to all deserving students
+     Explanation: The portal will act as a single-window system for all government scholarships, making the process more efficient and accessible. (NET:2020)
+
+101. The NEP 2020 emphasizes the importance of "counselling" in schools to:
+     A) Help students choose only science streams
+     B) Support students' mental and emotional well-being and career choices
+     C) Discipline students
+     D) Prepare students only for board exams
+     Answer: B) Support students' mental and emotional well-being and career choices
+     Explanation: The policy recognizes the need for trained counsellors in schools to help students deal with academic pressure, personal issues, and career planning. (NET:2020)
+
+102. The policy proposes to create a "robust system for tracking students" to:
+     A) Monitor their social media activity
+     B) Ensure their learning progress and prevent dropouts
+     C) Rank them against their peers
+     D) Collect data for commercial use
+     Answer: B) Ensure their learning progress and prevent dropouts
+     Explanation: A student tracking system will help monitor attendance, learning levels, and transitions between grades, enabling timely interventions for at-risk students. (NET:2020)
+
+103. The NEP 2020's vision for "early childhood care and education" (ECCE) is to:
+     A) Focus only on nutrition
+     B) Provide a strong foundation for lifelong learning through a mix of play, stories, and activities
+     C) Start formal education at age 3
+     D) Make it a mandatory, exam-oriented phase
+     Answer: B) Provide a strong foundation for lifelong learning through a mix of play, stories, and activities
+     Explanation: ECCE is seen as a critical stage for cognitive and emotional development, and the policy advocates for a flexible, multilingual, and play-based approach. (NET:2020)
+
+104. The policy proposes to strengthen the "Anganwadi Centres" to:
+     A) Provide only food and nutrition
+     B) Become high-quality ECCE centers with trained educators and learning resources
+     C) Function only as daycare centers
+     D) Be replaced by private preschools
+     Answer: B) Become high-quality ECCE centers with trained educators and learning resources
+     Explanation: Anganwadi centers will be upgraded and integrated with the school system to provide quality pre-primary education. (NET:2020)
+
+105. The NEP 2020 aims to ensure that every child in the age group of 3-6 years has access to:
+     A) Free textbooks
+     B) Free, high-quality ECCE facilities
+     C) A free mid-day meal
+     D) A free school uniform
+     Answer: B) Free, high-quality ECCE facilities
+     Explanation: Universal access to ECCE is a cornerstone of the policy, aimed at providing a strong foundation before children enter Grade 1. (NET:2020)
+
+106. The policy proposes to create a "National Curriculum Framework for Early Childhood Care and Education" (NCFECCE) by:
+     A) The Ministry of Women and Child Development
+     B) The National Council of Educational Research and Training (NCERT)
+     C) The National Council for Teacher Education (NCTE)
+     D) The University Grants Commission (UGC)
+     Answer: B) The National Council of Educational Research and Training (NCERT)
+     Explanation: The NCERT will develop the NCFECCE in two parts: a sub-framework for 0-3 year-olds and another for 3-8 year-olds. (NET:2020)
+
+107. The NEP 2020's approach to "assessment" in the Foundational Stage is:
+     A) Annual written examinations
+     B) A play-based, activity-based, and observation-based continuous assessment
+     C) Only parent feedback
+     D) No assessment at all
+     Answer: B) A play-based, activity-based, and observation-based continuous assessment
+     Explanation: For young learners, assessment will be informal, ongoing, and based on the teacher's observations of the child's participation in activities. (NET:2020)
+
+108. The policy proposes to train a cadre of "early childhood educators" who are:
+     A) Only graduates in education
+     B) Trained in a 6-month certificate program
+     C) Equipped with a 3-year diploma in ECCE
+     D) Only Anganwadi workers
+     Answer: C) Equipped with a 3-year diploma in ECCE
+     Explanation: The policy aims to professionalize ECCE by training educators through a 3-year diploma program, with pathways for further education. (NET:2020)
+
+109. The NEP 2020 emphasizes the importance of "parent and community involvement" in education to:
+     A) Monitor student discipline
+     B) Create a supportive ecosystem for children's learning
+     C) Raise funds for schools
+     D) Teach students at home
+     Answer: B) Create a supportive ecosystem for children's learning
+     Explanation: The policy encourages schools to actively involve parents and the community in school activities and decision-making processes. (NET:2020)
+
+110. The policy proposes to establish "School Complexes" or "Clusters" to:
+     A) Build larger school buildings
+     B) Share resources, teachers, and infrastructure among a group of schools
+     C) Compete with each other
+     D) Streamline administrative control
+     Answer: B) Share resources, teachers, and infrastructure among a group of schools
+     Explanation: School complexes are groups of schools in a contiguous area that share resources like labs, libraries, and specialized teachers, improving efficiency and quality. (NET:2020)
+
+111. The NEP 2020's vision for "teacher education" is to move it from:
+     A) A theoretical model to a practical, experiential model
+     B) A standalone system to an integrated part of higher education
+     C) A 2-year program to a 4-year integrated program
+     D) All of the above
+     Answer: D) All of the above
+     Explanation: The policy calls for a complete overhaul of teacher education, making it more practical, integrated, and rigorous. (NET:2020)
+
+112. The policy proposes to create "virtual labs" to:
+     A) Replace physical labs completely
+     B) Provide students with access to high-quality lab experiences remotely
+     C) Conduct only computer science experiments
+     D) Reduce the cost of science education
+     Answer: B) Provide students with access to high-quality lab experiences remotely
+     Explanation: Virtual labs will enhance practical learning, especially in schools and colleges that lack physical infrastructure. (NET:2020)
+
+113. The NEP 2020 aims to promote "Indian languages" by:
+     A) Making Hindi compulsory in all schools
+     B) Encouraging the study of languages, literature, and arts in all Indian languages
+     C) Phasing out English completely
+     D) Focusing only on Sanskrit
+     Answer: B) Encouraging the study of languages, literature, and arts in all Indian languages
+     Explanation: The policy aims to preserve and promote the linguistic diversity of India by supporting the teaching and learning of all Indian languages. (NET:2020)
+
+114. The policy proposes to establish "Departments of Indian Languages and Literatures" in all universities to:
+     A) Teach only Hindi
+     B) Promote research and teaching in multiple Indian languages
+     C) Offer only certificate courses
+     D) Replace English departments
+     Answer: B) Promote research and teaching in multiple Indian languages
+     Explanation: These departments will play a key role in preserving India's linguistic heritage and promoting academic work in regional languages. (NET:2020)
+
+115. The NEP 2020's emphasis on "ethical reasoning" in education aims to:
+     A) Teach students a specific set of moral rules
+     B) Develop students' ability to think critically about ethical dilemmas
+     C) Focus only on religious teachings
+     D) Make students more obedient
+     Answer: B) Develop students' ability to think critically about ethical dilemmas
+     Explanation: The policy seeks to cultivate values like empathy, compassion, and respect through discussions and case studies on ethical issues. (NET:2020)
+
+116. The policy suggests that "socially productive activities" like community service should be:
+     A) Optional for students
+     B) An integral part of the curriculum at all levels
+     C) Punishment for indiscipline
+     D) Conducted only during holidays
+     Answer: B) An integral part of the curriculum at all levels
+     Explanation: NEP 2020 encourages students to participate in community service projects to develop a sense of social responsibility. (NET:2020)
+
+117. The NEP 2020 proposes to create a "National Repository of Educational Content" to:
+     A) Store only government-approved textbooks
+     B) Provide a single platform for high-quality e-content for all subjects and levels
+     C) Host only video lectures
+     D) Be accessible only to teachers
+     Answer: B) Provide a single platform for high-quality e-content for all subjects and levels
+     Explanation: This repository will be a digital library of learning resources, accessible to students and teachers across the country. (NET:2020)
+
+118. The policy's vision for "assessment" is to shift from:
+     A) Summative assessment to formative assessment
+     B) Rote memorization to competency-based learning
+     C) High-stakes exams to regular, low-stakes assessments
+     D) All of the above
+     Answer: D) All of the above
+     Explanation: The policy advocates for a fundamental shift in the assessment paradigm to focus on learning for understanding rather than for passing exams. (NET:2020)
+
+119. The NEP 2020 proposes to use "AI and adaptive learning" to:
+     A) Replace teachers
+     B) Personalize learning pathways for students based on their needs and pace
+     C) Conduct exams more efficiently
+     D) Reduce the cost of education
+     Answer: B) Personalize learning pathways for students based on their needs and pace
+     Explanation: Technology like AI can help create customized learning experiences, ensuring that every student can learn at their own pace. (NET:2020)
+
+120. The policy aims to create an education system that fosters:
+     A) Competition among students
+     B) Global citizenship rooted in Indian values
+     C) Only academic excellence
+     D) Conformity and obedience
+     Answer: B) Global citizenship rooted in Indian values
+     Explanation: The vision is to develop individuals who are proud of their Indian heritage while also being responsible and engaged global citizens. (NET:2020)
+
+121. The "National Educational Technology Forum" (NETF) is envisioned as a:
+     A) Regulatory body for ed-tech companies
+     B) Platform for free exchange of ideas on using technology to improve learning
+     C) Funding agency for technology projects
+     D) Manufacturer of digital devices for schools
+     Answer: B) Platform for free exchange of ideas on using technology to improve learning
+     Explanation: The NETF will be a forum for stakeholders to share best practices, discuss challenges, and shape the future of educational technology in India. (NET:2020)
+
+122. The "Digital Infrastructure for Knowledge Sharing" (DIKSHA) platform will be used to:
+     A) Conduct online exams
+     B) Provide teachers with training resources and students with learning content
+     C) Admit students to colleges
+     D) Manage school finances
+     Answer: B) Provide teachers with training resources and students with learning content
+     Explanation: DIKSHA is the national platform for school education, offering a wide range of e-content and resources for teachers, students, and parents. (NET:2020)
+
+123. The NEP 2020's approach to "online education" is to ensure:
+     A) That it completely replaces classroom learning
+     B) That it is equitable, inclusive, and of high quality
+     C) That it is used only for higher education
+     D) That it is a commercial enterprise
+     Answer: B) That it is equitable, inclusive, and of high quality
+     Explanation: The policy emphasizes the need for a robust digital infrastructure, teacher training, and content in multiple languages to make online education effective for all. (NET:2020)
+
+124. The policy proposes to develop a "virtual university" to:
+     A) Replace all physical universities
+     B) Provide access to high-quality education to students who cannot attend a physical university
+     C) Offer only vocational courses
+     D) Be a for-profit institution
+     Answer: B) Provide access to high-quality education to students who cannot attend a physical university
+     Explanation: The virtual university will leverage technology to offer degree programs that are accessible, affordable, and flexible. (NET:2020)
+
+125. The NEP 2020 emphasizes the importance of "cyber safety" and "digital citizenship" to:
+     A) Restrict students' internet use
+     B) Educate students about the responsible and safe use of technology
+     C) Monitor students' online activity
+     D) Ban social media in schools
+     Answer: B) Educate students about the responsible and safe use of technology
+     Explanation: The policy recognizes the need to equip students with the skills to navigate the digital world safely and ethically. (NET:2020)
+
+126. The policy proposes to create a "National Digital Library" to:
+     A) Store only government documents
+     B) Provide free access to a vast collection of books, journals, and other learning resources
+     C) Lend physical books to students
+     D) Be accessible only to researchers
+     Answer: B) Provide free access to a vast collection of books, journals, and other learning resources
+     Explanation: The National Digital Library will be a repository of educational content in various languages and formats, accessible to all learners. (NET:2020)
+
+127. The NEP 2020's "three-language formula" aims to ensure that students learn:
+     A) Hindi, English, and a foreign language
+     B) Two Indian languages and English
+     C) Three Indian languages
+     D) Any three languages of their choice, with an emphasis on Indian languages
+     Answer: D) Any three languages of their choice, with an emphasis on Indian languages
+     Explanation: The spirit of the formula is to promote multilingualism, allowing states to choose the languages based on their specific context, while encouraging the learning of Indian languages. (NET:2020)
+
+128. The policy proposes to establish "Indian Institutes of Translation and Interpretation" (IITIs) to:
+     A) Promote the learning of English
+     B) Facilitate high-quality translation of literary and academic works between Indian and foreign languages
+     C) Train professional translators for the corporate sector
+     D) Translate only government documents
+     Answer: B) Facilitate high-quality translation of literary and academic works between Indian and foreign languages
+     Explanation: The IITIs will play a crucial role in making knowledge accessible across different linguistic communities and preserving India's literary heritage. (NET:2020)
+
+129. The NEP 2020 emphasizes the promotion of "classical languages" by:
+     A) Making them compulsory in all schools
+     B) Supporting their study and research in higher education
+     C) Using them as the medium of instruction
+     D) Phasing out modern languages
+     Answer: B) Supporting their study and research in higher education
+     Explanation: The policy recognizes the importance of classical languages like Sanskrit, Tamil, Telugu, etc., and proposes to support their academic development. (NET:2020)
+
+130. The policy proposes to create a "National Mission for Mentoring" in the context of:
+     A) Teacher education
+     B) Student counseling
+     C) Entrepreneurship
+     D) Sports
+     Answer: A) Teacher education
+     Explanation: The National Mission for Mentoring will connect experienced educators with early-career teachers to provide guidance and support for their professional growth. (NET:2020)
+
+131. The NEP 2020's vision for "arts and culture" in education is to:
+     A) Treat them as extracurricular activities
+     B) Integrate them into the curriculum to foster creativity and cultural awareness
+     C) Focus only on classical art forms
+     D) Make them optional subjects
+     Answer: B) Integrate them into the curriculum to foster creativity and cultural awareness
+     Explanation: The policy sees arts and culture as essential components of a holistic education, helping students develop aesthetic sensibilities and appreciate India's rich cultural heritage. (NET:2020)
+
+132. The policy proposes to establish "National Institutes of Arts" to:
+     A) Promote only Western art forms
+     B) Provide high-quality training in various Indian and global art forms
+     C) Serve as museums only
+     D) Be exclusive to elite students
+     Answer: B) Provide high-quality training in various Indian and global art forms
+     Explanation: These institutes will be centers of excellence for arts education, nurturing talent and promoting artistic innovation. (NET:2020)
+
+133. The NEP 2020 emphasizes the importance of "knowledge of India" in the curriculum to:
+     A) Promote blind nationalism
+     B) Help students understand and appreciate India's ancient heritage and contemporary contributions
+     C) Discourage the study of other cultures
+     D) Focus only on historical facts
+     Answer: B) Help students understand and appreciate India's ancient heritage and contemporary contributions
+     Explanation: The policy aims to develop in students a sense of pride and understanding of India's rich knowledge traditions and its role in the modern world. (NET:2020)
+
+134. The policy proposes to create a "National Institute of Pali, Persian and Prakrit" to:
+     A) Promote religious studies
+     B) Preserve and promote the study of these important classical languages
+     C) Offer only diploma courses
+     D) Focus only on translation work
+     Answer: B) Preserve and promote the study of these important classical languages
+     Explanation: This institute will contribute to the academic study and preservation of these languages, which are vital for understanding India's history and culture. (NET:2020)
+
+135. The NEP 2020's approach to "environmental education" is to:
+     A) Teach it as a separate subject
+     B) Integrate it across all subjects to foster climate awareness and sustainable living
+     C) Focus only on theoretical knowledge
+     D) Make it an optional subject
+     Answer: B) Integrate it across all subjects to foster climate awareness and sustainable living
+     Explanation: The policy aims to create environmentally conscious citizens by weaving environmental education into the fabric of the curriculum. (NET:2020)
+
+136. The policy proposes to establish a "National Climate Change Mission" in the context of education to:
+     A) Conduct research on climate change
+     B) Build awareness and capacity among students and teachers to address climate change
+     C) Regulate carbon emissions in schools
+     D) Fund only green technology projects
+     Answer: B) Build awareness and capacity among students and teachers to address climate change
+     Explanation: This mission will focus on integrating climate change education into the curriculum and promoting sustainable practices in schools. (NET:2020)
+
+137. The NEP 2020 emphasizes the importance of "physical education and sports" to:
+     A) Produce only professional athletes
+     B) Ensure the holistic development of students, including their physical and mental well-being
+     C) Use them as a form of punishment
+     D) Make them optional for all students
+     Answer: B) Ensure the holistic development of students, including their physical and mental well-being
+     Explanation: The policy sees sports and physical education as integral to a student's overall development, promoting health, teamwork, and discipline. (NET:2020)
+
+138. The policy proposes to create a "National Sports Education Board" under the:
+     A) Ministry of Youth Affairs and Sports
+     B) Ministry of Education
+     C) National Council of Educational Research and Training (NCERT)
+     D) University Grants Commission (UGC)
+     Answer: B) Ministry of Education
+     Explanation: This board will be responsible for developing sports education curricula and promoting sports as an integral part of the school education system. (NET:2020)
+
+139. The NEP 2020's implementation strategy emphasizes the role of:
+     A) Only the central government
+     B) Only state governments
+     C) A collaborative partnership between the center, states, and other stakeholders
+     D) Only private organizations
+     Answer: C) A collaborative partnership between the center, states, and other stakeholders
+     Explanation: The successful implementation of the policy requires a concerted effort from all levels of government, educational institutions, teachers, and the community. (NET:2020)
+
+140. The policy proposes to set up a "Central Advisory Board of Education" (CABE) to:
+     A) Regulate schools
+     B) Provide a platform for consultation and coordination between the center and states on education matters
+     C) Conduct research on education
+     D) Appoint teachers
+     Answer: B) Provide a platform for consultation and coordination between the center and states on education matters
+     Explanation: CABE will be the highest advisory body, playing a crucial role in reviewing the progress of policy implementation. (NET:2020)
+
+141. The NEP 2020 suggests that the implementation of the policy will be monitored by:
+     A) A committee of education ministers
+     B) A committee headed by the Prime Minister
+     C) The Ministry of Education alone
+     D) The National Testing Agency
+     Answer: B) A committee headed by the Prime Minister
+     Explanation: A high-level committee headed by the Prime Minister will oversee the implementation of the policy, ensuring its priority and timely execution. (NET:2020)
+
+142. The policy proposes to create a "task force" for each major initiative of the NEP 2020 to:
+     A) Raise funds for the initiative
+     B) Develop a detailed implementation plan and roadmap
+     C) Monitor the progress of the initiative
+     D) Promote the initiative in the media
+     Answer: B) Develop a detailed implementation plan and roadmap
+     Explanation: Task forces comprising experts and stakeholders will be constituted to plan and execute the various components of the policy. (NET:2020)
+
+143. The NEP 2020 emphasizes the importance of "public awareness and participation" to:
+     A) Ensure that the policy is understood and supported by the public
+     B) Increase enrollment in private schools
+     C) Promote the use of technology
+     D) Raise funds for education
+     Answer: A) Ensure that the policy is understood and supported by the public
+     Explanation: A widespread communication campaign is planned to create awareness about the policy's vision and encourage public participation in its implementation. (NET:2020)
+
+144. The policy proposes to review the progress of its implementation:
+     A) Every year
+     B) Every 5 years
+     C) Every 10 years
+     D) Only after 2030
+     Answer: B) Every 5 years
+     Explanation: A periodic review mechanism will be established to assess the progress of the policy and make necessary adjustments. (NET:2020)
+
+145. The NEP 2020's vision for "governance" in higher education is to:
+     A) Increase bureaucratic control
+     B) Promote autonomy with a framework for accountability
+     C) Centralize all decision-making
+     D) Reduce the role of academic bodies
+     Answer: B) Promote autonomy with a framework for accountability
+     Explanation: The policy aims to give institutions more freedom in academic and administrative matters while ensuring they are accountable for their performance. (NET:2020)
+
+146. The policy proposes to create "Boards of Governors" (BoGs) in higher education institutions with:
+     A) Only government officials
+     B) A mix of academicians, industry experts, and alumni
+     C) Only politicians
+     D) Only teachers
+     Answer: B) A mix of academicians, industry experts, and alumni
+     Explanation: The BoGs will be responsible for the governance of institutions, and their composition will be diversified to bring in different perspectives. (NET:2020)
+
+147. The NEP 2020 emphasizes the importance of "transparency" in education by:
+     A) Making all institutional data public
+     B) Requiring institutions to disclose information about their performance, finances, and governance
+     C) Conducting surprise inspections
+     D) Banning private institutions
+     Answer: B) Requiring institutions to disclose information about their performance, finances, and governance
+     Explanation: Public disclosure of information will promote accountability and help students and parents make informed choices. (NET:2020)
+
+148. The policy proposes to create a "single-window system" for:
+     A) Teacher recruitment
+     B) Student admissions to higher education institutions
+     C) Granting approvals to new schools
+     D) Providing scholarships
+     Answer: B) Student admissions to higher education institutions
+     Explanation: A single-window system will streamline the admission process, making it easier and more transparent for students to apply to multiple institutions. (NET:2020)
+
+149. The NEP 2020's approach to "financing" education is to:
+     A) Rely solely on government funding
+     B) Encourage philanthropic and private sector investment in education
+     C) Increase the financial burden on students
+     D) Focus only on profit-making institutions
+     Answer: B) Encourage philanthropic and private sector investment in education
+     Explanation: While increasing public investment, the policy also encourages contributions from the private sector and philanthropic organizations to meet the funding requirements. (NET:2020)
+
+150. The policy proposes to create a "National Education Fund" to:
+     A) Provide loans to students
+     B) Finance the implementation of the NEP 2020
+     C) Pay teacher salaries
+     D) Build school infrastructure
+     Answer: B) Finance the implementation of the NEP 2020
+     Explanation: The fund will be created to mobilize resources from various sources to support the ambitious goals of the policy. (NET:2020)
+
+151. The NEP 2020 emphasizes the importance of "research and innovation" by:
+     A) Focusing only on basic research
+     B) Promoting both basic and applied research that addresses societal needs
+     C) Encouraging research only in science and technology
+     D) Relying only on foreign research
+     Answer: B) Promoting both basic and applied research that addresses societal needs
+     Explanation: The policy aims to create a vibrant research ecosystem that contributes to knowledge creation and solves real-world problems. (NET:2020)
+
+152. The "National Research Foundation" (NRF) will be governed by a board of distinguished researchers and will:
+     A) Fund only government research projects
+     B) Fund research projects across all disciplines in both public and private institutions
+     C) Conduct its own research
+     D) Regulate research in universities
+     Answer: B) Fund research projects across all disciplines in both public and private institutions
+     Explanation: The NRF will be an autonomous body that provides competitive funding for research, ensuring that the best ideas are supported regardless of the institution. (NET:202
