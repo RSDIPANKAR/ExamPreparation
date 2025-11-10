@@ -12,25 +12,21 @@
     D) Herbert Spencer
     Answer: A) Froebel
     Explanation: Friedrich Froebel, the founder of the kindergarten concept, emphasized learning through play, songs, and gifts (educational toys). 
-    2. The National Policy on Education (NPE) that advocated for a common school system was:
+    3. The National Policy on Education (NPE) that advocated for a common school system was:
     A) NPE 1968
     B) NPE 1986
     C) NPE 1992
     D) NPE 2020
     Answer: B) NPE 1986
     Explanation: The NPE 1986 emphasized the removal of disparities and the equalization of educational opportunities, proposing the concept of a common school system (Neighborhood Schools). 
-     
-
-    "Education is the manifestation of perfection already in man." This statement was made by:
+    4. "Education is the manifestation of perfection already in man." This statement was made by:
     A) Mahatma Gandhi
     B) Swami Vivekananda
     C) Rabindranath Tagore
     D) Dr. A.P.J. Abdul Kalam
     Answer: B) Swami Vivekananda
     Explanation: Swami Vivekananda believed that education is not about acquiring information but about bringing out the inner potential and perfection of an individual. 
-     
-
-    The main aim of education as per the Indian Constitution is:
+    5. The main aim of education as per the Indian Constitution is:
     A) To secure jobs for all citizens
     B) To develop democratic values
     C) To promote scientific temper
@@ -39,7 +35,7 @@
     Explanation: The Preamble and Directive Principles of the Indian Constitution aim to secure justice, liberty, equality, and promote scientific temper, humanism, and the spirit of inquiry, all of which are goals of education. 
      
 
-    Which of the following is a characteristic of Pragmatism in education?
+    6. Which of the following is a characteristic of Pragmatism in education?
     A) Emphasis on spiritual values
     B) Curriculum based on child's experiences
     C) Focus on rote memorization
@@ -48,7 +44,7 @@
     Explanation: Pragmatism, championed by John Dewey, emphasizes learning by doing and a curriculum that emerges from the child's real-life experiences and problem-solving needs. 
      
 
-    The "Basic System of Education" as proposed by Mahatma Gandhi emphasized:
+    7. The "Basic System of Education" as proposed by Mahatma Gandhi emphasized:
     A) Learning through mother tongue
     B) Learning a craft
     C) Self-sufficiency
@@ -57,7 +53,7 @@
     Explanation: Gandhiji's Basic Education (Nai Talim) was centered on learning a productive craft, using the mother tongue as the medium of instruction, and aiming for self-sufficiency. 
      
 
-    The Right to Education (RTE) Act, 2009, makes education a:
+    8. The Right to Education (RTE) Act, 2009, makes education a:
     A) Fundamental Right for children aged 6-14
     B) Fundamental Duty for all parents
     C) Directive Principle for the state
@@ -66,7 +62,7 @@
     Explanation: The RTE Act, 2009, made free and compulsory education a fundamental right for every child between the ages of 6 and 14 years under Article 21-A of the Indian Constitution. 
      
 
-    Which commission recommended the 10+2+3 structure of education in India?
+    9. Which commission recommended the 10+2+3 structure of education in India?
     A) Radhakrishnan Commission (1948-49)
     B) Mudaliar Commission (1952-53)
     C) Kothari Commission (1964-66)
@@ -75,7 +71,7 @@
     Explanation: The Kothari Commission was the first to recommend the national pattern of education as the 10+2+3 structure. 
      
 
-    The process of providing equal educational opportunities to all sections of society is known as:
+    10. The process of providing equal educational opportunities to all sections of society is known as:
     A) Universalization
     B) Scaffolding
     C) Mainstreaming
@@ -84,7 +80,7 @@
     Explanation: Universalization of education means making education available and accessible to all children, regardless of their background. 
      
 
-    According to Naturalism, the aim of education is:
+    11. According to Naturalism, the aim of education is:
     A) To conform the child to societal norms
     B) To facilitate the natural development of the child
     C) To impart religious knowledge
@@ -93,7 +89,7 @@
     Explanation: Naturalism, associated with Rousseau, believes that education should align with the child's natural growth and development, free from artificial societal constraints. 
      
 
-    The National Curriculum Framework (NCF) 2005 focuses on:
+    12. The National Curriculum Framework (NCF) 2005 focuses on:
     A) Examinations and marks
     B) Connecting knowledge to life outside school
     C) Rote learning
@@ -102,7 +98,7 @@
     Explanation: A key guiding principle of NCF 2005 is to connect knowledge to life outside the school and to reduce the curriculum load by making learning more experiential. 
      
 
-    The term "constructivism" in education implies that learners:
+    13. The term "constructivism" in education implies that learners:
     A) Receive knowledge passively from the teacher
     B) Construct their own knowledge and understanding
     C) Memorize facts and figures
@@ -111,7 +107,7 @@
     Explanation: Constructivism is a learning theory that posits that learners actively construct new knowledge based on their prior experiences and understanding. 
      
 
-    The principle of "learning to live together" is a pillar of:
+    14. The principle of "learning to live together" is a pillar of:
     A) NPE 1986
     B) RTE Act 2009
     C) Delors Commission Report
@@ -120,7 +116,7 @@
     Explanation: The 1996 UNESCO report, "Learning: The Treasure Within," by Jacques Delors, outlined four pillars of learning: Learning to Know, Learning to Do, Learning to Live Together, and Learning to Be. 
      
 
-    Who is considered the father of educational sociology?
+    15. Who is considered the father of educational sociology?
     A) John Dewey
     B) Emile Durkheim
     C) George Payne
@@ -129,7 +125,7 @@
     Explanation: George Payne is credited with being the first to use the term "educational sociology" and is often referred to as its father. 
      
 
-    The primary function of a teacher in an idealist classroom is:
+    16. The primary function of a teacher in an idealist classroom is:
     A) To be a facilitator
     B) To be a role model and transmitter of eternal values
     C) To organize activities
@@ -138,7 +134,7 @@
     Explanation: Idealism emphasizes the spiritual and moral development of the child, and the teacher is seen as a spiritual guide and a model of perfection. 
      
 
-    The National Institute of Open Schooling (NIOS) primarily caters to:
+    17. The National Institute of Open Schooling (NIOS) primarily caters to:
     A) Elite urban students
     B) Teacher training needs
     C) Diverse learner groups including dropouts and working professionals
@@ -147,7 +143,7 @@
     Explanation: NIOS provides open and distance learning opportunities to a wide range of learners, prioritizing those who cannot benefit from the formal system. 
      
 
-    The "three language formula" was first recommended by the:
+    18. The "three language formula" was first recommended by the:
     A) University Education Commission (1948-49)
     B) Secondary Education Commission (1952-53)
     C) National Policy on Education (1968)
@@ -156,7 +152,7 @@
     Explanation: The Mudaliar Commission (Secondary Education Commission) first suggested the three-language formula to promote national integration and linguistic competence. 
      
 
-    In the context of Indian education, "DIKSHA" is a:
+    19. In the context of Indian education, "DIKSHA" is a:
     A) Scholarship program
     B) National digital infrastructure for teachers
     C) Teacher training institution
@@ -165,7 +161,7 @@
     Explanation: DIKSHA (Digital Infrastructure for Knowledge Sharing) is a national platform that provides teachers with learning resources and professional development opportunities. 
      
 
-    The concept of "inclusive education" means:
+    20. The concept of "inclusive education" means:
     A) Separate schools for children with disabilities
     B) Educating all children together in the same classroom
     C) Mainstreaming only children with mild disabilities
@@ -174,7 +170,7 @@
     Explanation: Inclusive education is an approach where all students, regardless of their abilities or backgrounds, are educated in age-appropriate general education classrooms in their neighborhood schools. 
      
 
-    The main proponent of the "Play Way" method of teaching is:
+    21. The main proponent of the "Play Way" method of teaching is:
     A) Montessori
     B) Froebel
     C) Dewey
@@ -183,7 +179,7 @@
     Explanation: Friedrich Froebel, the founder of kindergarten, developed the "Play Way" method, which uses play as the primary medium for learning in early childhood. 
      
 
-    The purpose of "value education" in schools is to:
+    22. The purpose of "value education" in schools is to:
     A) Indoctrinate students with a specific ideology
     B) Develop a set of desirable attitudes and character traits
     C) Focus only on religious teachings
@@ -192,7 +188,7 @@
     Explanation: Value education aims to foster the holistic development of students by cultivating moral, social, and spiritual values. 
      
 
-    The "Samagra Shiksha" scheme is:
+    23. The "Samagra Shiksha" scheme is:
     A) A teacher training program
     B) An integrated school education scheme
     C) A higher education scholarship
@@ -201,7 +197,7 @@
     Explanation: Launched in 2018, Samagra Shiksha is an overarching program for the school education sector extending from pre-school to class 12, integrating the three schemes of Sarva Shiksha Abhiyan (SSA), Rashtriya Madhyamik Shiksha Abhiyan (RMSA), and Teacher Education (TE). 
      
 
-    According to NCF 2005, the best way to reduce curriculum load is:
+    24. According to NCF 2005, the best way to reduce curriculum load is:
     A) Reducing the number of subjects
     B) Making learning more joyful and experiential
     C) Increasing the duration of the school day
@@ -210,7 +206,7 @@
     Explanation: NCF 2005 suggests that the "burden" arises not from the content but from an uninspired pedagogy. Making learning experiential and connected to life reduces this burden. 
      
 
-    The "operation blackboard" scheme was launched to improve:
+    25. The "operation blackboard" scheme was launched to improve:
     A) Teacher salaries
     B) School infrastructure
     C) Examination systems
@@ -219,7 +215,7 @@
     Explanation: Operation Blackboard (1987) was a centrally sponsored scheme aimed at improving the primary school environment by providing minimum essential facilities like classrooms, blackboards, and teaching kits. 
      
 
-    Who defined education as "the creation of a sound mind in a sound body"?
+    26. Who defined education as "the creation of a sound mind in a sound body"?
     A) Aristotle
     B) Plato
     C) Socrates
@@ -228,7 +224,7 @@
     Explanation: Aristotle emphasized the holistic development of an individual, believing that a sound mind and a sound body were interconnected and essential for a good life. 
      
 
-    The term "epistemology" is related to:
+    27. The term "epistemology" is related to:
     A) The nature of values
     B) The nature of reality
     C) The nature of knowledge
@@ -237,7 +233,7 @@
     Explanation: Epistemology is the branch of philosophy concerned with the nature, sources, and limits of knowledge. 
      
 
-    The "ASHA" (Accredited Social Health Activist) program is related to:
+    28. The "ASHA" (Accredited Social Health Activist) program is related to:
     A) Education
     B) Health
     C) Rural Development
@@ -246,7 +242,7 @@
     Explanation: ASHA is a community health worker instituted by the Government of India's Ministry of Health and Family Welfare. While it impacts education, its primary domain is health. 
      
 
-    The principle of "learning without burden" is central to:
+    29. The principle of "learning without burden" is central to:
     A) NPE 1986
     B) RTE Act 2009
     C) NCF 2005
@@ -255,7 +251,7 @@
     Explanation: The Yashpal Committee Report (1993), titled "Learning Without Burden," heavily influenced the NCF 2005, which adopted this as a central guiding principle. 
      
 
-    The main aim of "environmental education" is to:
+    30. The main aim of "environmental education" is to:
     A) Teach facts about the environment
     B) Develop an attitude of care and concern for the environment
     C) Prepare students for environmental jobs
@@ -264,7 +260,7 @@
     Explanation: While it includes knowledge, the primary goal of environmental education is to foster pro-environmental attitudes, values, and responsible behavior. 
      
 
-    In the context of philosophy, "axiology" deals with:
+    31. In the context of philosophy, "axiology" deals with:
     A) Knowledge
     B) Reality
     C) Values
@@ -273,7 +269,7 @@
     Explanation: Axiology is the branch of philosophy that studies values, including ethics (moral values) and aesthetics (values related to beauty and art). 
      
 
-    The "Mid-Day Meal" scheme has the primary objective of:
+    32. The "Mid-Day Meal" scheme has the primary objective of:
     A) Improving nutritional status and school attendance
     B) Providing employment to cooks
     C) Promoting a particular cuisine
@@ -282,7 +278,7 @@
     Explanation: The Mid-Day Meal Scheme is a school meal program designed to improve the nutritional levels of children and increase school enrollment and attendance. 
      
 
-    The "National Achievement Survey (NAS)" is a:
+    33. The "National Achievement Survey (NAS)" is a:
     A) Competitive examination for scholarships
     B) Teacher eligibility test
     C) Large-scale assessment of student learning
@@ -291,7 +287,7 @@
     Explanation: NAS is a periodic, nationally representative survey of student learning in Grades 3, 5, 8, and 10, designed to monitor improvements in the education system. 
      
 
-    The concept of "self-actualization" is associated with:
+    34. The concept of "self-actualization" is associated with:
     A) Maslow
     B) Skinner
     C) Piaget
@@ -300,7 +296,7 @@
     Explanation: Abraham Maslow's hierarchy of needs places self-actualization—the realization of one's full potential—at the very top. 
      
 
-    "Padhe Bharat Badhe Bharat" is a program focused on improving:
+    35. "Padhe Bharat Badhe Bharat" is a program focused on improving:
     A) Higher education
     B) Teacher training
     C) Foundational skills of reading and writing
@@ -309,7 +305,7 @@
     Explanation: This program, a sub-program of Samagra Shiksha, aims to improve foundational literacy and numeracy skills at the primary level. 
      
 
-    Which of the following is a characteristic of "Lifelong Learning"?
+    36. Which of the following is a characteristic of "Lifelong Learning"?
     A) It ends with formal schooling
     B) It is voluntary and self-motivated
     C) It is only for professionals
@@ -318,7 +314,7 @@
     Explanation: Lifelong learning is a continuous, self-motivated pursuit of knowledge for personal or professional reasons, extending beyond formal education. 
      
 
-    The "Kendriya Vidyalaya Sangathan (KVS)" was established to:
+    37. The "Kendriya Vidyalaya Sangathan (KVS)" was established to:
     A) Promote local culture
     B) Cater to the educational needs of transferable central government employees
     C) Provide vocational training
@@ -327,7 +323,7 @@
     Explanation: KVS was set up to provide a common, uniform educational platform to the children of transferable Central Government employees, including defence personnel. 
      
 
-    The philosophy that considers the child as a "blank slate" (Tabula Rasa) is:
+    38. The philosophy that considers the child as a "blank slate" (Tabula Rasa) is:
     A) Naturalism
     B) Pragmatism
     C) Empiricism
@@ -336,7 +332,7 @@
     Explanation: John Locke, an empiricist, proposed the concept of "Tabula Rasa," suggesting that the mind is a blank slate at birth and all knowledge comes from experience. 
      
 
-    The main focus of the "National Digital Library" is to:
+    39. The main focus of the "National Digital Library" is to:
     A) Digitize school textbooks
     B) Provide a single platform for educational resources in multiple languages
     C) Conduct online examinations
@@ -345,7 +341,7 @@
     Explanation: The National Digital Library of India is a project to develop a framework of virtual repository of learning resources with a single-window search facility. 
      
 
-    The "National Institute of Educational Planning and Administration (NIEPA)" is primarily concerned with:
+    40. The "National Institute of Educational Planning and Administration (NIEPA)" is primarily concerned with:
     A) Teacher training
     B) School administration
     C) Educational policy, planning, and management
@@ -355,7 +351,7 @@
      
 
 
-    According to Piaget, the stage of cognitive development characterized by logical thought about concrete objects and situations is the:
+    41. According to Piaget, the stage of cognitive development characterized by logical thought about concrete objects and situations is the:
     A) Sensorimotor stage
     B) Preoperational stage
     C) Concrete operational stage
@@ -364,7 +360,7 @@
     Explanation: In the concrete operational stage (ages 7-11), children develop logical thinking skills but are limited to concrete, tangible situations. 
      
 
-    Vygotsky's concept of the "Zone of Proximal Development" (ZPD) refers to:
+    42. Vygotsky's concept of the "Zone of Proximal Development" (ZPD) refers to:
     A) What a child can do independently
     B) What a child cannot do at all
     C) What a child can do with guidance and support
@@ -373,7 +369,7 @@
     Explanation: The ZPD is the distance between what a learner can do without help and what they can achieve with guidance from a more knowledgeable other. 
      
 
-    The process of acquiring new knowledge, behaviors, skills, values, or preferences is known as:
+    43. The process of acquiring new knowledge, behaviors, skills, values, or preferences is known as:
     A) Development
     B) Maturation
     C) Learning
@@ -382,7 +378,7 @@
     Explanation: Learning is a relatively permanent change in behavior resulting from experience, practice, or study. 
      
 
-    According to Kohlberg's theory of moral development, the "Conventional Level" is characterized by:
+    44. According to Kohlberg's theory of moral development, the "Conventional Level" is characterized by:
     A) Avoidance of punishment
     B) Social approval and law and order
     C) Universal ethical principles
@@ -391,7 +387,7 @@
     Explanation: In the conventional stage, individuals judge morality based on societal norms, laws, and the approval of others. 
      
 
-    The term "intelligence quotient" (IQ) was first coined by:
+    45. The term "intelligence quotient" (IQ) was first coined by:
     A) Alfred Binet
     B) William Stern
     C) Charles Spearman
@@ -400,7 +396,7 @@
     Explanation: While Binet developed the first intelligence test, it was William Stern, a German psychologist, who coined the term "Intelligence Quotient" as a way to express the score. 
      
 
-    Which theory of learning emphasizes that learning is a result of stimulus-response associations and reinforcement?
+    46. Which theory of learning emphasizes that learning is a result of stimulus-response associations and reinforcement?
     A) Constructivism
     B) Behaviorism
     C) Cognitivism
@@ -409,7 +405,7 @@
     Explanation: Behaviorism, associated with Skinner and Pavlov, views learning as a change in observable behavior caused by external stimuli and reinforcement. 
      
 
-    The process of adapting existing schemas to incorporate new information is called:
+    47. The process of adapting existing schemas to incorporate new information is called:
     A) Assimilation
     B) Accommodation
     C) Equilibration
@@ -418,7 +414,7 @@
     Explanation: Accommodation is the Piagetian process of changing one's existing schemas (or ideas) in response to new information or experiences. 
      
 
-    A student who is intrinsically motivated learns because:
+    48. A student who is intrinsically motivated learns because:
     A) They want to earn a reward
     B) They are interested in the subject itself
     C) They want to avoid punishment
@@ -427,7 +423,7 @@
     Explanation: Intrinsic motivation comes from within the individual; the activity itself is rewarding and satisfying. 
      
 
-    The tendency to attribute one's successes to internal factors and failures to external factors is known as:
+    49. The tendency to attribute one's successes to internal factors and failures to external factors is known as:
     A) Self-serving bias
     B) Fundamental attribution error
     C) Halo effect
@@ -436,7 +432,7 @@
     Explanation: Self-serving bias is a common cognitive bias where individuals attribute positive events to their own character but attribute negative events to external factors. 
      
 
-    Gardner's theory of multiple intelligences includes all of the following EXCEPT:
+    50. Gardner's theory of multiple intelligences includes all of the following EXCEPT:
     A) Linguistic intelligence
     B) Logical-mathematical intelligence
     C) General intelligence (g-factor)
@@ -445,7 +441,7 @@
     Explanation: Howard Gardner's theory proposes multiple, distinct intelligences, contrasting with the traditional concept of a single, general intelligence (g-factor). 
      
 
-    The process of forgetting due to the passage of time, without any intervening activity, is explained by:
+    51. The process of forgetting due to the passage of time, without any intervening activity, is explained by:
     A) Interference theory
     B) Decay theory
     C) Retrieval failure theory
@@ -454,7 +450,7 @@
     Explanation: Decay theory suggests that memories fade over time simply due to the natural decay of the memory trace. 
      
 
-    The process of providing support to a learner to help them accomplish a task they cannot yet complete independently is called:
+    52. The process of providing support to a learner to help them accomplish a task they cannot yet complete independently is called:
     A) Shaping
     B) Modeling
     C) Scaffolding
@@ -463,7 +459,7 @@
     Explanation: Scaffolding, a concept from Vygotsky, involves temporary support structures that are gradually removed as the learner becomes more competent. 
      
 
-    A student's belief in their own ability to succeed in a particular situation is called:
+    53. A student's belief in their own ability to succeed in a particular situation is called:
     A) Self-esteem
     B) Self-concept
     C) Self-efficacy
@@ -472,7 +468,7 @@
     Explanation: Self-efficacy, a concept from Albert Bandura, refers to an individual's belief in their capacity to execute behaviors necessary to produce specific performance attainments. 
      
 
-    The process of learning by observing others is central to:
+    54. The process of learning by observing others is central to:
     A) Classical conditioning
     B) Operant conditioning
     C) Social learning theory
@@ -481,7 +477,7 @@
     Explanation: Albert Bandura's Social Learning Theory (later renamed Social Cognitive Theory) emphasizes that learning occurs through observation, imitation, and modeling. 
      
 
-    Which of the following is a characteristic of a "fixed mindset"?
+    55. Which of the following is a characteristic of a "fixed mindset"?
     A) Believes intelligence can be developed
     B) Seeks challenges
     C) Views effort as a path to mastery
@@ -490,7 +486,7 @@
     Explanation: Carol Dweck's concept of a fixed mindset is the belief that one's qualities, like intelligence, are unchangeable traits. 
      
 
-    The mental process of organizing and interpreting sensory information to understand the environment is called:
+    56. The mental process of organizing and interpreting sensory information to understand the environment is called:
     A) Sensation
     B) Perception
     C) Cognition
@@ -499,7 +495,7 @@
     Explanation: Perception is the brain's interpretation of sensory input, giving meaning to what we see, hear, taste, touch, and smell. 
      
 
-    The "James-Lange" theory of emotion suggests that:
+    57. The "James-Lange" theory of emotion suggests that:
     A) Emotion and physiological response occur simultaneously
     B) Emotion precedes the physiological response
     C) The physiological response precedes the emotion
@@ -508,7 +504,7 @@
     Explanation: This theory posits that we experience emotion as a result of physiological changes (e.g., "I feel angry because I am shaking"). 
      
 
-    The tendency to remember the first and last items in a list more easily than the middle items is known as the:
+    58. The tendency to remember the first and last items in a list more easily than the middle items is known as the:
     A) Recency effect
     B) Primacy effect
     C) Serial position effect
@@ -517,7 +513,7 @@
     Explanation: The serial position effect is the combination of the primacy effect (remembering the first items) and the recency effect (remembering the last items). 
      
 
-    A child who has difficulty with reading, writing, and spelling despite having normal intelligence may have:
+    59. A child who has difficulty with reading, writing, and spelling despite having normal intelligence may have:
     A) Dyscalculia
     B) Dysgraphia
     C) Dyslexia
@@ -526,7 +522,7 @@
     Explanation: Dyslexia is a specific learning disability that is neurobiological in origin and is characterized by difficulties with accurate and/or fluent word recognition and by poor spelling and decoding abilities. 
      
 
-    The process of gradually reinforcing successive approximations of a target behavior is called:
+    60. The process of gradually reinforcing successive approximations of a target behavior is called:
     A) Punishment
     B) Extinction
     C) Shaping
@@ -535,7 +531,7 @@
     Explanation: Shaping is a behaviorist technique used to teach complex behaviors by reinforcing closer and closer approximations to the desired behavior. 
      
 
-    The inability to see a problem from a new perspective is called:
+    61. The inability to see a problem from a new perspective is called:
     A) Functional fixedness
     B) Mental set
     C) Confirmation bias
@@ -544,7 +540,7 @@
     Explanation: Functional fixedness is a cognitive bias that limits a person to using an object only in the way it is traditionally used. 
      
 
-    According to Erik Erikson's psychosocial theory, the primary conflict during adolescence is:
+    62. According to Erik Erikson's psychosocial theory, the primary conflict during adolescence is:
     A) Trust vs. Mistrust
     B) Industry vs. Inferiority
     C) Identity vs. Role Confusion
@@ -553,7 +549,7 @@
     Explanation: During adolescence (ages 12-18), individuals explore their independence and develop a sense of self, leading to the identity vs. role confusion stage. 
      
 
-    The "Pygmalion effect" refers to the phenomenon where:
+    63. The "Pygmalion effect" refers to the phenomenon where:
     A) Students perform poorly due to low expectations
     B) Higher expectations lead to an increase in performance
     C) Students perform better when they are praised
@@ -562,7 +558,7 @@
     Explanation: The Pygmalion effect (or Rosenthal effect) is the phenomenon whereby higher expectations lead to an increase in performance. 
      
 
-    A mental shortcut or rule of thumb that simplifies decision-making is called a:
+    64. A mental shortcut or rule of thumb that simplifies decision-making is called a:
     A) Algorithm
     B) Heuristic
     C) Prototype
@@ -571,7 +567,7 @@
     Explanation: Heuristics are mental shortcuts that allow people to solve problems and make judgments quickly and efficiently. 
      
 
-    The process of learning where a previously learned behavior stops because the reinforcement is removed is called:
+    65. The process of learning where a previously learned behavior stops because the reinforcement is removed is called:
     A) Punishment
     B) Generalization
     C) Discrimination
@@ -580,7 +576,7 @@
     Explanation: In operant conditioning, extinction occurs when a behavior is no longer reinforced, leading to a decrease in its frequency. 
      
 
-    The ability to think about one's own thinking processes is known as:
+    66. The ability to think about one's own thinking processes is known as:
     A) Metacognition
     B) Cognition
     C) Scaffolding
@@ -589,7 +585,7 @@
     Explanation: Metacognition is "thinking about thinking" and involves awareness and control of one's own cognitive processes. 
      
 
-    A student who is anxious about mathematics may experience "math anxiety," which is an example of:
+    67. A student who is anxious about mathematics may experience "math anxiety," which is an example of:
     A) A learning disability
     B) An intellectual disability
     C) A subject-specific phobia
@@ -598,7 +594,7 @@
     Explanation: Math anxiety is a feeling of tension, apprehension, or fear that interferes with math-related performance. It is a type of anxiety related to a specific subject. 
      
 
-    The process by which a neutral stimulus becomes associated with an unconditioned stimulus to elicit a conditioned response is:
+    68. The process by which a neutral stimulus becomes associated with an unconditioned stimulus to elicit a conditioned response is:
     A) Operant conditioning
     B) Classical conditioning
     C) Observational learning
@@ -607,7 +603,7 @@
     Explanation: Classical conditioning, demonstrated by Pavlov's dogs, involves learning through association between a neutral stimulus and an unconditioned stimulus. 
      
 
-    The tendency to make judgments about a person based on a single prominent trait is known as the:
+    69. The tendency to make judgments about a person based on a single prominent trait is known as the:
     A) Halo effect
     B) Horn effect
     C) Contrast effect
@@ -616,7 +612,7 @@
     Explanation: The halo effect is a cognitive bias where our overall impression of a person influences how we feel and think about their character. 
      
 
-    The "spacing effect" suggests that learning is more effective when:
+    70. The "spacing effect" suggests that learning is more effective when:
     A) Study sessions are massed together
     B) Study sessions are spaced out over time
     C) One studies only the night before an exam
@@ -625,7 +621,7 @@
     Explanation: The spacing effect demonstrates that information is more easily recalled if learning sessions are distributed over time rather than crammed. 
      
 
-    According to Freud, the component of personality that operates on the "pleasure principle" is the:
+    71. According to Freud, the component of personality that operates on the "pleasure principle" is the:
     A) Id
     B) Ego
     C) Superego
@@ -634,7 +630,7 @@
     Explanation: The id is the primitive and instinctual part of the mind that contains sexual and aggressive drives and hidden memories, operating entirely on the pleasure principle. 
      
 
-    The process of converting information from short-term memory to long-term memory is called:
+    72. The process of converting information from short-term memory to long-term memory is called:
     A) Encoding
     B) Storage
     C) Retrieval
@@ -643,7 +639,7 @@
     Explanation: Consolidation is the neurological process of stabilizing a memory trace after its initial acquisition, converting it into long-term memory. 
      
 
-    A student who consistently disrupts class to gain attention is likely being motivated by:
+    73. A student who consistently disrupts class to gain attention is likely being motivated by:
     A) Power
     B) Belonging
     C) Competence
@@ -652,7 +648,7 @@
     Explanation: According to Self-Determination Theory, the need for belonging is a fundamental human motivator. Disruptive behavior can be a misguided attempt to gain social connection or attention. 
      
 
-    The term "nature vs. nurture" debate refers to the discussion about:
+    74. The term "nature vs. nurture" debate refers to the discussion about:
     A) The role of genetics vs. environment in development
     B) The effectiveness of different teaching methods
     C) The best curriculum for schools
@@ -661,7 +657,7 @@
     Explanation: The nature vs. nurture debate concerns the relative importance of an individual's innate qualities (nature) versus personal experiences (nurture) in determining or causing individual differences. 
      
 
-    The phenomenon where information learned earlier interferes with the recall of information learned later is called:
+    75. The phenomenon where information learned earlier interferes with the recall of information learned later is called:
     A) Retroactive interference
     B) Proactive interference
     C) Decay
@@ -670,7 +666,7 @@
     Explanation: Proactive interference occurs when old memories hinder the recall of newer memories. 
      
 
-    A child who can solve conservation tasks but struggles with abstract, hypothetical reasoning is in Piaget's:
+    76. A child who can solve conservation tasks but struggles with abstract, hypothetical reasoning is in Piaget's:
     A) Preoperational stage
     B) Concrete operational stage
     C) Formal operational stage
@@ -679,7 +675,7 @@
     Explanation: The concrete operational stage is marked by logical thought about concrete situations, including the understanding of conservation, but abstract reasoning is not yet fully developed. 
      
 
-    The "A-B-C" model of behavior, used in behavior modification, stands for:
+    77. The "A-B-C" model of behavior, used in behavior modification, stands for:
     A) Antecedent, Behavior, Consequence
     B) Action, Belief, Consequence
     C) Antecedent, Belief, Consequence
@@ -688,7 +684,7 @@
     Explanation: The ABC model is a foundational concept in behavior analysis. The Antecedent is what happens before the behavior, the Behavior is the action, and the Consequence is what happens after. 
      
 
-    The "fight-or-flight" response is associated with which branch of the nervous system?
+    78. The "fight-or-flight" response is associated with which branch of the nervous system?
     A) Parasympathetic
     B) Somatic
     C) Sympathetic
@@ -697,7 +693,7 @@
     Explanation: The sympathetic nervous system activates the fight-or-flight response, preparing the body for intense physical activity in emergencies. 
      
 
-    The ability to understand and manage one's own emotions and to recognize and influence the emotions of others is called:
+    79. The ability to understand and manage one's own emotions and to recognize and influence the emotions of others is called:
     A) Intelligence Quotient (IQ)
     B) Emotional Intelligence (EQ)
     C) Social intelligence
@@ -706,7 +702,7 @@
     Explanation: Emotional intelligence encompasses self-awareness, self-regulation, motivation, empathy, and social skills. 
      
 
-    The process of learning that is not apparent until there is an incentive to show it is called:
+    80. The process of learning that is not apparent until there is an incentive to show it is called:
     A) Latent learning
     B) Observational learning
     C) Insight learning
@@ -715,7 +711,7 @@
     Explanation: Latent learning is learning that occurs without any obvious reinforcement or demonstration of the knowledge until a reinforcement or motivation is introduced. 
      
 
-    A student who is good at creating mental pictures and diagrams to remember information is using:
+    81. A student who is good at creating mental pictures and diagrams to remember information is using:
     A) Elaborative rehearsal
     B) Mnemonics
     C) Visual imagery
@@ -724,7 +720,7 @@
     Explanation: Visual imagery is a memory technique that involves creating vivid mental images to represent information. 
      
 
-    The "just noticeable difference" (JND) in sensation is a key concept in:
+    82. The "just noticeable difference" (JND) in sensation is a key concept in:
     A) Gestalt psychology
     B) Psychoanalysis
     C) Psychophysics
@@ -733,7 +729,7 @@
     Explanation: Psychophysics studies the relationship between physical stimuli and the sensations and perceptions they produce. The JND is a fundamental concept in this field. 
      
 
-    According to Carl Rogers, the most important factor for a healthy personality is:
+    83. According to Carl Rogers, the most important factor for a healthy personality is:
     A) Unconditional positive regard
     B) Operant conditioning
     C) Resolving unconscious conflicts
@@ -742,7 +738,7 @@
     Explanation: Rogers, a humanistic psychologist, believed that unconditional positive regard (acceptance and love without conditions) is essential for a person to reach their full potential (self-actualize). 
      
 
-    A child who has difficulty with mathematical calculations and concepts may have:
+    84. A child who has difficulty with mathematical calculations and concepts may have:
     A) Dyslexia
     B) Dysgraphia
     C) Dyscalculia
@@ -751,7 +747,7 @@
     Explanation: Dyscalculia is a specific learning disability that affects a person's ability to understand numbers and learn math facts. 
      
 
-    The "Stanford-Binet Intelligence Scale" measures:
+    85. The "Stanford-Binet Intelligence Scale" measures:
     A) Personality traits
     B) Aptitude for specific jobs
     C) General intelligence (IQ)
@@ -760,7 +756,7 @@
     Explanation: The Stanford-Binet test is one of the most widely used intelligence tests, designed to measure an individual's cognitive abilities and provide an IQ score. 
      
 
-    The tendency to persevere in solving a problem even when it is clearly unsolvable is known as:
+    86. The tendency to persevere in solving a problem even when it is clearly unsolvable is known as:
     A) Functional fixedness
     B) Mental set
     C) Confirmation bias
@@ -769,7 +765,7 @@
     Explanation: A mental set is a tendency to approach situations in a certain way because that method worked in the past. It can lead to rigidity in problem-solving. 
      
 
-    The process of actively constructing new ideas or concepts based on current and past knowledge is a core idea of:
+    87. The process of actively constructing new ideas or concepts based on current and past knowledge is a core idea of:
     A) Behaviorism
     B) Constructivism
     C) Psychodynamics
@@ -778,7 +774,7 @@
     Explanation: Constructivism posits that learners are not passive recipients of information but actively construct their own understanding and knowledge through experiences and interactions. 
      
 
-    The "Big Five" personality traits include all of the following EXCEPT:
+    88. The "Big Five" personality traits include all of the following EXCEPT:
     A) Openness
     B) Conscientiousness
     C) Extraversion
@@ -787,7 +783,7 @@
     Explanation: The Big Five personality traits are Openness, Conscientiousness, Extraversion, Agreeableness, and Neuroticism (OCEAN). Intelligence is considered a cognitive ability, not a personality trait. 
      
 
-    The "false consensus effect" is the tendency to:
+    89. The "false consensus effect" is the tendency to:
     A) Overestimate the extent to which others share our views
     B) Believe that our successes are due to our own efforts
     C) Attribute our failures to external factors
@@ -796,7 +792,7 @@
     Explanation: The false consensus effect is a cognitive bias where people tend to assume that their own opinions, beliefs, and behaviors are more common among others than they actually are. 
      
 
-    A student who studies hard to get good grades to avoid disappointing their parents is demonstrating:
+    90. A student who studies hard to get good grades to avoid disappointing their parents is demonstrating:
     A) Intrinsic motivation
     B) Extrinsic motivation
     C) A growth mindset
@@ -805,7 +801,7 @@
     Explanation: Extrinsic motivation refers to behavior that is driven by external rewards or punishments, such as grades, praise, or the approval of others. 
      
 
-    The process of bringing to mind information that has been previously learned is called:
+    91. The process of bringing to mind information that has been previously learned is called:
     A) Encoding
     B) Storage
     C) Retrieval
@@ -814,7 +810,7 @@
     Explanation: Retrieval is the process of accessing and recalling information from long-term memory when it is needed. 
      
 
-    The "critical period" hypothesis in language development suggests that:
+    92. The "critical period" hypothesis in language development suggests that:
     A) Language can be learned at any age
     B) There is a specific time frame in which language acquisition is easiest
     C) Language development is solely dependent on environment
@@ -823,7 +819,7 @@
     Explanation: The critical period hypothesis suggests that there is a biologically determined period of life during which language acquisition occurs most easily. 
      
 
-    The "Wechsler Adult Intelligence Scale (WAIS)" is designed for individuals aged:
+    93. The "Wechsler Adult Intelligence Scale (WAIS)" is designed for individuals aged:
     A) 2-16 years
     B) 16-89 years
     C) 6-16 years
@@ -832,7 +828,7 @@
     Explanation: The WAIS is an IQ test designed for adults and older adolescents. The WISC is for school-aged children, and the WPPSI is for preschool-aged children. 
      
 
-    The process of learning where a response is followed by the removal of an unpleasant stimulus, increasing the likelihood of the response, is called:
+    94. The process of learning where a response is followed by the removal of an unpleasant stimulus, increasing the likelihood of the response, is called:
     A) Positive reinforcement
     B) Negative reinforcement
     C) Positive punishment
@@ -841,7 +837,7 @@
     Explanation: Negative reinforcement strengthens a behavior by removing or avoiding an aversive stimulus. It is often confused with punishment. 
      
 
-    The "Hawthorne effect" refers to the phenomenon where:
+    95. The "Hawthorne effect" refers to the phenomenon where:
     A) Workers are more productive when they know they are being observed
     B) Lighting levels affect productivity
     C) Workers are more productive when paid more
@@ -850,7 +846,7 @@
     Explanation: The Hawthorne effect describes the alteration of behavior by the subjects of a study due to their awareness of being observed. 
      
 
-    The "primacy effect" is the tendency to:
+    96. The "primacy effect" is the tendency to:
     A) Remember the first items in a list best
     B) Remember the last items in a list best
     C) Remember items in the middle of a list best
@@ -859,7 +855,7 @@
     Explanation: The primacy effect is a cognitive bias that results in a subject recalling primary information presented better than information presented later on. 
      
 
-    A student who has difficulty with handwriting, spelling, and organizing ideas on paper may have:
+    97. A student who has difficulty with handwriting, spelling, and organizing ideas on paper may have:
     A) Dyslexia
     B) Dyscalculia
     C) Dysgraphia
@@ -868,7 +864,7 @@
     Explanation: Dysgraphia is a specific learning disability that affects writing abilities, including the physical act of writing and the ability to compose coherent text. 
      
 
-    The "fundamental attribution error" is the tendency to:
+    98. The "fundamental attribution error" is the tendency to:
     A) Overemphasize personality traits and underestimate situational factors when judging others' behavior
     B) Overemphasize situational factors and underestimate personality traits
     C) Attribute our own successes to internal factors and failures to external factors
@@ -877,7 +873,7 @@
     Explanation: The fundamental attribution error is a common cognitive bias where we explain others' actions by their internal characteristics while ignoring the influence of the situation. 
      
 
-    The process of breaking down a complex task into smaller, manageable steps is called:
+    99. The process of breaking down a complex task into smaller, manageable steps is called:
     A) Scaffolding
     B) Task analysis
     C) Shaping
@@ -886,7 +882,7 @@
     Explanation: Task analysis is the process of analyzing a complex activity or task into its smaller, component parts to teach it more effectively. 
      
 
-    The "dual coding theory" suggests that:
+    100. The "dual coding theory" suggests that:
     A) Information is stored in two separate channels: verbal and non-verbal
     B) People have two types of intelligence: academic and practical
     C) Memory involves short-term and long-term components
@@ -896,7 +892,7 @@
      
 
 
-    Which teaching method is most suitable for developing critical thinking and problem-solving skills?
+    101. Which teaching method is most suitable for developing critical thinking and problem-solving skills?
     A) Lecture method
     B) Drill and practice
     C) Inquiry-based learning
@@ -905,7 +901,7 @@
     Explanation: Inquiry-based learning encourages students to ask questions, investigate, and find solutions, which directly fosters critical thinking and problem-solving abilities. 
      
 
-    The "flipped classroom" model involves:
+    102. The "flipped classroom" model involves:
     A) Students teaching the class
     B) Traditional lectures happening at home via video and homework being done in class
     C) Students rotating between different learning stations
@@ -914,7 +910,7 @@
     Explanation: In a flipped classroom, the traditional learning environment is inverted, so that instructional content is delivered outside of class, and class time is used for active, hands-on learning. 
      
 
-    The "Jigsaw" technique is an example of:
+    103. The "Jigsaw" technique is an example of:
     A) Direct instruction
     B) Competitive learning
     C) Cooperative learning
@@ -923,7 +919,7 @@
     Explanation: The Jigsaw technique is a cooperative learning strategy where each student becomes an "expert" on one part of a topic and then teaches it to their group members, fostering interdependence. 
      
 
-    The primary purpose of using "advance organizers" in a lesson is to:
+    104. The primary purpose of using "advance organizers" in a lesson is to:
     A) Assess prior knowledge
     B) Provide a conceptual framework for new information
     C) Assign homework
@@ -932,7 +928,7 @@
     Explanation: Advance organizers, introduced by Ausubel, are introductory materials that help students link new knowledge to what they already know, providing a mental scaffold. 
      
 
-    "Wait time" in classroom questioning refers to:
+    105. "Wait time" in classroom questioning refers to:
     A) The time students wait for the teacher to ask a question
     B) The pause after a teacher asks a question before expecting an answer
     C) The time students wait to receive their grades
@@ -941,7 +937,7 @@
     Explanation: Wait time (typically 3-5 seconds) after asking a question gives students time to think, leading to more thoughtful and extended responses. 
      
 
-    Which of the following is the most effective strategy for managing a diverse classroom?
+    106. Which of the following is the most effective strategy for managing a diverse classroom?
     A) Uniform instruction for all
     B) Differentiated instruction
     C) Grouping students by ability only
@@ -950,7 +946,7 @@
     Explanation: Differentiated instruction involves tailoring teaching methods, materials, and assessments to meet the varied needs, interests, and learning profiles of all students. 
      
 
-    The "Socratic method" of teaching is characterized by:
+    107. The "Socratic method" of teaching is characterized by:
     A) The teacher providing direct answers
     B) Using a series of questions to stimulate critical thinking and expose contradictions
     C) Students learning through physical activity
@@ -959,7 +955,7 @@
     Explanation: The Socratic method is a form of cooperative argumentative dialogue that stimulates critical thinking and draws out ideas and underlying presumptions. 
      
 
-    The primary goal of "formative assessment" is to:
+    108. The primary goal of "formative assessment" is to:
     A) Assign a final grade
     B) Monitor student learning and provide ongoing feedback
     C) Compare students against a national norm
@@ -968,7 +964,7 @@
     Explanation: Formative assessment is diagnostic and ongoing, used by teachers to adjust instruction and by students to improve their learning during the instructional process. 
      
 
-    A teacher who wants to teach a complex skill should first break it down into smaller steps. This process is called:
+    109. A teacher who wants to teach a complex skill should first break it down into smaller steps. This process is called:
     A) Scaffolding
     B) Task analysis
     C) Chaining
@@ -977,7 +973,7 @@
     Explanation: Task analysis is the process of breaking a complex skill or behavior into smaller, teachable units. 
      
 
-    The "backward design" model of curriculum planning involves:
+    110. The "backward design" model of curriculum planning involves:
     A) Starting with the textbook and planning activities
     B) Starting with the desired learning outcomes and working backward to assessments and activities
     C) Starting with fun activities and connecting them to standards later
@@ -986,7 +982,7 @@
     Explanation: Backward design (Wiggins and McTighe) involves three stages: 1) Identify desired results, 2) Determine acceptable evidence (assessments), and 3) Plan learning experiences. 
      
 
-    The "think-pair-share" strategy is designed to:
+    111. The "think-pair-share" strategy is designed to:
     A) Encourage individual competition
     B) Promote student reflection and peer discussion
     C) Assess students' final knowledge
@@ -995,7 +991,7 @@
     Explanation: Think-pair-share involves students thinking about a question individually, discussing it with a partner, and then sharing their ideas with the larger group, increasing participation and deeper thinking. 
      
 
-    Which classroom seating arrangement is most conducive to collaborative group work?
+    112. Which classroom seating arrangement is most conducive to collaborative group work?
     A) Rows facing the front
     B) A U-shape
     C) Clusters of desks
@@ -1004,7 +1000,7 @@
     Explanation: Arranging desks in clusters or small groups facilitates face-to-face interaction, easy sharing of materials, and collaboration among students. 
      
 
-    The "5E" instructional model is most commonly associated with teaching:
+    113. The "5E" instructional model is most commonly associated with teaching:
     A) Language arts
     B) Mathematics
     C) Science
@@ -1013,7 +1009,7 @@
     Explanation: The 5E model (Engage, Explore, Explain, Elaborate, Evaluate) is an inquiry-based instructional model that is particularly well-suited for science education. 
      
 
-    "Reciprocal teaching" is a strategy designed to improve:
+    114. "Reciprocal teaching" is a strategy designed to improve:
     A) Mathematical skills
     B) Reading comprehension
     C) Writing ability
@@ -1022,7 +1018,7 @@
     Explanation: Reciprocal teaching involves students taking turns leading a dialogue about a text using four strategies: summarizing, questioning, clarifying, and predicting. 
      
 
-    The primary purpose of a "lesson plan" is to:
+    115. The primary purpose of a "lesson plan" is to:
     A) Fulfill an administrative requirement
     B) Provide a structured roadmap for teaching and learning
     C) Keep students busy for the entire period
@@ -1031,7 +1027,7 @@
     Explanation: A lesson plan outlines the objectives, activities, materials, and assessments for a lesson, ensuring that instruction is purposeful, organized, and effective. 
      
 
-    Which of the following is NOT a characteristic of effective feedback?
+    116. Which of the following is NOT a characteristic of effective feedback?
     A) It is specific and clear
     B) It is focused only on errors
     C) It is timely
@@ -1040,7 +1036,7 @@
     Explanation: Effective feedback is balanced, highlighting both strengths and areas for improvement. It should be specific, timely, and provide guidance on how to improve. 
      
 
-    The "anticipatory set" in a Madeline Hunter lesson plan is used to:
+    117. The "anticipatory set" in a Madeline Hunter lesson plan is used to:
     A) Assign homework
     B) Capture students' attention and activate prior knowledge
     C) Assess final learning
@@ -1049,7 +1045,7 @@
     Explanation: The anticipatory set is the "hook" at the beginning of a lesson designed to get students interested and ready to learn. 
      
 
-    The use of real-world problems and projects as the primary context for learning is the hallmark of:
+    118. The use of real-world problems and projects as the primary context for learning is the hallmark of:
     A) Direct instruction
     B) Project-based learning
     C) Rote memorization
@@ -1058,7 +1054,7 @@
     Explanation: Project-based learning (PBL) is a student-centered pedagogy where students learn by actively engaging in real-world and personally meaningful projects. 
      
 
-    A teacher who modifies instruction for students with special needs within the general education classroom is practicing:
+    119. A teacher who modifies instruction for students with special needs within the general education classroom is practicing:
     A) Segregation
     B) Integration
     C) Inclusion
@@ -1067,7 +1063,7 @@
     Explanation: Inclusion means educating students with disabilities in the general education classroom with appropriate supports and modifications, ensuring they are full members of the community. 
      
 
-    The "cognitive apprenticeship" model involves:
+    120. The "cognitive apprenticeship" model involves:
     A) Students memorizing facts
     B) Making expert thinking processes visible through modeling and coaching
     C) Students working in isolation
@@ -1076,7 +1072,7 @@
     Explanation: Cognitive apprenticeship is a model of instruction that makes the thinking processes of a task visible to students, allowing them to internalize the cognitive strategies of experts. 
      
 
-    The "mastery learning" model, proposed by Benjamin Bloom, requires that:
+    121. The "mastery learning" model, proposed by Benjamin Bloom, requires that:
     A) Students be grouped by ability
     B) All students achieve a high level of mastery before moving on
     C) The curriculum be accelerated for gifted students
@@ -1085,7 +1081,7 @@
     Explanation: In mastery learning, students are given the time and support they need to master a topic (typically 80-90% proficiency) before progressing to the next one. 
      
 
-    Which questioning technique encourages students to justify their answers and think more deeply?
+    122. Which questioning technique encourages students to justify their answers and think more deeply?
     A) Factual recall questions
     B) Probing questions
     C) Closed-ended questions
@@ -1094,7 +1090,7 @@
     Explanation: Probing questions follow up on a student's initial response, asking for clarification, elaboration, or justification, thereby encouraging deeper thinking. 
      
 
-    The "inductive method" of teaching involves moving from:
+    123. The "inductive method" of teaching involves moving from:
     A) General principles to specific examples
     B) Specific examples to general principles
     C) Known to unknown
@@ -1103,7 +1099,7 @@
     Explanation: The inductive method starts with specific observations or examples and leads students to discover a general rule or principle. 
      
 
-    A teacher who uses stories, anecdotes, and real-life examples to make a topic engaging is using:
+    124. A teacher who uses stories, anecdotes, and real-life examples to make a topic engaging is using:
     A) Direct instruction
     B) Narrative pedagogy
     C) Programmed instruction
@@ -1112,7 +1108,7 @@
     Explanation: Narrative pedagogy uses storytelling as a central method for teaching and learning, making abstract concepts more relatable and memorable. 
      
 
-    The "response to intervention" (RTI) framework is primarily used for:
+    125. The "response to intervention" (RTI) framework is primarily used for:
     A) Identifying and supporting students with learning difficulties
     B) Selecting students for gifted programs
     C) Evaluating teacher performance
@@ -1121,7 +1117,7 @@
     Explanation: RTI is a multi-tiered approach to the early identification and support of students with learning and behavior needs. 
      
 
-    The "VARK" model is used to categorize:
+    126. The "VARK" model is used to categorize:
     A) Types of intelligence
     B) Learning styles (Visual, Auditory, Read/Write, Kinesthetic)
     C) Levels of Bloom's Taxonomy
@@ -1130,7 +1126,7 @@
     Explanation: The VARK model, developed by Neil Fleming, is one of the most common frameworks for describing different learning preferences. 
      
 
-    Which of the following is a key principle of "Universal Design for Learning" (UDL)?
+    127. Which of the following is a key principle of "Universal Design for Learning" (UDL)?
     A) Providing one way for students to learn and one way to demonstrate knowledge
     B) Providing multiple means of representation, action, and engagement
     C) Focusing only on students with disabilities
@@ -1139,7 +1135,7 @@
     Explanation: UDL is a framework to improve and optimize teaching and learning for all people based on scientific insights into how humans learn. It calls for providing multiple means of representation, expression, and engagement. 
      
 
-    The "concept attainment" model is best used for teaching:
+    128. The "concept attainment" model is best used for teaching:
     A) Procedural skills
     B) Complex concepts and categories
     C) Factual dates and names
@@ -1148,7 +1144,7 @@
     Explanation: Concept attainment is an indirect instructional strategy that helps students understand and define a concept by presenting them with "yes" and "no" examples and having them figure out the defining attributes. 
      
 
-    A teacher who says, "Tell me in your own words what you just understood," is using a technique to check for:
+    129. A teacher who says, "Tell me in your own words what you just understood," is using a technique to check for:
     A) Classroom management
     B) Student comprehension
     C) Student behavior
@@ -1157,7 +1153,7 @@
     Explanation: Asking students to paraphrase or summarize in their own words is an effective formative assessment strategy to check for understanding. 
      
 
-    The "programmed instruction" method is based on the principles of:
+    130. The "programmed instruction" method is based on the principles of:
     A) Constructivism
     B) Behaviorism
     C) Humanism
@@ -1166,7 +1162,7 @@
     Explanation: Programmed instruction breaks down content into small, sequential steps and provides immediate feedback, which aligns with behaviorist principles of reinforcement. 
      
 
-    Which teaching strategy is most effective for promoting long-term retention of information?
+    131. Which teaching strategy is most effective for promoting long-term retention of information?
     A) Cramming
     B) Distributed practice
     C) Massed practice
@@ -1175,7 +1171,7 @@
     Explanation: Distributed practice, or spacing out learning sessions over time, has been shown to be far more effective for long-term retention than massed practice (cramming). 
      
 
-    The "interleaving" practice technique involves:
+    132. The "interleaving" practice technique involves:
     A) Practicing one skill repeatedly until mastery
     B) Mixing different types of problems or skills in a single study session
     C) Studying the same material in the same way
@@ -1184,7 +1180,7 @@
     Explanation: Interleaving is a learning technique where related but distinct topics are mixed together during study, which has been shown to improve retention and transfer of knowledge. 
      
 
-    A teacher who starts a lesson with a surprising fact or a thought-provoking question is using:
+    133. A teacher who starts a lesson with a surprising fact or a thought-provoking question is using:
     A) An anticipatory set
     B) A closure activity
     C) A summative assessment
@@ -1193,7 +1189,7 @@
     Explanation: The anticipatory set is the "hook" that grabs students' attention and prepares them for the lesson ahead. 
      
 
-    The "micro-teaching" technique is used for:
+    134. The "micro-teaching" technique is used for:
     A) Teaching young children in small groups
     B) Providing a scaled-down teaching opportunity for teacher trainees to practice specific skills
     C) Teaching complex scientific concepts
@@ -1202,7 +1198,7 @@
     Explanation: Micro-teaching is a teacher training technique where a teacher teaches a short lesson to a small group of students, focusing on practicing one specific teaching skill. 
      
 
-    The "guided discovery" method is a balance between:
+    135. The "guided discovery" method is a balance between:
     A) Direct instruction and pure discovery learning
     B) Rote memorization and project-based learning
     C) Assessment and instruction
@@ -1211,7 +1207,7 @@
     Explanation: In guided discovery, the teacher provides structure and guidance but allows students to explore and discover concepts on their own, acting as a facilitator. 
      
 
-    Which of the following is a characteristic of an effective classroom climate?
+    136. Which of the following is a characteristic of an effective classroom climate?
     A) High levels of anxiety and competition
     B) A sense of community and mutual respect
     C) Strict, punitive discipline
@@ -1220,7 +1216,7 @@
     Explanation: A positive classroom climate is one where students feel safe, respected, supported, and part of a learning community. 
      
 
-    The "mnemonic" instructional strategy involves using:
+    137. The "mnemonic" instructional strategy involves using:
     A) Physical movement to learn
     B) Memory aids like acronyms or rhymes
     C) Social interaction
@@ -1229,7 +1225,7 @@
     Explanation: Mnemonics are techniques for improving memory, such as acronyms (e.g., ROY G. BIV for the colors of the rainbow), acrostics, and chunking. 
      
 
-    A teacher who adjusts the pace, level, and type of instruction to meet individual student needs is practicing:
+    138. A teacher who adjusts the pace, level, and type of instruction to meet individual student needs is practicing:
     A) Standardized teaching
     B) Differentiated instruction
     C) Traditional teaching
@@ -1238,7 +1234,7 @@
     Explanation: Differentiated instruction is the practice of modifying teaching methods and resources to accommodate the diverse learning needs of students in a classroom. 
      
 
-    The "deductive method" of teaching involves moving from:
+    139. The "deductive method" of teaching involves moving from:
     A) Specific examples to general rules
     B) General rules to specific examples
     C) Unknown to known
@@ -1247,7 +1243,7 @@
     Explanation: The deductive method starts with a general principle, rule, or theory and then applies it to specific cases or examples. 
      
 
-    Which of the following is NOT a component of the "ADDIE" model of instructional design?
+    140. Which of the following is NOT a component of the "ADDIE" model of instructional design?
     A) Analysis
     B) Design
     C) Development
@@ -1258,7 +1254,7 @@
     Explanation: The ADDIE model stands for Analysis, Design, Development, Implementation, and Evaluation. It is a framework for creating effective instructional materials. 
      
 
-    The primary purpose of "summative assessment" is to:
+    141. The primary purpose of "summative assessment" is to:
     A) Provide feedback during the learning process
     B) Evaluate student learning at the end of an instructional unit
     C) Diagnose learning difficulties
@@ -1267,7 +1263,7 @@
     Explanation: Summative assessments, such as final exams or end-of-unit projects, are used to measure what students have learned after instruction is complete. 
      
 
-    A teacher who uses a variety of methods like lectures, discussions, videos, and activities in one lesson is catering to:
+    142. A teacher who uses a variety of methods like lectures, discussions, videos, and activities in one lesson is catering to:
     A) A single learning style
     B) Multiple intelligences
     C) Only high-achieving students
@@ -1276,7 +1272,7 @@
     Explanation: By using a variety of methods, the teacher is attempting to engage different intelligences (e.g., linguistic, logical-mathematical, spatial, bodily-kinesthetic) as proposed by Howard Gardner. 
      
 
-    The "brainstorming" technique is primarily used to:
+    143. The "brainstorming" technique is primarily used to:
     A) Make a final decision
     B) Generate a large number of ideas without judgment
     C) Critically analyze a single idea
@@ -1285,7 +1281,7 @@
     Explanation: Brainstorming is a group creativity technique designed to generate a broad list of ideas in a non-judgmental environment. 
      
 
-    The "portfolio assessment" method involves:
+    144. The "portfolio assessment" method involves:
     A) A single, timed test
     B) Collecting samples of a student's work over time to show growth
     C) Assessing only the final product
@@ -1294,7 +1290,7 @@
     Explanation: A portfolio is a purposeful collection of student work that exhibits the student's efforts, progress, and achievements in one or more areas. 
      
 
-    A teacher who consistently praises students for their effort rather than their innate ability is promoting a:
+    145. A teacher who consistently praises students for their effort rather than their innate ability is promoting a:
     A) Fixed mindset
     B) Growth mindset
     C) Performance goal orientation
@@ -1303,7 +1299,7 @@
     Explanation: Praising effort and strategies reinforces the idea that intelligence can be developed through hard work, which is the core of a growth mindset. 
      
 
-    The "field trip" as a teaching strategy is an example of:
+    146. The "field trip" as a teaching strategy is an example of:
     A) Direct instruction
     B) Experiential learning
     C) Rote learning
@@ -1312,7 +1308,7 @@
     Explanation: Field trips provide students with direct, hands-on experiences outside the classroom, making learning more concrete and memorable. 
      
 
-    Which of the following is the most important first step in managing disruptive behavior?
+    147. Which of the following is the most important first step in managing disruptive behavior?
     A) Sending the student to the principal
     B) Ignoring the behavior
     C) Building positive relationships with students
@@ -1321,7 +1317,7 @@
     Explanation: Proactive classroom management, built on positive relationships, mutual respect, and clear expectations, is more effective than reactive, punitive measures. 
      
 
-    The "role-play" teaching strategy is most useful for developing:
+    148. The "role-play" teaching strategy is most useful for developing:
     A) Rote memorization skills
     B) Social skills and understanding different perspectives
     C) Mathematical calculation skills
@@ -1330,7 +1326,7 @@
     Explanation: Role-playing allows students to act out scenarios, helping them develop empathy, communication skills, and an understanding of different viewpoints. 
      
 
-    The "semantic mapping" technique is used to:
+    149. The "semantic mapping" technique is used to:
     A) Teach vocabulary and show relationships between concepts
     B) Assess mathematical skills
     C) Manage classroom behavior
@@ -1339,7 +1335,7 @@
     Explanation: Semantic mapping (or word webs) is a visual strategy that graphically represents the relationships between words and concepts, aiding comprehension and vocabulary development. 
      
 
-    A teacher who provides students with a checklist for a project is using:
+    150. A teacher who provides students with a checklist for a project is using:
     A) A formative assessment tool
     B) A summative assessment tool
     C) A classroom management technique
@@ -1348,7 +1344,7 @@
     Explanation: A checklist provides students with clear expectations and allows them to self-assess their progress, making it a useful formative assessment tool. 
      
 
-    The "drill and practice" method is most effective for teaching:
+    151. The "drill and practice" method is most effective for teaching:
     A) Critical thinking
     B) Basic facts and skills that require automaticity
     C) Complex problem-solving
@@ -1357,7 +1353,7 @@
     Explanation: Drill and practice involves repetition of a skill or concept until it becomes automatic, which is useful for things like multiplication tables or vocabulary. 
      
 
-    The "learning contract" is an agreement between:
+    152. The "learning contract" is an agreement between:
     A) The teacher and the principal
     B) The student and the teacher
     C) The school and the parents
@@ -1366,7 +1362,7 @@
     Explanation: A learning contract is a negotiated agreement between a student and teacher that outlines what the student will learn, how they will learn it, and how their learning will be evaluated. 
      
 
-    The "simulation" teaching method involves:
+    153. The "simulation" teaching method involves:
     A) Reading a textbook chapter
     B) Creating a simplified model of a real-world situation
     C) Watching a documentary
@@ -1375,7 +1371,7 @@
     Explanation: Simulations allow students to experience and explore complex systems or processes in a controlled, safe environment. 
      
 
-    Which of the following is a key element of "culturally responsive teaching"?
+    154. Which of the following is a key element of "culturally responsive teaching"?
     A) Using a single, standardized curriculum for all
     B) Ignoring students' cultural backgrounds
     C) Validating and incorporating students' cultural references in all aspects of learning
@@ -1384,7 +1380,7 @@
     Explanation: Culturally responsive teaching recognizes the importance of including students' cultural identities in the learning process to make it more relevant and effective. 
      
 
-    The "socratic seminar" is a discussion format that encourages:
+    155. The "socratic seminar" is a discussion format that encourages:
     A) Teacher-led lectures
     B) Open-ended, student-led inquiry and dialogue
     C) Rote memorization of facts
@@ -1393,7 +1389,7 @@
     Explanation: In a Socratic seminar, students engage in a formal discussion based on a text or topic, with the teacher acting as a facilitator rather than a lecturer. 
      
 
-    The "peer tutoring" strategy involves:
+    156. The "peer tutoring" strategy involves:
     A) Students teaching other students
     B) The teacher providing one-on-one instruction
     C) Students learning from a computer program
@@ -1402,7 +1398,7 @@
     Explanation: Peer tutoring is an instructional strategy where students work in pairs or small groups, with one student taking on the role of the tutor to help the other learn. 
      
 
-    The "closure" part of a lesson plan is designed to:
+    157. The "closure" part of a lesson plan is designed to:
     A) Introduce new material
     B) Summarize the lesson and check for final understanding
     C) Assign homework
@@ -1411,7 +1407,7 @@
     Explanation: Closure is the conclusion of the lesson, where the teacher helps students synthesize what they have learned and make connections to future learning. 
      
 
-    The "debate" teaching strategy is particularly effective for developing:
+    158. The "debate" teaching strategy is particularly effective for developing:
     A) Memorization skills
     B) Research, public speaking, and critical thinking skills
     C) Artistic skills
@@ -1420,7 +1416,7 @@
     Explanation: Debates require students to research a topic, formulate arguments, and think critically about opposing viewpoints, developing a range of valuable skills. 
      
 
-    A teacher who uses "proximity" by moving closer to a disruptive student is using a:
+    159. A teacher who uses "proximity" by moving closer to a disruptive student is using a:
     A) Punitive technique
     B) Non-verbal classroom management strategy
     C) Formative assessment strategy
@@ -1429,7 +1425,7 @@
     Explanation: Proximity control is a subtle, non-verbal technique where the teacher's physical presence near a student can help refocus their behavior without disrupting the class. 
      
 
-    The "whole language" approach to teaching reading emphasizes:
+    160. The "whole language" approach to teaching reading emphasizes:
     A) Phonics and decoding skills in isolation
     B) Learning to read through exposure to complete, meaningful texts
     C) Memorizing sight words only
@@ -1439,7 +1435,7 @@
      
  
 
-    The main purpose of "diagnostic assessment" is to:
+    161. The main purpose of "diagnostic assessment" is to:
     A) Assign a final grade at the end of the year
     B) Identify students' strengths and weaknesses before instruction begins
     C) Monitor progress during a unit
@@ -1448,7 +1444,7 @@
     Explanation: Diagnostic assessment is a pre-instructional tool used to determine students' prior knowledge and skill levels, allowing the teacher to plan appropriate instruction. 
      
 
-    An assessment that measures what it is intended to measure is said to be:
+    162. An assessment that measures what it is intended to measure is said to be:
     A) Reliable
     B) Valid
     C) Objective
@@ -1457,7 +1453,7 @@
     Explanation: Validity refers to the accuracy of a test in measuring what it claims to measure. A valid test accurately assesses the intended construct. 
      
 
-    An assessment that yields consistent results over time is said to be:
+    163. An assessment that yields consistent results over time is said to be:
     A) Valid
     B) Reliable
     C) Norm-referenced
@@ -1466,7 +1462,7 @@
     Explanation: Reliability refers to the consistency of a measure. A reliable test will produce similar results under consistent conditions. 
      
 
-    A test that compares a student's performance to that of a larger group is called a:
+    164. A test that compares a student's performance to that of a larger group is called a:
     A) Criterion-referenced test
     B) Norm-referenced test
     C) Summative test
@@ -1475,7 +1471,7 @@
     Explanation: Norm-referenced tests (e.g., IQ tests, standardized achievement tests) score an individual in comparison to the performance of a norm group. 
      
 
-    A test that measures a student's performance against a fixed standard or criterion is called a:
+    165. A test that measures a student's performance against a fixed standard or criterion is called a:
     A) Norm-referenced test
     B) Criterion-referenced test
     C) Aptitude test
@@ -1484,7 +1480,7 @@
     Explanation: Criterion-referenced tests (e.g., a driving test, a final exam with a passing score of 70%) measure whether a student has mastered a specific body of knowledge. 
      
 
-    "Authentic assessment" is best characterized by:
+    166. "Authentic assessment" is best characterized by:
     A) Multiple-choice questions
     B) Tasks that resemble real-world challenges
     C) Timed, written exams
@@ -1493,7 +1489,7 @@
     Explanation: Authentic assessment evaluates students' ability to apply what they have learned to meaningful, real-world tasks, such as projects, portfolios, or performances. 
      
 
-    The process of judging the effectiveness of a program, curriculum, or policy is called:
+    167. The process of judging the effectiveness of a program, curriculum, or policy is called:
     A) Measurement
     B) Assessment
     C) Evaluation
@@ -1502,7 +1498,7 @@
     Explanation: Evaluation is a broader process that involves making judgments about the value or effectiveness of something based on collected data (assessment). 
      
 
-    Which of the following is an example of a "formal assessment"?
+    168. Which of the following is an example of a "formal assessment"?
     A) Observing a student during group work
     B) Asking a question during a lesson
     C) A unit test
@@ -1511,7 +1507,7 @@
     Explanation: Formal assessments are structured, systematic methods of measuring student learning, such as tests, quizzes, and essays. Informal assessments are more spontaneous, like observations. 
      
 
-    Which of the following is an example of an "informal assessment"?
+    169. Which of the following is an example of an "informal assessment"?
     A) A standardized test
     B) A final exam
     C) Teacher's observation notes
@@ -1520,7 +1516,7 @@
     Explanation: Informal assessments are not data-driven but rather content and performance-driven, such as observations, checklists, and class participation. 
      
 
-    The "mean" of a set of scores is:
+    170. The "mean" of a set of scores is:
     A) The middle value when the scores are arranged in order
     B) The value that appears most frequently
     C) The arithmetic average
@@ -1529,7 +1525,7 @@
     Explanation: The mean is calculated by summing all the scores and dividing by the number of scores. 
      
 
-    The "median" of a set of scores is:
+    171. The "median" of a set of scores is:
     A) The arithmetic average
     B) The value that appears most frequently
     C) The middle value when the scores are arranged in order
@@ -1538,7 +1534,7 @@
     Explanation: The median is the middle point of a data set, which is useful when the data includes outliers that might skew the mean. 
      
 
-    The "mode" of a set of scores is:
+    172. The "mode" of a set of scores is:
     A) The arithmetic average
     B) The middle value
     C) The value that appears most frequently
@@ -1547,7 +1543,7 @@
     Explanation: The mode is the most frequently occurring value in a data set. 
      
 
-    The "range" of a set of scores is:
+    173. The "range" of a set of scores is:
     A) The average score
     B) The difference between the highest and lowest scores
     C) The middle score
@@ -1556,7 +1552,7 @@
     Explanation: The range is a simple measure of dispersion, calculated by subtracting the lowest score from the highest score. 
      
 
-    "Standard deviation" is a measure of:
+    174. "Standard deviation" is a measure of:
     A) Central tendency
     B) The spread or variability of scores
     C) The validity of a test
@@ -1565,7 +1561,7 @@
     Explanation: Standard deviation measures how spread out the scores are from the mean. A small standard deviation indicates that scores are close to the mean, while a large one indicates they are widely spread. 
      
 
-    An "aptitude test" is designed to measure:
+    175. An "aptitude test" is designed to measure:
     A) What a student has already learned
     B) A student's potential to learn a new skill
     C) A student's personality traits
@@ -1574,7 +1570,7 @@
     Explanation: Aptitude tests are used to predict a person's ability to learn a new skill or succeed in a particular area. 
      
 
-    An "achievement test" is designed to measure:
+    176. An "achievement test" is designed to measure:
     A) A student's potential for future success
     B) What a student has learned or accomplished
     C) A student's intelligence
@@ -1583,7 +1579,7 @@
     Explanation: Achievement tests assess what a student has learned from specific instruction, such as a chapter test or a final exam. 
      
 
-    The "item analysis" of a test helps to determine:
+    177. The "item analysis" of a test helps to determine:
     A) The total score of a student
     B) The difficulty and discriminating power of each question
     C) The reliability of the entire test
@@ -1592,7 +1588,7 @@
     Explanation: Item analysis examines the performance of individual test items to see how difficult they were and how well they differentiated between high- and low-scoring students. 
      
 
-    A question that nearly all students answer correctly has a high:
+    178. A question that nearly all students answer correctly has a high:
     A) Discrimination index
     B) Difficulty index
     C) Distractor efficiency
@@ -1601,7 +1597,7 @@
     Explanation: The difficulty index is the proportion of students who answered the item correctly. A high index means the item was easy. 
      
 
-    A question that high-scoring students answer correctly and low-scoring students answer incorrectly has a high:
+    179. A question that high-scoring students answer correctly and low-scoring students answer incorrectly has a high:
     A) Difficulty index
     B) Discrimination index
     C) Distractor efficiency
@@ -1610,7 +1606,7 @@
     Explanation: The discrimination index measures how well an item differentiates between students who have mastered the material and those who have not. 
      
 
-    "Grading on a curve" is an example of:
+    180. "Grading on a curve" is an example of:
     A) Criterion-referenced grading
     B) Norm-referenced grading
     C) Authentic assessment
@@ -1619,7 +1615,7 @@
     Explanation: Grading on a curve assigns grades based on a student's performance relative to the performance of the rest of the group, which is the essence of norm-referencing. 
      
 
-    The "ceiling effect" in a test occurs when:
+    181. The "ceiling effect" in a test occurs when:
     A) The test is too difficult for most students
     B) The test is too easy for high-achieving students
     C) The test has a time limit
@@ -1628,7 +1624,7 @@
     Explanation: The ceiling effect occurs when a test cannot measure the true ability of high-performing students because the items are not challenging enough. 
      
 
-    The "floor effect" in a test occurs when:
+    182. The "floor effect" in a test occurs when:
     A) The test is too easy for most students
     B) The test is too difficult for low-achieving students
     C) The test has no time limit
@@ -1637,7 +1633,7 @@
     Explanation: The floor effect occurs when a test is too difficult, and even the lowest-performing students score at or near the bottom, preventing an accurate measurement of their ability. 
      
 
-    A "rubric" is a scoring guide used to evaluate:
+    183. A "rubric" is a scoring guide used to evaluate:
     A) Only multiple-choice tests
     B) Performance-based assessments like essays or projects
     C) Only standardized tests
@@ -1646,7 +1642,7 @@
     Explanation: A rubric lists the criteria for a task and describes different levels of performance for each criterion, providing a clear and objective way to score complex, subjective tasks. 
      
 
-    The "right to education" act mandates that evaluation should be:
+    184. The "right to education" act mandates that evaluation should be:
     A) Based only on written exams
     B) Comprehensive and continuous (CCE)
     C) Conducted only at the end of the year
@@ -1655,7 +1651,7 @@
     Explanation: The RTE Act 2009 emphasized the implementation of Continuous and Comprehensive Evaluation (CCE) to reduce stress and assess students holistically. 
      
 
-    The primary goal of "self-assessment" is to:
+    185. The primary goal of "self-assessment" is to:
     A) Assign a grade
     B) Help students develop metacognitive skills and take ownership of their learning
     C) Compare students to each other
@@ -1664,7 +1660,7 @@
     Explanation: Self-assessment encourages students to reflect on their own work, identify strengths and weaknesses, and set goals for improvement, fostering metacognition and independence. 
      
 
-    "Peer assessment" involves:
+    186. "Peer assessment" involves:
     A) The teacher assessing the student
     B) The student assessing their own work
     C) Students assessing the work of their peers
@@ -1673,7 +1669,7 @@
     Explanation: Peer assessment is a process where students evaluate the work of their classmates according to specific criteria, which can deepen their own understanding. 
      
 
-    The term "washback effect" refers to the influence of:
+    187. The term "washback effect" refers to the influence of:
     A) Teaching on assessment
     B) Assessment on teaching and learning
     C) Parents on student learning
@@ -1682,7 +1678,7 @@
     Explanation: The washback effect (or backwash) is the impact that testing has on teaching methods and student learning behaviors. High-stakes tests, for example, can strongly influence what is taught. 
      
 
-    A test that measures a student's ability to think critically and solve novel problems is assessing:
+    188. A test that measures a student's ability to think critically and solve novel problems is assessing:
     A) Rote knowledge
     B) Higher-order thinking skills
     C) Basic factual recall
@@ -1691,7 +1687,7 @@
     Explanation: Higher-order thinking skills involve the upper levels of Bloom's Taxonomy, such as analyzing, evaluating, and creating. 
      
 
-    The "percentile rank" of a score indicates:
+    189. The "percentile rank" of a score indicates:
     A) The percentage of questions answered correctly
     B) The percentage of people in the norm group who scored lower
     C) The grade a student received
@@ -1700,7 +1696,7 @@
     Explanation: A percentile rank shows how a score compares to other scores. A score at the 80th percentile means the student scored higher than 80% of the norm group. 
      
 
-    The use of "anecdotal records" is a form of:
+    190. The use of "anecdotal records" is a form of:
     A) Summative assessment
     B) Formal assessment
     C) Informal, observational assessment
@@ -1709,7 +1705,7 @@
     Explanation: An anecdotal record is a short, objective, descriptive account of a significant event or behavior observed by the teacher. 
      
 
-    A "checklist" in assessment is used to:
+    191. A "checklist" in assessment is used to:
     A) Provide detailed feedback on the quality of work
     B) Record the presence or absence of specific traits or behaviors
     C) Assign a numerical score to a performance
@@ -1718,7 +1714,7 @@
     Explanation: A checklist is a simple tool for observing and marking whether specific behaviors, skills, or criteria are present or absent. 
      
 
-    A "rating scale" is used to assess:
+    192. A "rating scale" is used to assess:
     A) The presence or absence of a trait
     B) The degree or quality of a trait along a continuum
     C) Only factual knowledge
@@ -1727,7 +1723,7 @@
     Explanation: A rating scale (e.g., 1-5, or 'poor to excellent') is used to judge the quality or degree of a behavior, skill, or performance, unlike a checklist which is dichotomous. 
      
 
-    The process of translating a test into different languages while maintaining its validity is called:
+    193. The process of translating a test into different languages while maintaining its validity is called:
     A) Standardization
     B) Item analysis
     C) Test equating
@@ -1736,7 +1732,7 @@
     Explanation: Test adaptation is a rigorous process that goes beyond simple translation to ensure that a test is culturally and linguistically appropriate and valid for different groups. 
      
 
-    The "halo effect" in grading can lead to:
+    194. The "halo effect" in grading can lead to:
     A) Objective assessment
     B) A teacher's overall impression of a student influencing their judgment of specific work
     C) Accurate measurement of student ability
@@ -1745,7 +1741,7 @@
     Explanation: The halo effect is a bias where a teacher's positive (or negative) general feeling about a student affects their evaluation of the student's specific work. 
      
 
-    Which of the following best describes "Continuous and Comprehensive Evaluation" (CCE)?
+    195. Which of the following best describes "Continuous and Comprehensive Evaluation" (CCE)?
     A) A single final exam
     A) A single final exam
     B) A system of assessment that covers all aspects of a student's development and is continuous throughout the year
@@ -1755,7 +1751,7 @@
     Explanation: CCE aimed to assess students holistically (cognitive, affective, and psychomotor domains) through a variety of tools conducted continuously during the teaching-learning process. 
      
 
-    "Value-added assessment" measures:
+    196. "Value-added assessment" measures:
     A) A student's absolute score on a test
     B) The academic growth a student makes over a period of time
     C) The student's performance compared to a national average
@@ -1764,7 +1760,7 @@
     Explanation: Value-added models attempt to measure the impact of a teacher or school on student growth by tracking student performance over time. 
      
 
-    The "split-half reliability" method involves:
+    197. The "split-half reliability" method involves:
     A) Administering the same test twice
     B) Comparing two different versions of a test
     C) Dividing a test into two halves and correlating the scores
@@ -1773,7 +1769,7 @@
     Explanation: Split-half reliability is a measure of internal consistency. A test is split in half (e.g., odd/even questions), and the scores on the two halves are correlated. 
      
 
-    "Test-retest reliability" involves:
+    198. "Test-retest reliability" involves:
     A) Giving the same test to the same group on two different occasions
     B) Splitting the test into two halves
     C) Using two different forms of a test
@@ -1782,7 +1778,7 @@
     Explanation: Test-retest reliability measures the consistency of results over time by administering the same test to the same individuals at two different points in time. 
      
 
-    The purpose of "distractors" in a multiple-choice question is to:
+    199. The purpose of "distractors" in a multiple-choice question is to:
     A) Make the question easier
     B) Provide plausible but incorrect options to test student understanding
     C) Add extra information to the question
@@ -1791,7 +1787,7 @@
     Explanation: Good distractors are plausible answers that appeal to students with common misconceptions, thereby effectively discriminating between those who know the material and those who do not. 
      
 
-    The process of setting a "cut score" on a test is used to:
+    200. The process of setting a "cut score" on a test is used to:
     A) Calculate the mean score
     B) Determine the passing/failing point
     C) Measure the reliability of the test
