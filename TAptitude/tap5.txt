@@ -33,8 +33,6 @@
     D) All of the above
     Answer: D) All of the above
     Explanation: The Preamble and Directive Principles of the Indian Constitution aim to secure justice, liberty, equality, and promote scientific temper, humanism, and the spirit of inquiry, all of which are goals of education. 
-     
-
     6. Which of the following is a characteristic of Pragmatism in education?
     A) Emphasis on spiritual values
     B) Curriculum based on child's experiences
@@ -42,8 +40,6 @@
     D) Teacher-centered instruction
     Answer: B) Curriculum based on child's experiences
     Explanation: Pragmatism, championed by John Dewey, emphasizes learning by doing and a curriculum that emerges from the child's real-life experiences and problem-solving needs. 
-     
-
     7. The "Basic System of Education" as proposed by Mahatma Gandhi emphasized:
     A) Learning through mother tongue
     B) Learning a craft
@@ -51,8 +47,6 @@
     D) All of the above
     Answer: D) All of the above
     Explanation: Gandhiji's Basic Education (Nai Talim) was centered on learning a productive craft, using the mother tongue as the medium of instruction, and aiming for self-sufficiency. 
-     
-
     8. The Right to Education (RTE) Act, 2009, makes education a:
     A) Fundamental Right for children aged 6-14
     B) Fundamental Duty for all parents
@@ -60,8 +54,6 @@
     D) Legal right for all citizens
     Answer: A) Fundamental Right for children aged 6-14
     Explanation: The RTE Act, 2009, made free and compulsory education a fundamental right for every child between the ages of 6 and 14 years under Article 21-A of the Indian Constitution. 
-     
-
     9. Which commission recommended the 10+2+3 structure of education in India?
     A) Radhakrishnan Commission (1948-49)
     B) Mudaliar Commission (1952-53)
@@ -69,8 +61,6 @@
     D) National Knowledge Commission (2005-09)
     Answer: C) Kothari Commission (1964-66)
     Explanation: The Kothari Commission was the first to recommend the national pattern of education as the 10+2+3 structure. 
-     
-
     10. The process of providing equal educational opportunities to all sections of society is known as:
     A) Universalization
     B) Scaffolding
@@ -78,8 +68,6 @@
     D) Inclusion
     Answer: A) Universalization
     Explanation: Universalization of education means making education available and accessible to all children, regardless of their background. 
-     
-
     11. According to Naturalism, the aim of education is:
     A) To conform the child to societal norms
     B) To facilitate the natural development of the child
@@ -87,8 +75,6 @@
     D) To prepare for a specific vocation
     Answer: B) To facilitate the natural development of the child
     Explanation: Naturalism, associated with Rousseau, believes that education should align with the child's natural growth and development, free from artificial societal constraints. 
-     
-
     12. The National Curriculum Framework (NCF) 2005 focuses on:
     A) Examinations and marks
     B) Connecting knowledge to life outside school
@@ -96,8 +82,6 @@
     D) Centralized control of curriculum
     Answer: B) Connecting knowledge to life outside school
     Explanation: A key guiding principle of NCF 2005 is to connect knowledge to life outside the school and to reduce the curriculum load by making learning more experiential. 
-     
-
     13. The term "constructivism" in education implies that learners:
     A) Receive knowledge passively from the teacher
     B) Construct their own knowledge and understanding
@@ -105,8 +89,6 @@
     D) Learn best through competition
     Answer: B) Construct their own knowledge and understanding
     Explanation: Constructivism is a learning theory that posits that learners actively construct new knowledge based on their prior experiences and understanding. 
-     
-
     14. The principle of "learning to live together" is a pillar of:
     A) NPE 1986
     B) RTE Act 2009
@@ -114,8 +96,6 @@
     D) Kothari Commission
     Answer: C) Delors Commission Report
     Explanation: The 1996 UNESCO report, "Learning: The Treasure Within," by Jacques Delors, outlined four pillars of learning: Learning to Know, Learning to Do, Learning to Live Together, and Learning to Be. 
-     
-
     15. Who is considered the father of educational sociology?
     A) John Dewey
     B) Emile Durkheim
@@ -123,8 +103,6 @@
     D) Herbert Spencer
     Answer: C) George Payne
     Explanation: George Payne is credited with being the first to use the term "educational sociology" and is often referred to as its father. 
-     
-
     16. The primary function of a teacher in an idealist classroom is:
     A) To be a facilitator
     B) To be a role model and transmitter of eternal values
@@ -132,8 +110,6 @@
     D) To provide vocational training
     Answer: B) To be a role model and transmitter of eternal values
     Explanation: Idealism emphasizes the spiritual and moral development of the child, and the teacher is seen as a spiritual guide and a model of perfection. 
-     
-
     17. The National Institute of Open Schooling (NIOS) primarily caters to:
     A) Elite urban students
     B) Teacher training needs
@@ -141,8 +117,6 @@
     D) Research in education
     Answer: C) Diverse learner groups including dropouts and working professionals
     Explanation: NIOS provides open and distance learning opportunities to a wide range of learners, prioritizing those who cannot benefit from the formal system. 
-     
-
     18. The "three language formula" was first recommended by the:
     A) University Education Commission (1948-49)
     B) Secondary Education Commission (1952-53)
@@ -150,8 +124,6 @@
     D) National Curriculum Framework (2005)
     Answer: B) Secondary Education Commission (1952-53)
     Explanation: The Mudaliar Commission (Secondary Education Commission) first suggested the three-language formula to promote national integration and linguistic competence. 
-     
-
     19. In the context of Indian education, "DIKSHA" is a:
     A) Scholarship program
     B) National digital infrastructure for teachers
@@ -159,8 +131,6 @@
     D) New examination board
     Answer: B) National digital infrastructure for teachers
     Explanation: DIKSHA (Digital Infrastructure for Knowledge Sharing) is a national platform that provides teachers with learning resources and professional development opportunities. 
-     
-
     20. The concept of "inclusive education" means:
     A) Separate schools for children with disabilities
     B) Educating all children together in the same classroom
@@ -168,8 +138,6 @@
     D) Focusing only on gifted children
     Answer: B) Educating all children together in the same classroom
     Explanation: Inclusive education is an approach where all students, regardless of their abilities or backgrounds, are educated in age-appropriate general education classrooms in their neighborhood schools. 
-     
-
     21. The main proponent of the "Play Way" method of teaching is:
     A) Montessori
     B) Froebel
@@ -177,8 +145,6 @@
     D) Kilpatrick
     Answer: B) Froebel
     Explanation: Friedrich Froebel, the founder of kindergarten, developed the "Play Way" method, which uses play as the primary medium for learning in early childhood. 
-     
-
     22. The purpose of "value education" in schools is to:
     A) Indoctrinate students with a specific ideology
     B) Develop a set of desirable attitudes and character traits
@@ -186,8 +152,6 @@
     D) Replace academic subjects
     Answer: B) Develop a set of desirable attitudes and character traits
     Explanation: Value education aims to foster the holistic development of students by cultivating moral, social, and spiritual values. 
-     
-
     23. The "Samagra Shiksha" scheme is:
     A) A teacher training program
     B) An integrated school education scheme
@@ -195,8 +159,6 @@
     D) A vocational training initiative
     Answer: B) An integrated school education scheme
     Explanation: Launched in 2018, Samagra Shiksha is an overarching program for the school education sector extending from pre-school to class 12, integrating the three schemes of Sarva Shiksha Abhiyan (SSA), Rashtriya Madhyamik Shiksha Abhiyan (RMSA), and Teacher Education (TE). 
-     
-
     24. According to NCF 2005, the best way to reduce curriculum load is:
     A) Reducing the number of subjects
     B) Making learning more joyful and experiential
@@ -204,8 +166,6 @@
     D) Focusing only on core subjects
     Answer: B) Making learning more joyful and experiential
     Explanation: NCF 2005 suggests that the "burden" arises not from the content but from an uninspired pedagogy. Making learning experiential and connected to life reduces this burden. 
-     
-
     25. The "operation blackboard" scheme was launched to improve:
     A) Teacher salaries
     B) School infrastructure
@@ -213,8 +173,6 @@
     D) Higher education
     Answer: B) School infrastructure
     Explanation: Operation Blackboard (1987) was a centrally sponsored scheme aimed at improving the primary school environment by providing minimum essential facilities like classrooms, blackboards, and teaching kits. 
-     
-
     26. Who defined education as "the creation of a sound mind in a sound body"?
     A) Aristotle
     B) Plato
