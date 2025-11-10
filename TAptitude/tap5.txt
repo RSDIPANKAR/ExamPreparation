@@ -354,9 +354,6 @@
     Explanation: NIEPA is a premier organization dealing with capacity building and research in educational policy, planning, and administration. 
      
 
-Section 2: Educational Psychology & Learner (Questions 41-100) 
-
-     
 
     According to Piaget, the stage of cognitive development characterized by logical thought about concrete objects and situations is the:
     A) Sensorimotor stage
@@ -898,9 +895,6 @@ Section 2: Educational Psychology & Learner (Questions 41-100)
     Explanation: Allan Paivio's Dual Coding Theory proposes that cognition involves the activity of two distinct subsystems: a verbal system for language and a non-verbal (imagery) system. 
      
 
-Section 3: Teaching & Classroom Management (Questions 101-160) 
-
-     
 
     Which teaching method is most suitable for developing critical thinking and problem-solving skills?
     A) Lecture method
@@ -1443,10 +1437,7 @@ Section 3: Teaching & Classroom Management (Questions 101-160)
     Answer: B) Learning to read through exposure to complete, meaningful texts
     Explanation: The whole language approach views reading as a natural, holistic process where children learn to read by being immersed in literature and meaningful print. 
      
-
-Section 4: Assessment & Evaluation (Questions 161-200) 
-
-     
+ 
 
     The main purpose of "diagnostic assessment" is to:
     A) Assign a final grade at the end of the year
