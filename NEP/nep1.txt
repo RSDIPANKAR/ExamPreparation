@@ -5,7 +5,6 @@ C) November 2020
 D) March 2021
 Answer: B) July 2020
 Explanation: The Union Cabinet approved the National Education Policy 2020 on 29th July 2020, replacing the 34-year-old National Policy on Education (NPE) of 1986. 
-
 2. The new 5+3+3+4 curricular structure of school education corresponds to which age groups?
 A) 3-18 years
 B) 4-19 years
@@ -13,7 +12,6 @@ C) 5-17 years
 D) 6-18 years
 Answer: A) 3-18 years
 Explanation: The new structure aims to universalize education from Early Childhood Care and Education (ECCE) to Grade 12, covering the developmental age group of 3-18 years. 
-
 3. The first stage of the new school structure, "Foundational Stage," covers which ages?
 A) 3-6 years
 B) 3-8 years
@@ -21,7 +19,6 @@ C) 4-7 years
 D) 5-8 years
 Answer: B) 3-8 years
 Explanation: The Foundational Stage is divided into two parts: 3 years of preschool or Anganwadi (ages 3-6) and 2 years of primary school (Grades 1-2, ages 6-8). 
-
 4. The "Preparatory Stage" in the new school structure covers which grades?
 A) Grades 1-2
 B) Grades 3-5
@@ -29,7 +26,6 @@ C) Grades 6-8
 D) Grades 9-10
 Answer: B) Grades 3-5
 Explanation: The Preparatory Stage covers ages 8-11, corresponding to Grades 3, 4, and 5. It focuses on play, discovery, and activity-based learning. 
-
 5. The "Middle Stage" in the new school structure covers which grades?
 A) Grades 3-5
 B) Grades 4-6
@@ -37,7 +33,6 @@ C) Grades 6-8
 D) Grades 9-11
 Answer: C) Grades 6-8
 Explanation: The Middle Stage covers ages 11-14, corresponding to Grades 6, 7, and 8. The focus shifts to more abstract concepts and subject teaching. 
-
 6. The "Secondary Stage" in the new school structure covers which grades?
 A) Grades 8-10
 B) Grades 9-10
