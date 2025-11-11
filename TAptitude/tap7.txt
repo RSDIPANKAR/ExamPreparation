@@ -1,0 +1,701 @@
+1. A child who is always asking "why" and seeks to understand the reason behind everything is demonstrating a characteristic of which cognitive stage, according to Piaget?
+A) Sensorimotor
+B) Pre-operational
+C) Concrete Operational
+D) Formal Operational
+Answer: B) Pre-operational
+Explanation: While logical reasoning is limited, the pre-operational stage (2-7 years) is marked by a tremendous expansion in language and mental representation, leading to the characteristic "why" questions as the child tries to make sense of the world.
+2. According to Kohlberg, at the pre-conventional level of moral development, a child's moral reasoning is primarily influenced by:
+A) Social norms and laws
+B) Universal ethical principles
+C) Personal values and conscience
+D) Direct consequences and personal needs
+Answer: D) Direct consequences and personal needs
+Explanation: The pre-conventional level (stages 1 & 2) is characterized by obedience to avoid punishment and acting in one's own immediate self-interest.
+3. A student who has a strong ability to recognize patterns in nature, such as cloud formations or plant species, likely exhibits high ______ intelligence in Gardner's theory.
+A) Naturalist
+B) Existential
+C) Spatial
+D) Bodily-Kinesthetic
+Answer: A) Naturalist
+Explanation: Naturalist intelligence involves the ability to identify and classify patterns in the natural environment.
+4. The concept of "Egocentrism" in Piaget's theory refers to a child's:
+A) Selfishness
+B) Inability to take another's perspective
+C) High self-esteem
+D) Preference for being alone
+Answer: B) Inability to take another's perspective
+Explanation: Egocentrism is a cognitive limitation, not an emotional trait. It means the child cannot differentiate between their own perspective and the perspective of others.
+5. In Vygotsky's theory, private speech (a child talking to themselves while performing a task) is considered:
+A) A sign of social immaturity
+B) A foundation for higher cognitive processes
+C) A behavior that should be discouraged
+D) An indication of a learning disability
+Answer: B) A foundation for higher cognitive processes
+Explanation: Vygotsky viewed private speech as a tool for self-regulation and a crucial step in the development of inner speech and complex thought.
+6. A learner with a 'Divergent' thinking style would be best at:
+A) Solving a well-defined mathematical problem
+B) Generating multiple creative ideas on a topic
+C) Following detailed instructions precisely
+D) Memorizing factual information
+Answer: B) Generating multiple creative ideas on a topic
+Explanation: Divergent thinking involves generating multiple, unique ideas or solutions to a single problem, which is a key aspect of creativity.
+7. According to David Ausubel, learning is most meaningful when it can be:
+A) Discovered by the learner themselves
+B) Connected to what the learner already knows
+C) Reinforced with positive rewards
+D) Practiced through repetitive drills
+Answer: B) Connected to what the learner already knows
+Explanation: Ausubel's theory of meaningful learning emphasizes the importance of linking new information to existing cognitive structures using "advance organizers."
+8. A child who feels successful and confident after completing a project is likely resolving Erikson's psychosocial crisis of:
+A) Autonomy vs. Shame and Doubt
+B) Initiative vs. Guilt
+C) Industry vs. Inferiority
+D) Identity vs. Role Confusion
+Answer: C) Industry vs. Inferiority
+Explanation: The Industry vs. Inferiority stage (6-12 years) is centered on developing a sense of competence through the successful completion of tasks and projects.
+9. A student who consistently sets high personal standards and is driven by a need for achievement is considered to have a high level of:
+A) Extrinsic Motivation
+B) Fear of Failure
+C) Need for Affiliation
+D) Intrinsic Motivation
+Answer: D) Intrinsic Motivation
+Explanation: Intrinsic motivation comes from within the individual, such as the personal satisfaction of achieving one's own standards, rather than from external rewards.
+10. The "Law of Readiness" proposed by Thorndike suggests that learning is effective only when:
+A) The learner is physically and mentally prepared for it
+B) The content is socially relevant
+C) The teacher is highly qualified
+D) The classroom environment is stimulating
+Answer: A) The learner is physically and mentally prepared for it
+Explanation: Thorndike's Law of Readiness states that for learning to be successful, the learner must be mature and ready, both neurologically and motivationally, to receive the instruction.
+11. A teacher who provides hints and clues to help a student solve a problem is using the strategy of:
+A) Modeling
+B) Scaffolding
+C) Conditioning
+D) Positive Reinforcement
+Answer: B) Scaffolding
+Explanation: Scaffolding is the supportive guidance provided by a teacher or peer to help a learner bridge the gap between their current ability and the intended goal.
+12. A child who learns to behave well to gain approval from parents and teachers is at which stage of Kohlberg's moral development?
+A) Punishment and Obedience
+B) Instrumental Purpose
+C) Good Boy-Nice Girl
+D) Social Order Maintaining
+Answer: C) Good Boy-Nice Girl
+Explanation: This is Stage 3 of Kohlberg's theory, where moral behavior is that which pleases or helps others and is approved by them.
+13. In the information processing model, the component that holds information for a brief period (a few seconds) is called:
+A) Long-term Memory
+B) Sensory Register
+C) Working Memory
+D) Executive Function
+Answer: C) Working Memory
+Explanation: Working memory is the "workspace" where we consciously process and manipulate information for a short duration.
+14. A student who prefers to study in a quiet, solitary environment without distractions likely has a ________ learning style.
+A) Kinesthetic
+B) Interpersonal
+C) Intrapersonal
+D) Auditory
+Answer: C) Intrapersonal
+Explanation: Intrapersonal intelligence involves self-awareness and a preference for working independently. A quiet environment supports this reflective style.
+15. The term "Metacognition" refers to:
+A) The speed of cognitive processing
+B) Knowledge about one's own cognitive processes
+C) The ability to think logically
+D) The capacity of long-term memory
+Answer: B) Knowledge about one's own cognitive processes
+Explanation: Metacognition is often defined as "thinking about one's thinking." It includes the ability to plan, monitor, and evaluate one's learning strategies.
+16. According to Piaget, the process of modifying existing cognitive structures to incorporate new information is called:
+A) Assimilation
+B) Accommodation
+C) Equilibration
+D) Organization
+Answer: B) Accommodation
+Explanation: Accommodation occurs when a child changes their existing schema (mental model) to fit new information that doesn't fit into their old schema.
+17. A learner with a 'Field-Independent' cognitive style would be most successful in a task that requires:
+A) Working collaboratively in a group
+B) Analyzing a complex diagram for hidden shapes
+C) Understanding social nuances in a story
+D) Participating in a team sport
+Answer: B) Analyzing a complex diagram for hidden shapes
+Explanation: Field-independent individuals are better at disembedding details from a complex background and perceiving items as separate from the surrounding field.
+18. Howard Gardner's theory of Multiple Intelligences challenges the traditional view that intelligence is:
+A) Malleable
+B) A single, general ability
+C) Influenced by environment
+D) Measured by IQ tests
+Answer: B) A single, general ability
+Explanation: Gardner proposed that intelligence is not a single entity (often called "g" or general intelligence) but a set of at least eight distinct intelligences.
+19. A child who believes that intelligence is not fixed and can be improved with effort is said to have a:
+A) Entity Theory
+B) Growth Mindset
+C) Fixed Mindset
+D) Learned Helplessness
+Answer: B) Growth Mindset
+Explanation: Carol Dweck's research on mindset distinguishes between a fixed mindset (intelligence is static) and a growth mindset (intelligence can be developed).
+20. Erikson's stage of "Identity vs. Role Confusion" is primarily concerned with adolescents:
+A) Learning to trust their caregivers
+B) Developing a sense of self and personal identity
+C) Forming intimate relationships
+D) Contributing to society and guiding the next generation
+Answer: B) Developing a sense of self and personal identity
+Explanation: This stage (12-18 years) involves exploring different roles, beliefs, and values to form a coherent sense of identity.
+21. A student who is good at understanding the motivations and moods of others is high in ______ intelligence.
+A) Intrapersonal
+B) Interpersonal
+C) Linguistic
+D) Logical-Mathematical
+Answer: B) Interpersonal
+Explanation: Interpersonal intelligence is the capacity to understand the intentions, motivations, and desires of other people and to work effectively with them.
+22. The "Pygmalion Effect" or self-fulfilling prophecy in a classroom refers to:
+A) Students performing better when they have high self-esteem
+B) Teachers' expectations influencing students' performance
+C) The effect of peer pressure on academic achievement
+D) The impact of socioeconomic status on learning
+Answer: B) Teachers' expectations influencing students' performance
+Explanation: The Pygmalion Effect is a phenomenon where higher expectations lead to an increase in performance. If a teacher believes a student is capable, they may unconsciously act in ways that help the student succeed.
+23. According to Bruner, the stage of representation where knowledge is stored in the form of words, mathematical symbols, or other symbol systems is the:
+A) Enactive Stage
+B) Iconic Stage
+C) Symbolic Stage
+D) Abstract Stage
+Answer: C) Symbolic Stage
+Explanation: The symbolic stage (from age 7+) involves representing the world through language, numbers, and other abstract symbol systems.
+24. A child who has difficulty in reading despite having normal intelligence and vision might be showing characteristics of:
+A) Dysgraphia
+B) Dyscalculia
+C) Dyspraxia
+D) Dyslexia
+Answer: D) Dyslexia
+Explanation: Dyslexia is a specific learning disability that affects reading and related language-based processing skills.
+25. The concept of "Positive Transfer" in learning occurs when:
+A) Previous learning has no effect on new learning
+B) Previous learning facilitates new learning
+C) Previous learning interferes with new learning
+D) Learning is motivated by positive reinforcement
+Answer: B) Previous learning facilitates new learning
+Explanation: Positive transfer happens when learning in one context improves performance in another. For example, knowing Spanish may help you learn Italian.
+26. A teacher who encourages students to set their own learning goals and reflect on their progress is promoting:
+A) Extrinsic Motivation
+B) Self-regulated Learning
+C) Competitive Spirit
+D) Social Learning
+Answer: B) Self-regulated Learning
+Explanation: Self-regulated learners are metacognitively, motivationally, and behaviorally active participants in their own learning process. They set goals, plan, and self-monitor.
+27. In Maslow's Hierarchy of Needs, the need for "Esteem" includes:
+A) The need for food and water
+B) The need for love and belonging
+C) The need for self-confidence and recognition
+D) The need to realize one's full potential
+Answer: C) The need for self-confidence and recognition
+Explanation: Esteem needs involve feelings of accomplishment, confidence, and the respect from others.
+28. A student who gets easily distracted by noises or visual movements in the classroom might have a difficulty with:
+A) Long-term memory retrieval
+B) Selective attention
+C) Metacognition
+D) Cognitive speed
+Answer: B) Selective attention
+Explanation: Selective attention is the ability to focus on a specific stimulus while ignoring other distracting information.
+29. According to Kohlberg, the post-conventional level of moral reasoning is characterized by:
+A) Obedience to avoid punishment
+B) Conformity to social rules
+C) Adherence to self-defined ethical principles
+D) Decision-making based on personal relationships
+Answer: C) Adherence to self-defined ethical principles
+Explanation: The post-conventional level (stages 5 & 6) involves reasoning based on self-chosen ethical principles that may transcend specific laws.
+30. A child who understands that a tall, thin glass can hold the same amount of water as a short, wide glass has mastered the concept of:
+A) Seriation
+B) Transitivity
+C) Conservation
+D) Egocentrism
+Answer: C) Conservation
+Explanation: Conservation is the understanding that certain physical properties (like quantity, mass, or volume) remain the same even when their appearance changes.
+31. "Learning Disability" is primarily associated with difficulties in:
+A) Intellectual functioning
+B) Sensory acuity (vision/hearing)
+C) Specific academic and language skills
+D) Emotional and behavioral regulation
+Answer: C) Specific academic and language skills
+Explanation: A learning disability is a neurological disorder that affects the brain's ability to receive, process, store, and respond to information in one or more specific areas, such as reading or math, despite average or above-average intelligence.
+32. A student who is primarily motivated by grades and rewards is driven by:
+A) Intrinsic Motivation
+B) Extrinsic Motivation
+C) Achievement Motivation
+D) Power Motivation
+Answer: B) Extrinsic Motivation
+Explanation: Extrinsic motivation comes from external sources, such as grades, rewards, praise, or avoidance of punishment.
+33. The "Critical Period" in development refers to a time when:
+A) Learning is most difficult
+B) An organism is most susceptible to specific environmental influences
+C) A child becomes critically ill
+D) Formal schooling should begin
+Answer: B) An organism is most susceptible to specific environmental influences
+Explanation: A critical period is a specific time in development when an organism is best able to learn a particular skill or is most sensitive to certain stimuli (e.g., language acquisition in early childhood).
+34. A teacher who presents a complex problem and allows students to discover the solution through exploration is using a ________ approach.
+A) Teacher-centered
+B) Deductive
+C) Expository
+D) Inquiry-based
+Answer: D) Inquiry-based
+Explanation: Inquiry-based learning is a form of active learning that starts by posing questions, problems, or scenarios rather than simply presenting established facts.
+35. A child who consistently attributes their success to luck and failure to lack of ability is demonstrating a:
+A) Mastery Orientation
+B) Growth Mindset
+C) Pessimistic Explanatory Style
+D) High Self-Efficacy
+Answer: C) Pessimistic Explanatory Style
+Explanation: In attribution theory, a pessimistic style involves attributing negative events to internal, stable, and global causes (e.g., "I'm just not smart"), which can lead to helplessness.
+36. In the context of language development, "Overregularization" (e.g., saying "goed" instead of "went") indicates that the child:
+A) Has a language disorder
+B) Is not paying attention to adult speech
+C) Has learned a grammatical rule and is applying it generally
+D) Has a limited vocabulary
+Answer: C) Has learned a grammatical rule and is applying it generally
+Explanation: Overregularization is a normal part of language development where children apply a grammatical rule (like adding "-ed" for past tense) too broadly, showing they are actively constructing language, not just imitating.
+37. According to Bandura's Social Learning Theory, learning can occur through:
+A) Operant Conditioning only
+B) Classical Conditioning only
+C) Observing and imitating models
+D) Cognitive conflict only
+Answer: C) Observing and imitating models
+Explanation: Bandura emphasized that people can learn new behaviors by observing others (models), without any direct reinforcement to the learner.
+38. A student from a culture that values group harmony over individual achievement might feel uncomfortable with:
+A) Group projects
+B) Individual competitive rankings
+C) Cooperative learning
+D) Peer tutoring
+Answer: B) Individual competitive rankings
+Explanation: Cultures that are collectivistic emphasize the group, so public individual competition that highlights personal success over group success can be stressful.
+39. The ability to think about multiple aspects of a situation simultaneously is called:
+A) Centration
+B) Decentration
+C) Reversibility
+D) Seriation
+Answer: B) Decentration
+Explanation: Decentration is the ability to focus on several attributes of an object or problem at once, which is a key achievement of Piaget's concrete operational stage.
+40. A teacher who varies her teaching methods to accommodate visual, auditory, and kinesthetic learners is adhering to the principle of:
+A) Differentiated Instruction
+B) Standardized Testing
+C) Homogeneous Grouping
+D) Programmed Learning
+Answer: A) Differentiated Instruction
+Explanation: Differentiated instruction is a teaching philosophy that involves tailoring instruction to meet individual needs, interests, and learning profiles.
+41. A child who has developed "Object Permanence" understands that:
+A) Objects have independent existence even when out of sight
+B) The quantity of an object remains the same despite changes in shape
+C) Objects can be ordered according to a quantitative dimension
+D) Actions can be reversed mentally
+Answer: A) Objects have independent existence even when out of sight
+Explanation: Object permanence is the understanding that objects continue to exist even when they cannot be seen, heard, or touched. It is a key milestone of Piaget's sensorimotor stage.
+42. In the context of creativity, "Fluency" refers to the ability to:
+A) Produce a large number of ideas
+B) Produce novel and unusual ideas
+C) Elaborate on an idea with details
+D) Change one's thinking to fit new demands
+Answer: A) Produce a large number of ideas
+Explanation: Fluency is one of the components of divergent thinking, measured by the total number of interpretable, meaningful, and relevant ideas generated in response to a stimulus.
+43. A student with high "Spatial Intelligence" would likely excel at:
+A) Arguing a point effectively
+B) Solving logical puzzles
+C) Reading a map or creating a visual design
+D) Understanding their own emotions
+Answer: C) Reading a map or creating a visual design
+Explanation: Spatial intelligence involves the potential to recognize and manipulate the patterns of wide space (those used, for instance, by navigators and pilots) as well as the patterns of more confined areas (such as those of importance to sculptors, surgeons, and chess players).
+44. The process by which a stimulus increases the probability of a behavior it follows is called:
+A) Punishment
+B) Reinforcement
+C) Extinction
+D) Generalization
+Answer: B) Reinforcement
+Explanation: Reinforcement, in operant conditioning, is any event that strengthens the behavior it follows.
+45. A child who is anxious, gets easily frustrated, and has intense emotional reactions might be described as having a ________ temperament.
+A) Easy
+B) Difficult
+C) Slow-to-Warm-Up
+D) Phlegmatic
+Answer: B) Difficult
+Explanation: In Thomas and Chess's temperament theory, the "difficult" temperament is characterized by irregularity in biological functions, negative withdrawal to new stimuli, non-adaptability, and intense mood expressions.
+46. "Zone of Proximal Development" is most directly related to the concept of:
+A) Standardized testing
+B) Readiness for learning
+C) Potential for learning with assistance
+D) Fixed intelligence
+Answer: C) Potential for learning with assistance
+Explanation: The ZPD defines the range of tasks that a learner cannot yet perform independently but can accomplish with the guidance and encouragement of a more knowledgeable partner.
+47. A student who prefers to learn by relating new information to personal experiences and feelings is primarily a ________ learner.
+A) Sensing
+B) Intuitive
+C) Active
+D) Reflective
+Answer: A) Sensing
+Explanation: In some learning style models (like Felder-Silverman), sensing learners prefer to learn facts and connect learning to the real world and personal experiences.
+48. According to Piaget, the process of balancing between assimilation and accommodation is known as:
+A) Adaptation
+B) Organization
+C) Equilibration
+D) Centration
+Answer: C) Equilibration
+Explanation: Equilibration is the driving force behind cognitive development. It is the process of resolving cognitive conflict (disequilibrium) to achieve a balance (equilibrium) through assimilation and accommodation.
+49. A teacher who wants to promote "Critical Thinking" in her students should ask questions that require them to:
+A) Recall factual information
+B) Analyze, evaluate, and create
+C) Follow instructions precisely
+D) Memorize definitions
+Answer: B) Analyze, evaluate, and create
+Explanation: Critical thinking involves higher-order cognitive skills that go beyond rote memorization, such as analyzing arguments, evaluating evidence, and synthesizing information to form a judgment.
+50. A child who believes that a punished behavior is always wrong, regardless of the context, is at a ________ level of moral development.
+A) Pre-conventional
+B) Conventional
+C) Post-conventional
+D) Autonomous
+Answer: A) Pre-conventional
+Explanation: At the pre-conventional level (Stage 1: Punishment-Obedience), the morality of an act is judged solely by its physical consequences, not the intentions or the context.
+51. "Emotional Intelligence" involves the ability to:
+A) Suppress all negative emotions
+B) Ignore the emotions of others to focus on tasks
+C) Recognize, understand, and manage our own and others' emotions
+D) Achieve high scores on logical reasoning tests
+Answer: C) Recognize, understand, and manage our own and others' emotions
+Explanation: Popularized by Daniel Goleman, emotional intelligence encompasses self-awareness, self-regulation, motivation, empathy, and social skills.
+52. In a classroom, a "Gifted" student might exhibit:
+A) Consistent underachievement in all areas
+B) A very short attention span for all tasks
+C) Rapid learning, extensive vocabulary, and deep curiosity
+D) Significant gaps in social skills only
+Answer: C) Rapid learning, extensive vocabulary, and deep curiosity
+Explanation: While giftedness can be diverse, common characteristics include advanced language skills, the ability to learn quickly, a strong memory, and intense curiosity.
+53. The "Law of Effect" proposed by Thorndike states that behaviors followed by satisfying consequences are:
+A) Forgotten
+B) Weakened
+C) Strengthened
+D) Generalized
+Answer: C) Strengthened
+Explanation: The Law of Effect is a precursor to operant conditioning. It simply means that actions that lead to rewarding outcomes are more likely to be repeated.
+54. A student who can easily identify the main idea and underlying themes in a complex text is demonstrating strong ________ skills.
+A) Phonemic Awareness
+B) Comprehension Monitoring
+C) Decoding
+D) Syntactical
+Answer: B) Comprehension Monitoring
+Explanation: Comprehension monitoring is a metacognitive skill where the reader is aware of whether they are understanding the text and can employ strategies to clarify meaning, such as identifying main ideas.
+55. According to Erikson, the primary conflict during early adulthood (20s-30s) is:
+A) Generativity vs. Stagnation
+B) Integrity vs. Despair
+C) Intimacy vs. Isolation
+D) Identity vs. Role Confusion
+Answer: C) Intimacy vs. Isolation
+Explanation: This stage focuses on forming intimate, loving relationships with other people. Success leads to strong relationships, while failure results in loneliness and isolation.
+56. A child with "Dyscalculia" has a specific learning disability in the area of:
+A) Reading
+B) Writing
+C) Mathematics
+D) Motor coordination
+Answer: C) Mathematics
+Explanation: Dyscalculia is a learning disability that affects a person's ability to understand numbers and learn math facts.
+57. A teacher uses a token economy where students earn points for good behavior that can be exchanged for privileges. This is an application of:
+A) Classical Conditioning
+B) Operant Conditioning
+C) Insight Learning
+D) Latent Learning
+Answer: B) Operant Conditioning
+Explanation: A token economy is a system of behavior modification based on the systematic reinforcement of target behavior. The tokens (points) are secondary reinforcers that can be traded for primary reinforcers.
+58. The concept of "Scaffolding" was developed based on the work of:
+A) Jean Piaget
+B) Lev Vygotsky
+C) B.F. Skinner
+D) Howard Gardner
+Answer: B) Lev Vygotsky
+Explanation: While Vygotsky introduced the concept of the ZPD, the term "scaffolding" was later coined by Jerome Bruner and his colleagues to describe the effective support provided by adults within this zone.
+59. A student who is good at debating and persuasive speaking is likely high in ________ intelligence.
+A) Logical-Mathematical
+B) Linguistic
+C) Interpersonal
+D) Intrapersonal
+Answer: B) Linguistic
+Explanation: Linguistic intelligence involves sensitivity to the spoken and written word, and the ability to use language to achieve goals, which is central to debating and persuasion.
+60. "Adolescent Egocentrism" often leads to the belief that others are constantly observing and judging them, a concept known as:
+A) Personal Fable
+B) Imaginary Audience
+C) Invincibility Fable
+D) False Consensus Effect
+Answer: B) Imaginary Audience
+Explanation: The imaginary audience is a state where an individual imagines and believes that many people are actively listening to or watching them.
+61. In Bloom's revised taxonomy, the highest level of cognitive process is:
+A) Remembering
+B) Understanding
+C) Applying
+D) Creating
+Answer: D) Creating
+Explanation: The levels are: Remember, Understand, Apply, Analyze, Evaluate, Create. "Creating" involves putting elements together to form a coherent or functional whole; reorganizing elements into a new pattern or structure.
+62. A child who has difficulty sitting still, is constantly fidgeting, and acts impulsively may be showing signs of:
+A) Autism Spectrum Disorder
+B) Attention Deficit Hyperactivity Disorder (ADHD)
+C) Dyslexia
+D) Oppositional Defiant Disorder
+Answer: B) Attention Deficit Hyperactivity Disorder (ADHD)
+Explanation: The core symptoms of ADHD are inattention, hyperactivity, and impulsivity.
+63. The "Jigsaw Classroom" technique is primarily designed to reduce:
+A) Academic competition
+B) Prejudice and promote cooperation
+C) The amount of homework
+D) Standardized testing anxiety
+Answer: B) Prejudice and promote cooperation
+Explanation: The jigsaw technique is a cooperative learning method where each student in a group becomes an "expert" on one piece of the content and then teaches it to their groupmates. This structure promotes interdependence and positive intergroup relations.
+64. According to Piaget, a child in the sensorimotor stage learns about the world primarily through:
+A) Logical reasoning
+B) Language and symbols
+C) Senses and motor actions
+D) Abstract thought
+Answer: C) Senses and motor actions
+Explanation: The sensorimotor stage (birth to 2 years) is characterized by learning through physical interaction with the environment, using senses and motor skills.
+65. A student's belief in their own capability to succeed in a specific task is termed as:
+A) Self-concept
+B) Self-esteem
+C) Self-efficacy
+D) Locus of control
+Answer: C) Self-efficacy
+Explanation: Coined by Albert Bandura, self-efficacy is the belief in one's capabilities to organize and execute the courses of action required to manage prospective situations.
+66. A teacher presents a completed example of a project before asking students to begin their own. This strategy helps students by providing a:
+A) Non-example
+B) Model
+C) Prompt
+D) Cue
+Answer: B) Model
+Explanation: According to Social Learning Theory, providing a model allows students to observe the process and the expected outcome, which facilitates learning.
+67. "Seriation" as defined by Piaget is the ability to:
+A) Understand that objects remain the same despite changes in appearance
+B) Arrange objects in a series based on a dimension like size or weight
+C) Mentally reverse a sequence of steps
+D) Think about multiple aspects of a problem at once
+Answer: B) Arrange objects in a series based on a dimension like size or weight
+Explanation: Seriation is a concrete operational skill that involves ordering objects along a quantitative dimension (e.g., from shortest to tallest).
+68. A learner who prefers to start with concrete examples and then move to general principles is using a ________ approach.
+A) Deductive
+B) Inductive
+C) Divergent
+D) Convergent
+Answer: B) Inductive
+Explanation: Inductive reasoning involves moving from specific observations to broader generalizations and theories. It is a "bottom-up" approach.
+69. In the context of language development, "Telegraphic Speech" is characterized by:
+A) The use of complete and grammatically correct sentences
+B) The use of overly complex sentences
+C) The use of short, simple sentences without function words
+D) The babbling sounds made by infants
+Answer: C) The use of short, simple sentences without function words
+Explanation: Telegraphic speech (e.g., "Mommy sock") uses only the most essential words, like nouns and verbs, omitting grammatical markers, similar to an old-fashioned telegram.
+70. A classroom environment that is "inclusive" is one that:
+A) Is only for students with special needs
+B) Segregates students based on ability
+C) Values diversity and supports all learners to participate fully
+D) Focuses exclusively on academic achievement
+Answer: C) Values diversity and supports all learners to participate fully
+Explanation: An inclusive classroom is designed to meet the needs of all students, regardless of their abilities, backgrounds, or learning styles, and ensures they feel valued and supported.
+71. The "Flynn Effect" refers to the observed:
+A) Decline in creativity over generations
+B) Rise in average IQ scores over time
+C) Effect of teacher expectations on student IQ
+D) Gap between verbal and performance IQ
+Answer: B) Rise in average IQ scores over time
+Explanation: The Flynn Effect is the substantial and long-sustained increase in both fluid and crystallized intelligence test scores measured in many parts of the world from roughly 1930 to the present.
+72. A student who has a strong "Musical Intelligence" would be most likely to:
+A) Excel in sports
+B) Remember melodies and rhythms easily
+C) Be a skilled debater
+D) Have a large vocabulary
+Answer: B) Remember melodies and rhythms easily
+Explanation: Musical intelligence involves skill in the performance, composition, and appreciation of musical patterns.
+73. According to attribution theory, an individual with an "internal locus of control" believes that events in their life are primarily caused by:
+A) Luck, fate, or powerful others
+B) Their own efforts and actions
+C) Uncontrollable environmental factors
+D) Genetic predisposition
+Answer: B) Their own efforts and actions
+Explanation: Locus of control is a psychological concept that refers to how individuals perceive the causes of life events. An internal locus means they believe they control their own destiny.
+74. The process of "Generalization" in learning occurs when:
+A) A learned response is made to a specific stimulus only
+B) A learned response is made to a stimulus similar to the original
+C) A learned response disappears over time
+D) A new stimulus prevents a learned response
+Answer: B) A learned response is made to a stimulus similar to the original
+Explanation: Generalization is the tendency for a conditioned response to be evoked by stimuli that are similar to the stimulus to which the response was originally conditioned.
+75. A child who is a "slow-to-warm-up" temperament typically:
+A) Has low activity level and mild reactions
+B) Is highly active and intense in reactions
+C) Is irregular in routines and withdraws from new stimuli
+D) Is always cheerful and adaptable
+Answer: A) Has low activity level and mild reactions
+Explanation: The "slow-to-warm-up" child (also called "cautious") is characterized by a low activity level, tendency to withdraw on first exposure to new stimuli, slow adaptability, and mild intensity of reaction.
+76. "Cognitive Dissonance" is a state of mental discomfort that arises when:
+A) A person is praised for their work
+B) A person holds two or more contradictory beliefs or values
+C) A person achieves a long-term goal
+D) A person is in a state of flow during an activity
+Answer: B) A person holds two or more contradictory beliefs or values
+Explanation: Proposed by Leon Festinger, cognitive dissonance is the unpleasant feeling that comes from holding conflicting ideas simultaneously. People are motivated to reduce this dissonance.
+77. In a progressive classroom, the role of the teacher is primarily that of a:
+A) Sole authority of knowledge
+B) Facilitator of learning
+C) Disciplinarian
+D) Remote figure
+Answer: B) Facilitator of learning
+Explanation: Progressive education, influenced by Dewey, emphasizes that the teacher should guide and facilitate students' natural curiosity and discovery, rather than just transmitting information.
+78. A student who can easily remember the steps of a scientific procedure after performing it once is likely a strong ________ learner.
+A) Visual
+B) Auditory
+C) Kinesthetic
+D) Reading/Writing
+Answer: C) Kinesthetic
+Explanation: Kinesthetic learners learn best through a hands-on approach, actively exploring the physical world around them. They remember things by doing and moving.
+79. The "Nature vs. Nurture" debate in child development concerns the relative influence of:
+A) Parents vs. Teachers
+B) Heredity vs. Environment
+C) Cognition vs. Emotion
+D) Discipline vs. Freedom
+Answer: B) Heredity vs. Environment
+Explanation: This is one of the oldest philosophical debates in psychology, focusing on whether human behavior is determined by the environment (nurture) or by a person's genes (nature). The modern consensus is that both interact in complex ways.
+80. "Crystallized Intelligence" primarily involves:
+A) The ability to reason speedily and abstractly
+B) Accumulated knowledge and verbal skills
+C) The capacity for novel problem-solving
+D) Perceptual and motor abilities
+Answer: B) Accumulated knowledge and verbal skills
+Explanation: Proposed by Raymond Cattell, crystallized intelligence is the ability to use skills, knowledge, and experience. It relies on accessing information from long-term memory.
+81. A student with "Autism Spectrum Disorder" may exhibit characteristics such as:
+A) Exceptional social skills and empathy
+B) Challenges with social communication and repetitive behaviors
+C) A specific difficulty only with mathematics
+D) High levels of extraversion
+Answer: B) Challenges with social communication and repetitive behaviors
+Explanation: ASD is characterized by persistent deficits in social communication and social interaction across multiple contexts, and restricted, repetitive patterns of behavior.
+82. The "Halo Effect" in a classroom occurs when a teacher's overall impression of a student:
+A) Is based solely on the student's latest test score
+B) Is influenced by one positive trait, which colors judgment of other traits
+C) Is completely accurate and unbiased
+D) Is formed after careful observation over a long period
+Answer: B) Is influenced by one positive trait, which colors judgment of other traits
+Explanation: The Halo Effect is a cognitive bias where our overall impression of a person ("he is neat") influences our feelings and thoughts about their character or other specific traits ("he must also be smart").
+83. According to Bruner, the purpose of education is not simply to impart knowledge but to:
+A) Prepare students for standardized tests
+B) Foster the will and skill to learn
+C) Maintain discipline and order
+D) Transmit cultural values exclusively
+Answer: B) Foster the will and skill to learn
+Explanation: Bruner believed in the development of a "disposition" toward learning. The goal is to create autonomous, self-propelled learners.
+84. A child who is able to think about their own thinking and evaluate their learning strategies is demonstrating:
+A) Centration
+B) Metacognition
+C) Assimilation
+D) Egocentrism
+Answer: B) Metacognition
+Explanation: Metacognition, as defined earlier, is the awareness and understanding of one's own thought processes. It involves "thinking about thinking."
+85. In the context of social development, "Prosocial Behavior" refers to:
+A) Behavior that benefits another person
+B) Behavior that is socially acceptable
+C) Behavior that is competitive
+D) Behavior that asserts dominance
+Answer: A) Behavior that benefits another person
+Explanation: Prosocial behaviors are voluntary actions intended to benefit others, such as helping, sharing, and cooperating.
+86. A teacher uses a "KWL" chart (What I Know, What I Want to know, What I Learned). This strategy is primarily used to:
+A) Assess final learning outcomes
+B) Manage classroom behavior
+C) Activate prior knowledge and set a purpose for reading
+D) Teach grammar rules
+Answer: C) Activate prior knowledge and set a purpose for reading
+Explanation: The KWL chart is a graphic organizer that helps students before, during, and after a learning activity. It activates background knowledge (K), sets learning goals (W), and summarizes acquired knowledge (L).
+87. "Fluid Intelligence" is most closely associated with the ability to:
+A) Recall historical facts
+B) Solve novel problems and recognize patterns
+C) Use a large vocabulary
+D) Apply learned rules to familiar situations
+Answer: B) Solve novel problems and recognize patterns
+Explanation: Fluid intelligence involves the ability to reason and think flexibly, to solve new problems, and to identify patterns and relationships, independent of acquired knowledge.
+88. A student from a low socioeconomic status (SES) background may face challenges in school due to:
+A) Lower innate intelligence
+B) Lack of parental interest
+C) Limited access to resources like books and educational experiences
+D) Inability to learn complex concepts
+Answer: C) Limited access to resources like books and educational experiences
+Explanation: The primary challenge associated with low SES is often a lack of access to resources (nutrition, healthcare, books, educational toys, enrichment activities) that support learning, not a lack of cognitive potential.
+89. The "Project Method" of teaching, advocated by Kilpatrick, emphasizes:
+A) Rote memorization
+B) Teacher-centered lectures
+C) Learning by doing through purposeful activities
+D) Standardized testing
+Answer: C) Learning by doing through purposeful activities
+Explanation: The project method is a student-centered pedagogy that involves a dynamic classroom approach where students acquire a deeper knowledge through active exploration of real-world challenges and problems.
+90. A child who has developed a "secure attachment" with their caregiver is likely to:
+A) Be completely independent and not seek the caregiver
+B) Use the caregiver as a safe base to explore the environment
+C) Ignore the caregiver upon reunion after a separation
+D) Show intense fear of strangers at all times
+Answer: B) Use the caregiver as a safe base to explore the environment
+Explanation: In Mary Ainsworth's Strange Situation, securely attached children explore freely in the caregiver's presence, are distressed when they leave, and seek comfort and are easily soothed upon their return.
+91. In Gardner's theory, a chef, a sculptor, or a surgeon would likely have high ________ intelligence.
+A) Linguistic
+B) Logical-Mathematical
+C) Bodily-Kinesthetic
+D) Interpersonal
+Answer: C) Bodily-Kinesthetic
+Explanation: Bodily-kinesthetic intelligence is the potential of using one's whole body or parts of the body to solve problems or create products, as seen in athletes, dancers, and surgeons.
+92. The concept of "Negative Reinforcement" involves:
+A) Presenting an aversive stimulus to decrease a behavior
+B) Removing an aversive stimulus to increase a behavior
+C) Removing a pleasant stimulus to decrease a behavior
+D) Presenting a pleasant stimulus to increase a behavior
+Answer: B) Removing an aversive stimulus to increase a behavior
+Explanation: Negative reinforcement strengthens a behavior by taking away something unpleasant. For example, fastening your seatbelt to stop the annoying beep in the car.
+93. A student who is an "English Language Learner" should be provided with instruction that includes:
+A) Only written texts in English
+B) Sheltered instruction with visual aids and contextual support
+C) Instruction only in their native language
+D) No modifications to the regular curriculum
+Answer: B) Sheltered instruction with visual aids and contextual support
+Explanation: Sheltered instruction (like the SIOP model) makes academic content comprehensible for ELLs while promoting English language development, using strategies like visuals, gestures, and cooperative learning.
+94. According to Piaget, the ability to mentally reverse an action is called:
+A) Conservation
+B) Seriation
+C) Reversibility
+D) Decentration
+Answer: C) Reversibility
+Explanation: Reversibility is the understanding that actions can be reversed. For example, knowing that if 3+5=8, then 8-5 must equal 3. This is a key operation in the concrete operational stage.
+95. A teacher who believes that students construct their own understanding through experiences is following the ________ philosophy.
+A) Behaviorist
+B) Constructivist
+C) Essentialist
+D) Perennialist
+Answer: B) Constructivist
+Explanation: Constructivism, heavily influenced by Piaget and Vygotsky, posits that learners actively construct or make their own knowledge and that reality is determined by the experiences of the learner.
+96. "Learned Helplessness" in an academic context can be reduced by:
+A) Giving constant praise regardless of performance
+B) Providing tasks that guarantee success to build a sense of mastery
+C) Avoiding all challenging tasks
+D) Focusing only on innate ability
+Answer: B) Providing tasks that guarantee success to build a sense of mastery
+Explanation: Learned helplessness arises from a pattern of failure. To counter it, students need experiences of success that help them attribute outcomes to their own effort and strategies, fostering a growth mindset.
+97. The "Digital Native" generation typically refers to individuals who:
+A) Are afraid of technology
+B) Have grown up in the digital age and are fluent with technology
+C) Prefer only traditional methods of learning
+D) Are experts in computer programming
+Answer: B) Have grown up in the digital age and are fluent with technology
+Explanation: The term, popularized by Marc Prensky, describes a person born or brought up during the age of digital technology and therefore familiar with computers and the Internet from an early age.
+98. A child's "Expressive Language" refers to their ability to:
+A) Understand what others are saying
+B) Use language to communicate thoughts and feelings
+C) Recognize different sounds in language
+D) Read written text
+Answer: B) Use language to communicate thoughts and feelings
+Explanation: Expressive language is the use of words, sentences, gestures, and writing to convey meaning and messages to others. Receptive language is the ability to understand language.
+99. A classroom that uses "Universal Design for Learning" (UDL) principles is designed to:
+A) Benefit only students with disabilities
+B) Provide a single, fixed method of instruction for all
+C) Offer multiple means of engagement, representation, and action/expression
+D) Focus exclusively on academic content
+Answer: C) Offer multiple means of engagement, representation, and action/expression
+Explanation: UDL is a framework to improve and optimize teaching and learning for all people based on scientific insights into how humans learn. Its core principle is providing multiple ways to engage with material, multiple representations of information, and multiple ways for students to express what they know.
+100. The "Strange Situation" procedure is a classic experiment used to assess:
+A) Cognitive development
+B) Moral reasoning
+C) Attachment patterns in infants
+D) Language acquisition
+Answer: C) Attachment patterns in infants
+Explanation: Developed by Mary Ainsworth, the Strange Situation is a structured observational procedure that reveals the quality of an infant's attachment to their caregiver by observing the infant's response to brief separations from and reunions with the caregiver.
+
