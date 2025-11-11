@@ -1549,48 +1549,70 @@
         }
 
         // Parse questions from your specific format
-       // Parse questions from your specific format
+      /**
+ * Parses questions line-by-line for maximum reliability and flexibility.
+ * This function is more robust against formatting inconsistencies.
+ */
 function parseQuestions(content) {
-    // Split questions by the pattern "number." at start of line
-    const questionBlocks = content.trim().split(/(?=^\d+\.)/m);
     const questions = [];
-
-    questionBlocks.forEach(block => {
-        if (block.trim()) {
-            const lines = block.trim().split('\n').filter(line => line.trim());
-
-            if (lines.length >= 7) {
-                // Extract question (remove number)
-                const questionText = lines[0].replace(/^\d+\.\s*/, '');
-
-                // *** THE FIX IS HERE ***
-                // This regex now correctly matches "A)", "B)", etc. at the start of the line
-                const options = [
-                    lines[1].replace(/^[A-D]\)\s*/, ''),
-                    lines[2].replace(/^[A-D]\)\s*/, ''),
-                    lines[3].replace(/^[A-D]\)\s*/, ''),
-                    lines[4].replace(/^[A-D]\)\s*/, '')
-                ];
-
-                // Extract answer (get the letter)
-                const answerLine = lines[5].replace('Answer: ', '');
-                const correctLetter = answerLine.charAt(0).toUpperCase();
-
-                // Extract explanation
-                const explanation = lines[6].replace('Explanation: ', '');
-
-                const question = {
-                    text: questionText,
-                    options: options,
-                    correct: correctLetter,
-                    explanation: explanation
-                };
-
-                questions.push(question);
+    const lines = content.split('\n');
+    
+    let currentQuestion = null;
+    let optionCount = 0;
+    
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+        
+        // Skip empty lines
+        if (!line) continue;
+        
+        // Check if this line is a new question (starts with a number and a dot)
+        const questionMatch = line.match(/^(\d+)\.\s*(.*)$/);
+        
+        if (questionMatch) {
+            // If we were building a previous question, push it to the array
+            if (currentQuestion && currentQuestion.options.length === 4) {
+                questions.push(currentQuestion);
+            }
+            
+            // Start a new question
+            currentQuestion = {
+                text: questionMatch[2],
+                options: [],
+                correct: null,
+                explanation: ''
+            };
+            optionCount = 0;
+        } 
+        // Check if this line is an option
+        else if (currentQuestion && optionCount < 4) {
+            const optionMatch = line.match(/^[A-Da-d][\).]\s*(.*)$/);
+            if (optionMatch) {
+                currentQuestion.options.push(optionMatch[1]);
+                optionCount++;
             }
         }
-    });
-
+        // Check if this line is the answer
+        else if (currentQuestion && currentQuestion.options.length === 4) {
+            const answerMatch = line.match(/Answer\s*[:\-]?\s*([A-Da-d])/i);
+            if (answerMatch) {
+                currentQuestion.correct = answerMatch[1].toUpperCase();
+            }
+        }
+        // Check if this line is the explanation
+        else if (currentQuestion && currentQuestion.correct) {
+            const explanationMatch = line.match(/Explanation\s*[:\-]?\s*(.*)$/i);
+            if (explanationMatch) {
+                currentQuestion.explanation = explanationMatch[1];
+            }
+        }
+    }
+    
+    // Don't forget to add the last question if the file doesn't end with a newline
+    if (currentQuestion && currentQuestion.options.length === 4) {
+        questions.push(currentQuestion);
+    }
+    
     return questions;
 }
         // Initialize exam for a specific tab
@@ -2013,6 +2035,7 @@ function parseQuestions(content) {
     </script>
 </body>
 </html>
+
 
 
 
