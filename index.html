@@ -1550,48 +1550,47 @@
 
         // Parse questions from your specific format
         function parseQuestions(content) {
-            // Split questions by the pattern "number." at start of line
-            const questionBlocks = content.trim().split(/(?=^\d+\.)/m);
-            const questions = [];
+    // Split questions by the pattern "number." at start of line
+    const questionBlocks = content.trim().split(/(?=^\d+\.)/m);
+    const questions = [];
 
-            questionBlocks.forEach(block => {
-                if (block.trim()) {
-                    const lines = block.trim().split('\n').filter(line => line.trim());
+    questionBlocks.forEach(block => {
+        if (block.trim()) {
+            const lines = block.trim().split('\n').filter(line => line.trim());
 
-                    if (lines.length >= 7) {
-                        // Extract question (remove number)
-                        const questionText = lines[0].replace(/^\d+\.\s*/, '');
+            if (lines.length >= 7) {
+                // Extract question (remove number)
+                const questionText = lines[0].replace(/^\d+\.\s*/, '');
 
-                        // Extract options
-                        const options = [
-                            lines[1].replace(/^[a-d]\)\s*/, ''),
-                            lines[2].replace(/^[a-d]\)\s*/, ''),
-                            lines[3].replace(/^[a-d]\)\s*/, ''),
-                            lines[4].replace(/^[a-d]\)\s*/, '')
-                        ];
+                // Extract options with the fixed pattern
+                const options = [
+                    lines[1].replace(/^[a-d]\.\s*\)\s*/, ''),
+                    lines[2].replace(/^[a-d]\.\s*\)\s*/, ''),
+                    lines[3].replace(/^[a-d]\.\s*\)\s*/, ''),
+                    lines[4].replace(/^[a-d]\.\s*\)\s*/, '')
+                ];
 
-                        // Extract answer (get the letter)
-                        const answerLine = lines[5].replace('Answer: ', '');
-                        const correctLetter = answerLine.charAt(0).toUpperCase();
+                // Extract answer (get the letter)
+                const answerLine = lines[5].replace('Answer: ', '');
+                const correctLetter = answerLine.charAt(0).toUpperCase();
 
-                        // Extract explanation
-                        const explanation = lines[6].replace('Explanation: ', '');
+                // Extract explanation
+                const explanation = lines[6].replace('Explanation: ', '');
 
-                        const question = {
-                            text: questionText,
-                            options: options,
-                            correct: correctLetter,
-                            explanation: explanation
-                        };
+                const question = {
+                    text: questionText,
+                    options: options,
+                    correct: correctLetter,
+                    explanation: explanation
+                };
 
-                        questions.push(question);
-                    }
-                }
-            });
-
-            return questions;
+                questions.push(question);
+            }
         }
+    });
 
+    return questions;
+}
         // Initialize exam for a specific tab
         function initializeExam(subjectIndex) {
             if (!exams[subjectIndex]) return;
@@ -2012,3 +2011,4 @@
     </script>
 </body>
 </html>
+
