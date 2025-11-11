@@ -1551,7 +1551,7 @@
         // Parse questions from your specific format
       /**
  * Parses questions line-by-line for maximum reliability and flexibility.
- * This function is more robust against formatting inconsistencies.
+ * This version correctly handles multi-line explanations.
  */
 function parseQuestions(content) {
     const questions = [];
@@ -1559,12 +1559,10 @@ function parseQuestions(content) {
     
     let currentQuestion = null;
     let optionCount = 0;
+    let isExplanation = false; // Flag to track if we're inside an explanation block
     
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i].trim();
-        
-        // Skip empty lines
-        if (!line) continue;
         
         // Check if this line is a new question (starts with a number and a dot)
         const questionMatch = line.match(/^(\d+)\.\s*(.*)$/);
@@ -1575,7 +1573,7 @@ function parseQuestions(content) {
                 questions.push(currentQuestion);
             }
             
-            // Start a new question
+            // Start a new question and reset flags
             currentQuestion = {
                 text: questionMatch[2],
                 options: [],
@@ -1583,6 +1581,7 @@ function parseQuestions(content) {
                 explanation: ''
             };
             optionCount = 0;
+            isExplanation = false;
         } 
         // Check if this line is an option
         else if (currentQuestion && optionCount < 4) {
@@ -1593,17 +1592,23 @@ function parseQuestions(content) {
             }
         }
         // Check if this line is the answer
-        else if (currentQuestion && currentQuestion.options.length === 4) {
+        else if (currentQuestion && currentQuestion.options.length === 4 && !currentQuestion.correct) {
             const answerMatch = line.match(/Answer\s*[:\-]?\s*([A-Da-d])/i);
             if (answerMatch) {
                 currentQuestion.correct = answerMatch[1].toUpperCase();
             }
         }
-        // Check if this line is the explanation
+        // Check if this line starts the explanation
         else if (currentQuestion && currentQuestion.correct) {
             const explanationMatch = line.match(/Explanation\s*[:\-]?\s*(.*)$/i);
             if (explanationMatch) {
+                // Start the explanation with the text after "Explanation:"
                 currentQuestion.explanation = explanationMatch[1];
+                isExplanation = true; // Set the flag to true
+            } else if (isExplanation) {
+                // If the flag is true, append any subsequent lines to the explanation
+                // Add a space to prevent words from mashing together
+                currentQuestion.explanation += ' ' + line;
             }
         }
     }
@@ -2035,6 +2040,7 @@ function parseQuestions(content) {
     </script>
 </body>
 </html>
+
 
 
 
