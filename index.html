@@ -1549,7 +1549,8 @@
         }
 
         // Parse questions from your specific format
-        function parseQuestions(content) {
+        // Parse questions from your specific format
+function parseQuestions(content) {
     // Split questions by the pattern "number." at start of line
     const questionBlocks = content.trim().split(/(?=^\d+\.)/m);
     const questions = [];
@@ -1562,12 +1563,13 @@
                 // Extract question (remove number)
                 const questionText = lines[0].replace(/^\d+\.\s*/, '');
 
-                // Extract options with the fixed pattern
+                // *** THE FIX IS HERE ***
+                // This regex now correctly matches "A)", "B)", etc. at the start of the line
                 const options = [
-                    lines[1].replace(/^[a-d]\.\s*\)\s*/, ''),
-                    lines[2].replace(/^[a-d]\.\s*\)\s*/, ''),
-                    lines[3].replace(/^[a-d]\.\s*\)\s*/, ''),
-                    lines[4].replace(/^[a-d]\.\s*\)\s*/, '')
+                    lines[1].replace(/^[A-D]\)\s*/, ''),
+                    lines[2].replace(/^[A-D]\)\s*/, ''),
+                    lines[3].replace(/^[A-D]\)\s*/, ''),
+                    lines[4].replace(/^[A-D]\)\s*/, '')
                 ];
 
                 // Extract answer (get the letter)
@@ -2011,4 +2013,5 @@
     </script>
 </body>
 </html>
+
 
