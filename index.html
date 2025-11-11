@@ -1549,43 +1549,49 @@
         }
 
         // Parse questions from your specific format
-        // Parse questions from your specific format (Robust Version)
+       /**
+ * Parses questions from a string using a flexible, multi-format approach.
+ * It can handle various option formats (A), B), A., B., etc.) and structures.
+ */
 function parseQuestions(content) {
-    const questionBlocks = content.trim().split(/(?=^\d+\.)/m);
     const questions = [];
+    
+    // This regex is designed to capture a complete question block.
+    // It captures:
+    // 1. The question number and text
+    // 2. The four options (in various formats)
+    // 3. The answer line
+    // 4. The explanation line
+    const questionBlockRegex = /(?:^|\n)(\d+)\.\s*(.*?)(?:\n|$)((?:[A-Da-d][\).]\s*.*?(?:\n|$)){4})(?:Answer\s*[:\-]?\s*([A-Da-d])(?:\s*\)|\.)?(?:\s*.*?)?\s*\n)?(?:Explanation\s*[:\-]?\s*(.*?)\s*$)?/gms;
 
-    questionBlocks.forEach(block => {
-        if (block.trim()) {
-            const lines = block.trim().split('\n').filter(line => line.trim());
+    let match;
+    while ((match = questionBlockRegex.exec(content)) !== null) {
+        const questionNumber = match[1];
+        const questionText = match[2].trim();
+        const optionsBlock = match[3];
+        const answerLetter = match[4] ? match[4].toUpperCase() : null;
+        const explanation = match[5] ? match[5].trim() : '';
 
-            if (lines.length >= 7) {
-                const questionText = lines[0].replace(/^\d+\.\s*/, '');
+        // This regex extracts each option line (e.g., "A) Option text")
+        const optionRegex = /([A-Da-d][\).])\s*(.*?)(?=\n|$)/g;
+        const options = [];
+        let optionMatch;
 
-                // *** THE ROBUST FIX IS HERE ***
-                // The 'i' flag makes the regex case-insensitive
-                const options = [
-                    lines[1].replace(/^[a-d]\)\s*/i, ''),
-                    lines[2].replace(/^[a-d]\)\s*/i, ''),
-                    lines[3].replace(/^[a-d]\)\s*/i, ''),
-                    lines[4].replace(/^[a-d]\)\s*/i, '')
-                ];
-
-                const answerLine = lines[5].replace('Answer: ', '');
-                const correctLetter = answerLine.charAt(0).toUpperCase();
-
-                const explanation = lines[6].replace('Explanation: ', '');
-
-                const question = {
-                    text: questionText,
-                    options: options,
-                    correct: correctLetter,
-                    explanation: explanation
-                };
-
-                questions.push(question);
-            }
+        while ((optionMatch = optionRegex.exec(optionsBlock)) !== null) {
+            // Just add the clean option text, the letter will be added during display
+            options.push(optionMatch[2].trim());
         }
-    });
+
+        // We expect exactly 4 options. If we find them, create the question object.
+        if (options.length === 4 && answerLetter) {
+            questions.push({
+                text: questionText,
+                options: options,
+                correct: answerLetter,
+                explanation: explanation
+            });
+        }
+    }
 
     return questions;
 }
@@ -2009,6 +2015,7 @@ function parseQuestions(content) {
     </script>
 </body>
 </html>
+
 
 
 
