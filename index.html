@@ -1549,50 +1549,74 @@
         }
 
         // Parse questions from your specific format
-       /**
- * Parses questions from a string using a flexible, multi-format approach.
- * It can handle various option formats (A), B), A., B., etc.) and structures.
- */
+       // Parse questions from your specific format
 function parseQuestions(content) {
     const questions = [];
     
-    // This regex is designed to capture a complete question block.
-    // It captures:
-    // 1. The question number and text
-    // 2. The four options (in various formats)
-    // 3. The answer line
-    // 4. The explanation line
-    const questionBlockRegex = /(?:^|\n)(\d+)\.\s*(.*?)(?:\n|$)((?:[A-Da-d][\).]\s*.*?(?:\n|$)){4})(?:Answer\s*[:\-]?\s*([A-Da-d])(?:\s*\)|\.)?(?:\s*.*?)?\s*\n)?(?:Explanation\s*[:\-]?\s*(.*?)\s*$)?/gms;
-
-    let match;
-    while ((match = questionBlockRegex.exec(content)) !== null) {
-        const questionNumber = match[1];
-        const questionText = match[2].trim();
-        const optionsBlock = match[3];
-        const answerLetter = match[4] ? match[4].toUpperCase() : null;
-        const explanation = match[5] ? match[5].trim() : '';
-
-        // This regex extracts each option line (e.g., "A) Option text")
-        const optionRegex = /([A-Da-d][\).])\s*(.*?)(?=\n|$)/g;
+    // First, let's try to split the content into individual question blocks
+    // This regex looks for a number followed by a period at the start of a line
+    const questionBlocks = content.split(/\n(?=\d+\.)/);
+    
+    for (const block of questionBlocks) {
+        if (!block.trim()) continue;
+        
+        const lines = block.trim().split('\n');
+        
+        // Skip if we don't have enough lines for a complete question
+        if (lines.length < 6) continue;
+        
+        // Extract question number and text
+        const questionMatch = lines[0].match(/^(\d+)\.\s*(.*)$/);
+        if (!questionMatch) continue;
+        
+        const questionNumber = questionMatch[1];
+        const questionText = questionMatch[2];
+        
+        // Extract options (lines 1-4)
         const options = [];
-        let optionMatch;
-
-        while ((optionMatch = optionRegex.exec(optionsBlock)) !== null) {
-            // Just add the clean option text, the letter will be added during display
-            options.push(optionMatch[2].trim());
+        for (let i = 1; i <= 4 && i < lines.length; i++) {
+            // Remove any leading letter, period or parenthesis, and whitespace
+            const optionText = lines[i].replace(/^[A-Da-d][\).\s]\s*/, '').trim();
+            if (optionText) {
+                options.push(optionText);
+            }
         }
-
-        // We expect exactly 4 options. If we find them, create the question object.
-        if (options.length === 4 && answerLetter) {
-            questions.push({
-                text: questionText,
-                options: options,
-                correct: answerLetter,
-                explanation: explanation
-            });
+        
+        // Skip if we don't have exactly 4 options
+        if (options.length !== 4) continue;
+        
+        // Find the answer line
+        let answerLetter = null;
+        for (let i = 5; i < lines.length; i++) {
+            const answerMatch = lines[i].match(/Answer\s*[:\-]?\s*([A-Da-d])/i);
+            if (answerMatch) {
+                answerLetter = answerMatch[1].toUpperCase();
+                break;
+            }
         }
+        
+        // Skip if we couldn't find the answer
+        if (!answerLetter) continue;
+        
+        // Find the explanation
+        let explanation = '';
+        for (let i = 5; i < lines.length; i++) {
+            const explanationMatch = lines[i].match(/Explanation\s*[:\-]?\s*(.*)$/i);
+            if (explanationMatch) {
+                explanation = explanationMatch[1];
+                break;
+            }
+        }
+        
+        // Add the question to our array
+        questions.push({
+            text: questionText,
+            options: options,
+            correct: answerLetter,
+            explanation: explanation
+        });
     }
-
+    
     return questions;
 }
         // Initialize exam for a specific tab
@@ -2015,6 +2039,7 @@ function parseQuestions(content) {
     </script>
 </body>
 </html>
+
 
 
 
