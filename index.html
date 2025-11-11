@@ -1549,9 +1549,8 @@
         }
 
         // Parse questions from your specific format
-        // Parse questions from your specific format
+        // Parse questions from your specific format (Robust Version)
 function parseQuestions(content) {
-    // Split questions by the pattern "number." at start of line
     const questionBlocks = content.trim().split(/(?=^\d+\.)/m);
     const questions = [];
 
@@ -1560,23 +1559,20 @@ function parseQuestions(content) {
             const lines = block.trim().split('\n').filter(line => line.trim());
 
             if (lines.length >= 7) {
-                // Extract question (remove number)
                 const questionText = lines[0].replace(/^\d+\.\s*/, '');
 
-                // *** THE FIX IS HERE ***
-                // This regex now correctly matches "A)", "B)", etc. at the start of the line
+                // *** THE ROBUST FIX IS HERE ***
+                // The 'i' flag makes the regex case-insensitive
                 const options = [
-                    lines[1].replace(/^[A-D]\)\s*/, ''),
-                    lines[2].replace(/^[A-D]\)\s*/, ''),
-                    lines[3].replace(/^[A-D]\)\s*/, ''),
-                    lines[4].replace(/^[A-D]\)\s*/, '')
+                    lines[1].replace(/^[a-d]\)\s*/i, ''),
+                    lines[2].replace(/^[a-d]\)\s*/i, ''),
+                    lines[3].replace(/^[a-d]\)\s*/i, ''),
+                    lines[4].replace(/^[a-d]\)\s*/i, '')
                 ];
 
-                // Extract answer (get the letter)
                 const answerLine = lines[5].replace('Answer: ', '');
                 const correctLetter = answerLine.charAt(0).toUpperCase();
 
-                // Extract explanation
                 const explanation = lines[6].replace('Explanation: ', '');
 
                 const question = {
@@ -2013,5 +2009,6 @@ function parseQuestions(content) {
     </script>
 </body>
 </html>
+
 
 
