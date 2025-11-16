@@ -1,0 +1,700 @@
+1. Who proposed the four stages of cognitive development?
+A. Lev Vygotsky
+B. Jean Piaget
+C. B.F. Skinner
+D. Erik Erikson
+Answer: B. Jean Piaget
+Explanation: Piaget identified Sensorimotor (0-2), Preoperational (2-7), Concrete Operational (7-11), and Formal Operational (11+) stages.
+2. Who introduced the concept of Zone of Proximal Development (ZPD)?
+A. Jean Piaget
+B. Lev Vygotsky
+C. Albert Bandura
+D. Jerome Bruner
+Answer: B. Lev Vygotsky
+Explanation: ZPD is the difference between what a learner can do without help and with guidance.
+3. Who developed the theory of operant conditioning using reinforcement?
+A. Ivan Pavlov
+B. B.F. Skinner
+C. Edward Thorndike
+D. John Watson
+Answer: B. B.F. Skinner
+Explanation: Skinner showed behavior is shaped by consequences - reinforcement increases behavior, punishment decreases it.
+4. Who discovered classical conditioning through experiments with dogs?
+A. B.F. Skinner
+B. Ivan Pavlov
+C. John Watson
+D. Edward Thorndike
+Answer: B. Ivan Pavlov
+Explanation: Pavlov demonstrated learning through association (bell + food = salivation).
+5. Who proposed that children learn through observation and modeling?
+A. Jean Piaget
+B. Albert Bandura
+C. Lev Vygotsky
+D. B.F. Skinner
+Answer: B. Albert Bandura
+Explanation: Bandura's Bobo doll experiment showed children imitate observed behaviors.
+6. Who advocated for discovery learning and the spiral curriculum?
+A. Jean Piaget
+B. Jerome Bruner
+C. Howard Gardner
+D. Lev Vygotsky
+Answer: B. Jerome Bruner
+Explanation: Bruner believed students learn best by discovering principles themselves.
+7. Who proposed the theory of eight multiple intelligences?
+A. Howard Gardner
+B. Robert Sternberg
+C. Charles Spearman
+D. Louis Thurstone
+Answer: A. Howard Gardner
+Explanation: Gardner identified linguistic, logical-mathematical, spatial, musical, bodily-kinesthetic, interpersonal, intrapersonal, and naturalistic intelligences.
+8. Who developed the eight stages of psychosocial development?
+A. Jean Piaget
+B. Erik Erikson
+C. Lawrence Kohlberg
+D. Sigmund Freud
+Answer: B. Erik Erikson
+Explanation: Erikson's stages span from trust vs. mistrust (infancy) to integrity vs. despair (old age).
+9. Who is known as the father of progressive education emphasizing "learning by doing"?
+A. John Dewey
+B. Jean Piaget
+C. Maria Montessori
+D. Jerome Bruner
+Answer: A. John Dewey
+Explanation: Dewey promoted experiential learning and democratic classrooms.
+10. Who developed child-centered education with self-directed learning materials?
+A. John Dewey
+B. Maria Montessori
+C. Jean Piaget
+D. Lev Vygotsky
+Answer: B. Maria Montessori
+Explanation: Montessori emphasized hands-on learning and prepared environments.
+11. Who formulated the Law of Effect and connectionism theory?
+A. B.F. Skinner
+B. Edward Thorndike
+C. Ivan Pavlov
+D. John Watson
+Answer: B. Edward Thorndike
+Explanation: Thorndike stated responses followed by satisfaction are strengthened.
+12. Who proposed six stages of moral development?
+A. Erik Erikson
+B. Jean Piaget
+C. Lawrence Kohlberg
+D. Carol Gilligan
+Answer: C. Lawrence Kohlberg
+Explanation: Kohlberg's stages progress from preconventional to conventional to postconventional morality.
+13. Who created the taxonomy of educational objectives with six levels?
+A. Benjamin Bloom
+B. Robert Gagne
+C. David Ausubel
+D. Howard Gardner
+Answer: A. Benjamin Bloom
+Explanation: Bloom's taxonomy includes Remember, Understand, Apply, Analyze, Evaluate, Create.
+14. Who distinguished between rote learning and meaningful learning?
+A. David Ausubel
+B. Benjamin Bloom
+C. Robert Gagne
+D. Jean Piaget
+Answer: A. David Ausubel
+Explanation: Ausubel emphasized connecting new information to existing knowledge.
+15. Who identified nine instructional events and five categories of learning?
+A. Robert Gagne
+B. Benjamin Bloom
+C. David Ausubel
+D. Jerome Bruner
+Answer: A. Robert Gagne
+Explanation: Gagne's events include gaining attention, stating objectives, presenting content, etc.
+16. Who developed person-centered learning emphasizing self-actualization?
+A. Carl Rogers
+B. Abraham Maslow
+C. Carl Jung
+D. Erik Erikson
+Answer: A. Carl Rogers
+Explanation: Rogers promoted unconditional positive regard and student-centered teaching.
+17. Who created the pyramid of human needs from basic to self-actualization?
+A. Abraham Maslow
+B. Carl Rogers
+C. Carl Jung
+D. Erik Erikson
+Answer: A. Abraham Maslow
+Explanation: Maslow's hierarchy: Physiological, Safety, Love/Belonging, Esteem, Self-actualization.
+18. Who founded behaviorism focusing only on observable behaviors?
+A. John Watson
+B. B.F. Skinner
+C. Ivan Pavlov
+D. Edward Thorndike
+Answer: A. John Watson
+Explanation: Watson rejected introspection and emphasized environmental factors in learning.
+19. Who proposed the id, ego, and superego structure of personality?
+A. Sigmund Freud
+B. Carl Jung
+C. Erik Erikson
+D. Carl Rogers
+Answer: A. Sigmund Freud
+Explanation: Freud's theory includes unconscious drives and psychosexual development stages.
+20. Who popularized the concept of Emotional Intelligence (EQ)?
+A. Daniel Goleman
+B. Howard Gardner
+C. Robert Sternberg
+D. Abraham Maslow
+Answer: A. Daniel Goleman
+Explanation: Goleman identified self-awareness, self-regulation, motivation, empathy, and social skills.
+21. Who developed the ecological model of child development?
+A. Urie Bronfenbrenner
+B. Lev Vygotsky
+C. Jean Piaget
+D. Erik Erikson
+Answer: A. Urie Bronfenbrenner
+Explanation: Bronfenbrenner's model includes microsystem, mesosystem, exosystem, macrosystem, and chronosystem.
+22. Who established the first psychology laboratory and founded structuralism?
+A. Wilhelm Wundt
+B. William James
+C. John Watson
+D. Sigmund Freud
+Answer: A. Wilhelm Wundt
+Explanation: Wundt analyzed consciousness through introspection.
+23. Who proposed the theory of identical elements in transfer of learning?
+A. E.L. Thorndike
+B. Jean Piaget
+C. Lev Vygotsky
+D. Jerome Bruner
+Answer: A. E.L. Thorndike
+Explanation: Transfer occurs when situations share identical elements.
+24. Who developed the concept of fixed vs. growth mindset?
+A. Carol Dweck
+B. Howard Gardner
+C. Albert Bandura
+D. Lev Vygotsky
+Answer: A. Carol Dweck
+Explanation: Growth mindset believes abilities can be developed through effort.
+25. Who created the four-stage experiential learning cycle?
+A. David Kolb
+B. John Dewey
+C. Jean Piaget
+D. Lev Vygotsky
+Answer: A. David Kolb
+Explanation: Kolb's cycle: Concrete Experience, Reflective Observation, Abstract Conceptualization, Active Experimentation.
+26. Who proposed the two-factor theory with general intelligence (g)?
+A. Charles Spearman
+B. Howard Gardner
+C. Robert Sternberg
+D. Louis Thurstone
+Answer: A. Charles Spearman
+Explanation: Spearman identified general intelligence (g) and specific abilities (s).
+27. Who identified seven primary mental abilities?
+A. Louis Thurstone
+B. Charles Spearman
+C. Howard Gardner
+D. Robert Sternberg
+Answer: A. Louis Thurstone
+Explanation: Thurstone's abilities include verbal, numerical, spatial, perceptual, memory, reasoning, and word fluency.
+28. Who proposed analytical, creative, and practical intelligence?
+A. Robert Sternberg
+B. Howard Gardner
+C. Charles Spearman
+D. Louis Thurstone
+Answer: A. Robert Sternberg
+Explanation: Sternberg's triarchic theory emphasizes real-world application.
+29. Who created the Structure of Intellect model with 180 factors?
+A. J.P. Guilford
+B. Howard Gardner
+C. Robert Sternberg
+D. Louis Thurstone
+Answer: A. J.P. Guilford
+Explanation: Guilford's model has three dimensions: operations, contents, and products.
+30. Who developed the first practical intelligence test?
+A. Alfred Binet
+B. Charles Spearman
+C. Howard Gardner
+D. Robert Sternberg
+Answer: A. Alfred Binet
+Explanation: Binet created the Binet-Simon Scale to identify students needing help.
+31. Who proposed hygiene factors and motivators in motivation?
+A. Frederick Herzberg
+B. Abraham Maslow
+C. David McClelland
+D. Victor Vroom
+Answer: A. Frederick Herzberg
+Explanation: Hygiene factors prevent dissatisfaction; motivators create satisfaction.
+32. Who identified needs for achievement, power, and affiliation?
+A. David McClelland
+B. Abraham Maslow
+C. Frederick Herzberg
+D. Victor Vroom
+Answer: A. David McClelland
+Explanation: McClelland focused on learned needs that motivate behavior.
+33. Who developed expectancy theory of motivation?
+A. Victor Vroom
+B. David McClelland
+C. Abraham Maslow
+D. Frederick Herzberg
+Answer: A. Victor Vroom
+Explanation: Motivation = Expectancy × Instrumentality × Valence.
+34. Who proposed intrinsic and extrinsic motivation theory?
+A. Edward Deci
+B. Abraham Maslow
+C. David McClelland
+D. Victor Vroom
+Answer: A. Edward Deci (with Richard Ryan)
+Explanation: SDT emphasizes autonomy, competence, and relatedness.
+35. Who modified Maslow's hierarchy into Existence, Relatedness, Growth?
+A. Clayton Alderfer
+B. Abraham Maslow
+C. David McClelland
+D. Victor Vroom
+Answer: A. Clayton Alderfer
+Explanation: ERG theory allows multiple needs to be active simultaneously.
+36. Who discovered the capacity of short-term memory is 7±2 items?
+A. George Miller
+B. Alan Baddeley
+C. Hermann Ebbinghaus
+D. Fergus Craik
+Answer: A. George Miller
+Explanation: Miller's research showed STM limitations and chunking strategies.
+37. Who discovered the forgetting curve and spacing effect?
+A. Hermann Ebbinghaus
+B. George Miller
+C. Alan Baddeley
+D. Fergus Craik
+Answer: A. Hermann Ebbinghaus
+Explanation: Ebbinghaus showed rapid initial forgetting that levels off.
+38. Who proposed the working memory model with multiple components?
+A. Alan Baddeley
+B. George Miller
+C. Hermann Ebbinghaus
+D. Fergus Craik
+Answer: A. Alan Baddeley
+Explanation: Model includes central executive, phonological loop, visuospatial sketchpad.
+39. Who proposed deeper processing leads to better memory?
+A. Fergus Craik
+B. George Miller
+C. Hermann Ebbinghaus
+D. Alan Baddeley
+Answer: A. Fergus Craik (with Robert Lockhart)
+Explanation: Semantic processing creates stronger memories than structural/phonemic.
+40. Who developed the multi-store memory model?
+A. Richard Atkinson
+B. George Miller
+C. Hermann Ebbinghaus
+D. Alan Baddeley
+Answer: A. Richard Atkinson (with Richard Shiffrin)
+Explanation: Model includes sensory, short-term, and long-term memory stores.
+41. Who proposed the innate Language Acquisition Device (LAD)?
+A. Noam Chomsky
+B. B.F. Skinner
+C. Michael Halliday
+D. Stephen Krashen
+Answer: A. Noam Chomsky
+Explanation: Chomsky argued humans have biological predisposition for language.
+42. Who explained language learning through operant conditioning?
+A. B.F. Skinner
+B. Noam Chomsky
+C. Michael Halliday
+D. Stephen Krashen
+Answer: A. B.F. Skinner
+Explanation: Skinner viewed language as learned through reinforcement.
+43. Who developed systemic functional linguistics?
+A. Michael Halliday
+B. Noam Chomsky
+C. B.F. Skinner
+D. Stephen Krashen
+Answer: A. Michael Halliday
+Explanation: Halliday focused on language functions in social contexts.
+44. Who proposed the Monitor Model with i+1 input?
+A. Stephen Krashen
+B. Noam Chomsky
+C. B.F. Skinner
+D. Michael Halliday
+Answer: A. Stephen Krashen
+Explanation: Comprehensible input slightly above current level promotes acquisition.
+45. Who distinguished between BICS and CALP in language learning?
+A. Jim Cummins
+B. Stephen Krashen
+C. Noam Chomsky
+D. Michael Halliday
+Answer: A. Jim Cummins
+Explanation: BICS (Basic Interpersonal Communication) vs CALP (Cognitive Academic Language Proficiency).
+46. Who developed Cronbach's alpha for reliability testing?
+A. Lee Cronbach
+B. Donald Campbell
+C. Samuel Messick
+D. Grant Wiggins
+Answer: A. Lee Cronbach
+Explanation: Measures internal consistency of test items.
+47. Who emphasized threats to internal and external validity?
+A. Donald Campbell
+B. Lee Cronbach
+C. Samuel Messick
+D. Grant Wiggins
+Answer: A. Donald Campbell (with Julian Stanley)
+Explanation: Identified factors affecting research validity.
+48. Who expanded the concept of construct validity in assessment?
+A. Samuel Messick
+B. Lee Cronbach
+C. Donald Campbell
+D. Grant Wiggins
+Answer: A. Samuel Messick
+Explanation: Unified validity as single concept with multiple evidence sources.
+49. Who promoted authentic assessment and backward design?
+A. Grant Wiggins
+B. Lee Cronbach
+C. Donald Campbell
+D. Samuel Messick
+Answer: A. Grant Wiggins (with Jay McTighe)
+Explanation: Real-world tasks better assess student learning.
+50. Who researched formative assessment's impact on learning?
+A. Dylan Wiliam
+B. Grant Wiggins
+C. Lee Cronbach
+D. Donald Campbell
+Answer: A. Dylan Wiliam (with Paul Black)
+Explanation: Formative assessment significantly improves student achievement.
+51. Who introduced the concept of "withitness" in classroom management?
+A. Jacob Kounin
+B. Lee Canter
+C. William Glasser
+D. Rudolf Dreikurs
+Answer: A. Jacob Kounin
+Explanation: Teacher awareness of everything happening in classroom.
+52. Who developed the Assertive Discipline model?
+A. Lee Canter
+B. Jacob Kounin
+C. William Glasser
+D. Rudolf Dreikurs
+Answer: A. Lee Canter
+Explanation: Clear expectations with consistent consequences.
+53. Who proposed Choice Theory in classroom management?
+A. William Glasser
+B. Lee Canter
+C. Jacob Kounin
+D. Rudolf Dreikurs
+Answer: A. William Glasser
+Explanation: Students choose behaviors to meet basic needs.
+54. Who emphasized logical consequences over punishment?
+A. Rudolf Dreikurs
+B. William Glasser
+C. Lee Canter
+D. Jacob Kounin
+Answer: A. Rudolf Dreikurs
+Explanation: Natural and logical consequences teach responsibility.
+55. Who developed the Tools for Teaching approach?
+A. Fred Jones
+B. Rudolf Dreikurs
+C. William Glasser
+D. Lee Canter
+Answer: A. Fred Jones
+Explanation: Emphasis on body language and incentive systems.
+56. Who coined the term "learning disabilities"?
+A. Samuel Kirk
+B. Temple Grandin
+C. Mel Levine
+D. Sally Shaywitz
+Answer: A. Samuel Kirk
+Explanation: Kirk defined LD as academic difficulties despite normal intelligence.
+57. Who revolutionized understanding of autism through personal experience?
+A. Temple Grandin
+B. Samuel Kirk
+C. Mel Levine
+D. Sally Shaywitz
+Answer: A. Temple Grandin
+Explanation: Grandin's insights transformed autism education approaches.
+58. Who developed the neurodevelopmental approach to learning?
+A. Mel Levine
+B. Temple Grandin
+C. Samuel Kirk
+D. Sally Shaywitz
+Answer: A. Mel Levine
+Explanation: Focused on understanding individual learning profiles.
+59. Who conducted groundbreaking brain imaging research on dyslexia?
+A. Sally Shaywitz
+B. Mel Levine
+C. Temple Grandin
+D. Samuel Kirk
+Answer: A. Sally Shaywitz
+Explanation: Showed neurological basis of reading difficulties.
+60. Who is a leading expert on Asperger's Syndrome?
+A. Tony Attwood
+B. Sally Shaywitz
+C. Mel Levine
+D. Temple Grandin
+Answer: A. Tony Attwood
+Explanation: Developed comprehensive guides for understanding and supporting AS.
+61. Who developed the four fundamental questions of curriculum?
+A. Ralph Tyler
+B. Hilda Taba
+C. Franklin Bobbitt
+D. John Franklin Bobbitt
+Answer: A. Ralph Tyler
+Explanation: Objectives, experiences, organization, and evaluation.
+62. Who proposed bottom-up curriculum development?
+A. Hilda Taba
+B. Ralph Tyler
+C. Franklin Bobbitt
+D. John Franklin Bobbitt
+Answer: A. Hilda Taba
+Explanation: Teachers should develop curriculum based on student needs.
+63. Who introduced scientific management to curriculum?
+A. Franklin Bobbitt
+B. Ralph Tyler
+C. Hilda Taba
+D. John Franklin Bobbitt
+Answer: A. Franklin Bobbitt
+Explanation: Curriculum as preparation for adult activities.
+64. Who developed activity analysis for curriculum design?
+A. John Franklin Bobbitt
+B. Franklin Bobbitt
+C. Ralph Tyler
+D. Hilda Taba
+Answer: A. John Franklin Bobbitt
+Explanation: Analyzed adult activities to determine educational objectives.
+65. Who critically analyzed hidden curriculum and power relations?
+A. Michael Apple
+B. Ralph Tyler
+C. Hilda Taba
+D. Franklin Bobbitt
+Answer: A. Michael Apple
+Explanation: Examined how curriculum reproduces social inequalities.
+66. Who developed constructionism and LOGO programming?
+A. Seymour Papert
+B. Marc Prensky
+C. Richard Mayer
+D. Dale Edgar
+Answer: A. Seymour Papert
+Explanation: Learning through making with technology.
+67. Who coined the terms "digital natives" and "digital immigrants"?
+A. Marc Prensky
+B. Seymour Papert
+C. Richard Mayer
+D. Dale Edgar
+Answer: A. Marc Prensky
+Explanation: Generational differences in technology use.
+68. Who developed cognitive theory of multimedia learning?
+A. Richard Mayer
+B. Marc Prensky
+C. Seymour Papert
+D. Dale Edgar
+Answer: A. Richard Mayer
+Explanation: Principles for effective multimedia instruction.
+69. Who created the Cone of Experience model?
+A. Edgar Dale
+B. Richard Mayer
+C. Marc Prensky
+D. Seymour Papert
+Answer: A. Edgar Dale
+Explanation: Progression from concrete to abstract learning experiences.
+70. Who developed the SAMR model for technology integration?
+A. Ruben Puentedura
+B. Edgar Dale
+C. Richard Mayer
+D. Marc Prensky
+Answer: A. Ruben Puentedura
+Explanation: Substitution, Augmentation, Modification, Redefinition.
+71. Who criticized the "banking concept" of education?
+A. Paulo Freire
+B. Henry Giroux
+C. bell hooks
+D. Ivan Illich
+Answer: A. Paulo Freire
+Explanation: Students as empty vessels vs. critical consciousness.
+72. Who developed critical pedagogy in American context?
+A. Henry Giroux
+B. Paulo Freire
+C. bell hooks
+D. Ivan Illich
+Answer: A. Henry Giroux
+Explanation: Education for critical thinking and social justice.
+73. Who promoted engaged pedagogy and education as freedom?
+A. bell hooks
+B. Henry Giroux
+C. Paulo Freire
+D. Ivan Illich
+Answer: A. bell hooks
+Explanation: Teaching as transformative and liberating practice.
+74. Who proposed deschooling society?
+A. Ivan Illich
+B. bell hooks
+C. Henry Giroux
+D. Paulo Freire
+Answer: A. Ivan Illich
+Explanation: Criticized institutional education's limitations.
+75. Who pioneered the unschooling movement?
+A. John Holt
+B. Ivan Illich
+C. bell hooks
+D. Henry Giroux
+Answer: A. John Holt
+Explanation: Child-led learning outside traditional schooling.
+76. Who founded the kindergarten movement?
+A. Friedrich Froebel
+B. Loris Malaguzzi
+C. Rudolf Steiner
+D. Mildred Parten
+Answer: A. Friedrich Froebel
+Explanation: Play-based early childhood education.
+77. Who developed the Reggio Emilia approach?
+A. Loris Malaguzzi
+B. Friedrich Froebel
+C. Rudolf Steiner
+D. Mildred Parten
+Answer: A. Loris Malaguzzi
+Explanation: Child as protagonist in learning, environment as third teacher.
+78. Who founded Waldorf education?
+A. Rudolf Steiner
+B. Loris Malaguzzi
+C. Friedrich Froebel
+D. Mildred Parten
+Answer: A. Rudolf Steiner
+Explanation: Holistic education addressing head, heart, and hands.
+79. Who identified six stages of play development?
+A. Mildred Parten
+B. Rudolf Steiner
+C. Loris Malaguzzi
+D. Friedrich Froebel
+Answer: A. Mildred Parten
+Explanation: Unoccupied, solitary, onlooker, parallel, associative, cooperative play.
+80. Who researched sociodramatic play's importance?
+A. Sara Smilansky
+B. Mildred Parten
+C. Rudolf Steiner
+D. Loris Malaguzzi
+Answer: A. Sara Smilansky
+Explanation: Role-play crucial for cognitive and social development.
+81. Who challenged Kohlberg's male-centered moral development theory?
+A. Carol Gilligan
+B. Nel Noddings
+C. Peggy McIntosh
+D. Lawrence Kohlberg
+Answer: A. Carol Gilligan
+Explanation: Proposed different moral reasoning in females - ethics of care.
+82. Who developed the ethic of caring in education?
+A. Nel Noddings
+B. Carol Gilligan
+C. Peggy McIntosh
+D. Lawrence Kohlberg
+Answer: A. Nel Noddings
+Explanation: Emphasized caring relationships in teaching.
+83. Who developed the concept of "invisible knapsack" of privilege?
+A. Peggy McIntosh
+B. Nel Noddings
+C. Carol Gilligan
+D. Lawrence Kohlberg
+Answer: A. Peggy McIntosh
+Explanation: Unearned advantages in education and society.
+84. Who developed the concept of lateral thinking?
+A. Edward de Bono
+B. J.P. Guilford
+C. Mihaly Csikszentmihalyi
+D. E. Paul Torrance
+Answer: A. Edward de Bono
+Explanation: Creative problem-solving through indirect approaches.
+85. Who distinguished between convergent and divergent thinking?
+A. J.P. Guilford
+B. Edward de Bono
+C. Mihaly Csikszentmihalyi
+D. E. Paul Torrance
+Answer: A. J.P. Guilford
+Explanation: Divergent thinking generates multiple solutions.
+86. Who developed the concept of "flow" in learning?
+A. Mihaly Csikszentmihalyi
+B. J.P. Guilford
+C. Edward de Bono
+D. E. Paul Torrance
+Answer: A. Mihaly Csikszentmihalyi
+Explanation: Optimal experience when fully immersed in activity.
+87. Who developed the Torrance Tests of Creative Thinking?
+A. E. Paul Torrance
+B. Mihaly Csikszentmihalyi
+C. J.P. Guilford
+D. Edward de Bono
+Answer: A. E. Paul Torrance
+Explanation: Standardized assessment of creative potential.
+88. Who popularized brain-based learning strategies?
+A. Eric Jensen
+B. John Medina
+C. David Sousa
+D. Michael Gazzaniga
+Answer: A. Eric Jensen
+Explanation: Applied neuroscience research to classroom practice.
+89. Who developed 12 Brain Rules for education?
+A. John Medina
+B. Eric Jensen
+C. David Sousa
+D. Michael Gazzaniga
+Answer: A. John Medina
+Explanation: Neuroscience principles for better learning.
+90. Who bridged neuroscience and classroom practice?
+A. David Sousa
+B. John Medina
+C. Eric Jensen
+D. Michael Gazzaniga
+Answer: A. David Sousa
+Explanation: Practical applications of brain research in teaching.
+91. Who developed the theory of andragogy for adult learning?
+A. Malcolm Knowles
+B. Jack Mezirow
+C. Patricia Cross
+D. Stephen Brookfield
+Answer: A. Malcolm Knowles
+Explanation: Adult learning differs from child learning (pedagogy).
+92. Who developed transformative learning theory?
+A. Jack Mezirow
+B. Malcolm Knowles
+C. Patricia Cross
+D. Stephen Brookfield
+Answer: A. Jack Mezirow
+Explanation: Critical reflection leads to perspective transformation.
+93. Who researched adult learning patterns and barriers?
+A. Patricia Cross
+B. Jack Mezirow
+C. Malcolm Knowles
+D. Stephen Brookfield
+Answer: A. Patricia Cross
+Explanation: Identified situational, institutional, and dispositional barriers.
+94. Who proposed the mind as "blank slate" at birth?
+A. John Locke
+B. Jean-Jacques Rousseau
+C. Johann Pestalozzi
+D. Herbert Spencer
+Answer: A. John Locke
+Explanation: Experience shapes knowledge and character.
+95. Who wrote "Emile" advocating natural education?
+A. Jean-Jacques Rousseau
+B. John Locke
+C. Johann Pestalozzi
+D. Herbert Spencer
+Answer: A. Jean-Jacques Rousseau
+Explanation: Education should follow child's natural development.
+96. Who developed object teaching and "head, heart, hand"?
+A. Johann Pestalozzi
+B. Jean-Jacques Rousseau
+C. John Locke
+D. Herbert Spencer
+Answer: A. Johann Pestalozzi
+Explanation: Concrete before abstract, holistic development.
+97. Who asked "What knowledge is of most worth?"
+A. Herbert Spencer
+B. Johann Pestalozzi
+C. Jean-Jacques Rousseau
+D. John Locke
+Answer: A. Herbert Spencer
+Explanation: Advocated scientific and practical education.
+98. Who founded Shantiniketan emphasizing freedom in education?
+A. Rabindranath Tagore
+B. Mahatma Gandhi
+C. Swami Vivekananda
+D. Sarvepalli Radhakrishnan
+Answer: A. Rabindranath Tagore
+Explanation: Blend of Eastern and Western education philosophies.
+99. Who proposed "Nai Talim" or Basic Education?
+A. Mahatma Gandhi
+B. Rabindranath Tagore
+C. Swami Vivekananda
+D. Sarvepalli Radhakrishnan
+Answer: A. Mahatma Gandhi
+Explanation: Education through productive craft work.
+100. Who emphasized "man-making" and character-building education?
+A. Swami Vivekananda
+B. Mahatma Gandhi
+C. Rabindranath Tagore
+D. Sarvepalli Radhakrishnan
+Answer: A. Swami Vivekananda
+Explanation: Education for strength, self-reliance, and service.
