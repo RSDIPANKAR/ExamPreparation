@@ -1617,11 +1617,6 @@ function parseQuestions(content) {
             const answerMatch = line.match(/Answer\s*[:\-]?\s*([A-Da-dअ-द])/i);
             if (answerMatch) {
                 currentQuestion.correct = answerMatch[1].toUpperCase();
-                if (answerLetter === 'अ') currentQuestion.correct = 'A';
-                else if (answerLetter === 'ब') currentQuestion.correct = 'B';
-                else if (answerLetter === 'स') currentQuestion.correct = 'C';
-                else if (answerLetter === 'द') currentQuestion.correct = 'D';
-                else currentQuestion.correct = answerLetter;
             }
         }
         // Check if this line starts the explanation
@@ -2066,6 +2061,7 @@ function parseQuestions(content) {
     </script>
 </body>
 </html>
+
 
 
 
