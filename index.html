@@ -1034,10 +1034,10 @@
                 tests: 15 // Number of test sets (geo1.txt to geo15.txt)
             },
             {
-                name: 'Hindi', 
+                name: 'हिंदी', 
                 icon: 'fa-book',
                 folder: 'Hindi',
-                tests: 15 // Number of test sets (geo1.txt to geo15.txt)
+                tests: 15  // Number of test sets (geo1.txt to geo15.txt)
             }
         ];
 
@@ -1577,7 +1577,8 @@ function parseQuestions(content) {
         const line = lines[i].trim();
         
         // Check if this line is a new question (starts with a number and a dot)
-        const questionMatch = line.match(/^(\d+)\.\s*(.*)$/);
+        //const questionMatch = line.match(/^(\d+)\.\s*(.*)$/);
+        const questionMatch = line.match(/^([०-९\d]+)\.\s*(.*)$/);
         
         if (questionMatch) {
             // If we were building a previous question, push it to the array
@@ -1597,7 +1598,8 @@ function parseQuestions(content) {
         } 
         // Check if this line is an option
         else if (currentQuestion && optionCount < 4) {
-            const optionMatch = line.match(/^[A-Da-d][\).]\s*(.*)$/);
+            //const optionMatch = line.match(/^[A-Da-d][\).]\s*(.*)$/);
+            const optionMatch = line.match(/^[A-Da-dअ-द][\).]\s*(.*)$/);
             if (optionMatch) {
                 currentQuestion.options.push(optionMatch[1]);
                 optionCount++;
@@ -2052,6 +2054,7 @@ function parseQuestions(content) {
     </script>
 </body>
 </html>
+
 
 
 
