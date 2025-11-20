@@ -1587,9 +1587,9 @@ function parseQuestions(content) {
         //const questionMatch = line.match(/^(\d+)\.\s*(.*)$/);
         const questionMatch = line.match(/^([०-९\d]+)\.\s*(.*)$/);
         
-        if (questionMatch) {
-            // If we were building a previous question, push it to the array
-            if (currentQuestion && currentQuestion.options.length === 4) {
+       if (questionMatch) {
+            // If we were building a previous question, push it to the array if it's valid
+            if (currentQuestion && currentQuestion.options.length === 4 && currentQuestion.correct) {
                 questions.push(currentQuestion);
             }
             
@@ -1614,9 +1614,14 @@ function parseQuestions(content) {
         }
         // Check if this line is the answer
         else if (currentQuestion && currentQuestion.options.length === 4 && !currentQuestion.correct) {
-            const answerMatch = line.match(/Answer\s*[:\-]?\s*([A-Da-d])/i);
+            const answerMatch = line.match(/Answer\s*[:\-]?\s*([A-Da-dअ-द])/i);
             if (answerMatch) {
                 currentQuestion.correct = answerMatch[1].toUpperCase();
+                if (answerLetter === 'अ') currentQuestion.correct = 'A';
+                else if (answerLetter === 'ब') currentQuestion.correct = 'B';
+                else if (answerLetter === 'स') currentQuestion.correct = 'C';
+                else if (answerLetter === 'द') currentQuestion.correct = 'D';
+                else currentQuestion.correct = answerLetter;
             }
         }
         // Check if this line starts the explanation
@@ -1635,7 +1640,7 @@ function parseQuestions(content) {
     }
     
     // Don't forget to add the last question if the file doesn't end with a newline
-    if (currentQuestion && currentQuestion.options.length === 4) {
+   if (currentQuestion && currentQuestion.options.length === 4 && currentQuestion.correct) {
         questions.push(currentQuestion);
     }
     
@@ -2061,6 +2066,7 @@ function parseQuestions(content) {
     </script>
 </body>
 </html>
+
 
 
 
