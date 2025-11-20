@@ -6,7 +6,14 @@
     <title>Interactive Exam System</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
+           /* Hindi font support */
+        body, .question-card, .option-btn, .explanation, .tab, .tab-content, .stats-card, .summary-card, .result-card {
+            font-family: 'Noto Sans Devanagari', 'Mangal', sans-serif;
+        }
         body {
             background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
             position: relative;
@@ -2054,6 +2061,7 @@ function parseQuestions(content) {
     </script>
 </body>
 </html>
+
 
 
 
