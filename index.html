@@ -1568,6 +1568,103 @@
         }
 
         // Parse questions from your specific format
+        /**
+ * Parses questions with support for multiple formats:
+ * 1. Standard MCQ (4 options: A, B, C, D)
+ * 2. Error Identification (5 parts: a, b, c, d, e)
+ * 3. Sentence Arrangement (4 options: a, b, c, d)
+ */
+function parseQuestions(content) {
+    const questions = [];
+    const lines = content.split('\n');
+    
+    let currentQuestion = null;
+    let isExplanation = false;
+    
+    for (let i = 0; i < lines.length; i++) {
+        const line = lines[i].trim();
+        
+        // Check for a new question (e.g., "1. ", "2. ")
+        const questionMatch = line.match(/^(\d+)\s*[.)]?\s*(.*)$/);
+        
+        if (questionMatch) {
+            // If we have a complete previous question, add it to the list
+            if (currentQuestion && isQuestionValid(currentQuestion)) {
+                questions.push(currentQuestion);
+            }
+            
+            // Determine the type of question from its text
+            const questionText = questionMatch[2];
+            let questionType = 'standard';
+            if (questionText.includes('(Identify the part of the sentence with an error.)')) {
+                questionType = 'error-identification';
+            } else if (questionText.includes('(Arrange the sentences in the correct order.)')) {
+                questionType = 'sentence-arrangement';
+            }
+            
+            // Start a new question object
+            currentQuestion = {
+                text: questionText,
+                options: [],
+                correct: null,
+                explanation: '',
+                type: questionType // Store the type for later use
+            };
+            isExplanation = false;
+        } 
+        // Check for options
+        else if (currentQuestion && !currentQuestion.correct) {
+            // Match lines starting with a letter (a-e or A-D)
+            const optionMatch = line.match(/^([a-eA-Eअ-द])[\)\.]?\s*(.*)$/);
+            if (optionMatch) {
+                const optionLetter = optionMatch[1].toUpperCase();
+                const optionText = optionMatch[2];
+                currentQuestion.options.push(`${optionLetter}) ${optionText}`);
+            }
+        }
+        // Check for the answer line
+        else if (currentQuestion && currentQuestion.options.length > 0 && !currentQuestion.correct) {
+            // Flexible matching for "Answer: c)" or "Ans: b)"
+            const answerMatch = line.match(/^(?:Answer|Ans)\s*[:\-]?\s*([a-eA-Eअ-द])/i);
+            if (answerMatch) {
+                currentQuestion.correct = answerMatch[1].toUpperCase();
+            }
+        }
+        // Check for the explanation
+        else if (currentQuestion && currentQuestion.correct) {
+            const explanationMatch = line.match(/^(?:Explanation|Exp)\s*[:\-]?\s*(.*)$/i);
+            if (explanationMatch) {
+                currentQuestion.explanation = explanationMatch[1];
+                isExplanation = true;
+            } else if (isExplanation) {
+                // Append subsequent lines to the explanation
+                currentQuestion.explanation += ' ' + line;
+            }
+        }
+    }
+    
+    // Add the last question if it's valid
+    if (currentQuestion && isQuestionValid(currentQuestion)) {
+        questions.push(currentQuestion);
+    }
+    
+    return questions;
+}
+
+/**
+ * Helper function to check if a question object is complete and valid.
+ * A question is valid if it has text, options, and a correct answer.
+ */
+function isQuestionValid(question) {
+    if (!question || !question.text || !question.correct) return false;
+    
+    // Check for the correct number of options based on type
+    if (question.type === 'error-identification') {
+        return question.options.length === 5;
+    }
+    // For both 'standard' and 'sentence-arrangement'
+    return question.options.length === 4;
+}
         // Display current question
 function displayQuestion(subjectIndex) {
     const exam = exams[subjectIndex];
