@@ -1568,18 +1568,7 @@
         }
 
         // Parse questions from your specific format
-      /**
- * Parses questions line-by-line for maximum reliability and flexibility.
- * This version correctly handles multi-line explanations.
- */
-/**
- * Parses questions line-by-line for maximum reliability and flexibility.
- * This version correctly handles multi-line explanations and different MCQ formats.
- */
-/**
- * Parses questions with improved robustness and debugging.
- * This version handles multiple answer formats and logs parsing issues.
- */
+
 /**
  * Parses questions with maximum robustness and detailed debugging.
  * This version is designed to handle inconsistent formatting in text files.
@@ -1595,14 +1584,16 @@ function parseQuestions(content) {
     
     console.log("--- Starting to parse file ---");
     console.log("RAW CONTENT READ FROM FILE:");
-    console.log(content); // <-- THIS IS THE MOST IMPORTANT LINE FOR DEBUGGING
+    console.log(content);
     console.log("----------------------------");
 
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i].trim();
         
-        // Check for a new question (more flexible number match)
-        const questionMatch = line.match(/^(\d+)\.\s*(.*)$/);
+        // *** THE FIX IS HERE ***
+        // Changed from /^(\d+)\.\s*(.*)$/ to /^(\d+)\s*(.*)$/
+        // This now matches "1 " or "1." or "1) "
+        const questionMatch = line.match(/^(\d+)\s*[.)]?\s*(.*)$/);
         
         if (questionMatch) {
             // Save the previous question if it was valid
@@ -2126,6 +2117,7 @@ function isQuestionValid(question) {
     </script>
 </body>
 </html>
+
 
 
 
