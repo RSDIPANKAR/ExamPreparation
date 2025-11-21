@@ -1742,43 +1742,46 @@ function displayQuestion(subjectIndex) {
     updateFloatingPanel(subjectIndex);
 }
         // Handle answer selection
-        function selectAnswer(subjectIndex, selectedOption, buttonElement) {
-            const exam = exams[subjectIndex];
-            if (exam.answered) return;
+function selectAnswer(subjectIndex, selectedOption, buttonElement) {
+    const exam = exams[subjectIndex];
+    if (exam.answered) return;
 
-            const question = exam.questions[exam.currentQuestionIndex];
-            exam.userAnswers[exam.currentQuestionIndex] = selectedOption;
-            exam.answered = true;
-            
-            // Remove from skipped questions if it was previously skipped
-            exam.skippedQuestions.delete(exam.currentQuestionIndex);
+    const question = exam.questions[exam.currentQuestionIndex];
+    exam.userAnswers[exam.currentQuestionIndex] = selectedOption;
+    exam.answered = true;
+    
+    // Remove from skipped questions if it was previously skipped
+    exam.skippedQuestions.delete(exam.currentQuestionIndex);
 
-            // Show correct/incorrect styling
-            const buttons = document.querySelectorAll(`#optionsContainer-${subjectIndex} .option-btn`);
-            buttons.forEach((btn, index) => {
-                const optionLetter = String.fromCharCode(65 + index);
-                if (optionLetter === question.correct) {
-                    btn.classList.add('correct');
-                } else if (optionLetter === selectedOption && selectedOption !== question.correct) {
-                    btn.classList.add('incorrect');
-                }
-                btn.disabled = true;
-            });
+    // --- THIS IS THE CORRECTED LOGIC ---
+    
+    // Disable all buttons to prevent further clicks
+    const buttons = document.querySelectorAll(`#optionsContainer-${subjectIndex} .option-btn`);
+    buttons.forEach(btn => btn.disabled = true);
 
-            // Update score
-            if (selectedOption === question.correct) {
-                exam.score++;
-            }
+    // Check if the selected answer is correct
+    const isCorrect = selectedOption === question.correct;
 
-            // Show explanation
-            const explanationContainer = document.getElementById(`explanationContainer-${subjectIndex}`);
-            explanationContainer.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
-            explanationContainer.style.display = 'block';
+    // Update score
+    if (isCorrect) {
+        exam.score++;
+        // If correct, highlight the clicked button green
+        buttonElement.classList.add('correct');
+    } else {
+        // If incorrect, highlight the clicked button red
+        buttonElement.classList.add('incorrect');
+        // IMPORTANT: Do NOT reveal the correct answer here.
+    }
 
-            updateDisplay(subjectIndex);
-            updateButtons(subjectIndex);
-            updateFloatingPanel(subjectIndex);
-        }
+    // Show explanation
+    const explanationContainer = document.getElementById(`explanationContainer-${subjectIndex}`);
+    explanationContainer.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+    explanationContainer.style.display = 'block';
+
+    updateDisplay(subjectIndex);
+    updateButtons(subjectIndex);
+    updateFloatingPanel(subjectIndex);
+}
 
         // Skip question
         function skipQuestion(subjectIndex) {
@@ -2086,6 +2089,7 @@ function displayQuestion(subjectIndex) {
     </script>
 </body>
 </html>
+
 
 
 
