@@ -1568,79 +1568,63 @@
         }
 
         // Parse questions from your specific format
-        // Parse questions from your specific format
-      /**
- * Parses questions line-by-line for maximum reliability and flexibility.
- * This version correctly handles multi-line explanations.
- */
-function parseQuestions(content) {
-    const questions = [];
-    const lines = content.split('\n');
+        // Display current question
+function displayQuestion(subjectIndex) {
+    const exam = exams[subjectIndex];
+    const question = exam.questions[exam.currentQuestionIndex];
     
-    let currentQuestion = null;
-    let optionCount = 0;
-    let isExplanation = false; // Flag to track if we're inside an explanation block
+    // Check if this question was skipped
+    const isSkipped = exam.skippedQuestions.has(exam.currentQuestionIndex);
+    const skipIndicator = isSkipped ? '<span class="skip-indicator">SKIPPED</span>' : '';
     
-    for (let i = 0; i < lines.length; i++) {
-        const line = lines[i].trim();
+    document.getElementById(`questionText-${subjectIndex}`).innerHTML = `${exam.currentQuestionIndex + 1}. ${question.text} ${skipIndicator}`;
+
+    const optionsContainer = document.getElementById(`optionsContainer-${subjectIndex}`);
+    optionsContainer.innerHTML = '';
+
+    const previousAnswer = exam.userAnswers[exam.currentQuestionIndex];
+    
+    // *** KEY CHANGE HERE ***
+    // Instead of generating options (A, B, C...), use the options directly from the parsed file.
+    question.options.forEach((option, index) => {
+        const button = document.createElement('button');
+        button.className = 'option-btn w-full text-left p-3 border rounded-lg hover:bg-gray-100';
         
-        // Check if this line is a new question (starts with a number and a dot)
-        //const questionMatch = line.match(/^(\d+)\.\s*(.*)$/);
-        const questionMatch = line.match(/^([०-९\d]+)\.\s*(.*)$/);
+        // Get the option letter (e.g., 'A' from 'A) Option text')
+        const optionLetter = option.substring(0, 1);
         
-       if (questionMatch) {
-            // If we were building a previous question, push it to the array if it's valid
-            if (currentQuestion && currentQuestion.options.length === 4 && currentQuestion.correct) {
-                questions.push(currentQuestion);
+        // Set the button text to the full option string from the file
+        button.textContent = option;
+        
+        // If there's a previous answer, show it
+        if (previousAnswer) {
+            button.disabled = true;
+            if (optionLetter === question.correct) {
+                button.classList.add('correct');
+            } else if (optionLetter === previousAnswer && previousAnswer !== question.correct) {
+                button.classList.add('incorrect');
             }
-            
-            // Start a new question and reset flags
-            currentQuestion = {
-                text: questionMatch[2],
-                options: [],
-                correct: null,
-                explanation: ''
-            };
-            optionCount = 0;
-            isExplanation = false;
-        } 
-        // Check if this line is an option
-        else if (currentQuestion && optionCount < 4) {
-            //const optionMatch = line.match(/^[A-Da-d][\).]\s*(.*)$/);
-            const optionMatch = line.match(/^[A-Da-dअ-द][\).]\s*(.*)$/);
-            if (optionMatch) {
-                currentQuestion.options.push(optionMatch[1]);
-                optionCount++;
-            }
+        } else {
+            // The value to store is just the letter (A, B, C, etc.)
+            button.onclick = () => selectAnswer(subjectIndex, optionLetter, button);
         }
-        // Check if this line is the answer
-        else if (currentQuestion && currentQuestion.options.length === 4 && !currentQuestion.correct) {
-            const answerMatch = line.match(/Answer\s*[:\-]?\s*([A-Da-dअ-द])/i);
-            if (answerMatch) {
-                currentQuestion.correct = answerMatch[1].toUpperCase();
-            }
-        }
-        // Check if this line starts the explanation
-        else if (currentQuestion && currentQuestion.correct) {
-            const explanationMatch = line.match(/Explanation\s*[:\-]?\s*(.*)$/i);
-            if (explanationMatch) {
-                // Start the explanation with the text after "Explanation:"
-                currentQuestion.explanation = explanationMatch[1];
-                isExplanation = true; // Set the flag to true
-            } else if (isExplanation) {
-                // If the flag is true, append any subsequent lines to the explanation
-                // Add a space to prevent words from mashing together
-                currentQuestion.explanation += ' ' + line;
-            }
-        }
+        
+        optionsContainer.appendChild(button);
+    });
+
+    // Show explanation if question was previously answered
+    if (previousAnswer) {
+        const explanationContainer = document.getElementById(`explanationContainer-${subjectIndex}`);
+        explanationContainer.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
+        explanationContainer.style.display = 'block';
+        exam.answered = true;
+    } else {
+        document.getElementById(`explanationContainer-${subjectIndex}`).style.display = 'none';
+        exam.answered = false;
     }
     
-    // Don't forget to add the last question if the file doesn't end with a newline
-   if (currentQuestion && currentQuestion.options.length === 4 && currentQuestion.correct) {
-        questions.push(currentQuestion);
-    }
-    
-    return questions;
+    updateButtons(subjectIndex);
+    updateFloatingPanel(subjectIndex);
 }
         // Initialize exam for a specific tab
         function initializeExam(subjectIndex) {
@@ -2062,6 +2046,7 @@ function parseQuestions(content) {
     </script>
 </body>
 </html>
+
 
 
 
