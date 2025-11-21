@@ -1580,6 +1580,10 @@
  * Parses questions with improved robustness and debugging.
  * This version handles multiple answer formats and logs parsing issues.
  */
+/**
+ * Parses questions with maximum robustness and detailed debugging.
+ * This version is designed to handle inconsistent formatting in text files.
+ */
 function parseQuestions(content) {
     const questions = [];
     const lines = content.split('\n');
@@ -1589,20 +1593,22 @@ function parseQuestions(content) {
     let isExplanation = false;
     let questionType = 'standard';
     
-    console.log("--- Starting to parse file ---"); // Debugging start
+    console.log("--- Starting to parse file ---");
+    console.log("RAW CONTENT READ FROM FILE:");
+    console.log(content); // <-- THIS IS THE MOST IMPORTANT LINE FOR DEBUGGING
+    console.log("----------------------------");
 
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i].trim();
         
-        // Check for a new question
-        const questionMatch = line.match(/^([०-९\d]+)\.\s*(.*)$/);
+        // Check for a new question (more flexible number match)
+        const questionMatch = line.match(/^(\d+)\.\s*(.*)$/);
         
         if (questionMatch) {
             // Save the previous question if it was valid
             if (currentQuestion && isQuestionValid(currentQuestion)) {
                 questions.push(currentQuestion);
             } else if (currentQuestion) {
-                // Log why the previous question was invalid
                 console.warn("Skipping invalid question:", currentQuestion);
             }
             
@@ -1627,31 +1633,35 @@ function parseQuestions(content) {
             optionCount = 0;
             isExplanation = false;
         } 
-        // Check for options
-        else if (currentQuestion) {
+        // Check for options (more flexible)
+        else if (currentQuestion && !currentQuestion.correct) {
             let optionMatch = null;
-            if (questionType === 'error-identification') {
-                optionMatch = line.match(/^([a-e])\)\s*(.*)$/);
-            } else if (questionType === 'sentence-arrangement') {
-                optionMatch = line.match(/^([a-d])\)\s*(.*)$/);
-            } else {
-                optionMatch = line.match(/^[A-Da-dअ-द][\).]\s*(.*)$/);
-            }
-            
-            if (optionMatch) {
-                // Prepend the letter for consistency
-                const optionLetter = optionMatch[1].toUpperCase();
-                currentQuestion.options.push(`${optionLetter}) ${optionMatch[2]}`);
-                optionCount++;
+            const optionLetter = line.match(/^([a-eA-Eअ-द])/); // Find the letter at the start
+
+            if (optionLetter) {
+                // Standardize the letter to uppercase A-E
+                const standardizedLetter = optionLetter[1].toUpperCase();
+                
+                // Check if the question type allows this option
+                if (
+                    (questionType === 'standard' && 'ABCD'.includes(standardizedLetter)) ||
+                    (questionType === 'error-identification' && 'ABCDE'.includes(standardizedLetter)) ||
+                    (questionType === 'sentence-arrangement' && 'ABCD'.includes(standardizedLetter))
+                ) {
+                    // Extract the text after the letter and any punctuation/space
+                    const optionText = line.substring(1).replace(/^[\)\.\s]+/, '');
+                    currentQuestion.options.push(`${standardizedLetter}) ${optionText}`);
+                    optionCount++;
+                }
             }
         }
-        // Check for the answer line (MORE ROBUST)
+        // Check for the answer line (much more flexible)
         else if (currentQuestion && isQuestionReadyForAnswer(currentQuestion) && !currentQuestion.correct) {
-            // This regex is more flexible: it looks for "Answer" or "Ans" and ignores spaces/colons/dashes
+            // Looks for "Answer" or "Ans" followed by a letter A-E
             const answerMatch = line.match(/^(?:Answer|Ans)\s*[:\-]?\s*([A-Ea-eअ-द])/i);
             if (answerMatch) {
                 currentQuestion.correct = answerMatch[1].toUpperCase();
-                console.log("Found answer:", currentQuestion.correct, "for question:", currentQuestion.text.substring(0, 30)); // Debugging
+                console.log("Found answer:", currentQuestion.correct, "for question:", currentQuestion.text.substring(0, 30));
             }
         }
         // Check for the explanation line
@@ -1673,7 +1683,7 @@ function parseQuestions(content) {
         console.warn("Skipping final invalid question:", currentQuestion);
     }
     
-    console.log("--- Parsing complete. Found", questions.length, "valid questions. ---"); // Debugging end
+    console.log("--- Parsing complete. Found", questions.length, "valid questions. ---");
     return questions;
 }
 
@@ -2116,6 +2126,7 @@ function isQuestionValid(question) {
     </script>
 </body>
 </html>
+
 
 
 
