@@ -1572,6 +1572,10 @@
  * Parses questions line-by-line for maximum reliability and flexibility.
  * This version correctly handles multi-line explanations.
  */
+/**
+ * Parses questions line-by-line for maximum reliability and flexibility.
+ * This version correctly handles multi-line explanations and different MCQ formats.
+ */
 function parseQuestions(content) {
     const questions = [];
     const lines = content.split('\n');
@@ -1579,42 +1583,73 @@ function parseQuestions(content) {
     let currentQuestion = null;
     let optionCount = 0;
     let isExplanation = false; // Flag to track if we're inside an explanation block
+    let questionType = 'standard'; // Track the type of question (standard, error-identification, sentence-arrangement)
     
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i].trim();
         
         // Check if this line is a new question (starts with a number and a dot)
-        //const questionMatch = line.match(/^(\d+)\.\s*(.*)$/);
+        // Handle both English and Hindi numerals
         const questionMatch = line.match(/^([०-९\d]+)\.\s*(.*)$/);
         
-       if (questionMatch) {
+        if (questionMatch) {
             // If we were building a previous question, push it to the array if it's valid
-            if (currentQuestion && currentQuestion.options.length === 4 && currentQuestion.correct) {
+            if (currentQuestion && 
+                ((questionType === 'standard' && currentQuestion.options.length === 4 && currentQuestion.correct) ||
+                 (questionType === 'error-identification' && currentQuestion.options.length === 5 && currentQuestion.correct) ||
+                 (questionType === 'sentence-arrangement' && currentQuestion.options.length === 4 && currentQuestion.correct))) {
                 questions.push(currentQuestion);
+            }
+            
+            // Determine question type based on the question text
+            const questionText = questionMatch[2];
+            if (questionText.includes('(Identify the part of the sentence with an error.)')) {
+                questionType = 'error-identification';
+            } else if (questionText.includes('(Arrange the sentences in the correct order.)')) {
+                questionType = 'sentence-arrangement';
+            } else {
+                questionType = 'standard';
             }
             
             // Start a new question and reset flags
             currentQuestion = {
-                text: questionMatch[2],
+                text: questionText,
                 options: [],
                 correct: null,
-                explanation: ''
+                explanation: '',
+                type: questionType
             };
             optionCount = 0;
             isExplanation = false;
         } 
         // Check if this line is an option
-        else if (currentQuestion && optionCount < 4) {
-            //const optionMatch = line.match(/^[A-Da-d][\).]\s*(.*)$/);
-            const optionMatch = line.match(/^[A-Da-dअ-द][\).]\s*(.*)$/);
+        else if (currentQuestion) {
+            let optionMatch = null;
+            
+            // Different regex patterns for different question types
+            if (questionType === 'error-identification') {
+                // For error identification questions with parts like (a), (b), etc.
+                optionMatch = line.match(/^([a-e])\)\s*(.*)$/);
+            } else if (questionType === 'sentence-arrangement') {
+                // For sentence arrangement questions with options like a), b), etc.
+                optionMatch = line.match(/^([a-d])\)\s*(.*)$/);
+            } else {
+                // For standard questions with options like A), B), etc.
+                optionMatch = line.match(/^[A-Da-dअ-द][\).]\s*(.*)$/);
+            }
+            
             if (optionMatch) {
-                currentQuestion.options.push(optionMatch[1]);
+                currentQuestion.options.push(optionMatch[1] + ') ' + optionMatch[2]);
                 optionCount++;
             }
         }
         // Check if this line is the answer
-        else if (currentQuestion && currentQuestion.options.length === 4 && !currentQuestion.correct) {
-            const answerMatch = line.match(/Answer\s*[:\-]?\s*([A-Da-dअ-द])/i);
+        else if (currentQuestion && 
+                ((questionType === 'standard' && currentQuestion.options.length === 4) ||
+                 (questionType === 'error-identification' && currentQuestion.options.length === 5) ||
+                 (questionType === 'sentence-arrangement' && currentQuestion.options.length === 4)) && 
+                !currentQuestion.correct) {
+            const answerMatch = line.match(/Answer\s*[:\-]?\s*([A-Ea-eअ-द])/i);
             if (answerMatch) {
                 currentQuestion.correct = answerMatch[1].toUpperCase();
             }
@@ -1635,7 +1670,10 @@ function parseQuestions(content) {
     }
     
     // Don't forget to add the last question if the file doesn't end with a newline
-   if (currentQuestion && currentQuestion.options.length === 4 && currentQuestion.correct) {
+    if (currentQuestion && 
+        ((questionType === 'standard' && currentQuestion.options.length === 4 && currentQuestion.correct) ||
+         (questionType === 'error-identification' && currentQuestion.options.length === 5 && currentQuestion.correct) ||
+         (questionType === 'sentence-arrangement' && currentQuestion.options.length === 4 && currentQuestion.correct))) {
         questions.push(currentQuestion);
     }
     
@@ -2061,6 +2099,7 @@ function parseQuestions(content) {
     </script>
 </body>
 </html>
+
 
 
 
