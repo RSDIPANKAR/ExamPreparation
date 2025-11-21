@@ -1569,138 +1569,113 @@
 
         // Parse questions from your specific format
         /**
- * Parses questions line-by-line for maximum reliability and flexibility.
- * This version correctly handles multi-line explanations and different question types.
+ * Parses questions using a more robust and simpler approach.
+ * It correctly handles Standard MCQs, Error Identification, and Sentence Arrangement questions.
  */
 function parseQuestions(content) {
     const questions = [];
-    const lines = content.split('\n');
-    
-    let currentQuestion = null;
-    let optionCount = 0;
-    let isExplanation = false; // Flag to track if we're inside an explanation block
-    let questionType = 'standard'; // Track the type of question: 'standard', 'error', or 'arrangement'
-    
-    for (let i = 0; i < lines.length; i++) {
-        const line = lines[i].trim();
-        
-        // Check if this line is a new question (starts with a number and a dot)
+    const lines = content.split('\n').map(line => line.trim()).filter(line => line.length > 0);
+
+    let i = 0;
+    while (i < lines.length) {
+        const line = lines[i];
+
+        // Detect the start of a new question
         const questionMatch = line.match(/^([०-९\d]+)\.\s*(.*)$/);
-        
         if (questionMatch) {
-            // If we were building a previous question, push it to the array if it's valid
-            if (currentQuestion && 
-                ((questionType === 'standard' && currentQuestion.options.length === 4 && currentQuestion.correct) ||
-                 (questionType === 'error' && currentQuestion.options.length === 5 && currentQuestion.correct) ||
-                 (questionType === 'arrangement' && currentQuestion.options.length === 4 && currentQuestion.correct))) {
-                questions.push(currentQuestion);
-            }
+            let questionText = questionMatch[2];
+            let options = [];
+            let correctAnswer = null;
+            let explanation = '';
+            let questionType = 'standard';
+
+            // --- Determine Question Type and Extract Options ---
             
-            // Determine question type based on the content
-            const questionText = questionMatch[2];
-            if (questionText.includes('(a)/') && questionText.includes('(b)/') && questionText.includes('(c)/') && questionText.includes('(d)/')) {
-                questionType = 'error'; // Error identification question
-            } else if (questionText.includes('P.') || questionText.includes('Q.') || questionText.includes('R.') || questionText.includes('S.')) {
-                questionType = 'arrangement'; // Sentence arrangement question
-            } else {
-                questionType = 'standard'; // Standard MCQ
-            }
-            
-            // Start a new question and reset flags
-            currentQuestion = {
-                text: questionText,
-                options: [],
-                correct: null,
-                explanation: '',
-                type: questionType
-            };
-            optionCount = 0;
-            isExplanation = false;
-        } 
-        // Handle options based on question type
-        else if (currentQuestion) {
-            if (questionType === 'error') {
-                // For error questions, the options are embedded in the question text
-                // We need to extract them differently
-                if (currentQuestion.options.length === 0) {
-                    // Extract options from the question text itself
-                    const parts = currentQuestion.text.match(/(.*?)\s*\((a\)\/(.*?)\)\s*\((b\)\/(.*?)\)\s*\((c\)\/(.*?)\)\s*\((d\)\/(.*?)\)\s*\((e\)\/(.*?)\)\s*(.*)/);
-                    if (parts) {
-                        currentQuestion.text = parts[1] + ' ' + parts[11]; // The actual question
-                        currentQuestion.options = [
-                            parts[3], // a) option
-                            parts[5], // b) option
-                            parts[7], // c) option
-                            parts[9], // d) option
-                            parts[10] // e) option
-                        ];
-                    }
-                }
-                
-                // Check if this line is the answer
-                const answerMatch = line.match(/Answer\s*[:\-]?\s*([a-e])/i);
-                if (answerMatch) {
-                    currentQuestion.correct = answerMatch[1].toUpperCase();
-                }
+            // Check for Error Identification type (contains parts like (a)/, (b)/ etc.)
+            if (questionText.includes('(a)/')) {
+                questionType = 'error';
+                // We will parse the options differently for this type
             } 
-            else if (questionType === 'arrangement') {
-                // For arrangement questions, options are like a) Q-S-P-R
-                if (optionCount < 4) {
-                    const optionMatch = line.match(/^[a-d][\).]\s*(.*)$/);
-                    if (optionMatch) {
-                        currentQuestion.options.push(optionMatch[1]);
-                        optionCount++;
-                    }
+            // Check for Sentence Arrangement type (mentions P, Q, R, S)
+            else if (questionText.includes('P.') || questionText.includes('Arrange')) {
+                questionType = 'arrangement';
+            }
+
+            // Look ahead to find options, answer, and explanation
+            let j = i + 1;
+            while (j < lines.length) {
+                const nextLine = lines[j];
+
+                // Stop if we hit the next question
+                if (nextLine.match(/^([०-९\d]+)\./)) {
+                    break;
                 }
-                
-                // Check if this line is the answer
-                const answerMatch = line.match(/Answer\s*[:\-]?\s*([a-d])/i);
+
+                // Find the answer
+                const answerMatch = nextLine.match(/^Answer\s*[:\-]?\s*([a-eA-E])/i);
                 if (answerMatch) {
-                    currentQuestion.correct = answerMatch[1].toUpperCase();
+                    correctAnswer = answerMatch[1].toUpperCase();
+                    j++;
+                    continue; // Move to the next line
                 }
-            }
-            else { // Standard question type
-                if (optionCount < 4) {
-                    const optionMatch = line.match(/^[A-Da-dअ-द][\).]\s*(.*)$/);
-                    if (optionMatch) {
-                        currentQuestion.options.push(optionMatch[1]);
-                        optionCount++;
+
+                // Find the explanation
+                const explanationMatch = nextLine.match(/^Explanation\s*[:\-]?\s*(.*)$/i);
+                if (explanationMatch) {
+                    explanation = explanationMatch[1];
+                    j++;
+                    // Append any subsequent lines to the explanation until the next question or answer
+                    while (j < lines.length && !lines[j].match(/^([०-९\d]+)\./) && !lines[j].match(/^Answer\s*/i)) {
+                        explanation += ' ' + lines[j];
+                        j++;
                     }
+                    break; // We're done with this question
                 }
                 
-                // Check if this line is the answer
-                else if (currentQuestion.options.length === 4 && !currentQuestion.correct) {
-                    const answerMatch = line.match(/Answer\s*[:\-]?\s*([A-Da-dअ-द])/i);
-                    if (answerMatch) {
-                        currentQuestion.correct = answerMatch[1].toUpperCase();
-                    }
+                // If not answer or explanation, it must be an option
+                // For standard and arrangement questions
+                const optionMatch = nextLine.match(/^[a-dA-Dअ-द][\).]\s*(.*)$/);
+                if (optionMatch && questionType !== 'error') {
+                    options.push(optionMatch[1]);
                 }
+                // For error questions, the options are embedded, so we don't parse them here.
+                
+                j++;
             }
-        }
-        
-        // Check if this line starts the explanation
-        if (currentQuestion && currentQuestion.correct) {
-            const explanationMatch = line.match(/Explanation\s*[:\-]?\s*(.*)$/i);
-            if (explanationMatch) {
-                // Start the explanation with the text after "Explanation:"
-                currentQuestion.explanation = explanationMatch[1];
-                isExplanation = true; // Set the flag to true
-            } else if (isExplanation) {
-                // If the flag is true, append any subsequent lines to the explanation
-                // Add a space to prevent words from mashing together
-                currentQuestion.explanation += ' ' + line;
+
+            // --- Special Handling for Error Questions ---
+            if (questionType === 'error') {
+                // Extract options from the question text itself using a more reliable method
+                const parts = questionText.split(/\s*\((?:[a-e])\)\/(.*?)\)\s*/);
+                // parts[0] is the main question, parts[1], [3], [5], [7], [9] are the options
+                questionText = parts[0];
+                options = [parts[1], parts[3], parts[5], parts[7], parts[9]].filter(Boolean);
             }
+
+            // --- Final Validation and Push ---
+            // Validate that we have a complete question
+            const isValid = 
+                questionText && 
+                correctAnswer && 
+                ((questionType === 'error' && options.length === 5) || (options.length === 4));
+
+            if (isValid) {
+                questions.push({
+                    text: questionText,
+                    options: options,
+                    correct: correctAnswer,
+                    explanation: explanation,
+                    type: questionType
+                });
+            }
+            
+            // Move the main index to where we left off
+            i = j;
+        } else {
+            i++; // If not a question, move to the next line
         }
     }
-    
-    // Don't forget to add the last question if the file doesn't end with a newline
-    if (currentQuestion && 
-        ((questionType === 'standard' && currentQuestion.options.length === 4 && currentQuestion.correct) ||
-         (questionType === 'error' && currentQuestion.options.length === 5 && currentQuestion.correct) ||
-         (questionType === 'arrangement' && currentQuestion.options.length === 4 && currentQuestion.correct))) {
-        questions.push(currentQuestion);
-    }
-    
+
     return questions;
 }
         // Initialize exam for a specific tab
@@ -1725,7 +1700,7 @@ function parseQuestions(content) {
         }
 
         // Display current question
-        // Display current question
+       // Display current question
 function displayQuestion(subjectIndex) {
     const exam = exams[subjectIndex];
     const question = exam.questions[exam.currentQuestionIndex];
@@ -1743,47 +1718,10 @@ function displayQuestion(subjectIndex) {
     const previousAnswer = exam.userAnswers[exam.currentQuestionIndex];
     
     // Handle different question types
-    if (question.type === 'error') {
-        // For error questions, options are embedded in the question text
-        // We need to display them differently
-        const questionParts = question.text.match(/(.*?)\s*\((a\)\/(.*?)\)\s*\((b\)\/(.*?)\)\s*\((c\)\/(.*?)\)\s*\((d\)\/(.*?)\)\s*\((e\)\/(.*?)\)\s*(.*)/);
-        if (questionParts) {
-            const questionText = questionParts[1] + ' ' + questionParts[11];
-            document.getElementById(`questionText-${subjectIndex}`).innerHTML = `${exam.currentQuestionIndex + 1}. ${questionText} ${skipIndicator}`;
-            
-            // Create options from the embedded parts
-            const options = [
-                { letter: 'a', text: questionParts[3] },
-                { letter: 'b', text: questionParts[5] },
-                { letter: 'c', text: questionParts[7] },
-                { letter: 'd', text: questionParts[9] },
-                { letter: 'e', text: questionParts[10] }
-            ];
-            
-            options.forEach((option, index) => {
-                const button = document.createElement('button');
-                button.className = 'option-btn w-full text-left p-3 border rounded-lg hover:bg-gray-100';
-                button.textContent = `${option.letter}) ${option.text}`;
-                
-                // If there's a previous answer, show it
-                if (previousAnswer) {
-                    button.disabled = true;
-                    if (option.letter === question.correct) {
-                        button.classList.add('correct');
-                    } else if (option.letter === previousAnswer && previousAnswer !== question.correct) {
-                        button.classList.add('incorrect');
-                    }
-                } else {
-                    button.onclick = () => selectAnswer(subjectIndex, option.letter, button);
-                }
-                
-                optionsContainer.appendChild(button);
-            });
-        }
-    } 
-    else if (question.type === 'arrangement') {
+    if (question.type === 'arrangement') {
         // For arrangement questions, display the sentences first
-        const sentences = question.text.match(/[PQRS]\.\s*(.*?)(?=[PQRS]\.|$)/g);
+        // Use a regex to find all sentences starting with P, Q, R, S
+        const sentences = question.text.match(/[PQRS]\.\s*[^.]*/g);
         if (sentences) {
             const sentencesContainer = document.createElement('div');
             sentencesContainer.className = 'mb-4 p-3 bg-gray-100 rounded-lg';
@@ -1791,57 +1729,39 @@ function displayQuestion(subjectIndex) {
             
             sentences.forEach(sentence => {
                 const sentenceDiv = document.createElement('div');
-                sentenceDiv.textContent = sentence;
+                sentenceDiv.textContent = sentence.trim();
                 sentencesContainer.appendChild(sentenceDiv);
             });
             
             optionsContainer.appendChild(sentencesContainer);
         }
+    }
+    
+    // --- Render the options (this logic is now universal for all types) ---
+    question.options.forEach((optionText, index) => {
+        // Use lowercase a, b, c, d, e for option letters
+        const optionLetter = String.fromCharCode(97 + index); 
+        const button = document.createElement('button');
+        button.className = 'option-btn w-full text-left p-3 border rounded-lg hover:bg-gray-100';
         
-        // Then display the arrangement options
-        question.options.forEach((option, index) => {
-            const optionLetter = String.fromCharCode(97 + index); // a, b, c, d
-            const button = document.createElement('button');
-            button.className = 'option-btn w-full text-left p-3 border rounded-lg hover:bg-gray-100';
-            button.textContent = `${optionLetter}) ${option}`;
-            
-            // If there's a previous answer, show it
-            if (previousAnswer) {
-                button.disabled = true;
-                if (optionLetter === question.correct) {
-                    button.classList.add('correct');
-                } else if (optionLetter === previousAnswer && previousAnswer !== question.correct) {
-                    button.classList.add('incorrect');
-                }
-            } else {
-                button.onclick = () => selectAnswer(subjectIndex, optionLetter, button);
+        // For error questions, the options are the sentence parts, so we label them a), b), c), etc.
+        // For other questions, we just show the option text.
+        button.textContent = `${optionLetter}) ${optionText}`;
+        
+        // If there's a previous answer, show it
+        if (previousAnswer) {
+            button.disabled = true;
+            if (optionLetter === question.correct) {
+                button.classList.add('correct');
+            } else if (optionLetter === previousAnswer && previousAnswer !== question.correct) {
+                button.classList.add('incorrect');
             }
-            
-            optionsContainer.appendChild(button);
-        });
-    }
-    else { // Standard question type
-        question.options.forEach((option, index) => {
-            const optionLetter = String.fromCharCode(65 + index); // A, B, C, D
-            const button = document.createElement('button');
-            button.className = 'option-btn w-full text-left p-3 border rounded-lg hover:bg-gray-100';
-            button.textContent = `${optionLetter}. ${option}`;
-            
-            // If there's a previous answer, show it
-            if (previousAnswer) {
-                button.disabled = true;
-                if (optionLetter === question.correct) {
-                    button.classList.add('correct');
-                } else if (optionLetter === previousAnswer && previousAnswer !== question.correct) {
-                    button.classList.add('incorrect');
-                }
-            } else {
-                button.onclick = () => selectAnswer(subjectIndex, optionLetter, button);
-            }
-            
-            optionsContainer.appendChild(button);
-        });
-    }
+        } else {
+            button.onclick = () => selectAnswer(subjectIndex, optionLetter, button);
+        }
+        
+        optionsContainer.appendChild(button);
+    });
 
     // Show explanation if question was previously answered
     if (previousAnswer) {
@@ -2203,6 +2123,7 @@ function displayQuestion(subjectIndex) {
     </script>
 </body>
 </html>
+
 
 
 
