@@ -1665,64 +1665,7 @@ function isQuestionValid(question) {
     // For both 'standard' and 'sentence-arrangement'
     return question.options.length === 4;
 }
-        // Display current question
-function displayQuestion(subjectIndex) {
-    const exam = exams[subjectIndex];
-    const question = exam.questions[exam.currentQuestionIndex];
-    
-    // Check if this question was skipped
-    const isSkipped = exam.skippedQuestions.has(exam.currentQuestionIndex);
-    const skipIndicator = isSkipped ? '<span class="skip-indicator">SKIPPED</span>' : '';
-    
-    document.getElementById(`questionText-${subjectIndex}`).innerHTML = `${exam.currentQuestionIndex + 1}. ${question.text} ${skipIndicator}`;
-
-    const optionsContainer = document.getElementById(`optionsContainer-${subjectIndex}`);
-    optionsContainer.innerHTML = '';
-
-    const previousAnswer = exam.userAnswers[exam.currentQuestionIndex];
-    
-    // *** KEY CHANGE HERE ***
-    // Instead of generating options (A, B, C...), use the options directly from the parsed file.
-    question.options.forEach((option, index) => {
-        const button = document.createElement('button');
-        button.className = 'option-btn w-full text-left p-3 border rounded-lg hover:bg-gray-100';
         
-        // Get the option letter (e.g., 'A' from 'A) Option text')
-        const optionLetter = option.substring(0, 1);
-        
-        // Set the button text to the full option string from the file
-        button.textContent = option;
-        
-        // If there's a previous answer, show it
-        if (previousAnswer) {
-            button.disabled = true;
-            if (optionLetter === question.correct) {
-                button.classList.add('correct');
-            } else if (optionLetter === previousAnswer && previousAnswer !== question.correct) {
-                button.classList.add('incorrect');
-            }
-        } else {
-            // The value to store is just the letter (A, B, C, etc.)
-            button.onclick = () => selectAnswer(subjectIndex, optionLetter, button);
-        }
-        
-        optionsContainer.appendChild(button);
-    });
-
-    // Show explanation if question was previously answered
-    if (previousAnswer) {
-        const explanationContainer = document.getElementById(`explanationContainer-${subjectIndex}`);
-        explanationContainer.innerHTML = `<strong>Explanation:</strong> ${question.explanation}`;
-        explanationContainer.style.display = 'block';
-        exam.answered = true;
-    } else {
-        document.getElementById(`explanationContainer-${subjectIndex}`).style.display = 'none';
-        exam.answered = false;
-    }
-    
-    updateButtons(subjectIndex);
-    updateFloatingPanel(subjectIndex);
-}
         // Initialize exam for a specific tab
         function initializeExam(subjectIndex) {
             if (!exams[subjectIndex]) return;
@@ -2143,6 +2086,7 @@ function displayQuestion(subjectIndex) {
     </script>
 </body>
 </html>
+
 
 
 
