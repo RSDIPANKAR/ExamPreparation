@@ -1568,10 +1568,9 @@
         }
 
         // Parse questions from your specific format
-
 /**
- * Parses questions with maximum robustness and detailed debugging.
- * This version is designed to handle inconsistent formatting in text files.
+ * EXTREMELY VERBOSE PARSER FOR DEBUGGING
+ * This function will log every step of its process to the console.
  */
 function parseQuestions(content) {
     const questions = [];
@@ -1582,25 +1581,26 @@ function parseQuestions(content) {
     let isExplanation = false;
     let questionType = 'standard';
     
-    console.log("--- Starting to parse file ---");
-    console.log("RAW CONTENT READ FROM FILE:");
-    console.log(content);
-    console.log("----------------------------");
+    console.log("--- STARTING VERBOSE PARSING ---");
 
     for (let i = 0; i < lines.length; i++) {
         const line = lines[i].trim();
-        
+        console.log(`\n--- Processing Line ${i + 1}: "${line}" ---`);
+
         // *** THE FIX IS HERE ***
-        // Changed from /^(\d+)\.\s*(.*)$/ to /^(\d+)\s*(.*)$/
-        // This now matches "1 " or "1." or "1) "
         const questionMatch = line.match(/^(\d+)\s*[.)]?\s*(.*)$/);
         
         if (questionMatch) {
+            console.log("  -> ACTION: Found a new question.");
             // Save the previous question if it was valid
-            if (currentQuestion && isQuestionValid(currentQuestion)) {
-                questions.push(currentQuestion);
-            } else if (currentQuestion) {
-                console.warn("Skipping invalid question:", currentQuestion);
+            if (currentQuestion) {
+                if (isQuestionValid(currentQuestion)) {
+                    console.log("  -> ACTION: Previous question was valid. Adding to list.");
+                    questions.push(currentQuestion);
+                } else {
+                    console.warn("  -> WARNING: Previous question was INVALID. Skipping.");
+                    console.warn("  -> Invalid Question Object:", currentQuestion);
+                }
             }
             
             // Determine question type
@@ -1612,6 +1612,7 @@ function parseQuestions(content) {
             } else {
                 questionType = 'standard';
             }
+            console.log(`  -> INFO: Question type determined as '${questionType}'.`);
             
             // Start a new question
             currentQuestion = {
@@ -1623,58 +1624,76 @@ function parseQuestions(content) {
             };
             optionCount = 0;
             isExplanation = false;
+            console.log("  -> ACTION: Initialized new question object.");
         } 
-        // Check for options (more flexible)
+        // Check for options
         else if (currentQuestion && !currentQuestion.correct) {
-            let optionMatch = null;
+            console.log("  -> INFO: Looking for options...");
             const optionLetter = line.match(/^([a-eA-Eअ-द])/); // Find the letter at the start
 
             if (optionLetter) {
-                // Standardize the letter to uppercase A-E
                 const standardizedLetter = optionLetter[1].toUpperCase();
+                console.log(`  -> INFO: Found potential option letter '${standardizedLetter}'.`);
                 
-                // Check if the question type allows this option
                 if (
                     (questionType === 'standard' && 'ABCD'.includes(standardizedLetter)) ||
                     (questionType === 'error-identification' && 'ABCDE'.includes(standardizedLetter)) ||
                     (questionType === 'sentence-arrangement' && 'ABCD'.includes(standardizedLetter))
                 ) {
-                    // Extract the text after the letter and any punctuation/space
                     const optionText = line.substring(1).replace(/^[\)\.\s]+/, '');
                     currentQuestion.options.push(`${standardizedLetter}) ${optionText}`);
                     optionCount++;
+                    console.log(`  -> ACTION: Added option. Total options: ${optionCount}.`);
+                } else {
+                    console.log(`  -> WARNING: Option letter '${standardizedLetter}' is not valid for question type '${questionType}'. Ignoring.`);
                 }
+            } else {
+                 console.log("  -> INFO: No option letter found on this line.");
             }
         }
-        // Check for the answer line (much more flexible)
+        // Check for the answer line
         else if (currentQuestion && isQuestionReadyForAnswer(currentQuestion) && !currentQuestion.correct) {
-            // Looks for "Answer" or "Ans" followed by a letter A-E
+            console.log("  -> INFO: Looking for an answer...");
             const answerMatch = line.match(/^(?:Answer|Ans)\s*[:\-]?\s*([A-Ea-eअ-द])/i);
             if (answerMatch) {
                 currentQuestion.correct = answerMatch[1].toUpperCase();
-                console.log("Found answer:", currentQuestion.correct, "for question:", currentQuestion.text.substring(0, 30));
+                console.log(`  -> ACTION: Found correct answer: '${currentQuestion.correct}'.`);
+            } else {
+                console.log("  -> INFO: No answer found on this line.");
             }
         }
         // Check for the explanation line
         else if (currentQuestion && currentQuestion.correct) {
+            console.log("  -> INFO: Looking for explanation...");
             const explanationMatch = line.match(/^(?:Explanation|Exp)\s*[:\-]?\s*(.*)$/i);
             if (explanationMatch) {
                 currentQuestion.explanation = explanationMatch[1];
                 isExplanation = true;
+                console.log("  -> ACTION: Found explanation. Starting to collect text.");
             } else if (isExplanation) {
                 currentQuestion.explanation += ' ' + line;
+                console.log("  -> ACTION: Appending to explanation.");
+            } else {
+                console.log("  -> INFO: Not an explanation line.");
             }
+        } else {
+            console.log("  -> INFO: Line does not match any expected pattern. Ignoring.");
         }
     }
     
     // Don't forget the last question in the file
-    if (currentQuestion && isQuestionValid(currentQuestion)) {
-        questions.push(currentQuestion);
-    } else if (currentQuestion) {
-        console.warn("Skipping final invalid question:", currentQuestion);
+    console.log("\n--- END OF FILE ---");
+    if (currentQuestion) {
+        if (isQuestionValid(currentQuestion)) {
+            console.log("  -> ACTION: Final question was valid. Adding to list.");
+            questions.push(currentQuestion);
+        } else {
+            console.warn("  -> WARNING: Final question was INVALID. Skipping.");
+            console.warn("  -> Invalid Question Object:", currentQuestion);
+        }
     }
     
-    console.log("--- Parsing complete. Found", questions.length, "valid questions. ---");
+    console.log(`--- PARSING COMPLETE. Found ${questions.length} valid questions. ---`);
     return questions;
 }
 
@@ -2117,6 +2136,7 @@ function isQuestionValid(question) {
     </script>
 </body>
 </html>
+
 
 
 
