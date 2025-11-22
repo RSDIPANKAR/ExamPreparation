@@ -1568,159 +1568,120 @@
         }
 
         // Parse questions from your specific format
-        /*
-  Robust parseQuestions: splits input by question number, then parses each block.
-  Output: [{ number, text, options: ['opt1','opt2',...], correct: 'A'|'B'..., explanation }]
-*/
 function parseQuestions(inputText) {
-  if (!inputText || !inputText.trim()) return [];
+    if (!inputText || !inputText.trim()) return [];
 
-  // Normalize line endings
-  const text = inputText.replace(/\r/g, '');
+    // Normalize to LF only
+    const text = inputText.replace(/\r/g, "");
 
-  // Find each question start (supports Devanagari digits too)
-  const qStartRe = /(^|\n)([०-९\d]+)\.\s*/g;
+    // Split into lines
+    const lines = text.split("\n");
 
-  // Collect question blocks by positions
-  const starts = [];
-  let m;
-  while ((m = qStartRe.exec(text)) !== null) {
-    starts.push({ idx: m.index + m[1].length, num: m[2], matchEnd: qStartRe.lastIndex });
-  }
-  // If no numbered questions, try whole text as one block
-  if (starts.length === 0) return [];
+    const questions = [];
+    let current = null;
+    let collectingExplanation = false;
 
-  const blocks = [];
-  for (let i = 0; i < starts.length; i++) {
-    const startPos = starts[i].matchEnd;
-    const endPos = i + 1 < starts.length ? starts[i + 1].index + starts[i + 1].1?.length ?? starts[i + 1].index : text.length;
-    // Use the substring from matchEnd to either next question start or end
-    const block = text.slice(startPos, i + 1 < starts.length ? starts[i + 1].index : text.length);
-    blocks.push({ number: starts[i].num, raw: block.trim() });
-  }
-
-  // Parser helpers (use s flag for dotall)
-  const pqrsRe = /([PpQqRrSs])\.\s*(.*?)(?=(?:[PpQqRrSs]\.|[a-dA-D]\)|Answer[:\-]|Explanation[:\-]|\n[०-९\d]+\.)|$)/gs;
-  const optionsRe = /([a-dA-D])\)\s*(.*?)(?=(?:[a-dA-D]\)|Answer[:\-]|Explanation[:\-]|\n[०-९\d]+\.)|$)/gs;
-  const answerRe = /Answer\s*[:\-]?\s*(.*)/i;
-  const explanationRe = /Explanation\s*[:\-]?\s*([\s\S]*)/i;
-
-  const results = [];
-
-  for (const b of blocks) {
-    const raw = b.raw;
-
-    // 1) Extract PQRS sentences (if any)
-    const pqrs = [];
-    for (const mm of raw.matchAll(pqrsRe)) {
-      // mm[1] = label P/Q..., mm[2] = text (may include trailing spaces/newlines)
-      pqrs.push({ label: mm[1].toUpperCase(), text: mm[2].trim() });
+    function pushCurrent() {
+        if (!current) return;
+        if (current.options.length < 2) { current = null; return; }
+        if (!current.correct) { current.correct = null; }
+        current.text = current.text.trim();
+        current.explanation = current.explanation.trim();
+        questions.push(current);
+        current = null;
     }
 
-    // 2) Extract options a) b) c) d)
-    const options = [];
-    const optionLabels = [];
-    for (const mm of raw.matchAll(optionsRe)) {
-      const label = mm[1].toUpperCase();
-      const optText = mm[2].replace(/\s+/g, ' ').trim();
-      optionLabels.push(label);
-      options.push(optText);
-    }
+    const qStartRe = /^[०-९\d]+\.\s*(.*)$/;       // 1. Question text
+    const optionRe = /^([a-dA-D])\)\s*(.*)$/;     // a) option
+    const ansRe = /^Answer[:\-]?\s*(.*)$/i;       // Answer: a)
+    const expRe = /^Explanation[:\-]?\s*(.*)$/i;  // Explanation:
+    const pqrsRe = /^[PpQqRrSs]\.\s*(.*)$/;       // P. Sentence
 
-    // 3) Extract answer (raw)
-    const ansMatch = raw.match(answerRe);
-    let correct = null;
-    if (ansMatch) {
-      const ansRaw = ansMatch[1].trim();
-      // try find letter A-E in answer
-      const letterMatch = ansRaw.match(/[A-Ea-e]/);
-      if (letterMatch) {
-        correct = letterMatch[0].toUpperCase();
-      } else {
-        // try to match by option text
-        const cleaned = ansRaw.replace(/^[\)\.\s]+/, '').trim().toLowerCase();
-        if (cleaned) {
-          const foundIndex = options.findIndex(o => o.toLowerCase().startsWith(cleaned) || o.toLowerCase() === cleaned);
-          if (foundIndex >= 0) correct = String.fromCharCode(65 + foundIndex);
+    lines.forEach(line => {
+        const raw = line.trim();
+        if (!raw) return;
+
+        // ---------------------------------------
+        // Detect new question start
+        // ---------------------------------------
+        const qm = raw.match(qStartRe);
+        if (qm) {
+            pushCurrent();
+            current = {
+                text: qm[1].trim(),
+                options: [],
+                correct: null,
+                explanation: "",
+            };
+            collectingExplanation = false;
+            return;
         }
-      }
-    }
 
-    // 4) Extract explanation (take text after Explanation: until block end)
-    let explanation = '';
-    const explMatch = raw.match(explanationRe);
-    if (explMatch) {
-      explanation = explMatch[1].trim().replace(/\s+/g, ' ');
-    }
+        if (!current) return;
 
-    // 5) Build question text: take raw up to first option/pqrs/answer/explanation line as main text
-    // We'll locate the earliest index of markers and slice accordingly
-    let cutIndex = raw.length;
-    const markers = [];
-    // find first occurrence of any pqrs label (like "P.")
-    const pqrsFirst = raw.search(/[PpQqRrSs]\.\s*/);
-    if (pqrsFirst >= 0) markers.push(pqrsFirst);
-    // find first option like "a)"
-    const optFirst = raw.search(/[a-dA-D]\)\s*/);
-    if (optFirst >= 0) markers.push(optFirst);
-    // answer/explanation first occurrence
-    const ansFirst = raw.search(/Answer\s*[:\-]/i);
-    if (ansFirst >= 0) markers.push(ansFirst);
-    const expFirst = raw.search(/Explanation\s*[:\-]/i);
-    if (expFirst >= 0) markers.push(expFirst);
-    if (markers.length) cutIndex = Math.min(...markers);
+        // ---------------------------------------
+        // Explanation block
+        // ---------------------------------------
+        const ex = raw.match(expRe);
+        if (ex) {
+            collectingExplanation = true;
+            current.explanation += ex[1] + " ";
+            return;
+        }
+        if (collectingExplanation) {
+            // Continue explanation until a new question is found
+            if (qStartRe.test(raw)) {   // new question accidentally
+                collectingExplanation = false;
+                return;
+            }
+            current.explanation += raw + " ";
+            return;
+        }
 
-    let questionText = (cutIndex > 0 ? raw.slice(0, cutIndex) : raw).trim();
-    // Normalize spaces and remove trailing metadata like "KVS 2021" glued without newline
-    questionText = questionText.replace(/\s{2,}/g, ' ').trim();
+        // ---------------------------------------
+        // PQRS lines
+        // ---------------------------------------
+        const pq = raw.match(pqrsRe);
+        if (pq) {
+            current.text += "\n" + raw;
+            return;
+        }
 
-    // If pqrs exists but were not on separate lines, ensure they are appended with newlines
-    let pqrsText = '';
-    if (pqrs.length) {
-      pqrsText = pqrs.map(p => `${p.label}. ${p.text}`).join('\n');
-      // If the question text already contains the pqrsText (rare), skip appending
-      if (!questionText.includes(pqrsText)) {
-        questionText = questionText + '\n' + pqrsText;
-      }
-    }
+        // ---------------------------------------
+        // Options
+        // ---------------------------------------
+        const opt = raw.match(optionRe);
+        if (opt) {
+            const label = opt[1].toUpperCase();
+            const text = opt[2].trim();
+            current.options.push(text);
+            return;
+        }
 
-    // If options weren't captured by optionsRe but PQRS-like options provided as a)/b) etc appear after PQRS,
-    // we already captured them above; options array is set.
+        // ---------------------------------------
+        // Answer
+        // ---------------------------------------
+        const an = raw.match(ansRe);
+        if (an) {
+            const txt = an[1].trim();
+            const m = txt.match(/[A-Da-d]/);
+            if (m) current.correct = m[0].toUpperCase();
+            return;
+        }
 
-    // Normalize options array to be aligned with letters A/B/C...
-    // If options are missing but pqrs exist and next lines contain a) lines, we already captured them above
-    const normalizedOptions = options.slice(); // copy
-
-    // If correct is still null but answer text exists, try to parse the raw Answer line more aggressively
-    if (!correct && ansMatch) {
-      const ar = ansMatch[1].trim();
-      const m2 = ar.match(/\b([A-Ea-e])\b/);
-      if (m2) correct = m2[1].toUpperCase();
-    }
-
-    // Final safety: if correct is letter and options exist, ensure letter maps inside options length
-    if (correct) {
-      const idx = correct.charCodeAt(0) - 65;
-      if (idx < 0 || idx >= normalizedOptions.length) {
-        // invalid, drop it
-        correct = null;
-      }
-    }
-
-    // If no options captured but pqrs exist followed by a) lines, options would be captured earlier;
-    // still, we require at least 2 options to push a question later (up to consumer logic)
-
-    results.push({
-      number: b.number,
-      text: questionText,
-      options: normalizedOptions,
-      correct: correct,        // may be null if not found
-      explanation: explanation
+        // ---------------------------------------
+        // Plain continuation of question text
+        // Stop adding if options already exist
+        // ---------------------------------------
+        if (current.options.length === 0) {
+            current.text += " " + raw;
+        }
     });
-  }
 
-  return results;
+    pushCurrent();
+    return questions;
 }
+
 
         // Initialize exam for a specific tab
         function initializeExam(subjectIndex) {
@@ -2163,6 +2124,7 @@ function displayQuestion(subjectIndex) {
     </script>
 </body>
 </html>
+
 
 
 
