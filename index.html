@@ -1739,12 +1739,10 @@ function parseQuestions(content) {
 
       // If line starts with P./Q./R./S., append as part of question body (for PQRS)
       if (RE.pqrsLine.test(raw)) {
-        // If current text already contains the same line avoid duplication
-        if (!current.text.includes(raw)) {
-          current.text += '\n' + raw;
-        }
-        continue;
-      }
+    current.pqrs = current.pqrs || [];
+    current.pqrs.push(raw.trim());
+    continue;
+}
 
       // If the line appears to be plain continuation of question text
 const looksLikeOption = RE.optionLine.test(raw);
@@ -2216,6 +2214,7 @@ function displayQuestion(subjectIndex) {
     </script>
 </body>
 </html>
+
 
 
 
