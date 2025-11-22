@@ -1568,95 +1568,211 @@
         }
 
         // Parse questions from your specific format
- // Parse questions from your specific format
-function parseQuestions(content) {
-    const questions = [];
-    const lines = content.split('\n');
+ /* ============================
+   Robust Question Parser v1.0
+   ============================ */
 
-    let currentQuestion = null;
-    let optionCount = 0;
-    let isExplanation = false;
-    let isQuestionText = false;
+/**
+ * Helper regexes and utils
+ */
+const RE = {
+  // question start: number + dot (supports Devanagari digits too)
+  questionStart: /^([०-९\d]+)\.\s*(.*)$/,
 
-    for (let i = 0; i < lines.length; i++) {
-        const line = lines[i].trim();
+  // option lines like "a) text", "A. text", "1) text" (we prefer alpha a-e)
+  optionLine: /^([A-Ea-e]|\d+)[\)\.]\s*(.*)$/,
 
-        if (line === '') continue;
+  // error-id fragments like "(a)/" or "(c)/"
+  errorFragment: /\([a-e]\)\//i,
 
-        // Question number detection (supports Hindi ०१२३४५६७८९)
-        const questionMatch = line.match(/^([०-९\d]+)\.\s*(.*)$/);
+  // sentence-arrangement start like "P. ..." (P-S uppercase)
+  pqrsLine: /^[P-S]\.\s*/,
 
-        if (questionMatch) {
+  // answer line e.g. "Answer: a" or "Answer - b) have not" or "Answer:a) have not"
+  answerLine: /^Answer\s*[:\-]?\s*(.*)$/i,
 
-            if (currentQuestion && currentQuestion.options.length >= 2 && currentQuestion.correct) {
-                questions.push(currentQuestion);
-            }
+  // explanation line
+  explanationLine: /^Explanation\s*[:\-]?\s*(.*)$/i,
 
-            currentQuestion = {
-                text: questionMatch[2],
-                options: [],
-                correct: null,
-                explanation: ''
-            };
+  // metadata that we should ignore when appending question text
+  metaTag: /\b(EMRS|KVS|NVS|SSC|UPSC|CBSE|202\d|201\d)\b/i
+};
 
-            optionCount = 0;
-            isExplanation = false;
-            isQuestionText = true;
-        }
-
-        // Detect options including (a), a), A), A), etc.
-        else if (currentQuestion) {
-            const optionMatch = line.match(/^([A-Ea-e])[\).]\s*(.*)$/);
-
-            if (optionMatch) {
-                currentQuestion.options.push(optionMatch[2]);
-                optionCount++;
-                isQuestionText = false;
-                continue;
-            }
-        }
-
-        // Detect Answer: a, b, c, d, e
-        if (currentQuestion && currentQuestion.options.length >= 2 && !currentQuestion.correct) {
-            const answerMatch = line.match(/Answer\s*[:\-]?\s*([A-Ea-e])/i);
-            if (answerMatch) {
-                currentQuestion.correct = answerMatch[1].toUpperCase();
-                continue;
-            }
-        }
-
-        // Detect Explanation:
-        if (currentQuestion && currentQuestion.correct) {
-            const explanationMatch = line.match(/Explanation\s*[:\-]?\s*(.*)$/i);
-            if (explanationMatch) {
-                currentQuestion.explanation = explanationMatch[1];
-                isExplanation = true;
-                continue;
-            } else if (isExplanation) {
-                currentQuestion.explanation += ' ' + line;
-                continue;
-            }
-        }
-
-        // Multiline question text support
-        if (currentQuestion && isQuestionText && !currentQuestion.correct) {
-            if (!line.match(/^[A-Ea-e][\).]/) &&
-                !line.match(/Answer/i) &&
-                !line.match(/Explanation/i)) {
-                currentQuestion.text += ' ' + line;
-                continue;
-            } else {
-                isQuestionText = false;
-            }
-        }
-    }
-
-    if (currentQuestion && currentQuestion.options.length >= 2 && currentQuestion.correct) {
-        questions.push(currentQuestion);
-    }
-
-    return questions;
+function normalize(line) {
+  return (line || '').replace(/\r/g, '').trim();
 }
+
+/**
+ * Parse the text content of an exam file into structured questions.
+ * Returns an array of { text, options: [], correct: 'A'..'E', explanation }
+ */
+function parseQuestions(content) {
+  const lines = content.split('\n').map(normalize);
+  const questions = [];
+
+  let current = null;
+  let state = 'idle'; // idle | readingQuestion | readingOptions | readingExplanation
+
+  function pushCurrentIfValid() {
+    if (!current) return;
+    // require question text and at least 2 options and a correct answer
+    if (current.text && current.options.length >= 2 && current.correct) {
+      // trim whitespace in fields
+      current.text = current.text.replace(/\s+/g, ' ').trim();
+      current.options = current.options.map(opt => opt.trim());
+      current.explanation = (current.explanation || '').replace(/\s+/g, ' ').trim();
+      questions.push(current);
+    }
+    current = null;
+    state = 'idle';
+  }
+
+  for (let i = 0; i < lines.length; i++) {
+    const raw = lines[i];
+    if (!raw) continue;
+
+    // If a new question start is detected
+    const qStart = raw.match(RE.questionStart);
+    if (qStart) {
+      // push previous
+      pushCurrentIfValid();
+
+      current = {
+        text: qStart[2].trim(),
+        options: [],
+        correct: null,
+        explanation: ''
+      };
+
+      // If the question text includes /P-Q-R-S style lines, keep them; parser will format later
+      state = 'readingQuestion';
+      continue;
+    }
+
+    // If we're not inside a question yet but see a PQRS block starting line
+    if (!current && RE.pqrsLine.test(raw)) {
+      // create a dummy question holder to capture PQRS block until options are found
+      current = {
+        text: raw,
+        options: [],
+        correct: null,
+        explanation: ''
+      };
+      state = 'readingQuestion';
+      continue;
+    }
+
+    // If we have a current question, detect option lines
+    if (current) {
+      // Option line
+      const opt = raw.match(RE.optionLine);
+      if (opt) {
+        // put numeric options into letter mapping if necessary
+        const key = opt[1];
+        let optionText = opt[2] || '';
+
+        // Some files use "a) Q-S-P-R" where option text begins with letters and dashes — keep as-is
+        current.options.push(optionText.trim());
+        state = 'readingOptions';
+        continue;
+      }
+
+      // Answer line
+      const ans = raw.match(RE.answerLine);
+      if (ans) {
+        // ans[1] may contain "b) have not" or "b" or "B) Have not"
+        const remainder = ans[1].trim();
+        // look for first letter A-E
+        const m = remainder.match(/([A-Ea-e])/);
+        if (m) {
+          current.correct = m[1].toUpperCase();
+        } else {
+          // fallback: maybe the answer line has the full option text; try to match option text to options
+          const trimmed = remainder.replace(/^[\)\.\s]+/, '').trim();
+          // find option index by starting substring match
+          const idx = current.options.findIndex(opt => opt.toLowerCase().startsWith(trimmed.toLowerCase()));
+          if (idx >= 0) current.correct = String.fromCharCode(65 + idx);
+        }
+        state = 'readingAnswer';
+        continue;
+      }
+
+      // Explanation line
+      const expl = raw.match(RE.explanationLine);
+      if (expl) {
+        current.explanation = expl[1].trim();
+        state = 'readingExplanation';
+        continue;
+      }
+
+      // If currently in explanation mode, append lines until next question
+      if (state === 'readingExplanation') {
+        // stop if this line looks like a new question start (defensive)
+        if (RE.questionStart.test(raw)) {
+          pushCurrentIfValid();
+          // re-process this line as it may be the next question start
+          i--; // step back one so outer loop sees it
+          continue;
+        } else {
+          current.explanation += ' ' + raw;
+          continue;
+        }
+      }
+
+      // If this line looks like metadata, skip it
+      if (RE.metaTag.test(raw)) {
+        continue;
+      }
+
+      // If it looks like an error-id fragment inside question text, append with break
+      if (RE.errorFragment.test(raw)) {
+        // If current.text already contains the fragment, avoid duplication
+        if (!RE.errorFragment.test(current.text)) {
+          current.text += ' ' + raw;
+        } else {
+          // avoid duplicate: only append parts not present
+          const partsToAppend = raw.split(/\s{2,}/).filter(p => !current.text.includes(p));
+          if (partsToAppend.length) current.text += ' ' + partsToAppend.join(' ');
+        }
+        continue;
+      }
+
+      // If line starts with P./Q./R./S., append as part of question body (for PQRS)
+      if (RE.pqrsLine.test(raw)) {
+        // If current text already contains the same line avoid duplication
+        if (!current.text.includes(raw)) {
+          current.text += '\n' + raw;
+        }
+        continue;
+      }
+
+      // If the line appears to be plain continuation of question text (not options/answer/expl/meta)
+      // But avoid appending repeated lines: check for duplication
+      const looksLikeOption = RE.optionLine.test(raw);
+      const looksLikeAnswer = RE.answerLine.test(raw);
+      const looksLikeExplanation = RE.explanationLine.test(raw);
+      if (!looksLikeOption && !looksLikeAnswer && !looksLikeExplanation && !RE.metaTag.test(raw)) {
+        // Avoid duplicates: if the exact line (or trimmed) is already in question.text, skip
+        if (!current.text.includes(raw)) {
+          // Append using a single space; keep newline markers for PQRS already handled
+          current.text += ' ' + raw;
+        }
+        continue;
+      }
+
+      // If none of the above matched, just continue (safeguard)
+      continue;
+    }
+
+    // If we reach here and no current question exists, ignore stray lines (metadata)
+  }
+
+  // push final question if valid
+  pushCurrentIfValid();
+
+  return questions;
+}
+
 
         // Initialize exam for a specific tab
         function initializeExam(subjectIndex) {
@@ -1681,80 +1797,78 @@ function parseQuestions(content) {
 
         // Display current question
 function displayQuestion(subjectIndex) {
-    const exam = exams[subjectIndex];
-    const question = exam.questions[exam.currentQuestionIndex];
+  const exam = exams[subjectIndex];
+  if (!exam || !exam.questions || exam.questions.length === 0) return;
 
-    let formattedQuestion = question.text;
+  const question = exam.questions[exam.currentQuestionIndex];
+  let formattedQuestion = question.text || '';
 
-    // -----------------------------------
-    //  FORMAT ERROR IDENTIFICATION TYPE
-    //  e.g. (a)/ ... (b)/ ... (c)/ ... (e)
-    // -----------------------------------
-    if (/\([a-e]\)\//i.test(formattedQuestion)) {
-        formattedQuestion = formattedQuestion
-            .replace(/\s*\(([a-e])\)\//gi, '<br>($1)/ ')
-            .replace(/\s*\(([a-e])\)(?!\/)/gi, '<br>($1) ');
-    }
+  // Format PQRS: replace "P. ..." with a neat block
+  if (/^[P-S]\./m.test(formattedQuestion)) {
+    // ensure each P/Q/R/S starts on new line and bold the letter
+    formattedQuestion = formattedQuestion
+      .replace(/([P-S])\.\s*/g, '<br><strong>$1.</strong> ');
+  }
 
-    // -----------------------------------
-    //  FORMAT SENTENCE ARRANGEMENT (P. Q. R. S.)
-    // -----------------------------------
-    if (/^[P-S]\./m.test(formattedQuestion)) {
-        formattedQuestion = formattedQuestion.replace(/([P-S])\.\s*/g, '<br><strong>$1.</strong> ');
-    }
+  // Format error identification fragments like "(a)/"
+  if (/\([a-e]\)\//i.test(formattedQuestion)) {
+    formattedQuestion = formattedQuestion
+      .replace(/\s*\(([a-e])\)\//gi, '<br>($1)/ ')
+      .replace(/\s*\(([a-e])\)(?!\/)/gi, '<br>($1) ');
+  }
 
-    document.getElementById(`questionText-${subjectIndex}`).innerHTML = `
-        <div class="mb-4">
-            <span class="font-bold text-lg">${exam.currentQuestionIndex + 1}. ${formattedQuestion}</span>
-        </div>
-    `;
+  // Remove stray metadata that may have survived
+  formattedQuestion = formattedQuestion.replace(/\b(EMRS|KVS|NVS|SSC|UPSC|CBSE)\b/gi, match => `<span class="meta">${match}</span>`);
 
-    const optionsContainer = document.getElementById(`optionsContainer-${subjectIndex}`);
-    optionsContainer.innerHTML = '';
+  document.getElementById(`questionText-${subjectIndex}`).innerHTML = `
+    <div class="mb-4">
+      <span class="font-bold text-lg">${exam.currentQuestionIndex + 1}. ${formattedQuestion}</span>
+    </div>
+  `;
 
-    const previousAnswer = exam.userAnswers[exam.currentQuestionIndex];
+  const optionsContainer = document.getElementById(`optionsContainer-${subjectIndex}`);
+  optionsContainer.innerHTML = '';
 
-    question.options.forEach((option, index) => {
-        const optionLetter = String.fromCharCode(65 + index);
+  const previousAnswer = exam.userAnswers[exam.currentQuestionIndex];
 
-        const button = document.createElement('button');
-        button.className = 'option-btn w-full text-left p-3 border rounded-lg hover:bg-gray-100 mb-2';
+  question.options.forEach((opt, idx) => {
+    const optionLetter = String.fromCharCode(65 + idx); // A, B, C...
+    const btn = document.createElement('button');
+    btn.className = 'option-btn w-full text-left p-3 border rounded-lg hover:bg-gray-100 mb-2';
 
-        // Format arrangement options: Q-S-P-R → Q - S - P - R
-        let formattedOption = option.replace(/-/g, ' - ');
+    // For arrangement options like "Q-S-P-R", show spaces around dashes
+    let formattedOption = opt.replace(/-/g, ' - ');
 
-        button.innerHTML = `<span class="font-semibold">${optionLetter}.</span> ${formattedOption}`;
-
-        if (previousAnswer) {
-            button.disabled = true;
-            if (optionLetter === question.correct) button.classList.add('correct');
-            else if (optionLetter === previousAnswer) button.classList.add('incorrect');
-        } else {
-            button.onclick = () => selectAnswer(subjectIndex, optionLetter, button);
-        }
-
-        optionsContainer.appendChild(button);
-    });
-
-    const explanationContainer =
-        document.getElementById(`explanationContainer-${subjectIndex}`);
+    btn.innerHTML = `<span class="font-semibold">${optionLetter}.</span> ${formattedOption}`;
 
     if (previousAnswer) {
-        explanationContainer.innerHTML = `
-            <div class="mt-4 p-3 bg-blue-50 rounded-lg">
-                <strong class="text-blue-700">Explanation:</strong>
-                <span class="text-gray-700">${question.explanation}</span>
-            </div>
-        `;
-        explanationContainer.style.display = 'block';
-        exam.answered = true;
+      btn.disabled = true;
+      if (optionLetter === question.correct) btn.classList.add('correct');
+      else if (optionLetter === previousAnswer) btn.classList.add('incorrect');
     } else {
-        explanationContainer.style.display = 'none';
-        exam.answered = false;
+      btn.onclick = () => selectAnswer(subjectIndex, optionLetter, btn);
     }
 
-    updateButtons(subjectIndex);
-    updateFloatingPanel(subjectIndex);
+    optionsContainer.appendChild(btn);
+  });
+
+  const explanationContainer = document.getElementById(`explanationContainer-${subjectIndex}`);
+  if (previousAnswer) {
+    explanationContainer.innerHTML = `
+      <div class="mt-4 p-3 bg-blue-50 rounded-lg">
+        <strong class="text-blue-700">Explanation:</strong>
+        <span class="text-gray-700">${question.explanation || ''}</span>
+      </div>
+    `;
+    explanationContainer.style.display = 'block';
+    exam.answered = true;
+  } else {
+    explanationContainer.style.display = 'none';
+    exam.answered = false;
+  }
+
+  updateButtons(subjectIndex);
+  updateFloatingPanel(subjectIndex);
 }
 
         // Handle answer selection
@@ -2101,6 +2215,7 @@ function displayQuestion(subjectIndex) {
     </script>
 </body>
 </html>
+
 
 
 
