@@ -1765,7 +1765,10 @@ if (!looksLikeOption && !looksLikeAnswer && !looksLikeExplanation && !RE.metaTag
 
     // If we reach here and no current question exists, ignore stray lines (metadata)
   }
-
+if (current && current.pqrs && current.pqrs.length > 0) {
+    // Add PQRS lines with line breaks
+    current.text += "\n" + current.pqrs.join("\n");
+}
   // push final question if valid
   pushCurrentIfValid();
 
@@ -2214,6 +2217,7 @@ function displayQuestion(subjectIndex) {
     </script>
 </body>
 </html>
+
 
 
 
