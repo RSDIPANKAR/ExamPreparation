@@ -1748,7 +1748,7 @@ function parseQuestions(content) {
 const looksLikeOption = RE.optionLine.test(raw);
 const looksLikeAnswer = RE.answerLine.test(raw);
 const looksLikeExplanation = RE.explanationLine.test(raw);
-const isPQRS = /^[P-S]\.\s+/.test(raw);   // <<< IMPORTANT FIX
+const isPQRS = /^[PpQqRrSs]\.\s*/.test(raw);   // <<< IMPORTANT FIX
 
 // STOP adding to question text when PQRS starts
 if (!looksLikeOption && !looksLikeAnswer && !looksLikeExplanation && !RE.metaTag.test(raw) && !isPQRS) {
@@ -2217,6 +2217,7 @@ function displayQuestion(subjectIndex) {
     </script>
 </body>
 </html>
+
 
 
 
