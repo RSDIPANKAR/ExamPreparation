@@ -2157,8 +2157,7 @@ function handleBrowserBackButton() {
     }
     
     // If we're on the first question, go back to test selection
-    backToTests(activeSubjectIndex);
-    return false;
+   return showExitConfirmation(activeSubjectIndex);
 }
 
 // Initialize browser back button handler
@@ -2178,11 +2177,30 @@ function initializeBackButtonHandler() {
     // Add initial state to history
     history.pushState(null, null, location.href);
 }
-
-// Call this function when the app initializes
+// Show confirmation before leaving the exam
+function showExitConfirmation(subjectIndex) {
+    const exam = exams[subjectIndex];
+    const answeredCount = exam.userAnswers.filter(answer => answer !== null).length;
+    const totalQuestions = exam.questions.length;
+    
+    if (answeredCount > 0 && answeredCount < totalQuestions) {
+        // Create a simple confirmation dialog
+        const confirmExit = confirm(`You have answered ${answeredCount} out of ${totalQuestions} questions. Are you sure you want to exit?`);
+        
+        if (confirmExit) {
+            backToTests(subjectIndex);
+        }
+        
+        return false;
+    }
+    
+    backToTests(subjectIndex);
+    return false;
+}
     </script>
 </body>
 </html>
+
 
 
 
