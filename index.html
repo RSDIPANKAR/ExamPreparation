@@ -1746,19 +1746,20 @@ function parseQuestions(content) {
         continue;
       }
 
-      // If the line appears to be plain continuation of question text (not options/answer/expl/meta)
-      // But avoid appending repeated lines: check for duplication
-      const looksLikeOption = RE.optionLine.test(raw);
-      const looksLikeAnswer = RE.answerLine.test(raw);
-      const looksLikeExplanation = RE.explanationLine.test(raw);
-      if (!looksLikeOption && !looksLikeAnswer && !looksLikeExplanation && !RE.metaTag.test(raw)) {
-        // Avoid duplicates: if the exact line (or trimmed) is already in question.text, skip
-        if (!current.text.includes(raw)) {
-          // Append using a single space; keep newline markers for PQRS already handled
-          current.text += ' ' + raw;
-        }
-        continue;
-      }
+      // If the line appears to be plain continuation of question text
+const looksLikeOption = RE.optionLine.test(raw);
+const looksLikeAnswer = RE.answerLine.test(raw);
+const looksLikeExplanation = RE.explanationLine.test(raw);
+const isPQRS = /^[P-S]\.\s+/.test(raw);   // <<< IMPORTANT FIX
+
+// STOP adding to question text when PQRS starts
+if (!looksLikeOption && !looksLikeAnswer && !looksLikeExplanation && !RE.metaTag.test(raw) && !isPQRS) {
+    if (!current.text.includes(raw)) {
+        current.text += ' ' + raw;
+    }
+    continue;
+}
+
 
       // If none of the above matched, just continue (safeguard)
       continue;
@@ -2215,6 +2216,7 @@ function displayQuestion(subjectIndex) {
     </script>
 </body>
 </html>
+
 
 
 
