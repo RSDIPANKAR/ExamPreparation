@@ -5,20 +5,24 @@ c) highly
 d) too
 Answer: c) highly
 Explanation: "Highly" is the correct adverb to modify the adjective "impressed." We say "highly impressed," not "very impressed" or "much impressed" in this context.
-2. One of the students (a)/ have not (b)/ submitted their project (c)/ on time. (d)/ No Error (e)(Identify the part of the sentence with an error.)NVS 2022
-Answer: b) have not
+2. One of the students __________ submitted their project on time.(Choose the correct option to fill in the blank.)NVS 2022
+a) have not
+b) has not
+c) are not
+d) is not
+Answer: b) has not
 Explanation: The subject "One" is singular. Therefore, the verb should also be singular. The correct verb is "has not."
-3. P. But it also requires discipline and hard work.
+3. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)KVS 2021
+P. But it also requires discipline and hard work.
 Q. Learning a new language can be an exciting adventure.
 R. With consistent practice, anyone can achieve fluency.
 S. It opens doors to new cultures and perspectives.
-(Arrange the sentences in the correct order.)KVS 2021
 a) Q-S-P-R
 b) S-R-Q-P
 c) P-R-Q-S
 d) Q-P-S-R
 Answer: a) Q-S-P-R
-Explanation: Q introduces the topic. S adds to the positive aspect ("exciting adventure"). P introduces a contrasting requirement. R concludes with the result of meeting that requirement.
+Explanation: Q introduces the topic. S adds to the positive aspect. P introduces a contrasting requirement. R concludes with the result of meeting that requirement.
 4. She worked __________ to complete the project before the deadline.(Choose the correct adverb to fill in the blank.)EMRS 2022
 a) continuous
 b) continuously
@@ -26,14 +30,19 @@ c) continuation
 d) continue
 Answer: b) continuously
 Explanation: The blank requires an adverb to describe how she worked. "Continuously" is the adverb form of "continuous."
-5. The data provided by the company (a)/ was not sufficient enough (b)/ to arrive at (c)/ a definite conclusion. (d)/ No Error (e)(Identify the part of the sentence with an error.)NVS 2021
+5. Identify the error in the following sentence:(Error Correction)NVS 2021
+The data provided by the company was not sufficient enough to arrive at a definite conclusion.
+a) The data provided by the company
+b) was not sufficient enough
+c) to arrive at
+d) a definite conclusion
 Answer: b) was not sufficient enough
 Explanation: "Sufficient" and "enough" are redundant as they mean the same thing. The correct phrasing is "was not sufficient" or "was not enough."
-6. P. However, the exact cause is still a topic of research.
+6. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)KVS 2022
+P. However, the exact cause is still a topic of research.
 Q. The extinction of the dinosaurs is a well-known event.
 R. It is widely believed that a massive asteroid impact was the primary cause.
 S. This event occurred around 66 million years ago.
-(Arrange the sentences in the correct order.)KVS 2022
 a) Q-S-R-P
 b) R-P-Q-S
 c) S-Q-R-P
@@ -47,20 +56,25 @@ c) such an
 d) so a
 Answer: c) such an
 Explanation: "Honest" begins with a vowel sound, so "such an" is used. The structure is "such a/an + adjective + noun."
-8. Neither the manager nor the employees (a)/ was aware of (b)/ the new policy changes (c)/ that were implemented last week. (d)/ No Error (e)(Identify the part of the sentence with an error.)NVS 2023
+8. Identify the error in the following sentence:(Error Correction)NVS 2023
+Neither the manager nor the employees was aware of the new policy changes that were implemented last week.
+a) Neither the manager nor the employees
+b) was aware of
+c) the new policy changes
+d) that were implemented last week
 Answer: b) was aware of
 Explanation: When using "neither...nor," the verb agrees with the subject closer to it. "Employees" is plural, so the verb should be "were."
-9. P. This makes them a popular choice for urban gardening.
+9. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)EMRS 2022
+P. This makes them a popular choice for urban gardening.
 Q. They require very little space and can be grown in small pots.
 R. Herbs like basil and mint are not only useful in cooking but also easy to cultivate.
 S. Furthermore, they need minimal care and sunlight.
-(Arrange the sentences in the correct order.)EMRS 2022
 a) R-Q-S-P
 b) Q-R-P-S
 c) P-S-R-Q
 d) S-P-Q-R
 Answer: a) R-Q-S-P
-Explanation: R introduces the topic (herbs). Q and S list the reasons why they are easy to cultivate (require little space, minimal care). P concludes by stating the result (popular choice).
+Explanation: R introduces the topic (herbs). Q and S list the reasons why they are easy to cultivate. P concludes by stating the result (popular choice).
 10. The children were playing __________ in the park.(Choose the correct adverb to fill in the blank.)KVS 2023
 a) happy
 b) happier
@@ -68,14 +82,19 @@ c) happily
 d) happiness
 Answer: c) happily
 Explanation: The blank requires an adverb to describe how the children were playing. "Happily" is the adverb form of "happy."
-11. If I had known you were in town, I (a)/ would definitely have (b)/ invited you for (c)/ the dinner party. (d)/ No Error (e)(Identify the part of the sentence with an error.)EMRS 2023
+11. Identify the error in the following sentence:(Error Correction)EMRS 2023
+If I had known you were in town, I would definitely have invited you for the dinner party.
+a) If I had known you were in town
+b) would definitely have
+c) invited you for
+d) the dinner party
 Answer: e) No Error
 Explanation: The sentence is grammatically correct. It is a standard third conditional sentence.
-12. P. Consequently, his health deteriorated rapidly.
+12. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)NVS 2022
+P. Consequently, his health deteriorated rapidly.
 Q. Despite warnings from his doctor, he continued his unhealthy lifestyle.
 R. He refused to change his diet or incorporate exercise into his routine.
 S. He was a heavy smoker and consumed junk food regularly.
-(Arrange the sentences in the correct order.)NVS 2022
 a) S-Q-R-P
 b) Q-R-S-P
 c) P-S-Q-R
@@ -89,14 +108,19 @@ c) at
 d) by
 Answer: a) from
 Explanation: "From" is used with dates to indicate the starting point of a period. "On" is used for a specific day, but "from the first" is the standard idiom for policies.
-14. She speaks English very (a)/ fluent and (b)/ can converse easily (c)/ with native speakers. (d)/ No Error (e)(Identify the part of the sentence with an error.)EMRS 2021
+14. Identify the error in the following sentence:(Error Correction)EMRS 2021
+She speaks English very fluent and can converse easily with native speakers.
+a) She speaks English very
+b) fluent and
+c) can converse easily
+d) with native speakers
 Answer: b) fluent and
 Explanation: The word "very" requires an adverb to modify the verb "speaks." The correct word is "fluently."
-15. P. The results were astounding.
+15. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)NVS 2023
+P. The results were astounding.
 Q. He practiced the piano for eight hours every day.
 R. Within a year, he went from a beginner to a virtuoso.
 S. His dedication was unparalleled.
-(Arrange the sentences in the correct order.)NVS 2023
 a) Q-S-P-R
 b) S-R-Q-P
 c) P-R-Q-S
@@ -110,14 +134,19 @@ c) too
 d) very
 Answer: a) so
 Explanation: The structure "so + adjective + that" is used to show a consequence. "Such" is followed by a noun.
-17. A group of students (a)/ are planning (b)/ to visit the museum (c)/ tomorrow afternoon. (d)/ No Error (e)(Identify the part of the sentence with an error.)EMRS 2022
+17. Identify the error in the following sentence:(Error Correction)EMRS 2022
+A group of students are planning to visit the museum tomorrow afternoon.
+a) A group of students
+b) are planning
+c) to visit the museum
+d) tomorrow afternoon
 Answer: b) are planning
 Explanation: "Group" is a collective noun and is often treated as singular. The correct verb should be "is planning."
-18. P. It is a spectacle of color and sound.
+18. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)KVS 2023
+P. It is a spectacle of color and sound.
 Q. Diwali, the festival of lights, is celebrated with great enthusiasm across India.
 R. Families clean their homes, wear new clothes, and light diyas.
 S. The night sky is illuminated with fireworks.
-(Arrange the sentences in the correct order.)KVS 2023
 a) Q-R-S-P
 b) P-S-R-Q
 c) R-Q-P-S
@@ -131,10 +160,14 @@ c) faster
 d) fastest
 Answer: a) fast
 Explanation: "Fast" is both an adjective and an adverb. There is no word "fastly" in standard English.
-20. The company's decision to expand (a)/ their operations in Asia (b)/ have been welcomed (c)/ by all the stakeholders. (d)/ No Error (e)(Identify the part of the sentence with an error.)EMRS 2023
+20. Identify the error in the following sentence:(Error Correction)EMRS 2023
+The company's decision to expand their operations in Asia have been welcomed by all the stakeholders.
+a) The company's decision to expand
+b) their operations in Asia
+c) have been welcomed
+d) by all the stakeholders
 Answer: c) have been welcomed
 Explanation: The subject of the verb is "decision," which is singular. Therefore, the verb should be "has been welcomed."
-(This pattern continues for the next 80 sets. For brevity, here are 10 more varied examples.)
 21. She was __________ tired that she fell asleep on the sofa.(Choose the correct option to fill in the blank.)KVS 2021
 a) too
 b) such
@@ -142,14 +175,19 @@ c) so
 d) very
 Answer: c) so
 Explanation: The correct structure is "so + adjective + that" to show result.
-22. Each of the participants (a)/ have received (b)/ a certificate (c)/ and a cash prize. (d)/ No Error (e)(Identify the part of the sentence with an error.)NVS 2022
+22. Identify the error in the following sentence:(Error Correction)NVS 2022
+Each of the participants have received a certificate and a cash prize.
+a) Each of the participants
+b) have received
+c) a certificate
+d) and a cash prize
 Answer: b) have received
 Explanation: "Each" is a singular subject and requires a singular verb, "has received."
-23. P. This process is known as photosynthesis.
+23. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)EMRS 2022
+P. This process is known as photosynthesis.
 Q. They use sunlight, carbon dioxide, and water to produce their food.
 R. Plants are the primary producers in most ecosystems.
 S. In return, they release oxygen into the atmosphere.
-(Arrange the sentences in the correct order.)EMRS 2022
 a) R-Q-S-P
 b) Q-R-P-S
 c) P-S-R-Q
@@ -163,14 +201,19 @@ c) clarity
 d) clearer
 Answer: b) clearly
 Explanation: The blank requires an adverb to describe how the teacher explained. "Clearly" is the adverb form.
-25. There is (a)/ hardly no point (b)/ in arguing with him (c)/ as he is very stubborn. (d)/ No Error (e)(Identify the part of the sentence with an error.)NVS 2021
+25. Identify the error in the following sentence:(Error Correction)NVS 2021
+There is hardly no point in arguing with him as he is very stubborn.
+a) There is
+b) hardly no point
+c) in arguing with him
+d) as he is very stubborn
 Answer: b) hardly no point
 Explanation: "Hardly" is a negative word, so it cannot be used with "no." The correct phrase is "hardly any point."
-26. P. It is a testament to human ingenuity and perseverance.
+26. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)EMRS 2023
+P. It is a testament to human ingenuity and perseverance.
 Q. The pyramid of Giza is one of the seven wonders of the ancient world.
 R. It was built as a tomb for the Fourth Dynasty Egyptian Pharaoh Khufu.
 S. Despite centuries of study, its construction techniques still amaze architects.
-(Arrange the sentences in the correct order.)EMRS 2023
 a) Q-R-S-P
 b) R-S-Q-P
 c) P-S-R-Q
@@ -184,14 +227,19 @@ c) most
 d) very
 Answer: c) most
 Explanation: The sentence expresses a superlative degree ("I have ever read"), so "most" is required.
-28. The number of students (a)/ in the class (b)/ have decreased (c)/ significantly this year. (d)/ No Error (e)(Identify the part of the sentence with an error.)NVS 2023
+28. Identify the error in the following sentence:(Error Correction)NVS 2023
+The number of students in the class have decreased significantly this year.
+a) The number of students
+b) in the class
+c) have decreased
+d) significantly this year
 Answer: c) have decreased
 Explanation: The subject is "The number," which is singular. The correct verb is "has decreased."
-29. P. Therefore, it is crucial to verify information from multiple sources.
+29. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)KVS 2021
+P. Therefore, it is crucial to verify information from multiple sources.
 Q. In the age of social media, misinformation can spread rapidly.
 R. This can lead to widespread panic and misunderstanding.
 S. A single post can reach millions of people in minutes.
-(Arrange the sentences in the correct order.)KVS 2021
 a) Q-S-R-P
 b) S-R-Q-P
 c) P-R-Q-S
@@ -205,3 +253,406 @@ c) rarely
 d) often
 Answer: c) rarely
 Explanation: The phrase "maybe once or twice a month" indicates a very low frequency, which is described by the adverb "rarely."
+31. Identify the error in the following sentence:(Error Correction)NVS 2022
+Scarcely had he arrived when he was asked to leave immediately.
+a) Scarcely had he arrived
+b) when he was
+c) asked to leave
+d) immediately
+Answer: e) No Error
+Explanation: The sentence is grammatically correct. "Scarcely...when" is the correct correlative conjunction.
+32. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)EMRS 2023
+P. For example, it can improve your memory and problem-solving skills.
+Q. Learning a musical instrument is beneficial for the brain.
+R. It is also known to reduce stress and enhance creativity.
+S. Studies have shown that it increases cognitive function.
+a) Q-S-P-R
+b) S-P-Q-R
+c) P-R-Q-S
+d) R-P-S-Q
+Answer: a) Q-S-P-R
+Explanation: Q makes a general claim. S cites studies to support it. P provides a specific example of "cognitive function." R adds additional benefits.
+33. The project must be completed __________ Friday without fail.(Choose the correct option to fill in the blank.)KVS 2022
+a) until
+b) by
+c) till
+d) on
+Answer: b) by
+Explanation: "By" is used to indicate a deadline, meaning "on or before."
+34. Identify the error in the following sentence:(Error Correction)EMRS 2021
+She is one of the best students who has scored full marks in mathematics.
+a) She is one of the best students
+b) who
+c) has scored
+d) full marks in mathematics
+Answer: c) has scored
+Explanation: The relative pronoun "who" refers to "students," which is plural. Therefore, the verb should be "have scored."
+35. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)NVS 2023
+P. The main source of water for the region is the annual monsoon.
+Q. Without it, both agriculture and daily life would come to a standstill.
+R. This rainfall is crucial for recharging groundwater and filling reservoirs.
+S. However, in recent years, the monsoon has been unpredictable.
+a) P-R-Q-S
+b) S-P-R-Q
+c) Q-R-P-S
+d) R-S-P-Q
+Answer: a) P-R-Q-S
+Explanation: P states the main source. R explains its importance. Q emphasizes its critical nature. S introduces a current problem.
+36. He drives __________ than his brother.(Choose the correct adverb to fill in the blank.)KVS 2021
+a) carefully
+b) more carefully
+c) most carefully
+d) careful
+Answer: b) more carefully
+Explanation: The word "than" indicates a comparison, so the comparative degree "more carefully" is required.
+37. Identify the error in the following sentence:(Error Correction)EMRS 2022
+The committee has taken a good decision yesterday.
+a) The committee
+b) has taken
+c) a good decision
+d) yesterday
+Answer: b) has taken
+Explanation: The word "yesterday" indicates a finished past time. Therefore, the simple past tense "took" should be used instead of the present perfect "has taken."
+38. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)KVS 2023
+P. It is also a time for families to come together and celebrate.
+Q. The harvest festival of Pongal is primarily celebrated in Tamil Nadu.
+R. It marks the beginning of the sun's northward journey.
+S. The festival lasts for four days, each with its own significance.
+a) Q-R-S-P
+b) R-S-Q-P
+c) P-S-Q-R
+d) S-P-R-Q
+Answer: a) Q-R-S-P
+Explanation: Q introduces the festival. R gives its astronomical significance. S provides the duration. P adds the social significance.
+39. This is __________ unique opportunity that you should not miss it.(Choose the correct option to fill in the blank.)NVS 2021
+a) so
+b) such a
+c) such an
+d) so a
+Answer: b) such a
+Explanation: "Unique" begins with a consonant sound, so "such a" is used. The structure is "such a/an + adjective + noun."
+40. Identify the error in the following sentence:(Error Correction)EMRS 2023
+The CEO, along with his senior managers, are attending the international conference next week.
+a) The CEO, along with his senior managers
+b) are attending
+c) the international conference
+d) next week
+Answer: b) are attending
+Explanation: When the subject is followed by "along with," the verb agrees with the main subject, which is "The CEO" (singular). The correct verb is "is attending."
+41. The dog looked at its owner __________.(Choose the correct adverb to fill in the blank.)KVS 2022
+a) pleading
+b) pleaded
+c) pleadingly
+d) plead
+Answer: c) pleadingly
+Explanation: The blank requires an adverb to describe how the dog looked. "Pleadingly" is the adverb form.
+42. Identify the error in the following sentence:(Error Correction)NVS 2022
+No sooner did the bell ring than the students rush out of the class.
+a) No sooner did the bell ring
+b) than the students
+c) rush out
+d) of the class
+Answer: c) rush out
+Explanation: The "no sooner...than" structure requires the past perfect tense in the first clause and the simple past in the second. The correct verb is "rushed out."
+43. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)EMRS 2022
+P. As a result, remote work has become the new normal for many.
+Q. This shift has changed the way companies operate.
+R. The COVID-19 pandemic forced organizations to adopt digital tools.
+S. Video conferencing and cloud collaboration are now commonplace.
+a) R-Q-S-P
+b) Q-S-R-P
+c) R-P-Q-S
+d) P-R-S-Q
+Answer: a) R-Q-S-P
+Explanation: R states the cause (pandemic). Q states the general effect (changed operations). S provides specific examples of the change. P states the final result (new normal).
+44. The results were __________ bad that everyone was disappointed.(Choose the correct option to fill in the blank.)KVS 2021
+a) very
+b) too
+c) so
+d) much
+Answer: c) so
+Explanation: The structure "so + adjective + that" is used to show a consequence.
+45. Identify the error in the following sentence:(Error Correction)NVS 2023
+One of the most important factor for success is hard work.
+a) One of the most important factor
+b) for success
+c) is
+d) hard work
+Answer: a) One of the most important factor
+Explanation: After "one of the," a plural noun is required. The correct phrase is "one of the most important factors."
+46. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)KVS 2023
+P. They are known for their intelligence and playful nature.
+Q. Dolphins are among the most fascinating marine mammals.
+R. They use a complex system of clicks and whistles to communicate.
+S. Interestingly, they are also known to help other sea creatures in distress.
+a) Q-P-R-S
+b) P-R-Q-S
+c) S-P-R-Q
+d) R-S-Q-P
+Answer: a) Q-P-R-S
+Explanation: Q introduces the topic. P gives general characteristics. R provides a specific detail about communication. S adds an interesting fact.
+47. She __________ completed her post-graduation last year.(Choose the correct adverb to fill in the blank.)EMRS 2021
+a) successful
+b) success
+c) successfully
+d) succeed
+Answer: c) successfully
+Explanation: The blank requires an adverb to describe how she completed her studies. "Successfully" is the adverb form.
+48. Identify the error in the following sentence:(Error Correction)NVS 2021
+The train had already left when we had reached the station.
+a) The train had already left
+b) when we
+c) had reached
+d) the station
+Answer: c) had reached
+Explanation: When two past actions are mentioned, the earlier action is in the past perfect tense. The later action is in the simple past tense. The correct verb is "reached."
+49. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)EMRS 2023
+P. It is celebrated with great fervor across the country.
+Q. Republic Day marks the day the Constitution of India came into effect.
+R. The main event is a grand parade held in the capital, New Delhi.
+S. This parade showcases India's cultural heritage and military might.
+a) Q-P-R-S
+b) P-R-Q-S
+c) R-S-Q-P
+d) S-P-R-Q
+Answer: a) Q-P-R-S
+Explanation: Q states what the day marks. P talks about its celebration. R introduces the main event. S describes the parade.
+50. He is __________ weak to walk after the surgery.(Choose the correct option to fill in the blank.)KVS 2022
+a) so
+b) such
+c) too
+d) very
+Answer: c) too
+Explanation: The structure "too + adjective + to + verb" is used to show an excessive degree that prevents the action.
+51. Identify the error in the following sentence:(Error Correction)EMRS 2022
+The series of lectures on ancient history were very informative.
+a) The series of lectures
+b) on ancient history
+c) were
+d) very informative
+Answer: c) were
+Explanation: The subject is "series," which is singular. Therefore, the verb should be "was."
+52. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)NVS 2022
+P. It is a major source of protein for millions of people.
+Q. Soybean is a versatile legume.
+R. It is also used to produce oil, tofu, and animal feed.
+S. Furthermore, its cultivation improves soil fertility.
+a) Q-P-R-S
+b) P-R-Q-S
+c) R-S-Q-P
+d) S-P-R-Q
+Answer: a) Q-P-R-S
+Explanation: Q introduces the topic. P states its primary use. R adds other uses. S provides an additional benefit of its cultivation.
+53. My father __________ reads the newspaper every morning.(Choose the correct adverb to fill in the blank.)KVS 2021
+a) never
+b) always
+c) rarely
+d) seldom
+Answer: b) always
+Explanation: The phrase "every morning" indicates a habitual action, which is best described by the adverb "always."
+54. Identify the error in the following sentence:(Error Correction)NVS 2023
+She is more smarter than any other student in her class.
+a) She is
+b) more smarter
+c) than any other
+d) student in her class
+Answer: b) more smarter
+Explanation: "Smarter" is already the comparative degree. Using "more" with it is incorrect. The correct word is "smarter."
+55. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)EMRS 2021
+P. This not only reduces waste but also conserves natural resources.
+Q. The process of recycling involves converting waste materials into new products.
+R. Many communities have implemented recycling programs to manage solid waste.
+S. Common materials recycled include paper, plastic, glass, and metal.
+a) Q-S-R-P
+b) R-S-Q-P
+c) P-R-Q-S
+d) S-P-R-Q
+Answer: a) Q-S-R-P
+Explanation: Q defines the process. S lists the materials. R talks about its implementation. P states the benefits.
+56. We need to check the document __________ before submitting it.(Choose the correct adverb to fill in the blank.)KVS 2023
+a) thorough
+b) thoroughly
+c) thoroughness
+d) more thorough
+Answer: b) thoroughly
+Explanation: The blank requires an adverb to describe how we need to check. "Thoroughly" is the adverb form.
+57. Identify the error in the following sentence:(Error Correction)EMRS 2023
+The reason for his failure is because he did not study seriously.
+a) The reason for his failure
+b) is because
+c) he did not study
+d) seriously
+Answer: b) is because
+Explanation: "The reason...is because" is redundant. The correct phrasing is "The reason...is that."
+58. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)NVS 2021
+P. It is renowned for its unique blend of spices and flavors.
+Q. Indian cuisine is as diverse as its culture.
+R. Each region of the country has its own distinctive culinary traditions.
+S. From the rich curries of the north to the coconut-based dishes of the south, the variety is immense.
+a) Q-R-S-P
+b) P-R-Q-S
+c) R-S-Q-P
+d) S-P-R-Q
+Answer: a) Q-R-S-P
+Explanation: Q makes a general statement about diversity. R explains how this diversity manifests regionally. S provides specific examples of the regional variety. P comments on a unifying characteristic (spices).
+59. This is __________ best movie of the year.(Choose the correct option to fill in the blank.)KVS 2022
+a) a
+b) an
+c) the
+d) no article
+Answer: c) the
+Explanation: The superlative degree "best" is almost always preceded by the definite article "the."
+60. Identify the error in the following sentence:(Error Correction)EMRS 2022
+The furniture in this room are very expensive and antique.
+a) The furniture in this room
+b) are
+c) very expensive
+d) and antique
+Answer: b) are
+Explanation: "Furniture" is an uncountable noun and takes a singular verb. The correct verb is "is."
+61. He shouted __________ at the children to get their attention.(Choose the correct adverb to fill in the blank.)NVS 2022
+a) loud
+b) louder
+c) loudly
+d) loudest
+Answer: c) loudly
+Explanation: The blank requires an adverb to describe how he shouted. "Loudly" is the adverb form.
+62. Identify the error in the following sentence:(Error Correction)KVS 2021
+Not only the students but also the teacher were excited about the field trip.
+a) Not only the students but also the teacher
+b) were
+c) excited about
+d) the field trip
+Answer: b) were
+Explanation: In "not only...but also" constructions, the verb agrees with the subject closer to it. "Teacher" is singular, so the verb should be "was."
+63. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)EMRS 2023
+P. They provide habitat for countless species and help regulate the climate.
+Q. However, they are being destroyed at an alarming rate.
+R. Forests are vital for the health of our planet.
+S. Deforestation for agriculture and urban development is the primary cause.
+a) R-P-Q-S
+b) P-Q-R-S
+c) Q-S-R-P
+d) S-P-R-Q
+Answer: a) R-P-Q-S
+Explanation: R states the importance of forests. P elaborates on that importance. Q introduces a problem (destruction). S states the cause of the problem.
+64. She sings __________ than her sister.(Choose the correct adverb to fill in the blank.)KVS 2023
+a) beautifully
+b) more beautifully
+c) most beautifully
+d) beautiful
+Answer: b) more beautifully
+Explanation: The word "than" indicates a comparison, so the comparative degree "more beautifully" is required.
+65. Identify the error in the following sentence:(Error Correction)NVS 2023
+The jury have announced its verdict.
+a) The jury
+b) have
+c) announced its verdict
+d) No Error
+Answer: b) have
+Explanation: "Jury" is a collective noun that is treated as singular here (as it acts as one unit). The correct verb is "has."
+66. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)KVS 2022
+P. It was a significant milestone in the fight for civil rights.
+Q. The speech is remembered for its powerful "I Have a Dream" refrain.
+R. Martin Luther King Jr. delivered his famous speech in 1963.
+S. He spoke about his vision of a future where people would be judged by their character, not their skin color.
+a) R-Q-S-P
+b) P-R-Q-S
+c) Q-S-R-P
+d) S-P-R-Q
+Answer: a) R-Q-S-P
+Explanation: R states the event. Q talks about how the speech is remembered. S gives the content of the speech. P provides the historical significance.
+67. You must proceed with __________ caution.(Choose the correct option to fill in the blank.)EMRS 2021
+a) great
+b) greatly
+c) greater
+d) greatest
+Answer: a) great
+Explanation: "Caution" is a noun, so it needs an adjective to modify it. "Great" is the adjective.
+68. Identify the error in the following sentence:(Error Correction)EMRS 2022
+Ten miles are a long distance to walk on foot.
+a) Ten miles
+b) are
+c) a long distance to walk
+d) on foot
+Answer: b) are
+Explanation: When a plural noun denotes a single unit (like a distance), it takes a singular verb. The correct verb is "is."
+69. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)NVS 2022
+P. The internet has made this easier than ever before.
+Q. It allows us to connect with people across the globe instantly.
+R. Communication is fundamental to human relationships.
+S. Platforms like email and social media have bridged geographical gaps.
+a) R-P-Q-S
+b) P-Q-R-S
+c) Q-S-R-P
+d) S-P-R-Q
+Answer: a) R-P-Q-S
+Explanation: R states the general importance of communication. P introduces the internet's role. Q explains how the internet helps. S provides specific platforms.
+70. The patient is feeling __________ better today.(Choose the correct adverb to fill in the blank.)KVS 2021
+a) much
+b) many
+c) more
+d) most
+Answer: a) much
+Explanation: "Much" is used to modify the comparative degree of adjectives and adverbs, like "better."
+71. Identify the error in the following sentence:(Error Correction)EMRS 2023
+The secretary and treasurer have been asked to submit the report.
+a) The secretary and treasurer
+b) have been
+c) asked to submit
+d) the report
+Answer: b) have been
+Explanation: When two nouns are joined by "and" but refer to the same person, a singular verb is used. Here, "secretary and treasurer" is one person. The correct verb is "has been."
+72. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)KVS 2023
+P. It is a complex organ made up of billions of nerve cells.
+Q. The human brain is the center of the nervous system.
+R. It is responsible for thought, memory, emotion, and motor skills.
+S. Understanding how it works is one of the greatest challenges in science.
+a) Q-P-R-S
+b) P-R-Q-S
+c) R-S-Q-P
+d) S-P-R-Q
+Answer: a) Q-P-R-S
+Explanation: Q introduces the topic. P describes its physical composition. R lists its functions. S comments on the challenge of understanding it.
+73. She looked __________ at the beautiful painting.(Choose the correct adverb to fill in the blank.)NVS 2021
+a) admiring
+b) admired
+c) admirably
+d) admiringly
+Answer: d) admiringly
+Explanation: The blank requires an adverb to describe how she looked. "Admiringly" means in a way that shows admiration.
+74. Identify the error in the following sentence:(Error Correction)KVS 2022
+Many a student have failed to understand the importance of grammar.
+a) Many a student
+b) have failed
+c) to understand
+d) the importance of grammar
+Answer: b) have failed
+Explanation: The phrase "Many a" is followed by a singular noun and a singular verb. The correct verb is "has failed."
+75. Which of the following is the correct sequence to form a coherent paragraph?(Sentence Rearrangement)EMRS 2021
+P. The first step is to conduct a thorough survey of the area.
+Q. Building a road is a multi-stage process.
+R. Finally, the surface is laid and compacted.
+S. This is followed by earthwork and the preparation of the sub-base.
+a) Q-P-S-R
+b) P-S-Q-R
+c) R-P-Q-S
+d) S-R-P-Q
+Answer: a) Q-P-S-R
+Explanation: Q introduces the process. P is the first step. S is the next step. R is the final step.
+76. The news __________ very shocking to everyone present.(Choose the correct option to fill in the blank.)KVS 2021
+a) were
+b) was
+c) are
+d) have been
+Answer: b) was
+Explanation: "News" is an uncountable noun and always takes a singular verb.
+77. Identify the error in the following sentence:(Error Correction)NVS 2023
+He is the same man who we met at the conference last month.
+a) He is the same man
+b) who we met
+c) at the conference
+d) last month
+Answer: b) who we met
+Explanation: When the relative pronoun is the object of the verb, "whom" should be used. The correct phrase is "whom we met."
+
