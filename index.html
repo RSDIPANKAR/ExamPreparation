@@ -1606,173 +1606,111 @@ function normalize(line) {
  * Parse the text content of an exam file into structured questions.
  * Returns an array of { text, options: [], correct: 'A'..'E', explanation }
  */
-function parseQuestions(content) {
-  const lines = content.split('\n').map(normalize);
-  const questions = [];
+function parseQuestions(inputText) {
+    const lines = inputText.split("\n").map(line => line.trim());
 
-  let current = null;
-  let state = 'idle'; // idle | readingQuestion | readingOptions | readingExplanation
+    const questions = [];
+    let current = null;
 
-  function pushCurrentIfValid() {
-    if (!current) return;
-    // require question text and at least 2 options and a correct answer
-    if (current.text && current.options.length >= 2 && current.correct) {
-      // trim whitespace in fields
-      current.text = current.text.replace(/\s+/g, ' ').trim();
-      current.options = current.options.map(opt => opt.trim());
-      current.explanation = (current.explanation || '').replace(/\s+/g, ' ').trim();
-      questions.push(current);
-    }
-    current = null;
-    state = 'idle';
-  }
+    // Unified regex set
+    const RE = {
+        qStart: /^(\d+)\.\s*(.*)/,                          // 1. Question text
+        option: /^[a-dA-D]\)\s*(.*)/,                      // a) option
+        answer: /^answer[:\-]?\s*(.*)/i,                   // Answer: a
+        explanation: /^explanation[:\-]?\s*(.*)/i,         // Explanation: ...
+        pqrs: /^[PpQqRrSs]\.\s*(.*)/,                      // P. Q. R. S.
+    };
 
-  for (let i = 0; i < lines.length; i++) {
-    const raw = lines[i];
-    if (!raw) continue;
+    function pushCurrent() {
+        if (!current) return;
 
-    // If a new question start is detected
-    const qStart = raw.match(RE.questionStart);
-    if (qStart) {
-      // push previous
-      pushCurrentIfValid();
+        // Must have: text + 2 options + correct answer
+        if (current.text && current.options.length >= 2 && current.correct) {
 
-      current = {
-        text: qStart[2].trim(),
-        options: [],
-        correct: null,
-        explanation: ''
-      };
+            // merge PQRS into question text
+            if (current.pqrs.length > 0) {
+                current.text += "\n" + current.pqrs.join("\n");
+            }
 
-      // If the question text includes /P-Q-R-S style lines, keep them; parser will format later
-      state = 'readingQuestion';
-      continue;
-    }
+            // cleanup
+            current.text = current.text.replace(/\s+/g, " ").trim();
+            current.options = current.options.map(o => o.trim());
+            current.explanation = current.explanation.trim();
 
-    // If we're not inside a question yet but see a PQRS block starting line
-    if (!current && RE.pqrsLine.test(raw)) {
-      // create a dummy question holder to capture PQRS block until options are found
-      current = {
-        text: raw,
-        options: [],
-        correct: null,
-        explanation: ''
-      };
-      state = 'readingQuestion';
-      continue;
-    }
-
-    // If we have a current question, detect option lines
-    if (current) {
-      // Option line
-      const opt = raw.match(RE.optionLine);
-      if (opt) {
-        // put numeric options into letter mapping if necessary
-        const key = opt[1];
-        let optionText = opt[2] || '';
-
-        // Some files use "a) Q-S-P-R" where option text begins with letters and dashes — keep as-is
-        current.options.push(optionText.trim());
-        state = 'readingOptions';
-        continue;
-      }
-
-      // Answer line
-      const ans = raw.match(RE.answerLine);
-      if (ans) {
-        // ans[1] may contain "b) have not" or "b" or "B) Have not"
-        const remainder = ans[1].trim();
-        // look for first letter A-E
-        const m = remainder.match(/([A-Ea-e])/);
-        if (m) {
-          current.correct = m[1].toUpperCase();
-        } else {
-          // fallback: maybe the answer line has the full option text; try to match option text to options
-          const trimmed = remainder.replace(/^[\)\.\s]+/, '').trim();
-          // find option index by starting substring match
-          const idx = current.options.findIndex(opt => opt.toLowerCase().startsWith(trimmed.toLowerCase()));
-          if (idx >= 0) current.correct = String.fromCharCode(65 + idx);
+            questions.push(current);
         }
-        state = 'readingAnswer';
-        continue;
-      }
-
-      // Explanation line
-      const expl = raw.match(RE.explanationLine);
-      if (expl) {
-        current.explanation = expl[1].trim();
-        state = 'readingExplanation';
-        continue;
-      }
-
-      // If currently in explanation mode, append lines until next question
-      if (state === 'readingExplanation') {
-        // stop if this line looks like a new question start (defensive)
-        if (RE.questionStart.test(raw)) {
-          pushCurrentIfValid();
-          // re-process this line as it may be the next question start
-          i--; // step back one so outer loop sees it
-          continue;
-        } else {
-          current.explanation += ' ' + raw;
-          continue;
-        }
-      }
-
-      // If this line looks like metadata, skip it
-      if (RE.metaTag.test(raw)) {
-        continue;
-      }
-
-      // If it looks like an error-id fragment inside question text, append with break
-      if (RE.errorFragment.test(raw)) {
-        // If current.text already contains the fragment, avoid duplication
-        if (!RE.errorFragment.test(current.text)) {
-          current.text += ' ' + raw;
-        } else {
-          // avoid duplicate: only append parts not present
-          const partsToAppend = raw.split(/\s{2,}/).filter(p => !current.text.includes(p));
-          if (partsToAppend.length) current.text += ' ' + partsToAppend.join(' ');
-        }
-        continue;
-      }
-
-      // If line starts with P./Q./R./S., append as part of question body (for PQRS)
-      if (RE.pqrsLine.test(raw)) {
-    current.pqrs = current.pqrs || [];
-    current.pqrs.push(raw.trim());
-    continue;
-}
-
-      // If the line appears to be plain continuation of question text
-const looksLikeOption = RE.optionLine.test(raw);
-const looksLikeAnswer = RE.answerLine.test(raw);
-const looksLikeExplanation = RE.explanationLine.test(raw);
-const isPQRS = /^[PpQqRrSs]\.\s*/.test(raw);   // <<< IMPORTANT FIX
-
-// STOP adding to question text when PQRS starts
-if (!looksLikeOption && !looksLikeAnswer && !looksLikeExplanation && !RE.metaTag.test(raw) && !isPQRS) {
-    if (!current.text.includes(raw)) {
-        current.text += ' ' + raw;
-    }
-    continue;
-}
-
-
-      // If none of the above matched, just continue (safeguard)
-      continue;
+        current = null;
     }
 
-    // If we reach here and no current question exists, ignore stray lines (metadata)
-  }
-if (current && current.pqrs && current.pqrs.length > 0) {
-    // Add PQRS lines with line breaks
-    current.text += "\n" + current.pqrs.join("\n");
-}
-  // push final question if valid
-  pushCurrentIfValid();
+    for (let raw of lines) {
+        if (!raw) continue;
 
-  return questions;
+        // =============================
+        // 1. Start of a new question
+        // =============================
+        const qMatch = RE.qStart.exec(raw);
+        if (qMatch) {
+            pushCurrent(); // close previous question
+            
+            current = {
+                number: parseInt(qMatch[1], 10),
+                text: qMatch[2] || "",
+                options: [],
+                correct: "",
+                explanation: "",
+                pqrs: [],
+            };
+            continue;
+        }
+
+        if (!current) continue;
+
+        // =============================
+        // 2. PQRS block
+        // =============================
+        const pqrsMatch = RE.pqrs.exec(raw);
+        if (pqrsMatch) {
+            current.pqrs.push(raw);
+            continue;
+        }
+
+        // =============================
+        // 3. Options a-d
+        // =============================
+        const optMatch = RE.option.exec(raw);
+        if (optMatch) {
+            current.options.push(optMatch[1]);
+            continue;
+        }
+
+        // =============================
+        // 4. Answer line
+        // =============================
+        const ansMatch = RE.answer.exec(raw);
+        if (ansMatch) {
+            current.correct = ansMatch[1].trim();
+            continue;
+        }
+
+        // =============================
+        // 5. Explanation line
+        // =============================
+        const expMatch = RE.explanation.exec(raw);
+        if (expMatch) {
+            current.explanation = expMatch[1].trim();
+            continue;
+        }
+
+        // =============================
+        // 6. Continuation of question text
+        // =============================
+        current.text += " " + raw;
+    }
+
+    // Close last question
+    pushCurrent();
+
+    return questions;
 }
 
 
@@ -2217,6 +2155,7 @@ function displayQuestion(subjectIndex) {
     </script>
 </body>
 </html>
+
 
 
 
