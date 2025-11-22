@@ -2120,10 +2120,70 @@ function displayQuestion(subjectIndex) {
             }
             
             initializeApp();
+            initializeBackButtonHandler();
         };
+
+        // Browser back button handling
+function handleBrowserBackButton() {
+    // Check if any exam is active
+    let hasActiveExam = false;
+    let activeSubjectIndex = -1;
+    
+    for (let i = 0; i < subjects.length; i++) {
+        if (currentTestSets[i] !== null && exams[i]) {
+            hasActiveExam = true;
+            activeSubjectIndex = i;
+            break;
+        }
+    }
+    
+    if (!hasActiveExam) {
+        // No active exam, let the browser handle the back button normally
+        return true;
+    }
+    
+    const exam = exams[activeSubjectIndex];
+    
+    // If exam is submitted, go back to test selection
+    if (exam.submitted) {
+        backToTests(activeSubjectIndex);
+        return false;
+    }
+    
+    // If we're not on the first question, go to previous question
+    if (exam.currentQuestionIndex > 0) {
+        previousQuestion(activeSubjectIndex);
+        return false;
+    }
+    
+    // If we're on the first question, go back to test selection
+    backToTests(activeSubjectIndex);
+    return false;
+}
+
+// Initialize browser back button handler
+function initializeBackButtonHandler() {
+    // Listen for browser back button
+    window.addEventListener('popstate', function(event) {
+        // Prevent default back behavior
+        event.preventDefault();
+        
+        // Handle our custom back logic
+        handleBrowserBackButton();
+        
+        // Push a new state to prevent the browser from actually going back
+        history.pushState(null, null, location.href);
+    });
+    
+    // Add initial state to history
+    history.pushState(null, null, location.href);
+}
+
+// Call this function when the app initializes
     </script>
 </body>
 </html>
+
 
 
 
